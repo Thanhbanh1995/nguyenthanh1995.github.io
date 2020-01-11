@@ -1,3 +1,34 @@
+Package: git.shin.smarttapx
+Name: SmartTap X
+Version: 0.2-55
+Architecture: iphoneos-arm
+Description: Turn on the screen by tapping it!
+Author: shin-chan
+Section: Tweaks
+Maintainer: nguyenthanh
+Depends: mobilesubstrate,preferenceloader
+Conflicts: net.limneos.smarttap
+Icon: file:///Library/PreferenceBundles/SmartTapSettings.bundle/SmartTapSettings@2x.png
+Filename: ./debs/smarttapx.deb
+MD5sum: e023ae0c98191d38a58f203475af665b
+Size: 189566
+
+Author: HiDaN
+Maintainer: nguyenthanh
+Name: WeatherStatusBar10
+Package: git.shin.weatherstatusbar10
+Section: Tweaks
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, org.thebigboss.libstatus9
+Version: 2.0.0
+Architecture: iphoneos-arm
+Description: Display current weather temperature in status bar!
+Sponsor: nguyenthanh
+dev: hidan
+Icon: file:///Library/PreferenceBundles/WeatherStatusBar10Preferences.bundle/icon@2x.png
+Filename: ./debs/weatherstatusbar10.deb
+MD5sum: c1c6a595e205dfe255ac7bbb59b2e590
+Size: 125314
+
 Package: git.shin.maize10
 Name: Maize for iOS10
 Version: 1.3.1-01
