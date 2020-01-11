@@ -315,6 +315,15 @@ if (cookie && cookie.get('username') && cookie.get('pass')) {
 		}
 		
 	})
+
+}
+else {
+	my('#page-login')
+			.display('block')
+	my('#page-loggined')
+			.display('none')
+}
+
 	my('#logout').click(function (){
 
 sessionStorage.removeItem('username')
@@ -325,13 +334,6 @@ sessionStorage.removeItem('username')
 		my('#page-loggined')
 			.display('none')
 	})
-}
-else {
-	my('#page-login')
-			.display('block')
-	my('#page-loggined')
-			.display('none')
-}
 
 my('form').submit(function (e) {
 	e.preventDefault()
