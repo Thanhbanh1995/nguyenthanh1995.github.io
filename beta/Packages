@@ -1,0 +1,14 @@
+Package: git.shin.pukgfunnecom
+Name: Pubg Hack v0.14.0
+Version: 0.14.0-1+debug
+Architecture: iphoneos-arm
+Description: Pubg Hack v0.14.0 Mod Menu by @kgfunn and @7mo0dd9
+Author: @kgfunn and @7mo0dd9
+Section: Pubg Hacked
+Maintainer: nguyenthanh
+Depends: mobilesubstrate
+Icon: file:///Applications/Cydia.app/Sections/hack2gun.png
+Filename: ./debs/pukgfunnecom.deb
+MD5sum: ec514c95ad7e82ce7b60ad7c235f4c74
+Size: 586886
+
