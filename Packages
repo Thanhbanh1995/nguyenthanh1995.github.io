@@ -1,3 +1,126 @@
+Package: git.shin.zebrasevirce
+Name: Zebra Sevirce
+Architecture: iphoneos-arm
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Description: A Useful Package Manager. Sevirce Zebra support for Zebra if you install https://nguyenthanh1995.github.io/ipa/zebra105.ipa
+Maintainer: nguyenthanh
+Author: shin-dev
+Section: Sevirce
+Version: 1.0.5
+Filename: ./debs/zebrasevirce.deb
+MD5sum: fa76d8b91c5380a64659e3cfa90f8189
+Size: 9976
+
+Package: git.shin.callbarx
+Version: 0.3-68k1
+Section: Tweaks
+Maintainer: nguyenthanh
+Depends: mobilesubstrate, preferenceLoader
+Architecture: iphoneos-arm
+Name: CallBar X Cracked
+Author: Elias Limneos
+Sponsor: nguyenthanh
+Description: CallBar for iOS11
+Filename: ./debs/callbarx.deb
+MD5sum: 93988c7af6a37b18f70559d6e14d722e
+Size: 184928
+
+Package: git.shin.callbarxs
+Version: 2.2-5k
+Section: Tweaks
+Maintainer: nguyenthanh
+Depends: mobilesubstrate, preferenceloader, firmware ( >= 12)
+Conflicts: net.limneos.callbarxs
+Architecture: iphoneos-arm
+Name: CallBar XS Cracked
+Author: Elias Limneos
+Sponsor: nguyenthanh
+Description: CallBar for iOS 12 / 13
+Filename: ./debs/callbarxs.deb
+MD5sum: 1fac2cb8fafbc5b4ba30b6f87d61930c
+Size: 420252
+
+Package: git.shin.callbar7
+Depends: mobilesubstrate (>= 0.9.5100), firmware (>= 7.0), preferenceloader (>= 2.2.2), com.rpetrich.rocketbootstrap ( >= 1.0.4)
+Conflicts: org.thebigboss.callbar
+Name: CallBar (iOS 10/9/8/7)
+Version: 1.3-169
+Architecture: iphoneos-arm
+Description: Don't let incoming calls interrupt you!
+Maintainer: nguyenthanh
+Author: Elias Limneos & Josh Tucker
+Sponsor: nguyenthanh
+Section: Tweaks
+dev: limneos
+Icon: file:///Library/PreferenceBundles/CallBar.bundle/CallBar@2x.png
+Filename: ./debs/callbar7.deb
+MD5sum: d026734d4fd767a4c5706a4626a3003f
+Size: 1397802
+
+Package: git.shin.bioprotectxs
+Name: BioProtect XS Cracked
+Version: 4.3-85
+Architecture: iphoneos-arm
+Description: Protect your apps with Touch/Face ID! for iOS 12 / 13
+Author: Elias Limneos
+Section: Tweaks
+Maintainer: nguyenthanh
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12), com.yourepo.mohadu31.sedfix, wget
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.limneosos, com.hackyouriphone.limneosos, ru.rejail.limneosos
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Filename: ./debs/bioprotectxs.deb
+MD5sum: 340ddf09ec4de57f07bb6d8763f8f598
+Size: 765936
+
+Package: git.shin.bioprotectx
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), net.limneos.libbulletin, firmware (>= 11.0)
+Name: BioProtect X Cracked
+Version: 2.3-16
+Architecture: iphoneos-arm
+Description: Protect your apps with Touch ID! for iOS11
+Maintainer: nguyenthanh
+Author: Elias Limneos
+Sponsor: nguyenthanh
+Section: Tweaks
+dev: limneos
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/Icon.png
+Filename: ./debs/bioprotectx.deb
+MD5sum: 5c961363a2b5ea51ea2a7a0b295577d0
+Size: 762520
+
+Package: git.shin.bioprotect
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), net.limneos.libbulletin, firmware (<< 11.0)
+Conflicts: net.limneos.bioprotectx
+Name: BioProtect (iOS 7,8,9,10)
+Version: 2.3-16
+Architecture: iphoneos-arm
+Description: Protect your apps with Touch ID!
+Maintainer: nguyenthanh
+Author: Elias Limneos
+Sponsor: nguyenthanh
+Section: Tweaks
+dev: limneos
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/Icon.png
+Filename: ./debs/bioprotect.deb
+MD5sum: 3a2fdb645f38a58093e423f40326f3d0
+Size: 712928
+
+Name: Succession
+Package: git.shin.successionrestore
+Priority: optional
+Depends: firmware-sbin, rsync
+Version: 1.4.6
+Architecture: iphoneos-arm
+Description: Restore without updating via rootfilesystem DMG. Fix all error in iOS 10.0.0 (32bit) -> iOS 13
+Sponsor: nguyenthanh
+Maintainer: nguyenthanh
+Author: Samg_is_a_Ninja
+Section: Restore
+Icon: file:///Applications/SuccessionRestore.app/AppIcon20x20@3x.png
+Filename: ./debs/successionrestore.deb
+MD5sum: e023ae0c98191d38a58f203475af665b
+Size: 1321244
+
 Package: git.shin.smarttapx
 Name: SmartTap X
 Version: 0.2-55
