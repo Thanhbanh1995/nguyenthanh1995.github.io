@@ -1,3 +1,196 @@
+Author: Alexandre <Alexandre31.tweak@gmail.com>
+Maintainer: nguyenthanh
+Name: Tweak Count 2
+Package: git.shin.tweakcount2
+Conflicts: com.alex.tweaksnumber
+Replaces: com.alex.tweaksnumber
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), cydia (>= 1.1.19), preferenceloader
+Section: Tweaks
+Version: 1.0.1
+Architecture: iphoneos-arm
+Description: count of installed tweaks in Cydia
+Sponsor: nguyenthanh
+dev: alexandre31
+Icon: file:///Library/PreferenceBundles/TweakCount2.bundle/TweakCount2@2x.png
+Filename: ./debs/tweakcount.deb
+MD5sum: d7c05ae76e55458624303986b0c70150
+Size: 32122
+
+Package: git.shin.recydia
+Name: ReCydia 
+Version: 1.0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Author: Ryu
+Section: Cydia Custom
+Description: A pretty cool Cydia homepage
+Maintainer: nguyenthanh
+Filename: ./debs/recydia.deb
+MD5sum: e9b4de7e7ec45cf280fdd61a5e47330d
+Size: 2778328
+
+Name: Mypomonella
+Package: com.cydiageek.mypomonella
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Version: 1.0.9
+Architecture: iphoneos-arm
+Description: Set on the Updates in All the Cydia Packages & More!
+Sponsor: nguyenthanh
+Maintainer: nguyenthanh
+Author: CydiaGeek <lucaluca86@aol.com>
+Section: Tweaks
+dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/Mypomonella.bundle/Mypomonella@2x.png
+Filename: ./debs/mypomonella.deb
+MD5sum: 01022b893b6bda3af8614e8f8f77b1ff
+Size: 107188
+
+Package: git.shin.compatimark
+Name: Compatimark
+Depends: mobilesubstrate, cydia (>= 1.1.19)
+Architecture: iphoneos-arm
+Description: Mark Compatible Cydia Packages
+Maintainer: nguyenthanh
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Section: Cydia Custom
+Version: 1.0.1
+Filename: ./debs/compatimark.deb
+MD5sum: 893c041f86a8c8129d36f5d3064d22c6
+Size: 10912
+
+Package: git.shin.aupm
+Version: 1.0~beta1
+Section: Packaging
+Maintainer: nguyenthanh
+Depends: dpkg, cydia
+Architecture: iphoneos-arm
+Name: AUPM (BETA)
+Author: Wilson Styres <wilson@styres.me>
+Sponsor: nguyenthanh
+Icon: file:///Library/PreferenceBundles/SIMPLELSPB.bundle/icon@2x.png
+Filename: ./debs/aupm.deb
+MD5sum: 3ecc61488fb291642f974431f1d0080e
+Size: 3349198
+
+Name: SimpleLSiOS
+Package: git.shin.simplelsios10
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Version: 1.5.3
+Architecture: iphoneos-arm
+Description: Simple lockscreen for iOS 10/11/12 devices.
+Sponsor: nguyenthanh
+Maintainer: nguyenthanh
+Author: XCXiao <958169971@qq.com>
+Section: Tweaks
+dev: xcxiao
+Icon: file:///Library/PreferenceBundles/SIMPLELSPB.bundle/icon@2x.png
+Filename: ./debs/simplelsios10.deb
+MD5sum: ca1ff3f21a4138317eb0cdfb5aabaa70
+Size: 277920
+
+Package: git.shin.turkey
+Name: Turkey
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Dark Mode For Cydia
+Maintainer: LaughingQuoll
+Author: LaughingQuoll
+Section: Cydia Custom
+Version: 0.0.1
+Filename: ./debs/turkey.deb
+MD5sum: dcd10dea430f765c5e36e14b4981c27c
+Size: 15176
+
+Author: DevelopApple <mydevelop1@gmail.com>
+Maintainer: nguyenthanh
+Name: ModernC
+Package: git.shin.modernc
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000)
+Section: Cydia Custom
+Version: 1.0
+Architecture: iphoneos-arm
+Description: The most perfect look for Cydia Each time a tweak list and most popular themes are updated, both free and paid
+Sponsor: nguyenthanh
+dev: developapple
+Filename: ./debs/modernc.deb
+MD5sum: db5528410cbdbaff82f9fd37c210f80c
+Size: 129724
+
+Name: CustomDia
+Package: git.shin.customdia
+Conflicts: com.imokhles.favoritetweaks
+Priority: optional
+Depends: firmware (>= 8.0), mobilesubstrate, cydia (>= 1.1.19), preferenceloader, ws.hbang.common
+Version: 1.4
+Architecture: iphoneos-arm
+Description: usability tweaks for Cydia app.
+Sponsor: nguyenthanh
+Maintainer: nguyenthanh
+Author: maximehip <imax-my@live.fr>
+Section: Cydia Custom
+dev: maximehip
+Icon: file:///Library/PreferenceBundles/customdia.bundle/customdia@2x.png
+Filename: ./debs/customdia.deb
+MD5sum: 88ea5e1336678865855280787534b09e
+Size: 65898
+
+Package: git.shin.apphub
+Name: TweakHub for Cydia [BETA]
+Version: 1.0r-29
+Description: Cydia is great but finding new packages can be tough. TweakHub can show you all available tweaks in Cydia land for the apps you have installed. Once installed go to the more tab of Cydia and click TweakHub. ***It now hooks the "Find Extensions for Applications" button on the Cydia main page***
+Section: System
+Depends: firmware (>= 7.0), mobilesubstrate
+Priority: optional
+Architecture: iphoneos-arm
+Author: Enea Gjoka
+Filename: ./debs/apphub.deb
+MD5sum: a15dffd1b960d63d26fe379e8949e80e
+Size: 884184
+
+Package: git.shin.chronos
+Name: Chronos
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Spark
+Author: Spark
+Section: Tweaks
+Version: 0.0.6~Beta1
+Filename: ./debs/chronos.deb
+MD5sum: 51efb6f8e7e9f83767b17638098fa056
+Size: 262086
+
+Package: git.shin.ants
+Name: Ants
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Description: A classic iOS tweak!
+Maintainer: nguyenthanh
+Author: Spark
+Section: Tweaks
+Version: 1.0.4
+Icon: file:///Library/PreferenceBundles/AntsPrefs.bundle/icon@2x.png
+Filename: ./debs/ants.deb
+MD5sum: 3421ad44ecf91d240d38326748f3ace7
+Size: 124538
+
+Package: git.shin.icleanerpro
+Name: iCleaner Pro Crack
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi
+Version: 7.8.0
+Architecture: iphoneos-arm
+Section: Utilities
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+Filename: ./debs/icleanerpro780.deb
+MD5sum: 0fbd24b3bd7cb0d27e5ef34000555506
+Size: 7697084
+
 Package: git.shin.zebrasevirce
 Name: Zebra Sevirce
 Architecture: iphoneos-arm
