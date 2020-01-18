@@ -188,8 +188,8 @@ Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Icon: file:///Applications/iCleaner.app/Icon.png
 Filename: ./debs/icleanerpro780.deb
-MD5sum: 0fbd24b3bd7cb0d27e5ef34000555506
-Size: 7697084
+MD5sum: c20bd2a7ab2489c574a5b20d41be87f4
+Size: 7697106
 
 Package: git.shin.zebrasevirce
 Name: Zebra Sevirce
