@@ -1,3 +1,49 @@
+Package: git.shin.icon
+Version: 0.1
+Section: System
+Essential: yes
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Name: Nguyenthanh Repo Icons
+Author: shin-chan
+Sponsor: nguyenthanh
+Filename: ./debs/iconrepo.deb
+MD5sum: c90d6d46a181dbd8f0e957c4f8c9e143
+Size: 40190
+
+Name: SmoothBattery
+Package: git.shin.smoothbattery
+Priority: optional
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader, org.thebigboss.libcolorpicker
+Version: 1.0.5
+Architecture: iphoneos-arm
+Description: Smooth and Color options for your Battery!
+Sponsor: nguyenthanh
+Maintainer: nguyenthanh
+Author: CydiaGeek <lucaluca86@aol.com>
+Section: Tweaks
+dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/SmoothBattery.bundle/icon@2x.png
+Filename: ./debs/smoothbattery.deb
+MD5sum: 5cb6b24dbe2b529c1d6f7d92735d4f0b
+Size: 108364
+
+Name: LowPowerMode
+Package: git.shin.lowpowermode
+Priority: optional
+Depends: firmware (>= 9.0), mobilesubstrate
+Version: 1.0-3
+Architecture: iphoneos-arm
+Description: Low power mode always on.
+Sponsor: nguyenthanh
+Maintainer: nguyenthanh
+Author: cole cabral @ca13ra1 <cabralcole@gmail.com>
+Section: Tweaks
+dev: ca13ra1
+Filename: ./debs/lowpowermode.deb
+MD5sum: b05f0ecb81171bf10c84aaf89037496c
+Size: 4264
+
 Author: Alexandre <Alexandre31.tweak@gmail.com>
 Maintainer: nguyenthanh
 Name: Tweak Count 2
