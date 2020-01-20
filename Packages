@@ -302,6 +302,22 @@ Description: An awesome MobileSubstrate tweak!
 Name: Chronos
 Author: Spark
 
+Package: git.shin.cleansys
+Priority: important
+Section: Utilities
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.1
+Depends: cydia
+Filename: ./debs/cleansys.deb
+Size: 1196
+MD5sum: 3ab3956d5553afe4fa95ddb582a0af3e
+SHA1: 40d236178569b11c2bd1650a6dfc2c61880164e9
+SHA256: 1f2c1eea18942168421fe503078873bd3aaf3996e4cb793214df17e9f9ccc839
+Description: Temporary error cheo correction. Clean your system memory. After using it, you can delete the tweak. It will not touch your system.  It only creates anchor links for tweaks to be used. Open Termial and run "cleansys".
+Name: Clean Storage Sys
+Author: shin-chan
+
 Package: git.shin.compatimark
 Section: Cydia Custom
 Maintainer: nguyenthanh
