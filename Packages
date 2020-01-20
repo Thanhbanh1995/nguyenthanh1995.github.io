@@ -1238,6 +1238,21 @@ Description: Show disk usage of an app in its uninstall alert.
 Name: Unsize
 Author: fidele007
 
+Package: git.shin.vibrato
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.2
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/vibrato.deb
+Size: 96060
+MD5sum: fbb9b16994afb6b824cf904735d6980e
+SHA1: b3d06b3104348e44a36f7835bf4d0d8273b76507
+SHA256: 9ebb2bc2d4ce73481fab45cc4b7e15d99eb6e1e4752245f4fab882fef0a876c5
+Description: Feel more your device by making it vibrate!
+Name: Vibrato
+Author: SynnyG <synnyg.devjb@gmail.com>
+
 Package: git.shin.weatherstatusbar10
 Section: Tweaks
 Maintainer: nguyenthanh
