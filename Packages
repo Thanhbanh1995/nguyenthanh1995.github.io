@@ -130,6 +130,27 @@ Author: Wilson Styres <wilson@styres.me>
 Sponsor: nguyenthanh
 Tag: purpose::x
 
+Package: me.autotouch.autotouch.ios8
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 5.0.0
+Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2)
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/autotouch8.deb
+Size: 11356084
+MD5sum: b2c75c8ec94985e0ba0a39e9ab5670f8
+SHA1: 6a650779c81f42e03bf64563128edf5f20acdfee
+SHA256: e0b635a6e761d4b0a2c3fb4f734c32467cf42bd1be60f643caf71cd38cbfd648
+Description: Record and playback touch operations, play macro scripts automatically.
+Name: AutoTouch Cracked
+Sponsor: nguyenthanh1995.github.io <http://nguyenthanh1995.github.io>
+Author: Kent Krantz <kentkrantz@gmail.com>
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+dev: kentkrantz
+Icon: file:///Applications/AutoTouch.app/AppIcon29x29@2x.png
+
 Package: git.shin.ballast
 Section: Tweaks
 Installed-Size: 398
@@ -286,6 +307,26 @@ Description: Don't let incoming calls interrupt you!
 Name: CallBar (iOS 10/9/8/7)
 Author: Elias Limneos & Josh Tucker 
 Icon: file:///Library/PreferenceBundles/CallBar.bundle/CallBar@2x.png
+
+Package: me.alfhaily.cercube
+Priority: optional
+Section: Tweaks
+Maintainer: Majd Alfhaily <freemanrepo@me.com>
+Architecture: iphoneos-arm
+Version: 5.1.6
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
+Filename: ./debs/cercube5.deb
+Size: 13730320
+MD5sum: 2017526eb3b08b3acba5844e2991a538
+SHA1: 09f5164142cba94d340ed7851706ce56ab962205
+SHA256: 6c497ff4e0768563a05d93d2a02a8f8506a787df9d061ef89b15a8c4887e937d
+Description: Download YouTube videos and more!
+Name: Cercube for YouTube
+Author: Majd Alfhaily
+Depiction: https://apt.alfhaily.me/depiction/FDXO5R
+SileoDepiction: https://apt.alfhaily.me/depiction/sileo/FDXO5R
+Icon: https://api-v5.cercube.com/resources/depiction/images/icon.png
 
 Package: git.shin.chronos
 Section: Tweaks
