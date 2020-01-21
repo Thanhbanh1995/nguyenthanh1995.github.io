@@ -130,7 +130,7 @@ Author: Wilson Styres <wilson@styres.me>
 Sponsor: nguyenthanh
 Tag: purpose::x
 
-Package: me.autotouch.autotouch.ios8
+Package: git.shin.autotouch8
 Priority: optional
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -139,10 +139,10 @@ Version: 5.0.0
 Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2)
 Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
 Filename: ./debs/autotouch8.deb
-Size: 11356084
-MD5sum: b2c75c8ec94985e0ba0a39e9ab5670f8
-SHA1: 6a650779c81f42e03bf64563128edf5f20acdfee
-SHA256: e0b635a6e761d4b0a2c3fb4f734c32467cf42bd1be60f643caf71cd38cbfd648
+Size: 11356096
+MD5sum: 9a88a8e69df70b5c9b52179980c5a0b7
+SHA1: 5a16519f939499f07b3b129bc87a0aa1502f5f5b
+SHA256: 80b3f10be00473ab9d87c88d969cbed4bb6b5dddb27cf227b760870c8765cc35
 Description: Record and playback touch operations, play macro scripts automatically.
 Name: AutoTouch Cracked
 Sponsor: nguyenthanh1995.github.io <http://nguyenthanh1995.github.io>
