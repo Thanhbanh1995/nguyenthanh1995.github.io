@@ -932,6 +932,23 @@ Description: The power supply relation of a device is operated.
 Name: PowerSelector (Flipswitch)
 Author: ichitaso
 
+Package: git.shin.qoobee
+Section: Themes (SpringBoard)
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.0
+Depends: com.anemonetheming.anemone
+Filename: ./debs/qoobee.deb
+Size: 2930414
+MD5sum: 14ca3e044b1535ec49a792eaacf69975
+SHA1: 0bcfc34a5d8e4e566f95649ea978b95d29a30016
+SHA256: 5e7cfa923e6a8406d28439ccdb0d9e500e87c1c898550fb4e0d44bd7ba3e263a
+Description: Theme Qoobee by DangTu
+Name: Qoobee
+Author: Dang Tu
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+tag: cydia::commercial
+
 Package: git.shin.randomiconsflip
 Section: Tweaks
 Maintainer: nguyenthanh
