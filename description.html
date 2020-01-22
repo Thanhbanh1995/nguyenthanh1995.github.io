@@ -193,7 +193,7 @@ if (isRQ > -1) {
 	.split("\n").map(function (e) {
 		e = e.split(' ')
 		if (e[0] === id)
-			os = e.slice(1);
+			os = e.slice(1).join(" ");
 	})
 	init()
 }
