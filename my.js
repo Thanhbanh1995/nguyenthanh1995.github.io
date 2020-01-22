@@ -1,6 +1,6 @@
 /*!
- * my.js v1.4.2 b11
- * (c) 2019 Shinigami
+ * my.js v1.4.2 b13
+ * (c) 2020 Shinigami
  * Released under the MIT License.
  */
 !function( global, factory ) {
@@ -103,7 +103,7 @@ device = {
 	},
 	cookie: {
 		set: function () {
-			var e = arguments, key = e[0], val = e[1], addExprs = e[2], path = e[3], $1, $2 = 0, exprs, tmp;
+			var e = arguments, key = e[0], val = e[1], date, addExprs = e[2], path = e[3], $1, $2 = 0, exprs, tmp;
 
 			if(1 === e.length && isObj(key))
 				val = key.value, exprs = key.expires || key.UTC, date = key.date, path = key.path, addExprs = (key.add || "").trim(), key = key.key;
@@ -176,6 +176,20 @@ switch (tmp ? tmp.join('') : 'seconds') {
 					add: "-1 seconds"
 				})
 			}), i
+		},
+		remove: function (key) {
+			var i = this;
+			key = classToArray(key)
+			Loop(key, function (val) {
+				i.each(function (e) {
+					val === e &&i.set({
+						key: e,
+						value: "",
+						add: "-1 seconds"
+					})
+				})
+			})
+			return this
 		},
 		exists: function (e) {
 			return this.get(e) !== undefined
@@ -292,20 +306,23 @@ Data.prototype = {
 		if (!val) {
 			val = {}
 			def(el, this.expando, {
-				value: {},
+				value: val,
 				configurable: true
 			})
 		}
 		return val
 	},
 	set: function (el, key, val) {
-		var cache = this.cache(el)
-		var prop
+		var prop,
+			cache = this.cache( el );
+
 		if (typeof key === "string")
-			cache[key] = val;
-		else for (prop in key)
-			cache[camelCase(prop)] = key[prop];
-		return cache
+			cache[camelCase(key)] = val;
+		else {
+			for (prop in key)
+				cache[camelCase(prop)] = data[prop];
+		}
+		return cache;
 	},
 	get: function (el, key) {
 		return key === undefined ? this.cache(el) : el[this.expando] && el[this.expando][camelCase(key)]
@@ -385,8 +402,8 @@ get: function (i) {
 first: function () {return this.eq(0)},
 last: function () {return this.eq(-1)},
 child: function (i) {
-var el = this[0]
-    return my(arguments.length ? el.children[i < 0 ? el.children.length + i : i] : el.children)
+var el = this[0].children
+    return my(arguments.length ? el[i < 0 ? el.length + i : i] : el)
 },
 each: function (e) {return my.each(this, e)},
 map: function (e) {return my.map(this, e)},
@@ -727,7 +744,7 @@ if (Element.prototype.replaceChild)
 else {
 	this.parent()[0]
 	.insertBefore (j, this[0])
-this.remove()
+	this.remove()
 }
 return this.constructor(j)
 },
@@ -746,14 +763,14 @@ prev: function(){
 	return my(this[0].previousElementSibling || this[0].previosSibling)
 },
 nextAll: function () {
-	var el = this[0].nextElementSibling || this[0].nextSibling, node = [el];
-	while (el = el.nextElementSibling || el.nextSibling)
+	var el = this[0].nextElementSibling || this[0].nextSibling, node = el !== undefined ? [el] : [];
+	while (el !== undefined && (el = el.nextElementSibling || el.nextSibling))
 		node.push(el);
 	return my(node)
 },
 prevAll: function () {
-	var el = this[0].previousElementSibling || this[0].previosSibling, node = [el];
-	while (el = el.previousElementSibling || el.previosSibling)
+	var el = this[0].previousElementSibling || this[0].previosSibling, node = el !== undefined ? [el] : [];
+	while (el !== undefined && (el = el.previousElementSibling || el.previosSibling))
 		node.push(el);
 	return my(node)
 },
@@ -768,7 +785,7 @@ lastChild: function(){
 },
 empty: function(){return this.html('')},
 displayToggle: function(){
-       return this.css('display', function (e) {return e === 'none' ? 'block' : 'none'})
+	return this.css('display', function (e) {return e === 'none' ? 'block' : 'none'})
 },
 attr: function (key, val) {
 	if(isObj(key)) {
@@ -785,7 +802,7 @@ return this
 },
 unAttr: function (key) {
 	var el = this[0]
-	return Loop(classToArray(key), function (e) {el.removeAttribute(e)}), el
+	return Loop(classToArray(key), function (e) {el.removeAttribute(e)}), this
 },
 hasAttr: function(j){return this[0].hasAttribute(j)},
 data: function (type, val) {
@@ -1312,12 +1329,66 @@ type: function ( e ) {
 	return e == null ? e + '' : typeof e === "object" || typeof e === "function" ? toString.call(e).replace(rtype, '$1').toLowerCase() : typeof obj
 },
 countdown: function (e) {
-	e = arguments.length === 1 ? '\'' + e + '\'' : slice.call(arguments).join(',')
+	e = arguments.length === 1 ? (isNumeric(e) ? e : '\'' + e + '\'') : slice.call(arguments).join(',')
 
 	e = new Date(Function('return new Date(' + e + ')')() - Date.now())
-
 	return new mtDate(e)
 
+},
+countdown2: function (e) {
+	e = arguments.length === 1 ? (isNumeric(e) ? e : '\'' + e + '\'') : slice.call(arguments).join(',')
+
+	e = new Date(Date.now() - Function('return new Date(' + e + ')')())
+	return new mtDate(e)
+
+},
+promise: function (obj, fn) {
+    if (fn === undefined)
+    	fn = obj,
+    	obj = {
+    	    event: [],
+    	    state: 0,
+    	    error: [],
+    	    wom: 0,
+    	    res: undefined,
+    	    done: function () {
+    	       if (this.event.length <= this.state) return false;
+				try {
+    	       		this.res = this.event[
+						this.state++
+					].call(this.this,  this, this.res)
+				}
+				catch (e) {
+    	       if (this.error.length <= this.wom) return false;
+				    this.error[
+				    	this.wom++
+				    ].call(this.this, e)
+				}
+				return true;
+				
+    	    }
+    	}, obj.this = obj;
+    this.then = function (_fn) {
+        obj.event.push(_fn)
+        return new my.promise(obj, fn)
+    }
+    this.catch = function (_fn) {
+        obj.error.push(_fn)
+        return this
+    }
+    this.end = function () {
+    	 if (arguments.length > 0)
+    	 	obj.this = arguments[0]
+    	 
+    	 var arr = []
+    	 
+    	 if (arguments.length > 1)
+    	 	arr = [].slice.call(
+    	 			arguments, 1
+    	 	)
+    	 arr.unshift(obj)
+    	 fn.apply(obj.this, arr)
+    }
 },
 camelCase: camelCase,
 nodeName: nodeName,
@@ -1433,9 +1504,9 @@ var eventReplace = {
 }
 
 my.each('click change input submit blur focus focusin focusout resize mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave scroll keydown keypress keyup touchmove touchstart touchend contextmenu'.split(' '), function (i, e) {
-	e = eventReplace[e] || e;
+    var f = eventReplace[e] || e
     my.fn[e] = function (fn) {
-        return isFunc(fn) ? this.on(e, fn) : isFunc(this[0][e]) ? this[0][e]() : this.trigger(e)
+        return isFunc(fn) ? this.on(f, fn) : isFunc(this[0][f]) ? this[0][f]() : this.trigger(f)
     }
 })
 
@@ -1444,40 +1515,17 @@ my.fx = {
 	end: isTouch ? 'touchend' : 'mouseup',
 	move: isTouch ? 'touchmove' : 'mousemove'
 }
-var TRANSITION = {
-    Prop: 'transition',
-    End: 'transitionend',
-    Run: 'transitionrun',
-    Start: 'transitionstart',
-    Cancel: 'transitioncancel'
-}
-var ANIMATION = {
-    Prop: 'animation',
-    End: 'animationend',
-    Run: 'animationrun',
-    Start: 'animationstart',
-    Cancel: 'animationcancel'
-}
-if (window.ontransitionend === undefined && window.onwebkittransitionend !== undefined) {
-	TRANSITION.Prop = 'WebkitTransition';
-	TRANSITION.End = 'webkitTransitionEnd';
-	TRANSITION.Run = 'webkitTransitionRun';
-	TRANSITION.Start = 'webkitTransitionStart';
-	TRANSITION.Cancel = 'webkitTransitionCancel';
-}
-if (window.onanimationend === undefined && window.onwebkitanimationend !== undefined) {
-	ANIMATION.Prop = 'WebkitAnimation';
-	ANIMATION.End = 'webkitAnimationEnd';
-	ANIMATION.Run = 'webkitAnimationRun';
-	ANIMATION.Start = 'webkitAnimationStart';
-	ANIMATION.Cancel = 'webkitAnimationCancel';
-}
-my.each(TRANSITION, function (e) {
-	my.fx['transition' + e] = TRANSITION[e];
+my.each(['transition', 'animation'], function (i, type) {
+	my.each(prefix, function(i, e) {
+		if (window['on' + e.replace(/-/g, '') + type + 'end'] !== undefined) {
+			my.each('End Run Start Cancel'.split(' '), function(i, f) {
+				my.fx[type + f] = e === '' ? type + f.toLowerCase() : (e.replace(/-/g, '') + camelCase('-' + type) + f)
+			})
+			return my.fx[type + 'Prop'] = e === '' ? type : camelCase(e + type), false
+		}
+	})
 })
-my.each(ANIMATION, function (e) {
-	my.fx['animation' + e] = ANIMATION[e];
-})
+
 my.each('color position display background'.split(' '), function (i, e) {
 	my.fn[e] = function (v) {
 	    return v === undefined ? this.css(e) : this.css(e, v)
