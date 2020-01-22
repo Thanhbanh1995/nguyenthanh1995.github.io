@@ -164,7 +164,9 @@ function checkVers (f) {
 	})
 }
 
-var json = JSON.parse(my.getText("./all.pkgs"))
+var json = JSON.parse(my.getText("./all.pkgs")).sort(function (a, b) {
+     return b.Time - a.Time
+}) 
 var href = location.href
 var isRQ = href.indexOf("?")
 var id, os = "all"
