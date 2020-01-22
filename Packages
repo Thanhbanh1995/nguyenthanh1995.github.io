@@ -1,3 +1,35 @@
+Package: git.shin.acehighsierra
+Section: Themes
+Maintainer: iAnas
+Architecture: iphoneos-arm
+Version: 5.1
+Filename: ./debs/acesh.deb
+Size: 12788854
+MD5sum: b545225d5afdd4708f3c5bbe673b140f
+SHA1: f5a5fb69b15bd4895e5516665c48b2726601b2f4
+SHA256: 5b09c8ddde85704661cebd1acdc37a552c902beab9be3f2d99c7e05a436a0ae8
+Description: macOS Mojave for iOS
+Name: Ace High Sierra
+Author: iAnas
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.acehighsierra
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.acehsxi
+Section: Themes
+Maintainer: iAnas
+Architecture: iphoneos-arm
+Version: 5.1
+Filename: ./debs/aceshxi.deb
+Size: 12788864
+MD5sum: 2ef3238bcb2da18924b74e158bce29ae
+SHA1: ef9e7087553eb6d568794a4b4ba7dc05f6db32f4
+SHA256: 55ca5cf973e609b12c75926b9f09c28ad4051f74fd75a36448f34bd02534064c
+Description: macOS Mojave for iOS
+Name: Ace High Sierra XI
+Author: iAnas
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.acehsxi
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.activatorvi
 Section: Addons
 Maintainer: nguyenthanh
@@ -75,6 +107,23 @@ Icon: file:///Applications/Anemone.app/icon.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.anemone
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.animatoonpro
+Section: Themes
+Maintainer: Tykology <appleiphoneatyko@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.3
+Depends: com.va2ron1.toonsy
+Filename: ./debs/animatoon.deb
+Size: 17971374
+MD5sum: f426a1e04080f03a6db08303d5478aca
+SHA1: 4442a29717b27634a6b3e7833fc6c172078ece3c
+SHA256: dd8681b8089a0defe58ec05ee22aea552896437627e609ad6955bd696336203e
+Description: Awesome animated theme
+Name: Animatoon PRO
+Author: Tykology <appleiphoneatyko@gmail.com>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.animatoonpro
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.ants
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -126,6 +175,63 @@ Name: AquaBoard (iOS 10/9/8) Cracked
 Author: Elias Limneos
 Icon: file:///Library/PreferenceBundles/AquaPrefs.bundle/AquaPrefs@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.aquaboard8
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.aqueous
+Section: Themes (SpringBoard)
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.4
+Depends: com.anemonetheming.anemone
+Filename: ./debs/aqueous.deb
+Size: 32844340
+MD5sum: 750723272647ec0ca6210ad0c2f084a3
+SHA1: d84ca8fb23f4c24ee3f5d3410fa8d1f5edb56da0
+SHA256: 45287d0a1a6bc6ee7880903550c3e0b417be18245cf4958e04fcb18dbfa1fe0c
+Description: A solution to all your problems.
+Name: Aqueous 
+Author: Creasigner <austin@creasigner.com>
+Sponsor: nguyenthanh
+Tag: cydia::commercial, purpose::theme, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+dev: creasigner
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.aqueous
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.audiorecorder2
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.9-2
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap, com.yourepo.mohadu31.limneosos, firmware (<= 12)
+Conflicts: net.limneos.callrecorder, com.repo.xarold.com.callrecorder, mn.lii.lj
+Filename: ./debs/audiorecoder2.deb
+Size: 3907462
+MD5sum: a500f2655bf301da019ed4963c4f6dd4
+SHA1: a7573cede7ceb3e73f752dfee546962e5d9b77bb
+SHA256: c79525385e08add287e25d3d48fafedaf77add963a040c5284e86897fa6d5ef0
+Description: Record your calls!
+Name: AudioRecorder 2 Cracked
+Author: Elias Limneos
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.audiorecorder2
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.audiorecorderxs
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 3.0-78k
+Replaces: net.limneos.audiorecorder, net.limneos.audiorecorderx, net.limneos.audiorecorderxs
+Depends: mobilesubstrate, preferenceloader, firmware(>=12.0)
+Conflicts: net.limneos.callrecorder
+Filename: ./debs/audiorecoderxs.deb
+Size: 36682198
+MD5sum: 57203da412c4e40426df30445e8d328c
+SHA1: 5a51cf108a021ffe9da67e66cdc6c45caa7cb110
+SHA256: 73c677ce2f360cd9912f662383964356c553f9520d1ad6e2c136656a0854fd72
+Description: Most Advanced iOS Call Recorder Ever!
+Name: AudioRecorder XS Cracked
+Author: Elias Limneos
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.audiorecorderxs
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.aupm
@@ -1248,6 +1354,23 @@ Icon: file:///Library/PreferenceBundles/SmoothBattery.bundle/icon@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smoothbattery
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.speedtestpp
+Section: Hacked
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.0.0.1
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: ./debs/speedtestpp.deb
+Size: 36685782
+MD5sum: 73cfd4b6b424652f71788067f669e5ca
+SHA1: b4f6515ba58f99c6e6792b9eb98643a6f2a06d26
+SHA256: bd4809b70065f8c510c72db963b03ae935e22887c2dd8869f46e30e683bd6224
+Name: Speedtest++
+Author: SarahH12099
+Sponsor: nguyenthanh
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.speedtestpp
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.springplus
 Section: Tweaks
 Maintainer: Rishanan
@@ -1564,22 +1687,6 @@ Architecture: iphoneos-arm
 Version: 2.1.1-1
 Depends: firmware (>= 4.2), mobilesubstrate, preferenceloader
 Filename: ./debs/zeppelin.deb
-Size: 961826
-MD5sum: 447600f2d4734bc711191f45537e73bf
-SHA1: 8fdac7ec87a42aab9db392dfff3b556914cf797d
-SHA256: a4101fd56b64180a8b7c5f3281765f240f5ba95075d83741561bb51c7fb0517d
-Description: Replaces carrier text with an image!
-Name: Zeppelin
-Author: Alex Zielenski
-Icon: http://i.imgur.com/tvLxnB5.png
-
-Package: git.shin.zeppelin
-Section: Tweaks
-Maintainer: nguyenthanh
-Architecture: iphoneos-arm
-Version: 2.1.1-1
-Depends: firmware (>= 4.2), mobilesubstrate, preferenceloader
-Filename: ./debs/zepplin.deb
 Size: 961870
 MD5sum: 4de3a4ea3eb327b8259b982015564dae
 SHA1: cf1ef2a7815a7608b611643247a6b53cecf2c458

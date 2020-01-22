@@ -83,3 +83,10 @@ git.shin.zebrasevirce 9, 10, 11, 12, 13
 git.shin.zeppelin 10, 11, 12
 git.shin.cercube 8, 9, 10, 11
 git.shin.mypomonella 8, 9, 10, 11, 12
+git.shin.acehighsierra 8, 9, 10, 11, 12
+git.shin.acehsxi 11
+git.shin.animatoonpro 6, 7, 8, 9, 10, 11, 12
+git.shin.aqueous 8, 9, 10, 11, 12
+git.shin.audiorecorder2 8, 9, 10, 11, 12
+git.shin.audiorecorderxs 12, 13
+git.shin.speedtestpp all
