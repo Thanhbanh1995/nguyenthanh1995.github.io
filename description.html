@@ -233,7 +233,7 @@ function loadRecentUpdates () {
 	for (; count < 5 && count < leng; count++) {
 		var urlOpen = "cydia://package/" + json[count].Package
 		if (navigator.userAgent.search(/Cydia/) === -1)
-			urlOpen = location.protocol + "//" + location.hostname + "/description.html?id=" + json[count].Package;
+			urlOpen = location.protocol + "//" + location.hostname + "/description.html?goto=" + json[count].Package;
 		tmp = encodeURI(
 			json[count].Section
 		)
