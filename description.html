@@ -164,8 +164,7 @@ function checkVers (f) {
 	})
 }
 
-var json = JSON.parse(my.getText("./all.pkgs")) 
-alert(JSON.stringify(json))
+var json = JSON.parse(my.getText("./all.pkgs"))
 var href = location.href
 var isRQ = href.indexOf("?")
 var id, os = "all"
@@ -226,7 +225,7 @@ function loadRecentUpdates () {
 	for (; count < 5 && count < leng; count++) {
 		var urlOpen = "cydia://package/" + json[count].Package
 		if (navigator.userAgent.search(/Cydia/) === -1)
-			urlOpen = location.protocol + "//" + location.hostname + "/description.html?goto=" + json[count].Package;
+			urlOpen = location.protocol + "//" + location.hostname + "/description.html?id=" + json[count].Package;
 		tmp = encodeURI(
 			json[count].Section
 		)
