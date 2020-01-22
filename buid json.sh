@@ -3,7 +3,7 @@
 #sed -i -e '/^SHA/d' ./Packages;
 #bzip2 -c9k ./Packages > ./Packages.bz2;
 #printf "Origin: julioverne's Repo\nLabel: julioverne\nSuite: stable\nVersion: 1.0\nCodename: julioverne\nArchitecture: iphoneos-arm\nComponents: main\nDescription: julioverne's Tweaks\nMD5Sum:\n "$(cat ./Packages | md5sum | cut -d ' ' -f 1)" "$(stat ./Packages --printf="%s")" Packages\n "$(cat ./Packages.bz2 | md5sum | cut -d ' ' -f 1)" "$(stat ./Packages.bz2 --printf="%s")" Packages.bz2\n" >Release;
-
+rm -f all.pkgs
 echo "[" > all.pkgs
 
 for i in ./debs/*.deb
@@ -33,10 +33,11 @@ do
 
     arch=`echo "$debInfo" | grep "Architecture: " | cut -c 15- | tr -d "\n\r"`
     arch="${arch//'"'/\\\"}"
+
     size=$(du -b $i | cut -f1)
     time=$(date +%s -r $i)
     
-    echo '{"Name": "'$name'", "Version": "'$vers'", "Section": "'$section'", "Package": "'$pkg'", "Author": "'$author'", "Depends": "'$depends'", "Descript": "'$description'", "Arch": "'$arch'", "Size": "'$size'","Time": "'$time'000"},' >> all.pkgs
+    echo '{"Name": "'$name'", "Version": "'$vers'", "Section": "'$section'", "Package": "'$pkg'", "Author": "'$author'", "Depends": "'$depends'", "Descript": "'$description'", "Arch": "'$arch'", "Size": "'$size'", "Time": "'$time'000"},' >> all.pkgs
 
 done
 

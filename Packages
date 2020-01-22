@@ -5,10 +5,10 @@ Architecture: iphoneos-arm
 Version: 1.0
 Depends: mobilesubstrate, libactivator
 Filename: ./debs/activatorvi.deb
-Size: 9790
-MD5sum: f60e3e23d86bd16bcb98ae32b4c0c1f6
-SHA1: 1e99a0fca2203f7870a6dac2fecf9de6855bc693
-SHA256: e74a8c5406b3ff48c7bfe28cf87eee9c763c932cd810215c536e11909019e86b
+Size: 9110
+MD5sum: 840cd9a926f900089b07e09f3c66ca20
+SHA1: 454db9592116ebc778b6484e3a1438dea4f14bda
+SHA256: a17a1431d50d1b52f66a90b23f2765bb7c6fca7ab3d535fdf692c9497331ebc0
 Description: Add Vietnamese language for Activator
 Name: Activator (vi)
 Author: shin-dev
@@ -22,10 +22,10 @@ Architecture: iphoneos-arm
 Version: 2.0
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.rpetrich.rocketbootstrap
 Filename: ./debs/afaker.deb
-Size: 71512
-MD5sum: c6228d099449954503aa4e8b9bb670cf
-SHA1: 901686c87d845fa54d37e6608ee9be1c4841866b
-SHA256: 6e96ac11ae6bb11106574d0a9af95f7aea3aa2abb77e2f22ff89c807a928d8f8
+Size: 70942
+MD5sum: b57c0ca63bea2bf9edb1101ac5d1aa3a
+SHA1: 90358eca3bda9c76eaebd95ada5bfa1d155bed86
+SHA256: 7a6f41bb47c47dd856d23e3f6d0fc89e6efa5af2564e2dd0e95f15d2de8bbad1
 Description: fake carrier/battery; dialer passcode app launching
 Name: AFaker
 Author: shin-chan
@@ -41,10 +41,10 @@ Architecture: iphoneos-arm
 Version: 1.6
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Filename: ./debs/alkasine.deb
-Size: 1381928
-MD5sum: 73959f13fbfcdf04bae21a054a766485
-SHA1: 401f05318a104029a05a61dea1fc09a7801ea140
-SHA256: b29196ad06c7bc2a28ccd18b05246efe631d2c6bd3c29fd172251cf569427017
+Size: 1381212
+MD5sum: 9a6d932fd5d24eafc48cb0557aeecdb5
+SHA1: 5788003bda83d6b55babfdc62251d288b3b52455
+SHA256: fad60c23df6424503cefdf7eb6e9c2a1eb994a322280138161414ff4a03b9b41
 Description: Themeable status bar battery replacement for iOS 7.
 Name: Alkasine
 Author: Ben software
@@ -62,10 +62,10 @@ Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, 
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
 Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
 Filename: ./debs/anemone.deb
-Size: 4039274
-MD5sum: 54cdfce68f00bd9cd3b74d2363e39a93
-SHA1: 613f1ade50062ec76baaba6e6be490540637b79b
-SHA256: 1ce5184fab4d7702e7f66968c4193ff63d7e924d5ed13864c06a201b5477a9af
+Size: 4038080
+MD5sum: 36401d18f48b867a9046f9e9f97d48ef
+SHA1: d83b46b33972b87a63126e2a2144c0c72de745d3
+SHA256: 30c2916015e9d36939ee1fdc4da5613a09be7a7ac2b7832f8f900f0a92133963
 Description: An awesome theme manager!
 Name: Anemone
 Author: AnemoneTeam
@@ -82,10 +82,10 @@ Architecture: iphoneos-arm
 Version: 1.0.4
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/ants.deb
-Size: 125116
-MD5sum: 3cfa6e24dbab738afe7bada25733097e
-SHA1: 25debbee871c01adbf3b4cbca5099d87336ccbcb
-SHA256: bc8132beaf57631cbefbd2dc4f990e1796bb6654c0797cc423fcc3ba0e6ddeba
+Size: 124602
+MD5sum: 96c8cd034e600a08d0b3caa0db314996
+SHA1: 6a1334774f670483d641cc1ee556c2be3542342b
+SHA256: bc235a5713496703f76dcbd515d83a1690a2f051ec51009d2c820b1064323363
 Description: A classic iOS tweak!
 Name: Ants
 Author: Spark
@@ -100,13 +100,15 @@ Architecture: iphoneos-arm
 Version: 1.0r-29
 Depends: firmware (>= 7.0), mobilesubstrate
 Filename: ./debs/apphub.deb
-Size: 884184
-MD5sum: a15dffd1b960d63d26fe379e8949e80e
-SHA1: dd8ee38e7625299f56643ae3a74a4a9ba4390a60
-SHA256: d4e5f6ad2605819eeb45d2994d9b675dcd79f88d4e1ecf07a50bace15a4abdef
+Size: 884236
+MD5sum: 81540081eee2d7e12c2132a364896ffe
+SHA1: fff504b1a52bc990f8fe26c7e2d9eb979d4374cd
+SHA256: c04f5598a199dcdcbf24a761734d80718caaa3fe233e1f434de5abcd6122c112
 Description: Cydia is great but finding new packages can be tough. TweakHub can show you all available tweaks in Cydia land for the apps you have installed. Once installed go to the more tab of Cydia and click TweakHub. ***It now hooks the "Find Extensions for Applications" button on the Cydia main page***
 Name: TweakHub for Cydia [BETA]
 Author: Enea Gjoka
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.apphub
+Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.aquaboard8
 Section: Tweaks
@@ -115,10 +117,10 @@ Version: 2.2-29k
 Depends: mobilesubstrate (>= 0.9.5000), preferenceLoader (>= 2.2.2), firmware (>= 8.0)
 Conflicts: net.limneos.aquaboard, com.fuyuchi.unlockize
 Filename: ./debs/aquaboard8.deb
-Size: 105334
-MD5sum: 7488cc0403a2724d3256eb3bcb880e69
-SHA1: 38555b4e573376c3e9b880ced73217da31c50892
-SHA256: ea383abdd915a83e0cf31e880aa79956adf9cb6f01f115b12efe2e80f860cb45
+Size: 104348
+MD5sum: 9be65753df72d69956ba83fedbfbb3c5
+SHA1: 03f4680e7c2e52295ac00df8e7735313f1a7e99c
+SHA256: 97f599663f7ee6c5557f45bb1ca422b536dad894761a23784384c74a485b6c73
 Description: Amazing Water Effects On SpringBoard
 Name: AquaBoard (iOS 10/9/8) Cracked
 Author: Elias Limneos
@@ -133,10 +135,10 @@ Architecture: iphoneos-arm
 Version: 1.0~beta1
 Depends: dpkg, cydia
 Filename: ./debs/aupm.deb
-Size: 3349784
-MD5sum: 9c8637300ced0e4cf418f23c12bf1286
-SHA1: 77dd2ab18f763962ad8bde0e42ee2572eb910bdf
-SHA256: 2432d0cb113386cd2f2bf4f5f7688b09db267c772b071c760166b09fb0d1c74a
+Size: 3349254
+MD5sum: e41128ed38824ce820f5577a6a7f7020
+SHA1: de875b0fa997aacecc3b4b00625bbcb7805d9025
+SHA256: 17d306955985061381d01b6f7bb938c9a34e2051ed6188ef067b9151841e3d2b
 Name: AUPM (BETA)
 Author: Wilson Styres <wilson@styres.me>
 Sponsor: nguyenthanh
@@ -153,10 +155,10 @@ Version: 5.0.0
 Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2)
 Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
 Filename: ./debs/autotouch8.deb
-Size: 11356966
-MD5sum: 57e622d69e0f7597b563f369dc8b5530
-SHA1: fae9a867a5e1375c496e8c041f0f9e7245e56d4d
-SHA256: a30e9dd9c2175fa88994a0d23529ffe8e421e1733505aafb5bfee48be54bc3b4
+Size: 11356128
+MD5sum: 3099418d46eca9dca94cb03f68ffa5ab
+SHA1: 6089f0203ded5e610d0ae2b4f23954f88794ebbb
+SHA256: 0027f8276157ff28d67c8d636a45014e469c320777436f202e85dbcc510d2442
 Description: Record and playback touch operations, play macro scripts automatically.
 Name: AutoTouch Cracked
 Sponsor: nguyenthanh1995.github.io <http://nguyenthanh1995.github.io>
@@ -176,10 +178,10 @@ Version: 2.0.5~beta2
 Depends: firmware (>=9.0), mobilesubstrate, com.chpwn.iconsupport, preferenceloader
 Conflicts: com.broganminer.anchor
 Filename: ./debs/ballast.deb
-Size: 106294
-MD5sum: 255786ee1005beb29db77f832aaaba8f
-SHA1: c79456c71bda5fa707b970065f7226f801b27710
-SHA256: 3e7b98b7e67642a1fe8962f02a7bbacf0c59aaae37045ea6a2a80365b684ff94
+Size: 105686
+MD5sum: 7ff8493848b1ece885452beb273ebfa7
+SHA1: 65fb079e7f1728262698502c938ecfc0ee4cd2eb
+SHA256: 83073999e9c27d2973da1e50aa5de4e77d8b4459f9f7b00fdfd675b2efa67e4c
 Description: Keep your icons where you want them. Forked version of Anchor by Brogan Miner.
 Name: Ballast
 Author: tateu (Josh Harris) <tateu@tateu.net>
@@ -188,17 +190,19 @@ Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.barsxi
 Section: System
-Maintainer: Mohadu313
+Maintainer: nguyenthanh
 Architecture: iphoneos-arm
 Version: 0.0.3
 Filename: ./debs/barsxi.deb
-Size: 3415790
-MD5sum: d0029ea509f282601aee73b7a87fdc75
-SHA1: 75388cb091bacc2b192a05caa94d154d51758b44
-SHA256: 6250ccd3be70821633c35265d0632e605aa200d45caf66699c7bb001b641ac9b
+Size: 3415836
+MD5sum: 926740d7c446c31e4b9f59e2d43f01d1
+SHA1: d75dcdc89cb721bf681e031d9369194307c8ef61
+SHA256: e1cf01b52d67ea3be2e507f24c5fdde3f7ff6ffc8af5656c32ac53e172ed86f9
 Description: Signal Bars from iOS11
 Name: BarsXI
 Author: bboyheadman
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.barsxi
+Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.batterylifeplugin
 Section: Tweak
@@ -207,10 +211,10 @@ Architecture: iphoneos-arm
 Version: 1.7.0
 Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader, iokittools
 Filename: ./debs/battLife-plugin.deb
-Size: 211380
-MD5sum: ef516acae2c97812d4fbf71b9e03ea99
-SHA1: 30cb6738a0ca6f1b23238bb158ba933af93d3a82
-SHA256: 8cf3aa5c13fb491f120ff289ac9740b8b426aa702e5a559ccfa046baf53659e6
+Size: 210406
+MD5sum: 035265f085bc472bb2c729dac28872c5
+SHA1: d101cb1df2dd2ff17562e6094f696c2deef94823
+SHA256: 1544070763eeb1bad7bb18910b4cfc0bfe9ba230c76c7513a785015fdaabb8fe
 Description: Plugin for BatteryLife iPA
 Author: shin-chan
 Name: BatteryLife Plugin
@@ -226,10 +230,10 @@ Architecture: iphoneos-arm
 Version: 1.7.0
 Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader, iokittools
 Filename: ./debs/batterylifeplugin.deb
-Size: 211380
-MD5sum: ef516acae2c97812d4fbf71b9e03ea99
-SHA1: 30cb6738a0ca6f1b23238bb158ba933af93d3a82
-SHA256: 8cf3aa5c13fb491f120ff289ac9740b8b426aa702e5a559ccfa046baf53659e6
+Size: 210406
+MD5sum: 035265f085bc472bb2c729dac28872c5
+SHA1: d101cb1df2dd2ff17562e6094f696c2deef94823
+SHA256: 1544070763eeb1bad7bb18910b4cfc0bfe9ba230c76c7513a785015fdaabb8fe
 Description: Plugin for BatteryLife iPA
 Author: shin-chan
 Name: BatteryLife Plugin
@@ -244,13 +248,15 @@ Architecture: iphoneos-arm
 Version: 1.2
 Depends: winterboard
 Filename: ./debs/blackie.deb
-Size: 14216584
-MD5sum: 8ecab019aa5e35542acef3d26b32015b
-SHA1: 438be2ac573941d942d3a3a81d8b1f3045f039fa
-SHA256: 817e9ef5fffac58a1e8599b8cf0b1dbb6ef3d9bab81b90b0eb52089133eeb9a6
+Size: 14216634
+MD5sum: 33e93ac5092d96d0f7a11eee564966c6
+SHA1: 6d7456226684448a7a3a53770bd66edd2909abf0
+SHA256: 37a4017b7f5a0468e05f27cb6a3357e8876a5f8f40bed7add6ef8bdf18e3ab1a
 Description: Wanna taste the dark?
 Name: Blackie
 Author: Axel4 
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.blackie
+Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.blackie2
 Section: Themes
@@ -258,10 +264,10 @@ Maintainer: nguyenthanh
 Architecture: iphoneos-arm
 Version: 1.1
 Filename: ./debs/blackie2.deb
-Size: 10233540
-MD5sum: 7aba6539234d0aa7cadc7329a06555cf
-SHA1: b066befa1a1dad6c952909a931ef957932f086c9
-SHA256: 52d6277409e8463f6513b6f41012e2cb170b73b5e747592e8048dca9476bd262
+Size: 10233102
+MD5sum: 87e90266e81ff5849203fe7950479297
+SHA1: 60ab2db88781c7ba60b58a5b8f3b1e6bb853d244
+SHA256: ce014bff5d0f7a26dfec205c031f126d9620480711398b5850106862f61b88db
 Description: Blackie 2
 Name: Blackie 2
 Author: Axel4
@@ -276,13 +282,15 @@ Architecture: iphoneos-arm
 Version: 3.2
 Depends: firmware (>= 9),unzip,mobilesubstrate,git.shin.bytafonttmnc
 Filename: ./debs/bytafont3.deb
-Size: 2003150
-MD5sum: 2186290e44995b0cc3fdb3acef404c3c
-SHA1: 1f2c4a3ed83e994851bf73280122898c28a6eba3
-SHA256: 9898c0ecee9feb3190ecc27aaae82f6249b45888acaa017879b4f4fe4b49e544
+Size: 2003196
+MD5sum: d034174da312826c5231c11de42e93f8
+SHA1: aa344a142c9ed1aca7192d513f4187410b95fa1c
+SHA256: 89b7cb3270064c711bc71199750d90f04a548b767935cecc443260926f5fd5be
 Description: BytaFont 3 lets you apply fonts to your iDevice in few taps.
 Name: BytaFont 3 for iOS10
 Author: shin-chan <thanhnguyennguyen1995@gmail.com>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.bytafont3
+Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.bytafonttmnc
 Section: Tweaks
@@ -292,10 +300,10 @@ Architecture: iphoneos-arm
 Version: 1.1.7
 Depends: mobilesubstrate
 Filename: ./debs/bytafonttmnc.deb
-Size: 28308
-MD5sum: 5de8c212d7f7193b411d64331fdecc1f
-SHA1: 67ee7d5d99489e98c838b30d118080b3a3dadec3
-SHA256: 7ee1815205a50a7fc3d8110a8a5bc40bf23aca7f034808214926893c383e2134
+Size: 27714
+MD5sum: 4c4d2ff2585896b16e14cc9856edbd91
+SHA1: cb6199c307bdfac7ada3d32950b4b3c8f4c64439
+SHA256: 4d97c4c46b13a8c18fd8cd67f1053380cbff19ef7855a1303590a13718398d37
 Description: BytaFont Tweak Mode substrate for BytaFont
 Name: BytaFont Tweak Mode NC
 Author: shin-chan <thanhnguyennguyen1995@gmail.com>
@@ -309,10 +317,10 @@ Architecture: iphoneos-arm
 Version: 0.0~beta1
 Depends: mobilesubstrate, com.a3tweaks.flipswitch
 Filename: ./debs/cachewipe.deb
-Size: 17716
-MD5sum: 0bf3a75f5d1d399f68b60611b8b72490
-SHA1: 533f81cee83fd9282e2cee1c410c5f03f78370c4
-SHA256: 52b0c620c1b2441d24021816543a29ac6e05fa32a0bf15ab20d2d753b7007d9d
+Size: 17178
+MD5sum: 2c57679f3e84194f6663db9b7c18221d
+SHA1: f40c112f92f7a5abab99d2d98747345cc6b4e765
+SHA256: c92a5b359fe2b6c5a7086b555d7bc4959883df0b410e028a08d3a85a8a028dfd
 Description: Apps Caches Switch
 Name: CacheWipe
 Author: julioverne
@@ -327,34 +335,36 @@ Version: 1.3-169
 Depends: mobilesubstrate (>= 0.9.5100), firmware (>= 7.0), preferenceloader (>= 2.2.2), com.rpetrich.rocketbootstrap ( >= 1.0.4)
 Conflicts: org.thebigboss.callbar, com.repo.xarold.com.callbar
 Filename: ./debs/callbar7.deb
-Size: 1397750
-MD5sum: 1238705b7239c310debd001fff2c36b0
-SHA1: bbd1396dd024f29c099051d985ae7e752ddefcaf
-SHA256: f2063fd68130e6e696455f04c3cff23cfb6edc010014a3889ec6c4f815748df9
+Size: 1397810
+MD5sum: 65e9ecdf6d6079031bbb056bdaf135b6
+SHA1: 1dfe51a163efda83b03ba1ffc4488657e598a387
+SHA256: ae8c919674cc50e131d08be48b1a7b3f8b4e12959a11ecf88a1c341139e052ed
 Description: Don't let incoming calls interrupt you!
 Name: CallBar (iOS 10/9/8/7)
 Author: Elias Limneos & Josh Tucker 
 Icon: file:///Library/PreferenceBundles/CallBar.bundle/CallBar@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.callbar7
+Homepage: https://nguyenthanh1995.github.io/
 
-Package: me.alfhaily.cercube
+Package: git.shin.cercube
 Priority: optional
 Section: Tweaks
-Maintainer: Majd Alfhaily <freemanrepo@me.com>
+Maintainer: nguyenthanh
 Architecture: iphoneos-arm
 Version: 5.1.6
 Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
 Filename: ./debs/cercube5.deb
-Size: 13730320
-MD5sum: 2017526eb3b08b3acba5844e2991a538
-SHA1: 09f5164142cba94d340ed7851706ce56ab962205
-SHA256: 6c497ff4e0768563a05d93d2a02a8f8506a787df9d061ef89b15a8c4887e937d
+Size: 13730348
+MD5sum: af3cd8301732da36902ed16863f17206
+SHA1: ade0d8b3e6394c8888e62267be62290d078528f5
+SHA256: ad454c32c08cd463e645c9cb75bd1ec147f30793939bcfa3f9ac45a2cc3ffd1c
 Description: Download YouTube videos and more!
 Name: Cercube for YouTube
 Author: Majd Alfhaily
-Depiction: https://apt.alfhaily.me/depiction/FDXO5R
-SileoDepiction: https://apt.alfhaily.me/depiction/sileo/FDXO5R
 Icon: https://api-v5.cercube.com/resources/depiction/images/icon.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cercube
+Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.chronos
 Section: Tweaks
@@ -363,10 +373,10 @@ Architecture: iphoneos-arm
 Version: 0.0.6~Beta1
 Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
 Filename: ./debs/chronos.deb
-Size: 262708
-MD5sum: e3f28e13ebe7e1ec2aeea37b0bc8bdef
-SHA1: b18fb1675d348fd164e3e38604ca21907a763330
-SHA256: bdd623f8167b61e40d829ad54254eab64a10f2bd0f13f7b86adde4b0ef2414cc
+Size: 262156
+MD5sum: 06b87d80b340460d990c664e3883d51d
+SHA1: 0a2bb88fc17ed39bfa6e6e60d34c87f5340fa3bf
+SHA256: ced867cedc3c518d25cd618a896138b65953306c7089a870c773369c958df1c1
 Description: An awesome MobileSubstrate tweak!
 Name: Chronos
 Author: Spark
@@ -381,13 +391,15 @@ Architecture: iphoneos-arm
 Version: 0.1
 Depends: cydia
 Filename: ./debs/cleansys.deb
-Size: 1196
-MD5sum: 3ab3956d5553afe4fa95ddb582a0af3e
-SHA1: 40d236178569b11c2bd1650a6dfc2c61880164e9
-SHA256: 1f2c1eea18942168421fe503078873bd3aaf3996e4cb793214df17e9f9ccc839
+Size: 1248
+MD5sum: 2e099d1755acda287057d812a38951a7
+SHA1: 62798a43853518552109137a37ce8923c5e88575
+SHA256: 1aa9d6c197835feb53eb5c5961d24e20a4d3201d43cddeccb8d6dceb2a04ef57
 Description: Temporary error cheo correction. Clean your system memory. After using it, you can delete the tweak. It will not touch your system.  It only creates anchor links for tweaks to be used. Open Termial and run "cleansys".
 Name: Clean Storage Sys
 Author: shin-chan
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cleansys
+Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.compatimark
 Section: Cydia Custom
@@ -396,10 +408,10 @@ Architecture: iphoneos-arm
 Version: 1.0.1
 Depends: mobilesubstrate, cydia (>= 1.1.19)
 Filename: ./debs/compatimark.deb
-Size: 11552
-MD5sum: af67ed5cfcdb5307735df004837d8153
-SHA1: dd3c281b012fed7386b1cc811130840fc8bb7c8c
-SHA256: 926393728ef2ea820a9543966dee008047e16fac4d126af645b3cead6d1ae05c
+Size: 10972
+MD5sum: b920e0ddfa32df5e40faf459c35bd6a0
+SHA1: 94c2774f38a772fedee184188d891d5fe0e22250
+SHA256: fec7d0b3b00e01552e58fa30fe311210f13496a8484890907d57f17e9ab2f229
 Description: Mark Compatible Cydia Packages
 Name: Compatimark
 Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
@@ -414,10 +426,10 @@ Architecture: iphoneos-arm
 Version: 2.3~beta9
 Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
 Filename: ./debs/cracktool2.deb
-Size: 432964
-MD5sum: 911fb62270c89bd3fb393d229063816c
-SHA1: fe4f1a1da229149c47ed9c41c8ca134b6a4105a6
-SHA256: 3aebd1d3afbe6f20167009dfa0b01e9e2600b54108d128a139195fc2f1949577
+Size: 432300
+MD5sum: 826a4f6dacd8de5f708430d9231b670f
+SHA1: 30c92bc69bebb802dbd47f87fa5bd1ffb5a2bc26
+SHA256: c0266f0c9e4ac7f3de69a64746c0baeb5d4d3f9e83efc5afc29df9b75f2f91e2
 Description: Crack Tweaks on one click
 Name: CrackTool2
 Author: julioverne
@@ -433,10 +445,10 @@ Version: 1.4
 Depends: firmware (>= 8.0), mobilesubstrate, cydia (>= 1.1.19), preferenceloader, ws.hbang.common
 Conflicts: com.imokhles.favoritetweaks
 Filename: ./debs/customdia.deb
-Size: 66618
-MD5sum: a1a2b2b6932428b2711368c0141da0b1
-SHA1: a3e1b6732584430efca4277d54e1db482d1255a6
-SHA256: 5c7602ce2caefa719a28849b07eb5c1cdb4c68d88bc7f378879cb29b73e2154e
+Size: 65956
+MD5sum: 5f64ef7b7e7f94a0877eeca97e88babd
+SHA1: 3fa80d623e8eef62339b0609e60e0b8e33b6ad2b
+SHA256: 2f664eb79aafbaf4049fd0b23c4704141184906d33f8a1bc876ba61bac5b3c22
 Description: usability tweaks for Cydia app.
 Name: CustomDia
 Sponsor: nguyenthanh
@@ -456,10 +468,10 @@ Architecture: iphoneos-arm
 Version: 1.0.0-1
 Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
 Filename: ./debs/customloadingtext.deb
-Size: 46808
-MD5sum: 6a7c139180fa4f92ce9665fe525f112f
-SHA1: b8634afff75ba2d6cf19e8d5e0607896c5809d45
-SHA256: a16d4b3a6b598cfedaa4afc4708f90b21b96e993509964c49cecd75c575147f0
+Size: 46196
+MD5sum: 7c69fc3dd995ec91210427dfae567d72
+SHA1: 4fab1100afbad4bbb9c5828ac82122455bb85d35
+SHA256: 9fab5f7949799ef00110b0541df4143b1c31e29ac569ea1f11df1a32de51be20
 Description: Custom loading text
 Name: CustomLoadingText
 Author: CydiaGeek
@@ -476,10 +488,10 @@ Architecture: iphoneos-arm
 Version: 1.1
 Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/cyliner.deb
-Size: 505062
-MD5sum: 889e342bdeb60d75c3047cd4fae89a64
-SHA1: 5f9ff5df883d52cafbe220b271ef32b6b3e63075
-SHA256: 9208387db44d45632341fb09f9d0becc0629b381c68db3c15abc3ab4af09cd72
+Size: 504238
+MD5sum: e04ad0bf6625b85ba6af5ceb5aae02a3
+SHA1: eccdfc8cade37d2f3233226734cc0a72628a0ecf
+SHA256: 870bc44b93e74170a7e6f07e30cf0f62b537f790e9c00344852518cbb4418c9c
 Description: Make your icons dance
 Author: Reed Weichler
 Name: Cylinder
@@ -498,10 +510,10 @@ Version: 1.0.2b-1
 Depends: firmware (>= 9.0), mobilesubstrate
 Conflicts: org.thebigboss.detailedbatteryusage
 Filename: ./debs/detailedpowerusage.deb
-Size: 548556
-MD5sum: 97247bdd209928aafa0b90c382d42564
-SHA1: abdef9bbb2b34058b9630cb08d0d712df8683c8e
-SHA256: 179f827298ec1c70fbdaee1ef2cc5ff79bd1c55e8732a7da633f853011caa8fe
+Size: 547918
+MD5sum: 500979087cb8b3a27abd432397bf0dcd
+SHA1: 5a12e5a26defdff6e506e802e231fa9b1418ca4e
+SHA256: ace6558a15fc976e837c10e7169aea2d3dd79c7712bef91e22deff6294d85884
 Description: View info battery your device
 Name: DetailedPowerUsage
 Author: TheComputerWhisperer
@@ -519,10 +531,10 @@ Architecture: iphoneos-arm
 Version: 1.5.2
 Depends: firmware(>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/dim.deb
-Size: 244574
-MD5sum: 730b3c86bb0c7f98c94ce47447c47d1a
-SHA1: 8e21e2118f71526c11694111be150f603f0cb8ee
-SHA256: feb9e0a98bf7cf16eb1300c4b548ddbd244a6ecb2d951f934e3681344ed8112a
+Size: 243934
+MD5sum: 50f3bd5d673f6fcfe88eefea73e13402
+SHA1: 6ea8e43e604b0ac01fd5610c92a6f6f6e5bd55c6
+SHA256: d0fe36cf86612cbf34e748bafc1ab5e8d46d8befa5729ebdffe1930464e96633
 Description: Dim your screen even further!
 Name: Dim
 Author: shin-chan
@@ -539,10 +551,10 @@ Architecture: iphoneos-arm
 Version: 1.1.3
 Depends: mobilesubstrate
 Filename: ./debs/evanesco.deb
-Size: 180264
-MD5sum: a7f0fd5139a748241da1089d47a4b861
-SHA1: d6987d5b47ead9bd7a88f08b6240463d1400a7dc
-SHA256: 17c8c81847d56a1ee8bbafc8391539c24c9e9c4a369a87279bbdd416aaef0b3b
+Size: 179628
+MD5sum: e766ccaffaa2842208427ce97143b738
+SHA1: ce5fc87420e64f8af0f8425167beda959f79d982
+SHA256: 4253aef7ba37c32c07236ba5ccbc05d9b979be329a4dac6224f2f8b3a3ea1cc9
 Description: Clear Your Homescreen After Inactivity
  Added iOS 8 compatibility. Added option of selecting fade alpha. 
 Name: Evanesco
@@ -558,10 +570,10 @@ Architecture: iphoneos-arm
 Version: 0.0.6
 Depends: mobilesubstrate, com.tigisoftware.filza
 Filename: ./debs/filzatm.deb
-Size: 60146
-MD5sum: 2943baf5c9a1a0c2bb0ce65edab20cef
-SHA1: efeca3e6290ad3cc6988c31fba0412643b8687ba
-SHA256: eaa8e2a996688e9c32f78341f018235ff08cbff5d34114d2eb5f57b107b5d8a7
+Size: 59638
+MD5sum: 45b1706e70c2c685b17a14fd160befa4
+SHA1: f2f6efe007c68e5b46b7424507bf3e55488d7f8c
+SHA256: 54bd471a09f8d31477948f96936db679ba779dc2ce842bea0010b49cc48b5295
 Description: Theme Manager for Filza
 Name: Filza Theme Manager
 Author: WitherTech
@@ -575,14 +587,16 @@ Architecture: iphoneos-arm
 Version: 0.1
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/fiona.deb
-Size: 48942
-MD5sum: 95e3a8474e417a3acf64ba3b8f665c2b
-SHA1: cafb27a10bfa02bd52ca47ae5562d6b6bfd8c996
-SHA256: 4764b749abc199a5b0317ed319d057a790e038e5247649d3d92f64af0c1293e3
+Size: 48998
+MD5sum: dcec33a3ae538d44e66c6e5f5bdb714f
+SHA1: 75abaf963fe9a327b84c7e5ab39f5a7a33afefd4
+SHA256: 39ed9a66f6809a7e313a887a840d6bb12da135f3b93a7e40977905e9217b53b4
 Description: Keep WiFi Always Connected
 Name: Fiona
 Author: julioverne
 Icon: file:///Library/PreferenceBundles/FionaSettings.bundle/icon@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.fiona
+Homepage: https://nguyenthanh1995.github.io/
 
 Package: com.johncoates.Flex3
 Section: Tweaks
@@ -593,10 +607,10 @@ Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex
 Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
 Filename: ./debs/flex3.deb
-Size: 20619948
-MD5sum: 984ddd5311af733a378082a6616dcd06
-SHA1: c895eb63e4140bb1a9f6d3c5b9a01b5cf1b319f9
-SHA256: 1921d1f54f30d0f6d383d79b2b7e034c101a87f88f3f00afccc05b6baff86f6b
+Size: 20615242
+MD5sum: aa657a68e0c98cf0871978608d3512cf
+SHA1: 977383fec91dc3ffff52bab97dd0b64d8ae909df
+SHA256: 7308a53c561b3aec10d1ac8bbf8e4c9b7aa02a824b7beeaac5c1055946491694
 Description: Develop your own tweaks and share them on the Flex Community Cloud
 Author: John Coates <john@johncoates.me>
 Name: Flex 3
@@ -615,10 +629,10 @@ Version: 1.1-2
 Depends: firmware (>= 10.3), firmware (<= 11)
 Conflicts: com.lovejb.gamegem
 Filename: ./debs/gamegem.deb
-Size: 2248646
-MD5sum: c260c9391bd0e0299828b2bc6b714d70
-SHA1: 29039db85604aac3ce436825ee9b9a491ef24396
-SHA256: d068b75e06408a439201214a99f84c97c17a3a1296c2a0ddb9deaf2a4ae6df9a
+Size: 2247532
+MD5sum: 4de140e21011eb6ca56f067b5bf82321
+SHA1: 54edc4bef181062fbce04ff488a3ede750d5c4ec
+SHA256: 34d7e32849c85db8a20aa3498606d3cd1bf573b4a51bb20537377d3751bfa702
 Description: Cheat engine for ios. Fix for iPhone and iPad with iOS 10.3
 Name: GameGem (iOS10.3)
 Author: Aidoo.TK
@@ -634,10 +648,10 @@ Architecture: iphoneos-arm
 Version: 3.4
 Conflicts: com.duowan.gameplayer
 Filename: ./debs/gameplayer.deb
-Size: 1503740
-MD5sum: aa15ab4d1bdaaa189940964f1752e290
-SHA1: 463eda6c2130bb864ab90c3da6f6ac2b8dc6e626
-SHA256: 26fc30a59bb6db326ed7d64b6d8fcde4ecca061ef3514d5fd58652469259d634
+Size: 1503002
+MD5sum: 0af548c424aaf9e1096013310e93cdca
+SHA1: 876973a1db99ef85e5cd198371a83a65e19d44a5
+SHA256: f0f3ec22338269da373579d158d6a6781f2fb0e19cb31fb6ef1fda696f4d9af1
 Description: GamePlayer is a game cheating tool. It can easily modify HP, MP, money and so on. iOS 6.x, 7.x, 8.x and 9.x are supported.
 Name: GamePlayer
 Author: shin-chan
@@ -654,10 +668,10 @@ Version: 1.1.5
 Depends: firmware (>= 8.0), mobilesubstrate, org.thebigboss.libcolorpicker, applist, preferenceloader
 Conflicts: com.spiritoflogic.aeternum, com.repo.xarold.com.aeternum, com.sull.aeternum, com.hackyouriphone.aeternum, com.sull.aeternum, com.iphonecake.aeternum
 Filename: ./debs/goodges.deb
-Size: 90970
-MD5sum: cb7a4c2451b2d9e4b987577fa7f1843a
-SHA1: ef838259531c0993bc69537aaae1f642362946de
-SHA256: 5382af0cb6c6508d17f7cf74b9288316dde2d3dd927fc9bade181d967475ea72
+Size: 90274
+MD5sum: ee76aac38a6bad2f7cd07352f5048e16
+SHA1: 5b18989ab8e55b91c6a723bc8359edc6d95a3fd7
+SHA256: 57734121b8cd20d19fe66a46c55ba861f4082c204d72ef393655cfba7ec34be9
 Description: Good bye badges, hello labels! For iOS 8-10
 Name: Goodges
 Author: faku99
@@ -674,10 +688,10 @@ Architecture: iphoneos-arm
 Version: 2.1.4
 Depends: mobilesubstrate, firmware (>= 11.0), me.nepeta.libcolorpicker, applist
 Filename: ./debs/goodges2.deb
-Size: 118086
-MD5sum: 6854882f79ab22756b3906ad6c1243c1
-SHA1: af783f4ffbe7c5d8b82b5c38b16e523c8c47fd0c
-SHA256: 46ac6ebf8124bfb2009fcfb682ba208a82718fbe67a6263841a78ed41bb459ae
+Size: 117502
+MD5sum: 6e8a5bb92ba19b9e7b3655c965b7ddb4
+SHA1: c2ed18a3035f58129a9c391ab2436728cda2a275
+SHA256: 651d926e687543f19f8db46c3f605494661ac62a5983d6d38d77896493bed2e9
 Description: Good bye badges, hello labels! For iOS 11-12
 Name: Goodges 2
 Author: NoisyFlake
@@ -691,10 +705,10 @@ Architecture: iphoneos-arm
 Version: 0.0~beta5
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debs/goodwifi.deb
-Size: 129162
-MD5sum: b31ee4b94365adae4e651223e0c40b27
-SHA1: 759551a3aaff31475f4b2660c735ae271fcf6ad0
-SHA256: f60360c2ea457fbef9a47af5b2309ef28b474f45d66d4c85ae8991422d232b3c
+Size: 128630
+MD5sum: 5cef19fa107b12c195afd5fedcc8337a
+SHA1: 6cc690120434afb123227f9c67b626dc2fdbd080
+SHA256: b8129a2c05040c8ffabbb2b0e6f59613e93ef93157ae2717025024b7b116b438
 Description: Better WiFi Preferences
 Name: GoodWiFi
 Author: julioverne
@@ -709,10 +723,10 @@ Architecture: iphoneos-arm
 Version: 0.1-2
 Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader
 Filename: ./debs/hpbdisabller.deb
-Size: 52964
-MD5sum: a14070030c58608d37b62ae041263f58
-SHA1: 5ac4200576bb196979d9c46530c678c1eeb19d27
-SHA256: 352bcba8fad40b7bced13be0f9ffa516bace6b4202ac5a86986ccb5a127427bc
+Size: 52446
+MD5sum: 1f7b136a5b70d322e5919374dfa17176
+SHA1: 8f4a7b38b443a8d6010ffc7c3cca30d1de710ae5
+SHA256: a95032bdf6be6b0a0c73c57bd275027c491b42d53cc13bad9976a1dca0455982
 Description: Disable official headphone buttons
 Name: Headphone Button Disabller
 Author: ichitaso
@@ -727,10 +741,10 @@ Replaces: org.altervista.exilecom.icleaner
 Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Filename: ./debs/icleanerpro.deb
-Size: 7735508
-MD5sum: f360791245d234d42c2bb3e7a4e92645
-SHA1: e9e441febeee5164b6e2ad6f99c48d88d9bdb246
-SHA256: 0683b1651ee58d45b636ba9b5bc5875279d52a61e473a7dd034b1f26521ee440
+Size: 7695692
+MD5sum: 2b5212443712174bba12d366c772c415
+SHA1: 1ad313c94c126d3e1968e6926293af8ed539dff2
+SHA256: c8b1320072ffe9df08b61546c3f9c3723dcd633cb93654926f8b8946bef59142
 Description: The first real iOS system cleaner & optimizer
 Name: iCleaner Pro Crack
 Author: Ivano Bilenchi
@@ -746,10 +760,10 @@ Replaces: org.altervista.exilecom.icleaner
 Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Filename: ./debs/icleanerpro780.deb
-Size: 7738490
-MD5sum: d67482dc3d6502a5edd95c386f290b3e
-SHA1: ca7a8ecc4a3de4ab691d550bd4a33c51ba587109
-SHA256: 9a767ef0837f3317e0cae0fe1cc47a5f579be4a879dd00a9ca34131fa9d2838b
+Size: 7697176
+MD5sum: 7fd7c470faaf1b9690a7c399aaba1246
+SHA1: 5efb0415336b8fb68855002eeb4be402fcc90687
+SHA256: 720809c2ff2d104f421895d12ab9bae6ad02ef2ff921d2262f4e36379f87a37e
 Description: The first real iOS system cleaner & optimizer
 Name: iCleaner Pro Crack
 Author: Ivano Bilenchi
@@ -764,10 +778,10 @@ Maintainer: nguyenthanh
 Architecture: iphoneos-arm
 Version: 0.1
 Filename: ./debs/iconrepo.deb
-Size: 40728
-MD5sum: 8e2247d822c4f9b449e56bf66e0f25a3
-SHA1: 8b1e16e94f4d4153928d030c1d810425f2e11a39
-SHA256: 4cd78e25588cc6b58727a7e6f5d0bc331fa4e0925cdf2139960a5f71ddca7d04
+Size: 40252
+MD5sum: 314aa48167eb5c3f56a1073d87402666
+SHA1: 0508a533aac5d5c4175b8b55a9969cda8838f5b5
+SHA256: e35a2b44d2582da67d70be176a20a96649b05f26c25e50202de86277ba9072ee
 Name: Nguyenthanh Repo Icons
 Author: shin-chan
 Sponsor: nguyenthanh
@@ -781,10 +795,10 @@ Architecture: iphoneos-arm
 Version: 2.2.0-1
 Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
 Filename: ./debs/ifile.deb
-Size: 9737968
-MD5sum: 219b6a2b67dbf528a2c422427305546f
-SHA1: d50559a6adccc59f7da891a70b22185bfedfcfe2
-SHA256: 913ab8eff82504a6bfa65ac1bb4437b2f914dfc4d716e7ff319bdc7d3f17e52a
+Size: 9736660
+MD5sum: b688c4d076bd5ddadb280dea612c7a9f
+SHA1: d317113dd7f9fd8d6da237f0b16c09a5e54922af
+SHA256: 42771da67c06c6cb312960c841f61dc81a7f73d00a705be350b9e76aa8a18968
 Description: A File Manager and Viewer. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
 Name: iFile for iOS
 Author: shin-chan <ifile@iphone.heinelt.eu>
@@ -803,10 +817,10 @@ Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6),
 Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~beta5), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3)
 Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator
 Filename: ./debs/libactivator.deb
-Size: 1205784
-MD5sum: f03d42b5e114154525645a350d403113
-SHA1: 568ab352358e690d2f5ba8b09887319201367e0c
-SHA256: 1b7a891c451f1f233bf050720e0799f3617e9d384548df1eb4c91ea51315afc6
+Size: 1205778
+MD5sum: 46e0aba36082bfd1fe9121afcd91c5bd
+SHA1: c811192db559f05b2816f7dbc16bf319966e84d4
+SHA256: 28b1c7e42efd72b21684cd6f8a9a5dd815d88a0285be65085b709672d22d6086
 Description: Centralized gestures, button and shortcut management for iOS 10
 Name: Activator for iOS10
 Author: shin-chan <thanhnguyennguyen1995@gmail.com>
@@ -821,10 +835,10 @@ Architecture: iphoneos-arm
 Version: 0.2.9
 Depends: mobilesubstrate, preferenceloader, applist
 Filename: ./debs/liberty.deb
-Size: 88254
-MD5sum: 7ee99d3710dc5edf61216f7c4c5b5d1f
-SHA1: 147bd49ab771df75b6b60be31c34128b4c3c22a2
-SHA256: 46c004fcd3f721977d69fe36b01d725a90792d241045a621a5ae6fd16f10049e
+Size: 87640
+MD5sum: 1f519164eb75ce4b15fd4e76e1aa78c3
+SHA1: c5376fa2158cd80fbd8737f8c203a0f90b9c1412
+SHA256: 4980095b486e20424b9221b643f3c1357b5823fead870b8f34820d7bae5f5bc2
 Description: Disable MobilecSubstrate in apps
 Name: Liberty
 Author: Ryley Angus
@@ -840,10 +854,10 @@ Architecture: iphoneos-arm
 Version: 0.0.2
 Depends: mobilesubstrate
 Filename: ./debs/libspring.deb
-Size: 5866
-MD5sum: 466529599aaeafe9987d63f4ce7a2e5b
-SHA1: 08ec178ac4691e6096374e232f005286ea1f6866
-SHA256: a631ae9ccace94e65db2c9594483bb5bfd9b56fd402b592c4aabf20ab8b27e62
+Size: 5356
+MD5sum: edb99989054ddfeb267e0195040d5d4f
+SHA1: eb347e23b8b30b9f582b32dd6a88bb21ff90e7b4
+SHA256: 5c1f99c024ab9f55c32e8fc8687595c63efa6b3ebfcbaa0a33f996718ba698b9
 Description: Essential lib for SpringPlus
 Name: libSpringPlus
 Author: Rishanan
@@ -857,10 +871,10 @@ Architecture: iphoneos-arm
 Version: 1.4-5b
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Filename: ./debs/localiappstore.deb
-Size: 71296
-MD5sum: fc5f867ead23253b75e265e6e848b818
-SHA1: 155b464ad14150e95f445b5f1ba81d2577cf0bac
-SHA256: bb15d8ceaa763d970b95c28da9e6eb1755bc38267151295e5dcfe3c0067f3357
+Size: 70760
+MD5sum: 63c4f7523f9f1d083ec719705b5cfd69
+SHA1: 2554651a6f853bc451844b9fbc2dae0db4d7dcb8
+SHA256: 8569196fc41e4e895db6109d45edce6bde91c493f232c4378286f4ad5f9e99ae
 Description: Hack in-app in apps
 Name: LocalIAPStore
 Author: Pangu
@@ -875,10 +889,10 @@ Architecture: iphoneos-arm
 Version: 1.0-3
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/lowpowermode.deb
-Size: 4890
-MD5sum: fb83c3bcd784561793569ce33e32e5d7
-SHA1: 056199a301262d23171e5f0e75afbef098cf3d00
-SHA256: d6f68f71228bac128f139e73a64566238711e4014e4c700c970c51b2c28d5650
+Size: 4312
+MD5sum: 89005ccd686e7b570e142ad1dc4c6195
+SHA1: f821443542f75aa7a726cf9fc6b8efd28a37e0a8
+SHA256: 014d691ccc87526be1ba45070390467646c481e63a95fa815511c7f4e7831e81
 Description: Low power mode always on.
 Name: LowPowerMode
 Sponsor: nguyenthanh
@@ -895,10 +909,10 @@ Version: 1.3.1-01
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.a3tweaks.flipswitch, firmware (<= 11.0)
 Conflicts: org.thebigboss.vigor, com.yourepo.kiiimo.flipcontrolcenter, com.rpetrich.flipcontrolcenter, com.ioscreatix.maizepreview, com.atwiiks.horseshoe, org.thebigboss.horseshoe
 Filename: ./debs/maize10.deb
-Size: 975710
-MD5sum: d9cb68da8f8bac23f171f05e2dc91ba1
-SHA1: 8ccefd7f1e520520b83ada5c982f830d255f631b
-SHA256: 044f7a93d82764e801b413d893c43738b84fea5691dbdabc332a2215728e3933
+Size: 974952
+MD5sum: 5e49964bd3cf77f20ac1e97a5bc9a888
+SHA1: 9a8d62c2a1593eb3328368168212d4c0de66c2ff
+SHA256: fbcef5a224eac0259ce20658060cfc8dd7906c865916a5443e8ee243e1259a94
 Description: ControlCenter iOS11 to iOS10
 Name: Maize for iOS10
 Author: Creatix
@@ -913,10 +927,10 @@ Architecture: iphoneos-arm
 Version: 1.0
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/modernc.deb
-Size: 130410
-MD5sum: 87471caf059fad165cd25dcd81c7ce3b
-SHA1: fbfafb31fd5ce6c53eeec24bfb3c52815fca8651
-SHA256: 2a6598b58880fd6e89f3a2bcfd67464b4744ae22e4a592900e783ed2d18c2783
+Size: 129776
+MD5sum: 021139d92f8592e4762bf075a554e51b
+SHA1: b9dac795b53513f1f146b341c4821822eb4f4ff2
+SHA256: 2d835eeb92f0b031b53d38c02c6f42054ca8b608858bcd1f131467ee79414319
 Description: The most perfect look for Cydia Each time a tweak list and most popular themes are updated, both free and paid
 Author: DevelopApple <mydevelop1@gmail.com>
 Name: ModernC
@@ -933,10 +947,10 @@ Architecture: iphoneos-arm
 Version: 1.4-5
 Depends: firmware (>= 4.0), system-cmds
 Filename: ./debs/mterminal.deb
-Size: 129662
-MD5sum: ccb7b8663a39ea7afc1964577728904d
-SHA1: 6eb73e9b84cac8b6535f0e196e4ce1202d5d9e2d
-SHA256: 3129d156ceace3b57de0e76a0ac08a5da89d4933333fdc9180377042ea208fff
+Size: 129024
+MD5sum: be92e87d83f0aaac56c7f0683aadf259
+SHA1: 3cf1a32e347862a5df4db3872f7cfcc8b01c7d05
+SHA256: 4ff6e55b1ae5821d7a26b800b563fd71e71a0a890b00b91e86558970c4cd5189
 Description: A MobileTerminal fork
 Name: MTerminal
 Sponsor: nguyenthanh1995
@@ -956,17 +970,17 @@ Version: 5.6.0.2
 Depends: mobilesubstrate, net.angelxwind.appsyncunified
 Pre-Depends: firmware (>= 7.0)
 Filename: ./debs/myinst.deb
-Size: 92584
-MD5sum: 3bffae0c3e382d1b7b280cbf54b4aa5d
-SHA1: 53e2895099c0781ba11f9acddaef25c870021391
-SHA256: 6ea88492a591aba000d1d625d19f26108f77063956425c885d9daeb8983fbb75
+Size: 91964
+MD5sum: 9f9fde97319b59adf538bcc66d744b1d
+SHA1: bd162551fa31e8a69275c6947d671de826be1520
+SHA256: fe9f733dd2eedd68d8824cd3cdd36f697d249c6c42bf5e1925789150400d6573
 Description: Install your iPA. Using command myinst <path to .iPA>
 Name: myinst
 Author: shin-chan
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.myinst
 Homepage: https://nguyenthanh1995.github.io/
 
-Package: com.cydiageek.mypomonella
+Package: git.shin.mypomonella
 Priority: optional
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -974,10 +988,10 @@ Architecture: iphoneos-arm
 Version: 1.0.9
 Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
 Filename: ./debs/mypomonella.deb
-Size: 107884
-MD5sum: 52e93852164cf2be0113d74fa706947f
-SHA1: b35f2e0d8511306778dda304d34f06c1056c37ab
-SHA256: 25174b75f305271021b00151b387eea03394116eae38dc06ace4492f744d6b11
+Size: 107244
+MD5sum: 028f81045d05ba3b20bfe7c21555499d
+SHA1: fddfe5e3a4e499f330fdbd50582a634a9a6c0c9d
+SHA256: c35acf93adb14c2fe2ec9e4a594f9534d5a11ea06de3b60259e0d07dcb967a11
 Description: Set on the Updates in All the Cydia Packages & More!
 Name: Mypomonella
 Sponsor: nguyenthanh
@@ -996,10 +1010,10 @@ Architecture: iphoneos-arm
 Version: 2.4.0
 Depends: mobilesubstrate, me.nepeta.libcolorpicker, ws.hbang.common (>= 1.11)
 Filename: ./debs/pagebar.deb
-Size: 215860
-MD5sum: 1d9afcc758205833df087d304656a7ae
-SHA1: 124bb5d3d269c43cc2ea986704f11ae06167696a
-SHA256: 6c80c4afd58401b4832fa56f5fd2e0f1a972190f8505cd9c69547fa93e1715e7
+Size: 215338
+MD5sum: 2c99a3f466b4233c2f140ae654c5e80f
+SHA1: c5cd439c2c6466a1519bfa67dd0fad87f6245aab
+SHA256: bc453079657ab3078ca2c19e4430376609def813e634f524fbef19a92f8af74a
 Description: Make your page dots yours
 Name: Pagebar
 Author: calicocat
@@ -1015,10 +1029,10 @@ Replaces: com.ichitaso.powerselector
 Depends: mobilesubstrate, com.a3tweaks.flipswitch
 Conflicts: com.ichitaso.powerselector11
 Filename: ./debs/powerselector.deb
-Size: 52508
-MD5sum: 792054a2541fe2d87d88deb20969efdc
-SHA1: 1d11884894138cc93d2b16a9c7a6feefebea90d2
-SHA256: d36ea37da42548ab23b40afa65f6faa39d473a3a9e02d2110df0985538ab872a
+Size: 51730
+MD5sum: 59c7975857fd13b5e2c89cdf0e2d2f7c
+SHA1: 71b24a6b1c967e793ed5ae5422fe553f9b6b39f3
+SHA256: 16b5ca16cc5e0155fb21c9af42707595d03492c1ba876701ebfe35aa152087ae
 Description: The power supply relation of a device is operated.
 Name: PowerSelector (Flipswitch)
 Author: ichitaso
@@ -1032,10 +1046,10 @@ Architecture: iphoneos-arm
 Version: 1.0
 Depends: com.anemonetheming.anemone
 Filename: ./debs/qoobee.deb
-Size: 2930974
-MD5sum: 6353ec584d01c3fc2c26148a4db146a2
-SHA1: f80831ed0804e2f982d525d1edbadfa20edeee9a
-SHA256: 2ec35fe92400ab77b24837c8fce38216dc6cb4cc9617a0da3cfa3d7bd6fecdb9
+Size: 2930448
+MD5sum: 59022916ee07f7d3517f24669335845a
+SHA1: cf3c4bf201cfddf8da35c28c6484e02cf397c993
+SHA256: 8a5f91ddefa709582a8a3bba89d6aee5a2809019854c6c3a0cba68f1795c98a5
 Description: Theme Qoobee by DangTu
 Name: Qoobee
 Author: Dang Tu
@@ -1051,10 +1065,10 @@ Architecture: iphoneos-arm
 Version: 0.3-7
 Depends: mobilesubstrate, firmware (>= 4.0)
 Filename: ./debs/randomiconsflip.deb
-Size: 10808
-MD5sum: bb5d46382e297674112d0b1db8ce7931
-SHA1: 02a9d36b587784efb59e290d89086028632593d6
-SHA256: c5bdef564a18010f8e75d6a8ec1281d783beb83dfd996ebb46913e31b7a1285a
+Size: 10286
+MD5sum: dce0768cf7f5b8580d13e31c57b139c5
+SHA1: e1689b99eca77c31c7775fecfb970708b67a428f
+SHA256: 80cbe0f37d8112f2139ee224c3c4726fd9bf810f3524d178c02f2210d7bd027c
 Description: Randomly Flips SB Icons
 Name: Random Icon Flip
 Author: shin-chan
@@ -1068,10 +1082,10 @@ Architecture: iphoneos-arm
 Version: 1.0
 Depends: mobilesubstrate
 Filename: ./debs/recydia.deb
-Size: 2778878
-MD5sum: 1a0e56947ca73bb7310140031723bbcb
-SHA1: a493cfcfcacc528e31fa04cae106becbb5a76958
-SHA256: 3cd8e7cc96a44e64dce66b1bf3ea637bc676a781fb35c76b4f4575de13d0b1e7
+Size: 2778390
+MD5sum: 534e6b4cafd31fc7a65ecc233d5f6876
+SHA1: b91d3bcbeb5359a5db08b15ed394d2974b2c1caa
+SHA256: e819d578e9fe2502b155315503419cd47f47eefc8cf1fdb8f69a340ad8f7481a
 Description: A pretty cool Cydia homepage
 Name: ReCydia 
 Author: Ryu
@@ -1085,14 +1099,16 @@ Version: 1.0-1
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), com.chpwn.iconsupport
 Conflicts: com.zestlabs.reform
 Filename: ./debs/reformx.deb
-Size: 1192034
-MD5sum: 913ced828b472803399ea7d65559e49a
-SHA1: 7de14b5c7c43230fa2cd7b42db6b7e0800b538dd
-SHA256: 9a728c637025ad5739251fc7bd69583a20cbcc6b724c9bb93e8ce50b821a279a
+Size: 1192082
+MD5sum: e52c648e8d33780bff6385fc5ca9f361
+SHA1: e634be056be30ea9c8620740f649bd2b43b9eceb
+SHA256: 208e1111af6510d0601c4330de1e3a2485b43d523f3bcf03555f1cfd8f86b1fb
 Description: ReformX. SpringBoard customization tweak.
 Name: ReformX
 Author: shin-chan 
 Icon: file:///Applications/ReformX.app/ReformX.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.reformx
+Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.releaserepo
 Priority: important
@@ -1103,10 +1119,10 @@ Version: 0.1
 Depends: mobilesubstrate, net.angelxwind.appsyncunified
 Pre-Depends: firmware (>= 7.0)
 Filename: ./debs/release.deb
-Size: 1834
-MD5sum: a1092b4812716fb7180d54236dffb77a
-SHA1: 68a128ac39f970e7723f6babe454a4f6c31b2bdb
-SHA256: a85a52b1e16e422d7802287f512596d83fd6d2bdc3d6b29366ae7857767e4074
+Size: 1194
+MD5sum: fbc7dece690a33153ea8a026b38b56be
+SHA1: 393aa3fa8b157ff293d987b779afcc7afe6c9ae6
+SHA256: 9f91c4e5f2133d15ab4b79e26c320dc62637c4802df8475d5e68c0000611c9d3
 Description: Create Packages, Packages.bz2 and Relase for your repo. Path: /var/mobile/Documents/Repo/debs
 Name: Release Repo
 Author: shin-chan
@@ -1123,10 +1139,10 @@ Replaces: com.matchstic.Extender-Installer
 Provides: com.matchstic.Extender-Installer
 Depends: firmware (>= 9.0)
 Filename: ./debs/reprovision.deb
-Size: 14257314
-MD5sum: 44751253cf2234cf6415edbe40b49210
-SHA1: 92e9d8951d23976062ca5305de4bc11751ab4e7b
-SHA256: a9c8bc89125f5456597b21701e245fb4621e60a8aa539ffed52019910a8780eb
+Size: 14255882
+MD5sum: 787e5a930b79ff712b398dd5ecdceb56
+SHA1: edafbf94c69f32df7756ca8194e25e35a3860a96
+SHA256: 1b919fb3490ee72158b854b756babf784dbc15c6d8f69bba1621a340bca0bf6a
 Description: Re-sign applications on your device
 Name: ReProvision
 Author: Matt Clarke <matt@incendo.ws>
@@ -1143,10 +1159,10 @@ Architecture: iphoneos-arm
 Version: 1.5.3
 Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
 Filename: ./debs/simplelsios10.deb
-Size: 278670
-MD5sum: cc5800270ba7b758e301cff5fe4f7f35
-SHA1: 2f401366c6ae51c29440f54c6017d1b75d11aae4
-SHA256: 6a6128ceedcde2191f3cf2c9920de90ac2d1a28918d986298f73ee1481a806ee
+Size: 277970
+MD5sum: 2883c1c4688f870333f6971a03dc71ba
+SHA1: fe39bf04217327beca92f48a0e7acc3c4f2f26ac
+SHA256: 13d1eebb991ef3fea8a28c872b693a3b90b62498338c0afb10f3be16bb76ffbf
 Description: Simple lockscreen for iOS 10/11/12 devices.
 Name: SimpleLSiOS
 Sponsor: nguyenthanh
@@ -1164,10 +1180,10 @@ Architecture: iphoneos-arm
 Version: 0.0.2
 Depends: mobilesubstrate
 Filename: ./debs/slidetounlock10.deb
-Size: 6466
-MD5sum: 8b56c88dd9531735238fdf846caa9ef3
-SHA1: 020cd04493af557cd1f81ca9544feb781d0064a9
-SHA256: 79067bbe0809a70120a43ea400bd0f34c666ff500e52ee20812c731592eea3a2
+Size: 5844
+MD5sum: d5ef00ad6bd62ac7dea6abbdec87d043
+SHA1: 43e300659adda6eff5eaa04b69e00fb9942a8675
+SHA256: 91ec1ac5b9b932bfb9025efaeb274e97facabee0411965a5035e619dd4dfcac0
 Description: Bring back Slide to Unlock to iOS 10. This tweak brings up the passcode view when you slide to the right (normally to show Today view), or unlocks your device if you have no passcode set.
 Name: SlideToUnlock10
 Author: shin-dev
@@ -1181,10 +1197,10 @@ Architecture: iphoneos-arm
 Version: 0.8-350k
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
 Filename: ./debs/smarttap.deb
-Size: 108702
-MD5sum: 4f1d07f5ff3b295ae7112f18319a42ab
-SHA1: d4d85f9489ce3c18ec5c84e6cf154111730a6aaf
-SHA256: 76b7f33f3576f108c2656e564ae6f223009596767ccc1fe1cac512a36fbe120a
+Size: 107826
+MD5sum: 7c2d48d0eacc3e75052d1376b1083b75
+SHA1: 5217c58470368472736e91b52d2a010003ccf394
+SHA256: f3b3dbe0cfaf69de45bd3fb662846b16f9ef428e70d3432104adcb22c217b6b4
 Description: Turn on the screen by tapping it!
 Name: SmartTap
 Author: shin-chan
@@ -1200,14 +1216,16 @@ Version: 0.2-55
 Depends: mobilesubstrate,preferenceloader
 Conflicts: net.limneos.smarttap
 Filename: ./debs/smarttapx.deb
-Size: 189566
-MD5sum: e023ae0c98191d38a58f203475af665b
-SHA1: a89f1cd8d4daad86336f5524ba6fe68efc5c4802
-SHA256: acbc179eec1ac0a9ebe8e5eb3e9d081f48bc0a785d141be0acdc0096b087bd44
+Size: 189614
+MD5sum: 4ed73607c89774d661edf09c5d3efc3e
+SHA1: 35ad8f74035323edeb54086913f4a2ed2773b6f3
+SHA256: cf7c4f5dc327b750426e68ed702fcc608caad05cf17f83c83b879ec69876a89e
 Description: Turn on the screen by tapping it!
 Name: SmartTap X
 Author: shin-chan
 Icon: file:///Library/PreferenceBundles/SmartTapSettings.bundle/SmartTapSettings@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smarttapx
+Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.smoothbattery
 Priority: optional
@@ -1217,10 +1235,10 @@ Architecture: iphoneos-arm
 Version: 1.0.5
 Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader, org.thebigboss.libcolorpicker
 Filename: ./debs/smoothbattery.deb
-Size: 109070
-MD5sum: 841ec0525d8c5869cca529e25f392b48
-SHA1: 81a147efb76f319403ac551c90799109b3300cdf
-SHA256: ab4cb9827c1ed30f511bb31216c8bc4c3f820da083610d2a1cc96d39266b62d7
+Size: 108412
+MD5sum: 5327b5111e0a653da30a2ee4040ff94a
+SHA1: 4a2657479d33633803abb117bd6909b9cc8c5246
+SHA256: f0e9f78104f3ea3b5e33a1fe698ad4a95001e763b721e1c5a2860829f54844ae
 Description: Smooth and Color options for your Battery!
 Name: SmoothBattery
 Sponsor: nguyenthanh
@@ -1238,10 +1256,10 @@ Version: 1.3-2
 Depends: mobilesubstrate, preferenceloader, git.shin.libspring
 Conflicts: com.rishanan.bke,com.rishanan.noti,com.rishanan.ndb,com.rishanan.swP
 Filename: ./debs/springplus.deb
-Size: 47398
-MD5sum: 27a389444cc2ec66aad023003f1c68c3
-SHA1: 5274d804ea042954da77779b02b692563b41a1c2
-SHA256: f576f015b7b06b69494830448328aa44521a18e2147d3b3560e1ddcc2acdd7f9
+Size: 46816
+MD5sum: 0b2c3757e3c5735f1ac8c08439545588
+SHA1: c068acd046ad926e6715fe082cfb31fabfebfa30
+SHA256: 297dfa6b1430779df408b307df62009b8331b419858c9240e1280ad7d819104c
 Description: All round modification for your iDevice.
 Name: SpringPlus
 Author: Rishanan
@@ -1256,10 +1274,10 @@ Architecture: iphoneos-arm
 Version: 1.4.6
 Depends: firmware-sbin, rsync
 Filename: ./debs/successionrestore.deb
-Size: 1323146
-MD5sum: f4bd23b3fce50a28a6e1ca9449ebfceb
-SHA1: 93639fb5b670076795bc9f00990a950d33a441ea
-SHA256: 79c87b6405607bed57a317ba671cbaf02f9a1192df2ae05be0a28331841e3cae
+Size: 1321294
+MD5sum: 46969af476cd6d288e7ce52bbc1e2fc2
+SHA1: 33c9be20a2f2b5b263f5233cb33bc645be4ad850
+SHA256: e71aaf5332298b02857466b66f47e8d72a61eebd440ca8847fc7adc456f11e97
 Description: Restore without updating via rootfilesystem DMG. Fix all error in iOS 10.0.0 (32bit) -> iOS 13
 Name: Succession
 Sponsor: nguyenthanh
@@ -1277,10 +1295,10 @@ Architecture: iphoneos-arm
 Version: 1.2.2-1k
 Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0)
 Filename: ./debs/tage.deb
-Size: 620980
-MD5sum: 5e97fa339c855adbcf180e94cd875f12
-SHA1: 15790bcb62aedf158092be4e18eb951a8a6a749b
-SHA256: 37e7898dda19fa915fbf1ce8e3f4a0c4697fc37f0d992742cf69a5a621529ede
+Size: 620298
+MD5sum: cd4b55fefd44fb271a7f2b724e6060c0
+SHA1: 13f789da483b63efa915295c2d05466d6252869e
+SHA256: 3f291bed2f6a1c5ac95042320f77ef1e4f5f75959fe98c0f303b2abe676e2493
 Description: Awesome multitasking gestures and more.
 Name: Tage
 Author: Ma Jun
@@ -1295,10 +1313,10 @@ Architecture: iphoneos-arm
 Version: 1.7.6
 Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0), ws.hbang.common (>= 1.2)
 Filename: ./debs/transparentcamerabar.deb
-Size: 105674
-MD5sum: 1b8a82c6fa686ea9792113c84a63877e
-SHA1: 2612d31661e8ee0c928acf8ba80df3d551e3d09f
-SHA256: df8cf134600287fbab05fad2dea7b7e52e4c6789b7545deb460c129d7deea97c
+Size: 104982
+MD5sum: 67df7678c2a65b352d1a7eb325da639f
+SHA1: 1465d38a22dc3652a5f7c5d10e6154937273a608
+SHA256: 17d8afe624b7118ecfbf6ceec50afc5041481785aea6ffc7f542a188163a56f4
 Description: Set opacity, hide and shrink camera bars.
 Author: PoomSmart
 Name: TransparentCameraBar
@@ -1316,10 +1334,10 @@ Architecture: iphoneos-arm
 Version: 1.1-1
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
 Filename: ./debs/transparentdock.deb
-Size: 4466
-MD5sum: 58fea65b5c9f7a2fb65ddc2f992e962c
-SHA1: 5f038a6a1d72907a086096f66e3cbe7797b96ac6
-SHA256: 531598932630a357ffd9ba56836b1e72dae43bbde1aa4e9e35a877de3fb020b5
+Size: 3864
+MD5sum: 0dfa925dcb7e966b00c3210e160f48ee
+SHA1: ae75a7fce5871390aaad496bb91bfd795403fb72
+SHA256: 5590852b7ef012dbaf383fb80267db970dab50bd4c7ed8150fa168d69f59155c
 Description: Remove iOS 7 dock's blurred background
 Name: TransparentDock
 Author: Jonathan Bailey
@@ -1336,10 +1354,10 @@ Architecture: iphoneos-arm
 Version: 1.0-1
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/transparentfolders.deb
-Size: 6574
-MD5sum: ad6415dd056b2d3c3ec8b143fffc1f3c
-SHA1: 4e6589f43194748e2b786974b61996aaff4c216c
-SHA256: a79502ee0154a6a44eae1c63abbaab52ba6e2d3f16e236ecacf4c2820f57437f
+Size: 5960
+MD5sum: 67f33372a56d7f712e9a284084e2d251
+SHA1: 7bc0c309cc1484881013c8ae6eff92ef76fce999
+SHA256: 8653c348d0e865dddd51a779151ab9eaaa3b5e71050aa4287e9c6cd796e026c8
 Description: Transparent Folders for iOS 9.0+!
 Name: TransparentFolders
 Sponsor: nguyenthanh
@@ -1356,10 +1374,10 @@ Architecture: iphoneos-arm
 Version: 0.0.1
 Depends: mobilesubstrate
 Filename: ./debs/turkey.deb
-Size: 15730
-MD5sum: ff14c020e086770b4f6739c9da45f041
-SHA1: 5f8f72f80826c57578966c0fdcd4a33a56a836ec
-SHA256: 4c91f2c2d758bf4c1c3f3b0b9d52b473b9efbfc9cf81a543286c7d1ba43e3d4c
+Size: 15238
+MD5sum: 58b0141da3a5272926f24b82ac103c0d
+SHA1: c12d455ecd6796a5923db28a9510218e674c3778
+SHA256: bb2135c240163a0b2c2291b67d7bb5d0f0e3876a607f368c40b5dd70cade8a35
 Description: Dark Mode For Cydia
 Name: Turkey
 Author: LaughingQuoll
@@ -1375,10 +1393,10 @@ Replaces: com.alex.tweaksnumber
 Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), cydia (>= 1.1.19), preferenceloader
 Conflicts: com.alex.tweaksnumber
 Filename: ./debs/tweakcount2.deb
-Size: 32760
-MD5sum: a83ae3aedec6f979119c406c6b5bceab
-SHA1: 435b375b4c231f73aa97d9186a8f6533a7485e58
-SHA256: 475a4e5a962f50b2a85762912f0ceadf0e4b2adb5a7eb96a8040b630952f4559
+Size: 32138
+MD5sum: f28861451d43d02d7801420f223ecea3
+SHA1: bb862d101c255128342596d3bc3e9417fa450295
+SHA256: 0d6feec61e3d9b3e0c7cf2d84d8e96c26e5bddfccf3e9a8138b8359efe3ac124
 Description: count of installed tweaks in Cydia
 Author: Alexandre <Alexandre31.tweak@gmail.com>
 Name: Tweak Count 2
@@ -1398,10 +1416,10 @@ Provides: com.unlimapps.uasharedtools.virtual
 Depends: mobilesubstrate, firmware (<< 11.0)
 Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.nostash, com.unlimapps.uasharedtools (<< 2.2r-36)
 Filename: ./debs/uasharetools.deb
-Size: 19777160
-MD5sum: 54315f78632df17ad5205644d78d80b5
-SHA1: e27023b0936269237378de3d4810e71928b41108
-SHA256: 759f1a31e23f9d1568a9bc3abae006041036c97c5421ac5f371e6ec35ea47025
+Size: 19777602
+MD5sum: 3bdb240b5ba88c2141f2aaa356367f24
+SHA1: c735c838ceb67655ccf8179b6a53ad359df96ca9
+SHA256: 63c1d3fa45c8e215edf9f67862e9c016b76a15c2e221da7bac301cdf046606b1
 Description: shared tools for unlimapps tweaks
 Author: UnlimApps Inc
 Name: uasharedtools (iOS 7-10) Cracked
@@ -1417,10 +1435,10 @@ Architecture: iphoneos-arm
 Version: 0.0.3
 Depends: mobilesubstrate
 Filename: ./debs/unsize.deb
-Size: 6596
-MD5sum: 07648454f484ed4a9729df91596dc729
-SHA1: 68f25cffcde85cc903caecbf27ef416ce6de8ea1
-SHA256: 646e5fafefaf2168d23e63fc07d613bf44838d07269eaa45ff0eb791475f43e2
+Size: 6076
+MD5sum: 9b5c97ea93cc329abda0d26229751aff
+SHA1: dfee85718b2ecf125112b895b4b966b912a2f423
+SHA256: 338eb35fabda60a48821f01bfb08bcb39d1e90cfa80579173d5bef91d97a404d
 Description: Show disk usage of an app in its uninstall alert.
 Name: Unsize
 Author: fidele007
@@ -1434,10 +1452,10 @@ Architecture: iphoneos-arm
 Version: 1.2
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/vibrato.deb
-Size: 96666
-MD5sum: 50c0dfb22cfea4e58b2a7a90a05d4b0a
-SHA1: 11f9c8e9800877c59fff7e0a461784937e9afaaa
-SHA256: 946dacae3f448642790ada2dd95a18be478076d83918750ef3d2682b8954efc7
+Size: 96114
+MD5sum: 78667834bc92b4745b6ea7592d565a42
+SHA1: 2155e5d8cac168d809abe9c22806798a3d05001e
+SHA256: c79428677ca4c21a90678dd4417fd03d518fa3d155942f1ecc0fa2a371fb3ead
 Description: Feel more your device by making it vibrate!
 Name: Vibrato
 Author: SynnyG <synnyg.devjb@gmail.com>
@@ -1451,10 +1469,10 @@ Architecture: iphoneos-arm
 Version: 2.0.0
 Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, org.thebigboss.libstatus9
 Filename: ./debs/weatherstatus10.deb
-Size: 126318
-MD5sum: 27a5398eb9bf18ec5dfccb366e6ed505
-SHA1: 9653b96436d423d9a6cbe3fcba653afb6f84da97
-SHA256: 5002f6207f4178b72a5e4464b4822140cc5c5f0d0cf728525dabafcca067b5d4
+Size: 125368
+MD5sum: 7623dd349bd6590f1420c07d5f09954e
+SHA1: 36b7aaefb65df7e37bef93068f755ba70aade9ff
+SHA256: a06ce710899e0e0912a01128c15334c6030b81c5ffa428a8303d945306e9eed8
 Description: Display current weather temperature in status bar!
 Author: HiDaN
 Name: WeatherStatusBar10
@@ -1473,10 +1491,10 @@ Replaces: cn.tinyapps.xgpsfree, cn.tinyapps.xgpslite, com.xsellize.xgpspro, com.
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: cn.tinyapps.xgpsfree, cn.tinyapps.xgpslite, com.xsellize.xgpspro, com.hackyouriphone.xgpspro, cn.tinyapps.xgpspro
 Filename: ./debs/xgpspro.deb
-Size: 2755174
-MD5sum: 742b54dec66e2a56b63860f8858ed9c3
-SHA1: 1df5e09da7dd06f64bacc900249bb9dad50ab868
-SHA256: 7a81ad2f7aa65866d108eb8cc76c395a57620255d1fb21460b1e36cdb3fc00d0
+Size: 2754060
+MD5sum: a6babc48686d1faaacae054eef94d03a
+SHA1: f0838b90df60bc62a2e7c1abe191f7c435663583
+SHA256: 57f01f9e0a361c3925caad69449f7395c9915e1f616c117c23e50d3c980ce953
 Description: Sahte konum ayarlamaya yarar.
 Name: Fake GPS Pro Cracked
 Author: shin-chan
@@ -1490,10 +1508,10 @@ Architecture: iphoneos-arm
 Version: 0.1-10
 Depends: mobilesubstrate
 Filename: ./debs/youtubepatcher.deb
-Size: 7396
-MD5sum: 489d3361b2797e5ce4499ad0468d4a8c
-SHA1: dd690a3b9d3f2060d8744df23a880f3f86708ed5
-SHA256: 5f668cda4e9e8cb9724717acbd7deb514c299f9bd83c820b68e423d7a618c89b
+Size: 6840
+MD5sum: e9c8ab7753aace9fc5d0af7c334b1242
+SHA1: 958af4bf607090df0cc1cbde5993dc685f5a975d
+SHA256: 4b24acc98fcda55aae8e3c862c1ebef2423807e4d3334e760a8d36ca19ca7d83
 Description: No inline Ads/Background Play back
 Name: YouTubePatcher
 Author: ichitaso
@@ -1510,10 +1528,10 @@ Replaces: com.unlimapps.ytpp
 Depends: mobilesubstrate, firmware (>= 7.0),com.unlimapps.uamediaexporthelper (>= 1.0r-15) | firmware (>= 10.0), com.unlimapps.uasharedtools (>= 2.2r-94)
 Conflicts: me.freemanrepo.cercube, com.cydia00.ytpp, com.unlimapps.jodeboxlib, com.unlimapps.ytpp
 Filename: ./debs/ytpp.deb
-Size: 6669178
-MD5sum: 40cba5b9a5a822828dff775e583dbabb
-SHA1: 856323b3b40436da6cc079a5358404db4dbf817f
-SHA256: 6a43ea47322c7022312017ff316e134729b713f1ef9cf4e50f2ad5b092b41658
+Size: 6668474
+MD5sum: 75d8325b15e5f5ea0a11854ba7308228
+SHA1: 9772a1d29e634882ce6e7f743747fe653f1c040e
+SHA256: a264f60e0b16fa84447715056284b58477605a4cec4e6cd56801bfd78f01ae8e
 Description: Download all YouTube Videos! Continue background playback and much more!!!
 Author: UnlimApps Inc
 Name: YT++ for YouTube
@@ -1529,10 +1547,10 @@ Architecture: iphoneos-arm
 Version: 1.0.5
 Depends: dpkg, uikittools, firmware (>= 9.0)
 Filename: ./debs/zebrasevirce.deb
-Size: 11308
-MD5sum: 002856bf96f32adfa437563bb02a1a0e
-SHA1: 243620e13d64770da46e596557c04f6f6b2568e8
-SHA256: c51ba0b7c2f38cbd2c1bb9792cfaaeb967c6824960ea70f216b0df0fbcb56382
+Size: 10012
+MD5sum: 8035e2907486eae850c4f010c95b6b98
+SHA1: 0ad27e49c562559eb7213d7bc4deb9571fcbf538
+SHA256: 6d18302f78345e0a5540532abe0169c07dec838efc276e39c1a3a3294d5fca74
 Description: A Useful Package Manager. Sevirce Zebra support for Zebra if you install https://nguyenthanh1995.github.io/ipa/zebra105.ipa
 Name: Zebra Sevirce
 Author: shin-dev
@@ -1547,11 +1565,29 @@ Version: 2.1.1-1
 Depends: firmware (>= 4.2), mobilesubstrate, preferenceloader
 Filename: ./debs/zeppelin.deb
 Size: 961826
-MD5sum: 60e08772c417390ea805f4337f41438b
-SHA1: e4b4da030cb6d749f4e89359c545e5ec0fb2b11a
-SHA256: e4650688c8b524dcf334e258ace399043a9288d43bab137fed8b00a2a4ceab4a
+MD5sum: 447600f2d4734bc711191f45537e73bf
+SHA1: 8fdac7ec87a42aab9db392dfff3b556914cf797d
+SHA256: a4101fd56b64180a8b7c5f3281765f240f5ba95075d83741561bb51c7fb0517d
 Description: Replaces carrier text with an image!
 Name: Zeppelin
 Author: Alex Zielenski
 Icon: http://i.imgur.com/tvLxnB5.png
+
+Package: git.shin.zeppelin
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 2.1.1-1
+Depends: firmware (>= 4.2), mobilesubstrate, preferenceloader
+Filename: ./debs/zepplin.deb
+Size: 961870
+MD5sum: 4de3a4ea3eb327b8259b982015564dae
+SHA1: cf1ef2a7815a7608b611643247a6b53cecf2c458
+SHA256: f4dfbc71b7659c037ed8719abd746cee150c953f140ff9c293f36f8557e1aa53
+Description: Replaces carrier text with an image!
+Name: Zeppelin
+Author: Alex Zielenski
+Icon: http://i.imgur.com/tvLxnB5.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.zeppelin
+Homepage: https://nguyenthanh1995.github.io/
 

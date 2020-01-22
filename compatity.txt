@@ -81,3 +81,5 @@ git.shin.youtubepatcher 10, 11.4
 git.shin.ytpp all
 git.shin.zebrasevirce 9, 10, 11, 12, 13
 git.shin.zeppelin 10, 11, 12
+git.shin.cercube 8, 9, 10, 11
+git.shin.mypomonella 8, 9, 10, 11, 12
