@@ -6,7 +6,7 @@ do
    info=`dpkg -f $i`
    dep=`echo "$info" | grep "Depiction: " | cut -c 12- | tr -d "\n\r"`
    home=`echo "$info" | grep "Homepage: " | cut -c 11- | tr -d "\n\r"`
-   
+   pkg=`echo "$info" | grep "Packages: " | cut -c 11- | tr -d "\n\r"`
    dpkg-deb -R $i ./debs/tmp
    if [[ -z $dep ]]; then
        echo "Depiction: https://nguyenthanh1995.github.io/description.html?goto=${pkg}" >> ./debs/tmp/DEBIAN/control

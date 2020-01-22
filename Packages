@@ -551,9 +551,9 @@ Version: 1.0.2
 Depends: mobilesubstrate, ws.hbang.common, firmware (>= 10.0), me.nepeta.libcolorpicker
 Filename: ./debs/cukey.deb
 Size: 259728
-MD5sum: e4d4231e9b4690eeaf3d92ec5be8e874
-SHA1: 35cb88937ec12550f8bb8b73e33b9437ef9008f4
-SHA256: 29c91a00cf83cd127ba577716d58c8095a0dab088c3112364a8749be07059870
+MD5sum: eee7d31b50e9c3b098ba0f0ca37a69c8
+SHA1: bd025466ec7fa6f27482fa5e4bfa374e79daf52a
+SHA256: 2e268d0ebdcffc78d4aa3ca057274bbf3c4fc4211a468246929615fbef1888e8
 Description: An awesome Tweak Custom Keyboard Sounds!
 Name: CuKey
 Sponsor: nguyenthanh
