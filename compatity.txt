@@ -90,3 +90,4 @@ git.shin.aqueous 8, 9, 10, 11, 12
 git.shin.audiorecorder2 8, 9, 10, 11, 12
 git.shin.audiorecorderxs 12, 13
 git.shin.speedtestpp all
+git.shin.cukey 10, 11, 12.1

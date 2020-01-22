@@ -542,6 +542,28 @@ Author: julioverne
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cracktool2
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.cukey
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.0.2
+Depends: mobilesubstrate, ws.hbang.common, firmware (>= 10.0), me.nepeta.libcolorpicker
+Filename: ./debs/cukey.deb
+Size: 259728
+MD5sum: e4d4231e9b4690eeaf3d92ec5be8e874
+SHA1: 35cb88937ec12550f8bb8b73e33b9437ef9008f4
+SHA256: 29c91a00cf83cd127ba577716d58c8095a0dab088c3112364a8749be07059870
+Description: An awesome Tweak Custom Keyboard Sounds!
+Name: CuKey
+Sponsor: nguyenthanh
+Author: DevelopApple <mydevelop1@gmail.com>
+Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12
+dev: developapple
+Icon: file:///Library/PreferenceBundles/CuKey.bundle/CuKey@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.customdia
 Priority: optional
 Section: Cydia Custom
