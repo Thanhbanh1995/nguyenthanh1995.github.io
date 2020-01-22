@@ -165,7 +165,7 @@ function checkVers (f) {
 }
 
 var json = my.getText("./all.pkgs")
-alert(json) 
+alert(JSON.stringify(JSON.parse(json)))
 var href = location.href
 var isRQ = href.indexOf("?")
 var id, os = "all"
