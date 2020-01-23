@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Add infomation Depiction..."
-sh "add-descript.sh"
+#sh "add-descript.sh"
 echo "------------------"
 echo "Building Packages...."
 

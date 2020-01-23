@@ -551,9 +551,9 @@ Version: 1.0.2
 Depends: mobilesubstrate, ws.hbang.common, firmware (>= 10.0), me.nepeta.libcolorpicker
 Filename: ./debs/cukey.deb
 Size: 259728
-MD5sum: eee7d31b50e9c3b098ba0f0ca37a69c8
-SHA1: bd025466ec7fa6f27482fa5e4bfa374e79daf52a
-SHA256: 2e268d0ebdcffc78d4aa3ca057274bbf3c4fc4211a468246929615fbef1888e8
+MD5sum: 329f84c7702a49d529bba14a46c5cf52
+SHA1: d342940eac094a27884e4f4aa17b3d579c7b2365
+SHA256: dfd0f3bb2fe17a9dccfa5d966592c07fd87a0d72a1967cde1dd41e4fa5e750d9
 Description: An awesome Tweak Custom Keyboard Sounds!
 Name: CuKey
 Sponsor: nguyenthanh
@@ -561,7 +561,7 @@ Author: DevelopApple <mydevelop1@gmail.com>
 Tag: purpose::extension, compatible::ios10, compatible::ios11, compatible::ios12
 dev: developapple
 Icon: file:///Library/PreferenceBundles/CuKey.bundle/CuKey@2x.png
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cukey
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.customdia
