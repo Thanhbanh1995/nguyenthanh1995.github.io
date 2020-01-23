@@ -71,7 +71,7 @@ do
      read tmp
      echo "$pkg $tmp" >> compatity.txt;
   else
-     echo "$pkg $exists" >> compatity.txt;
+     echo "$pkg$exists" >> compatity.txt;
   fi
 done
 
