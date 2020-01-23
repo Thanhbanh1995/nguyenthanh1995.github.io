@@ -1,7 +1,7 @@
 #!/bin/sh
 
   rm -f all.pkgs
-  printf "[" > all.pkgs
+  echo "[" > all.pkgs
 if [ -e compatity.txt ]; then
     compatity=$(cat compatity.txt)
     rm compatity.txt
