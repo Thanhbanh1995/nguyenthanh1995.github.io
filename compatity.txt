@@ -15,9 +15,8 @@ git.shin.aupm 9, 10
 git.shin.autotouch8 8, 9, 10, 11, 12
 git.shin.ballast 10
 git.shin.barsxi 10
-git.shin.batterylifeplugin 9, 10, 11.3 9, 10, 11.3  9, 10, 11.3 9, 10, 11.3 9, 10, 11.3 9, 10, 11.3  9, 10, 11.3 9, 10, 11.3
-git.shin.batterylifeplugin 9, 10, 11.3 9, 10, 11.3  9, 10, 11.3 9, 10, 11.3 9, 10, 11.3 9, 10, 11.3  9, 10, 11.3 9, 10, 11.3
-git.shin.blackie all2 all2 all
+git.shin.batterylifeplugin 9, 10, 11.3 9, 10, 11.3  9, 10, 11.3
+git.shin.blackie all
 git.shin.blackie2 all
 git.shin.bytafont3 10
 git.shin.bytafonttmnc 9, 10, 11, 12
@@ -44,8 +43,7 @@ git.shin.goodges 8, 9, 102 11, 122 11, 12
 git.shin.goodges2 11, 12
 git.shin.goodwifi 10, 11, 12
 git.shin.hpbdisabller 10, 11, 12
-git.shin.icleanerpro 4+ 4+
-git.shin.icleanerpro 4+ 4+
+git.shin.icleanerpro 4+
 git.shin.icon all
 git.shin.ifile 10
 libactivator 8, 9, 10
@@ -68,7 +66,7 @@ git.shin.releaserepo all
 git.shin.reprovision 9+
 git.shin.simplelsios10 10
 git.shin.slidetounlock10 10
-git.shin.smarttap 7, 8, 9, 10, 11x 11x 11
+git.shin.smarttap 7, 8, 9, 10
 git.shin.smarttapx 11
 git.shin.smoothbattery 9, 10, 11, 12, 13
 git.shin.speedtestpp 10, 11, 12, 13
@@ -89,3 +87,5 @@ git.shin.youtubepatcher 10, 11.4
 git.shin.ytpp all
 git.shin.zebrasevirce 9, 10, 11, 12, 13
 git.shin.zeppelin 10, 11, 12
+git.shin.cracktool4 12, 13
+git.shin.smarttapxs 11, 12, 13

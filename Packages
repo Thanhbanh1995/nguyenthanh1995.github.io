@@ -542,6 +542,22 @@ Author: julioverne
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cracktool2
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.cracktool4
+Section: Utilities
+Architecture: iphoneos-arm
+Version: 4.0~beta9c
+Depends: ldid (>= 2.1.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Filename: ./debs/cracktool4.deb
+Size: 516646
+MD5sum: 3722f45f440e62b318cd2f26b01b70fe
+SHA1: 98ad3a50e0360aa2f076d149c0c1fba2870e07ca
+SHA256: f52a7057ec757a6aa87a6faf66a8d50cadc55ecf9682c42d58e3620535d59f1d
+Description: Crack Tweaks on one clickMaintainer: nguyenthanh
+Name: CrackTool4
+Author: julioverne
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cracktool4
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.cukey
 Priority: optional
 Section: Tweaks
@@ -1354,6 +1370,27 @@ Name: SmartTap X
 Author: shin-chan
 Icon: file:///Library/PreferenceBundles/SmartTapSettings.bundle/SmartTapSettings@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smarttapx
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.smarttapxs
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.2-42
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), git.shin.cracktool4
+Conflicts: net.limneos.smarttap
+Filename: ./debs/smarttapxs.deb
+Size: 179830
+MD5sum: b78a673b6a44bfa406111ad2946a566e
+SHA1: 7880b271e56bdc300487c24162254a1f16270310
+SHA256: 119ecedb42d6b04d8ad6490f5caab10cedc1179bd7517a111a9f4f4a5f240a15
+Description: Smarttap for iOS 11 -> 13
+Name: SmartTap XS
+Author: Elias Limneos <limneoselias@gmail.com>
+Sponsor: nguyenthanh
+Icon: file:///Library/PreferenceBundles/SmartTapSettings.bundle/SmartTapSettings@2x.png
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smarttapxs
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.smoothbattery

@@ -4,7 +4,6 @@
   echo "[" > all.pkgs
 if [ -e compatity.txt ]; then
     compatity=$(cat compatity.txt)
-    rm compatity.txt
 fi
 
 for i in ./debs/*.deb
@@ -70,8 +69,6 @@ do
      echo "$pkg support for iOS..."
      read tmp
      echo "$pkg $tmp" >> compatity.txt;
-  else
-     echo "$pkg$exists" >> compatity.txt;
   fi
 done
 
