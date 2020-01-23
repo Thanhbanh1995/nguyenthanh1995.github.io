@@ -1,123 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<title>Page Title</title>
+	<script src=./my.js></script>
+	<link rel=stylesheet href=/lb/bootstrap.min.css></link>
+	<meta name=viewport content='width=device-width, initial-scale=1.0, user-scalable=no'/>
+<script src="/lb/my.js"></script>
+	</head>
+	<body>
+		<div class=container>
+			<div id="open-cydia" class="row mt-3">
+				<div class=col>
+					<h6 class="text-uppercase text-secondary">NguyenThanh Repo</h6>
+		<ul class="bg-white infopkg">
+			<li class="has-icon_">
+				<a id="open-cydia-url" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://nguyenthanh1995.github.io/">
+					<img src="icons/cydia7.png" class="icon_"/>
+					<label>Open Cydia</label>
+				</a>
+			</li>
+		</ul>
+			<p class="small text-center text-secondary">Repo: https://nguyenthanh1995.github.io/</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class=col>
+					<h6 class="text-uppercase text-secondary">Package updates</h6>
+					<ul class="bg-white infopkg mb-0" id="last_update">
 
-<head>
+					</ul>
+					<button id=more-tweak-update style="margin-bottom: 35px" class="mt-2 btn btn-sm float-right">
+						<img src="./icons/add.png" class="icon_"/>
+						<label>More</label>
+					</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class=col>
+					<h6 class="text-uppercase text-secondary">Social</h6>
+					<ul class="bg-white">
+	<li class=has-icon_>
+		<a href="https://github.com/nguyenthanh1995" target="_blank">
+			<img src="./icons/github.png" class="icon_"/>
+			<label>GitHub</label>
+		</a>
+	</li>
+	<li class=has-icon_>
+		<a href="https://twitter.com/NguyenThanhDev" target="_blank">
+			<img src="./icons/twitter.png" class="icon_"/>
+			<label>Follow NguyenThanhDev</label>
+		</a>
+	</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class=col>
+					<p class="small text-center text-secondary">
+						Nguyen Thanh (shin-dev) © 2020
+					</p>
+				</div>
+			</div>
+		</div>
+	<style type=text/css>
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color:#efeff5 /*rgb(245, 245, 250);*/
 
-    <meta name=keywords content="Cydia, nguyen thanh, shin dev, myjs, mycanvas.js">
-    <meta name="google-site-verification" content="Z7kUu6LzKOt6CKFCyPWLakCIkqY2JDchbYFSzYVKIYo" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Repo Cydia from shin-dev in Viet Nam">
-    <meta property="og:title" content="Repo NguyenThanh" />
-    <meta property="og:description" content="Repo Cydia from shin-dev in Viet Nam " />
-    <meta charset="UTF-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="author" content="shin-dev">
+}
 
-  <title>Repo Cydia N.Thanh</title>
+ul li:after,ul:after,ul:before{content:""}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}hr{box-sizing:content-box}a{background-color:transparent;-webkit-text-decoration-skip:objects}
+small{font-size:80%}img{border-style:none}button{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}
 
-  <!-- Font Awesome Icons -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" type="text/css">
+body{font:14px -apple-system-font,".Helvetica NeueUI","Helvetica Neue",sans-serif;}.font-subtitle,[role=footer],.font-bold,b,strong{font-weight:600}.font-heading,a,button{color:#6680F9;text-decoration:none}button{background:0 0;margin:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}hr,ul li:after,ul:after,ul:before{display:block;width:100%;height:1px;background:#c8c7cc}body{margin:20px 0 35px}@media (min-width:708px){#content{width:708px;margin:0 auto}}@media (min-width:964px){#content{width:964px}}[role=footer],body>p,h2{margin:15px;color:#6d6d72}@media (min-width:708px){[role=footer],body>p,h2{margin-left:0;margin-right:0}ul{border-radius:4px}}h2{text-transform:uppercase;margin-bottom:5px}h2 a{color:inherit}body>header{position:fixed;top:0;left:0;width:100%;height:44px;z-index:10;background:rgba(246,246,248,.85);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}body>header:after{position:absolute;left:0;bottom:0}ul,ul li{position:relative}.cydia body>header{display:none}.cydia body>header+p{margin-top:-20px}body>header h1{margin:0;text-align:center;font-size:18px;line-height:44px}ul{margin:5px 0 35px;list-style:none;background:#fff}ul:after,ul:before{position:absolute;left:0}ul:before{top:0}ul:after{bottom:0}ul li{margin-left:15px;margin-bottom:-1px;padding:12px 15px 12px 0}ul li:after{position:absolute;top:0;left:0}ul li:first-child:after{background:0 0}@media (min-width:708px){ul:after,ul:before{display:none}ul li:first-child,ul li:first-child [role=button],ul li:first-child [role=link],ul li:first-child p{border-top-left-radius:4px;border-top-right-radius:4px}ul li:last-child,ul li:last-child [role=button],ul li:last-child [role=link],ul li:last-child p{border-bottom-left-radius:4px;border-bottom-right-radius:4px}}ul li [role=button],ul li [role=link],ul li p{padding:12px 15px;margin:-12px -15px}ul li.has-icon{margin-left:59px}ul li.has-icon [role=button],ul li.has-icon [role=link],ul li.has-icon p{margin-left:-59px;padding-left:59px}ul li .icon{position:absolute;top:10px;left:15px;width:29px;height:29px}ul li [role=button],ul li [role=link]{display:block;padding-right:30px;-webkit-tap-highlight-color:transparent;position:relative;z-index:2}ul li [role=button]:active,ul li [role=button]:focus,ul li [role=link]:active,ul li [role=link]:focus{background-color:#d9d9d9}ul li [role=button]:after,ul li [role=link]:after{content:"";display:block;background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NSIgaGVpZ2h0PSI5OSI+PHBvbHlnb24gcG9pbnRzPSIzNC43LDQ5LjcgMCw4NC40IDE1LjEsOTkuNSA2NC44LDQ5LjcgNDkuNywzNC43IDE1LjEsMCAwLDE1LjEiIHN0eWxlPSJmaWxsOiNjN2M3Y2MiLz48L3N2Zz4=);position:absolute;top:50%;right:15px;width:10px;height:13px;margin-top:-7px;background-size:100% 100%}ul li>button{font:inherit;width:100%;text-align:left}ul li .pull-in{vertical-align:top}@media (max-width:321px){ul li .pull-in{margin:-11px -15px}}ul+[role=footer],ul+p{margin-top:-25px}#credits{color:black;}
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+#screenshot img {
+	display: inline-block;
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: 320px;
+}
+#screenshot {
+	-webkit-overflow-scrolling:touch;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	height:350px;
+}
+.value {
+	color: #777;
+	float: right;
+	text-align: right;
+	margin-left: 8px;
+}
 
-  <!-- Plugin CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet">
+.icon_ {
+	width: 2em;
+	height: 2em;
+	border-radius: 20%;
+}
 
-  <!-- Theme CSS - Includes Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-creative/5.1.8/css/creative.min.css" rel="stylesheet">
+.infopkg > li > p {
+	overflow: auto;
+}
+.bg-white {
+	background-color: #ffffff;
+}
+ul > li > a > label,
+ul > li > p > a > label {
+	margin-left: .5em;
+}
+.has-icon_:before {
+	content: '>';
+	position: absolute;
+	top: 50%;
+	left: 95%;
+	transform: translate(-100%, -50%);
+	color: rgba(0, 0, 0, .5);
+	font-weight: bold;
+}
+	</style>
+	<script>
 
-</head>
+var json = JSON.parse(my.getText("./all.pkgs")).sort(function (a, b) {
+	 return b.Time - a.Time
+}) 
 
-<body id="page-top">
+var $start = 0;
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Repo Cydia</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse slide navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Repo Cydia from Nguyen Thanh</h1>
-          <hr class="divider my-4">
-        </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Start exploring my tweaks</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" id=add-source href="cydia://url/https://cydia.saurik.com/api/share#?source=http://nguyenthanh1995.github.io/">Add Repo</a>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">You have problems or have suggestions?  Contact me now!</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+84 (123) 456</div>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a id=add-source class="d-block" href="mailto:thanhnguyennguyen1995@gmail.com">thanhnguyennguyen1995@gmail.com</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-light py-5">
-    <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - shin-dev</div>
-    </div>
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js
-"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.min.js
-"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-creative/5.1.8/js/creative.min.js"></script>
-<script>
-var noiOS = !window.navigator.userAgent.match(/iPhone|iPod|iPad|macOS|tvOS/);
-if (noiOS) $('#add-source').addClass('disable')
-$('#add-source').click(function (e) {
-     if ( noiOS ) {
-          alert("Your device not iOS")
-          e.preventDefault()
-     }
+my("#more-tweak-update")
+.click(function () {
+    $start += 5
+    loadRecentUpdates($start)
 })
-</script>
-</body>
 
+loadRecentUpdates($start)
+function loadRecentUpdates ($s) {
+	var htmlnews = "";
+	var count = $s, leng = json.length, tmp
+	for (; count < $s + 5 && count < leng; count++) {
+		if (my.isEmptyObject(json[count])) continue;
+		var urlOpen = "cydia://package/" + json[count].Package
+		if (navigator.userAgent.search(/Cydia/) === -1)
+			urlOpen = location.protocol + "//" + location.hostname + "/description.html?goto=" + json[count].Package;
+		tmp = encodeURI(
+			json[count].Section ?
+			json[count].Section : 
+			"unknown"
+		)
+		
+		htmlnews +=  "\
+		<li class=has-icon_>\
+			<p>\
+				<a href='" + urlOpen + "' target=_blank>\
+					<img class=icon_ src=./icons/" + tmp + ".png />\
+					<label>" + json[count].Name + " ~ v" + json[count].Version + "</label>\
+				</a>\
+			</p>\
+		</li>"
+	}
+	my("#last_update")
+	.html(function (e) {
+	    return e + htmlnews
+	})
+}
+
+	</script>
+	</body>
 </html>
