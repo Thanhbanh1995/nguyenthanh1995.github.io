@@ -89,3 +89,6 @@ git.shin.zebrasevirce 9, 10, 11, 12, 13
 git.shin.zeppelin 10, 11, 12
 git.shin.cracktool4 12, 13
 git.shin.smarttapxs 11, 12, 13
+git.shin.iwidgets 8, 9, 10
+git.shin.lockhtml4 7, 8, 9, 10
+git.shin.wethr all

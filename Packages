@@ -951,6 +951,26 @@ Tag: purpose::uikit, cydia::commercial
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ifile
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.iwidgets
+Priority: extra
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.3.2
+Depends: mobilesubstrate, firmware (>= 4.2.1)
+Conflicts: com.chpwn.infiniboard
+Filename: ./debs/iwidgets.deb
+Size: 332284
+MD5sum: 1a8e089c9d372dc5aff6f1307bffa841
+SHA1: 2638d6813458345fcf5666808b73fdd17a986ff3
+SHA256: 9be5fc6c30b3db10a69199df09b0473a6960e1f028fbb09c6378adbe1b5333ec
+Description: HTML Widgets on SpringBoard!
+Name: iWidgets
+Author: eldwin <eldwin_@hotmail.com>
+Sponsor: nguyenthanh
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.iwidgets
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: libactivator
 Priority: optional
 Section: System
@@ -1024,6 +1044,25 @@ Description: Hack in-app in apps
 Name: LocalIAPStore
 Author: Pangu
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.localiapstoreios9
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.lockhtml4
+Section: Tweaks
+Maintainer: xRepo <support@xRepo.co>
+Architecture: iphoneos-arm
+Version: 1.3~beta1-1
+Depends: mobilesubstrate, preferenceloader, firmware (>= 7.0), com.bushe.LockScreenGestureCleanUp, com.unlimapps.uaunbox, git.shin.wethr (>= 1.1), org.thebigboss.libcolorpicker
+Conflicts: com.bushe.lockhtml4
+Filename: ./debs/lockhtml4.deb
+Size: 274774
+MD5sum: 88ae81f074565a2013fac0722d5e80bc
+SHA1: c76cffde5218505c3f9b84d7fd8f22a2cd67ceca
+SHA256: 5e245f65707c3a369fc4f831d592664c7036d9ef8137f22cfea6b3916fd8d1e3
+Description: Add widget HTML on your LockScreen
+Name: LockHTML4
+Author: Ryan Bushe
+Sponsor: ngugenthanh
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.lockhtml4
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.lowpowermode
@@ -1666,6 +1705,25 @@ Tag: purpose::extension, cydia::commercial, compatible::ios9, compatible::ios10
 dev: hidan
 Icon: file:///Library/PreferenceBundles/WeatherStatusBar10Preferences.bundle/icon@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.weatherstatusbar10
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.wethr
+Section: Addons
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.2-1
+Depends: mobilesubstrate, cydia.kiiimo.org.lockhtml4
+Conflicts: com.bushe.lockhtml4
+Filename: ./debs/wethr.deb
+Size: 18452
+MD5sum: aa3058c3a5a1218ea6f339359254cb36
+SHA1: 314c4133f7cc6696d458d677212d383a6311e327
+SHA256: 2fa020d2e151cbf35456f793a30b21326ef05c3d66fd795b7422c46f93cea326
+Description: A weather widget for LockHTML4!
+Name: Wethr
+Author: Ryan Bushe
+Sponsor: nguyenthanh
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.wethr
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.xgpspro
