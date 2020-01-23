@@ -1712,13 +1712,13 @@ Section: Addons
 Maintainer: nguyenthanh
 Architecture: iphoneos-arm
 Version: 1.2-1
-Depends: mobilesubstrate, cydia.kiiimo.org.lockhtml4
+Depends: mobilesubstrate, git.shin.lockhtml4
 Conflicts: com.bushe.lockhtml4
 Filename: ./debs/wethr.deb
-Size: 18452
-MD5sum: aa3058c3a5a1218ea6f339359254cb36
-SHA1: 314c4133f7cc6696d458d677212d383a6311e327
-SHA256: 2fa020d2e151cbf35456f793a30b21326ef05c3d66fd795b7422c46f93cea326
+Size: 18442
+MD5sum: f7c22ccd38f862d81cb8c7ccda80c7fb
+SHA1: d59aa77688390a45e802157f1cf3fa5172a10182
+SHA256: 19f13ec31a7d79882b1402e58685cb4af8251b38e11b48134ef8ed21e55be3fb
 Description: A weather widget for LockHTML4!
 Name: Wethr
 Author: Ryan Bushe
