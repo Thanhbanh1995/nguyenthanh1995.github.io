@@ -8,6 +8,20 @@
 	</head>
 	<body>
 		<div class=container>
+			<div hidden id="open-cydia" class="row mt-3">
+				<div class=col>
+					<h6 class="text-uppercase text-secondary">Package info</h6>
+		<ul class="bg-white infopkg">
+			<li class="has-icon_">
+				<a id="open-cydia-url" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://nguyenthanh1995.github.io/">
+					<img src="cydia7.png" class="icon_"/>
+					<label>Open Cydia</label>
+				</a>
+			</li>
+		</ul>
+			<p class="small text-center text-secondary">Repo: https://julioverne.github.io/</p>
+				</div>
+			</div>
 			<div class=row>
 				<div class=col>
 					<h6 class="text-uppercase text-secondary" id=tweak-name></h6>
@@ -25,7 +39,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row mt-3">
+			<div class="row mt-3" id=package-info>
 				<div class=col>
 					<h6 class="text-uppercase text-secondary">Package info</h6>
 		<ul class="bg-white infopkg">
@@ -45,7 +59,7 @@
 			<div class="row">
 				<div class=col>
 					<h6 class="text-uppercase text-secondary">Package updates</h6>
-					<ul class="bg-white" id="last_update">
+					<ul class="bg-white infopkg" id="last_update">
 
 					</ul>
 				</div>
@@ -125,7 +139,9 @@ button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-bloc
 }
 
 ul > li > a > label {
-    margin-left: .5em;
+    float: right;
+    text-align: right;
+    margin-left: 8px;
 }
 .has-icon_:before {
     content: '>';
@@ -163,7 +179,6 @@ function checkVers (f) {
 	    	return true;
 	})
 }
-
 var json = JSON.parse(my.getText("./all.pkgs")).sort(function (a, b) {
      return b.Time - a.Time
 }) 
@@ -198,8 +213,20 @@ if (isRQ > -1) {
 			os = e.slice(1).join(" ");
 	})
 	init()
+	
+	if (navigator.userAgent.search(/Cydia/) === -1) {
+		my("#open-cydia")
+		.unAttr('hidden')
+		my("#open-cydia-url")
+		.attr("href", "cydia://url/https://cydia.saurik.com/api/share#?source=https://nguyenthanh1995.github.io/&package=" + id)
+	}
 }
-
+else {
+    my('#package-info').attr("hidden", true)
+	my('#descript')
+	.text("Description not exists in the this request!")
+	my('#iOS-ver').text('unknown')
+}
 
 function init () {
 my('#iOS-ver').text(iOSVer())
@@ -235,15 +262,19 @@ function loadRecentUpdates () {
 		if (navigator.userAgent.search(/Cydia/) === -1)
 			urlOpen = location.protocol + "//" + location.hostname + "/description.html?goto=" + json[count].Package;
 		tmp = encodeURI(
-			json[count].Section
+			json[count].Section ?
+			json[count].Section : 
+			"unknown"
 		)
-
+		
 		htmlnews +=  "\
 		<li class=has-icon_>\
-			<a href='" + urlOpen + "' target=_blank>\
-				<img class=icon_ src=/icons/" + tmp + ".png />\
-				<label>" + json[count].Name + " ~ v" + json[count].Version + "</label>\
-			</a>\
+			<p>\
+				<a href='" + urlOpen + "' target=_blank>\
+					<img class=icon_ src=/icons/" + tmp + ".png />\
+					<label>" + json[count].Name + " ~ v" + json[count].Version + "</label>\
+				</a>\
+			</p>\
 		</li>"
 	}
 	my("#last_update")
