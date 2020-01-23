@@ -945,16 +945,17 @@ Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6),
 Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~beta5), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3)
 Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator
 Filename: ./debs/libactivator.deb
-Size: 1205778
-MD5sum: 46e0aba36082bfd1fe9121afcd91c5bd
-SHA1: c811192db559f05b2816f7dbc16bf319966e84d4
-SHA256: 28b1c7e42efd72b21684cd6f8a9a5dd815d88a0285be65085b709672d22d6086
+Size: 1205800
+MD5sum: 206b73c420f94d589210593051a4be12
+SHA1: 95f12f0091eaa43dd6c08640684a67274e787499
+SHA256: 9901cab890fe9f46f8b0e866742ff7619de49dea69a1225e9d93d16596136182
 Description: Centralized gestures, button and shortcut management for iOS 10
 Name: Activator for iOS10
 Author: shin-chan <thanhnguyennguyen1995@gmail.com>
 dev: shin-chan
 Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=libactivator&os=9,10,11,12
+Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.liberty
 Section: Tweaks
@@ -1377,19 +1378,21 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smoo
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.speedtestpp
-Section: Hacked
+Section: Tweaks
 Maintainer: nguyenthanh
 Architecture: iphoneos-arm
 Version: 1.0.0.1
 Depends: mobilesubstrate, firmware (>= 10.0)
+Conflicts: net.hollr2099.speedtestpp
 Filename: ./debs/speedtestpp.deb
-Size: 36685782
-MD5sum: 73cfd4b6b424652f71788067f669e5ca
-SHA1: b4f6515ba58f99c6e6792b9eb98643a6f2a06d26
-SHA256: bd4809b70065f8c510c72db963b03ae935e22887c2dd8869f46e30e683bd6224
+Size: 5078
+MD5sum: 5f9fe953de03fcaa44c84dc85fadc3d3
+SHA1: e7aa7c01bc72961fd318c77a653c3e60a6a332da
+SHA256: c97828507f1aee38a27837894198b48b593cd9eacb1591ffd2824c3ca1b04736
+Description: Remove ADS from SpeedTest App
 Name: Speedtest++
 Author: SarahH12099
-Sponsor: nguyenthanh
+Tag: purpose::extension
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.speedtestpp
 Homepage: https://nguyenthanh1995.github.io/
 

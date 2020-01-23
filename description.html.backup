@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	<script src=./my.js></script>
+	<link rel=stylesheet href=css/bootstrap.min.css></link>
+	<meta name=viewport content='width=device-width, initial-scale=1.0, user-scalable=no'/>
+	</head>
+	<body>
+		<div class=container>
+			<div class=row>
+				<div class=col>
+					<h6 class="text-uppercase text-secondary" id=tweak-name></h6>
+					<div style="height: 2rem; line-height: 2rem; background: #00ff24"
+" class="w-100 text-center align-middle font-italic" id=complity></div>
+					<p class="small text-secondary text-center mt-1">
+						Current iOS <span id=iOS-ver></span>
+					</p>
+				</div>
+			</div>
+			<div class="row mt-3">
+				<div class=col>
+					<h6 class="text-uppercase text-secondary">Description</h6>
+					<div class="my-1 py-3 px-3 bg-white" id=descript>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-3">
+				<div class=col>
+					<h6 class="text-uppercase text-secondary">Package info</h6>
+		<ul class="bg-white infopkg">
+			<li><p>Name<span class="value" id="pkg_name">-</span></p></li>
+			<li><p>Identifier<span class="value" id="pkg_id">-</span></p></li>
+			<li><p>Author<span class="value" id="pkg_author">-</span></p></li>
+			<li><p>Architecture<span class="value" id="pkg_arch">-</span></p></li>
+			<li><p>Section<span class="value" id="pkg_section">-</span></p></li>
+			<li><p>Version<span class="value" id="pkg_version">-</span></p></li>
+			<li><p>Depends<span class="value" id="pkg_depends">-</span></p></li>
+
+			<li><p>Size<span class="value" id="pkg_size">-</span></p></li>
+			<li><p>Updated<span class="value" id="pkg_time">-</span></p></li>
+		</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class=col>
+					<h6 class="text-uppercase text-secondary">Package updates</h6>
+					<ul class="bg-white" id="last_update">
+
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class=col>
+					<h6 class="text-uppercase text-secondary">Social</h6>
+					<ul class="bg-white" id="last_update">
+	<li class=has-icon_>
+		<a href="https://github.com/nguyenthanh1995" target="_blank">
+			<img src="/icons/github.png" class="icon_"/>
+			<label>GitHub</label>
+		</a>
+	</li>
+	<li class=has-icon_>
+		<a href="https://twitter.com/NguyenThanhDev" target="_blank">
+			<img src="/icons/twitter.png" class="icon_"/>
+			<label>Follow NguyenThanhDev</label>
+		</a>
+	</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class=col>
+					<p class="small text-center text-secondary">
+						Nguyen Thanh (shin-dev) © 2020
+					</p>
+				</div>
+			</div>
+		</div>
+	<style type=text/css>
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: rgb(245, 245, 250);
+}
+
+button,hr,input{overflow:visible}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}button,hr,iframe{border:0}abbr[title],h2 a:active,h2 a:focus,h2 a:hover{text-decoration:underline}button,legend,ul{padding:0}body>header:after,ul li:after,ul:after,ul:before{content:""}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,footer,header,menu,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline dotted}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;white-space:normal}progress{}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}
+
+.font-body,body{font:14px -apple-system-font,".Helvetica NeueUI","Helvetica Neue",sans-serif;}.font-subtitle,[role=footer],body>p,h2{font-size:14px;font-weight:400}.font-bold,b,strong{font-weight:600}.font-heading,body>header h1{font:-apple-system-headline}a,button{color:#6680F9;text-decoration:none}button{background:0 0;margin:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}.subpixel-line,body>header:after,hr,ul li:after,ul:after,ul:before{display:block;width:100%;height:1px;background:#c8c7cc}.has-subpixel .subpixel-line,.has-subpixel body>header:after,.has-subpixel hr,.has-subpixel ul li:after,.has-subpixel ul:after,.has-subpixel ul:before,ul .has-subpixel li:after{height:.5px}.has-subpixel-3x .subpixel-line,.has-subpixel-3x body>header:after,.has-subpixel-3x hr,.has-subpixel-3x ul li:after,.has-subpixel-3x ul:after,.has-subpixel-3x ul:before,ul .has-subpixel-3x li:after{height:.33px}html{background:#efeff5}html .depiction{background:0 0}body{margin:20px 0 35px}.cydia body{margin-top:35px}.depiction body{margin-top:0;margin-bottom:0}@media (min-width:708px){#content{width:708px;margin:0 auto}}@media (min-width:964px){#content{width:964px}}[role=footer],body>p,h2{margin:15px;color:#6d6d72}@media (min-width:708px){[role=footer],body>p,h2{margin-left:0;margin-right:0}ul{border-radius:4px}}h2{text-transform:uppercase;margin-bottom:5px}h2 a{color:inherit}body>header{position:fixed;top:0;left:0;width:100%;height:44px;z-index:10;background:rgba(246,246,248,.85);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}body>header:after{position:absolute;left:0;bottom:0}ul,ul li{position:relative}.cydia body>header{display:none}.cydia body>header+p{margin-top:-20px}body>header h1{margin:0;text-align:center;font-size:18px;line-height:44px}ul{margin:5px 0 35px;list-style:none;background:#fff}ul:after,ul:before{position:absolute;left:0}ul:before{top:0}ul:after{bottom:0}ul li{margin-left:15px;margin-bottom:-1px;padding:12px 15px 12px 0}ul li:after{position:absolute;top:0;left:0}ul li:first-child:after{background:0 0}@media (min-width:708px){ul:after,ul:before{display:none}ul li:first-child,ul li:first-child [role=button],ul li:first-child [role=link],ul li:first-child p{border-top-left-radius:4px;border-top-right-radius:4px}ul li:last-child,ul li:last-child [role=button],ul li:last-child [role=link],ul li:last-child p{border-bottom-left-radius:4px;border-bottom-right-radius:4px}}ul li [role=button],ul li [role=link],ul li p{padding:12px 15px;margin:-12px -15px}ul li.has-icon{margin-left:59px}ul li.has-icon [role=button],ul li.has-icon [role=link],ul li.has-icon p{margin-left:-59px;padding-left:59px}ul li .icon{position:absolute;top:10px;left:15px;width:29px;height:29px}ul li [role=button],ul li [role=link]{display:block;padding-right:30px;-webkit-tap-highlight-color:transparent;position:relative;z-index:2}ul li [role=button]:active,ul li [role=button]:focus,ul li [role=link]:active,ul li [role=link]:focus{background-color:#d9d9d9}ul li [role=button]:after,ul li [role=link]:after{content:"";display:block;background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NSIgaGVpZ2h0PSI5OSI+PHBvbHlnb24gcG9pbnRzPSIzNC43LDQ5LjcgMCw4NC40IDE1LjEsOTkuNSA2NC44LDQ5LjcgNDkuNywzNC43IDE1LjEsMCAwLDE1LjEiIHN0eWxlPSJmaWxsOiNjN2M3Y2MiLz48L3N2Zz4=);position:absolute;top:50%;right:15px;width:10px;height:13px;margin-top:-7px;background-size:100% 100%}ul li>button{font:inherit;width:100%;text-align:left}ul li .pull-in{vertical-align:top}@media (max-width:321px){ul li .pull-in{margin:-11px -15px}}ul+[role=footer],ul+p{margin-top:-25px}#credits{color:black;}
+
+#screenshot img {
+	display: inline-block;
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: 320px;
+}
+#screenshot {
+	-webkit-overflow-scrolling:touch;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	height:350px;
+}
+.value {
+    color: #777;
+    float: right;
+    text-align: right;
+    margin-left: 8px;
+}
+
+.icon_ {
+    width: 2em;
+    height: 2em;
+    border-radius: 20%;
+}
+
+.infopkg > li > p {
+    overflow: auto;
+}
+.bg-white {
+    background-color: #ffffff;
+}
+
+ul > li > a > label {
+    margin-left: .5em;
+}
+.has-icon_:before {
+    content: '>';
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-100%, -50%);
+	color: rgba(0, 0, 0, .5);
+	font-weight: bold;
+}
+	</style>
+	<script>
+!function(e,i){"object"==typeof exports&&"undefined"!=typeof module?module.exports=i():"function"==typeof define&&define.amd?define(i):(e=e||self).filesize=i()}(this,(function(){"use strict";const e=/^(b|B)$/,i={iec:{bits:["b","Kib","Mib","Gib","Tib","Pib","Eib","Zib","Yib"],bytes:["B","KiB","MiB","GiB","TiB","PiB","EiB","ZiB","YiB"]},jedec:{bits:["b","Kb","Mb","Gb","Tb","Pb","Eb","Zb","Yb"],bytes:["B","KB","MB","GB","TB","PB","EB","ZB","YB"]}},b={iec:["","kibi","mebi","gibi","tebi","pebi","exbi","zebi","yobi"],jedec:["","kilo","mega","giga","tera","peta","exa","zetta","yotta"]};function t(t,o={}){if(isNaN(t))throw new TypeError("Invalid number");let n=[],a=0,B=!0===o.bits,r=!0===o.unix,d=o.base||2,s=void 0!==o.round?o.round:r?1:2,c=void 0!==o.locale?o.locale:"",f=o.localeOptions||{},u=void 0!==o.separator?o.separator:"",y=void 0!==o.spacer?o.spacer:r?"":" ",M=o.symbols||{},h=2===d&&o.standard||"jedec",l=o.output||"string",m=!0===o.fullform,p=o.fullforms instanceof Array?o.fullforms:[],v=void 0!==o.exponent?o.exponent:-1,j=Number(t),N=j<0,g=d>2?1e3:1024;return N&&(j=-j),(-1===v||isNaN(v))&&(v=Math.floor(Math.log(j)/Math.log(g)))<0&&(v=0),v>8&&(v=8),"exponent"===l?v:(0===j?(n[0]=0,n[1]=r?"":i[h][B?"bits":"bytes"][v]):(a=j/(2===d?Math.pow(2,10*v):Math.pow(1e3,v)),B&&(a*=8)>=g&&v<8&&(a/=g,v++),n[0]=Number(a.toFixed(v>0?s:0)),n[0]===g&&v<8&&void 0===o.exponent&&(n[0]=1,v++),n[1]=10===d&&1===v?B?"kb":"kB":i[h][B?"bits":"bytes"][v],r&&(n[1]="jedec"===h?n[1].charAt(0):v>0?n[1].replace(/B$/,""):n[1],e.test(n[1])&&(n[0]=Math.floor(n[0]),n[1]=""))),N&&(n[0]=-n[0]),n[1]=M[n[1]]||n[1],!0===c?n[0]=n[0].toLocaleString():c.length>0?n[0]=n[0].toLocaleString(c,f):u.length>0&&(n[0]=n[0].toString().replace(".",u)),"array"===l?n:(m&&(n[1]=p[v]?p[v]:b[h][v]+(B?"bit":"byte")+(1===n[0]?"":"s")),"object"===l?{value:n[0],symbol:n[1]}:n.join(y)))}return t.partial=e=>i=>t(i,e),t}));
+
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t((e=e||self).timeago={})}(this,function(e){"use strict";var c=[60,60,24,7,365/7/12,12];function n(e){return e instanceof Date?e:!isNaN(e)||/^\d+$/.test(e)?new Date(parseInt(e)):(e=(e||"").trim().replace(/\.\d+/,"").replace(/-/,"/").replace(/-/,"/").replace(/(\d)T(\d)/,"$1 $2").replace(/Z/," UTC").replace(/([+-]\d\d):?(\d\d)/," $1$2"),new Date(e))}function f(e,t){for(var n=e<0?1:0,r=e=Math.abs(e),a=0;e>=c[a]&&a<c.length;a++)e/=c[a];return(0===(a*=2)?9:1)<(e=~~e)&&(a+=1),t(e,a,r)[n].replace("%s",e)}function d(e,t){return(+(t=t?n(t):new Date)-+n(e))/1e3}var r=["second","minute","hour","day","week","month","year"];function t(e,t){if(0===t)return["just now","right now"];var n=r[~~(t/2)];return 1<e&&(n+="s"),[e+" "+n+" ago","in "+e+" "+n]}var a=["秒","分钟","小时","天","周","个月","年"];function i(e){return o[e]||t}var o={en_US:t,zh_CN:function(e,t){if(0===t)return["刚刚","片刻后"];var n=a[~~(t/2)];return[e+" "+n+"前",e+" "+n+"后"]}},s="timeago-id";function l(e){return parseInt(e.getAttribute(s))}var p={},v=function(e){clearTimeout(e),delete p[e]};function h(e,t,n,r){v(l(e));var a=r.relativeDate,i=r.minInterval,o=d(t,a);e.innerText=f(o,n);var u=setTimeout(function(){h(e,t,n,r)},Math.min(1e3*Math.max(function(e){for(var t=1,n=0,r=Math.abs(e);e>=c[n]&&n<c.length;n++)e/=c[n],t*=c[n];return r=(r%=t)?t-r:t,Math.ceil(r)}(o),i||1),2147483647));p[u]=0,function(e,t){e.setAttribute(s,t)}(e,u)}e.cancel=function(e){e?v(l(e)):Object.keys(p).forEach(v)},e.format=function(e,t,n){return f(d(e,n&&n.relativeDate),i(t))},e.register=function(e,t){o[e]=t},e.render=function(e,t,n){var r=e.length?e:[e];return r.forEach(function(e){h(e,function(e){return e.getAttribute("datetime")}(e),i(t),n||{})}),r},Object.defineProperty(e,"__esModule",{value:!0})});
+
+function iOSVer() {
+	var match = (navigator.appVersion).split('OS ');
+	if (match.length > 1)
+		return match[1].split(' ')[0].split('_').join('.')
+	return false
+}
+function iOSToArray (str) {
+    return my.trim(str)
+    		.replace(/\s/g, '')
+    		.split(',')
+}
+function checkVers (f) {
+    var e = iOSVer().split('.')[0]
+	return iOSToArray(f)
+	.some(function(g) {
+	    if (g.indexOf('+') > -1)
+	    	return parseInt(g) <= (e - 0);
+	    if (g.split('.')[0] === e)
+	    	return true;
+	})
+}
+
+var json = JSON.parse(my.getText("./all.pkgs")).sort(function (a, b) {
+     return b.Time - a.Time
+}) 
+var href = location.href
+var isRQ = href.indexOf("?")
+var id, os = "all"
+var infoSimple
+if (isRQ > -1) {
+	href = href.slice(isRQ + 1)
+			.split('&')
+			.map(function (val) {
+    			return val.split('=')
+			});
+	my.each(href, function (val, val) {
+		if (val[0] === "goto")
+    		id = val.slice(1)
+    				.join('=')
+		if (val[0] === "os")
+    		os = val.slice(1)
+					.join('=')
+	})
+	my.each(json, function (key, val) {
+		if (val.Package === id) {
+    		infoSimple = val
+    		return false
+    	}
+	})
+	my.getText("./compatity.txt")
+	.split("\n").map(function (e) {
+		e = e.split(' ')
+		if (e[0] === id)
+			os = e.slice(1).join(" ");
+	})
+	init()
+}
+
+
+function init () {
+my('#iOS-ver').text(iOSVer())
+
+
+my('#complity').html("Support for iOS " + os)
+
+if (os === "all" || checkVers(os))
+	my('#complity').bg('#00ff24')
+else my('#complity').bg('#ff0024')
+
+my('#tweak-name').text(infoSimple.Name)
+my('#pkg_name').text(infoSimple.Name)
+my('#pkg_id').text(infoSimple.Package)
+my('#pkg_section').text(infoSimple.Section)
+my('#pkg_version').text(infoSimple.Version)
+my('#pkg_size').text(filesize(infoSimple.Size - 0))
+my('#pkg_time').text(timeago.format(infoSimple.Time - 0))
+my('#pkg_arch').text(infoSimple.Arch)
+my('#pkg_author').text(infoSimple.Author)
+my('#pkg_depends').text(infoSimple.Depends)
+my('#descript').text(infoSimple.Descript)
+
+}
+
+loadRecentUpdates()
+
+function loadRecentUpdates () {
+	var htmlnews = "";
+	var count = 0, leng = json.length, tmp
+	for (; count < 5 && count < leng; count++) {
+		var urlOpen = "cydia://package/" + json[count].Package
+		if (navigator.userAgent.search(/Cydia/) === -1)
+			urlOpen = location.protocol + "//" + location.hostname + "/description.html?goto=" + json[count].Package;
+		tmp = encodeURI(
+			json[count].Section
+		)
+
+		htmlnews +=  "\
+		<li class=has-icon_>\
+			<a href='" + urlOpen + "' target=_blank>\
+				<img class=icon_ src=/icons/" + tmp + ".png />\
+				<label>" + json[count].Name + " ~ v" + json[count].Version + "</label>\
+			</a>\
+		</li>"
+	}
+	my("#last_update")
+	.html(htmlnews)
+}
+
+	</script>
+	</body>
+</html>
