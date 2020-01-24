@@ -1604,7 +1604,7 @@ Author: Rishanan
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.springplus
 Homepage: https://nguyenthanh1995.github.io/
 
-Package: com.noeliel.statuspeek2
+Package: git.shin.statuspeek2
 Section: Tweaks
 Maintainer: nguyenthanh
 Architecture: iphoneos-arm
@@ -1612,10 +1612,10 @@ Version: 2.0b
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.noeliel.statuspeek
 Filename: ./debs/statuspeek2.deb
-Size: 46406
-MD5sum: b6aef90914a26fd68887991d6cc4e363
-SHA1: f839d432ead04624f91a12962960338bd05febb8
-SHA256: 41bcc2cc12b599c401b37d91d4a8b111f68744c1b7dcd8dbaf48577ff8264687
+Size: 46416
+MD5sum: 75e6b33853038b1cd11bfb9d948ab2c0
+SHA1: ba6e7357d73abcde5e18a8d9ca8ee1380d4f82b3
+SHA256: cb50014f5ab399b0d0b59af41ed211dd403ef5a12eb472275ca7ccf11cd611a1
 Description: NC grabber as it was meant to be, round 2.
 Author: Noeliel <noelieldev@gmail.com>
 Name: StatusPeek 2 (iOS 10)

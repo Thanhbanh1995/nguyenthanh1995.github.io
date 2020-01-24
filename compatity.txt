@@ -100,5 +100,5 @@ git.shin.autolowpowermode all
 git.shin.smallerccbuttons all
 git.shin.statusvolx 8, 9, 10
 git.shin.swipedownforactivator 8, 9, 10, 11
-com.noeliel.statuspeek2 10
+git.shin.statuspeek2 10
 git.shin.tinybar 8, 9, 10
