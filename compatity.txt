@@ -92,3 +92,7 @@ git.shin.smarttapxs 11, 12, 13
 git.shin.iwidgets 8, 9, 10
 git.shin.lockhtml4 7, 8, 9, 10
 git.shin.wethr all
+git.shin.apppercent 8, 9, 10
+git.shin.ccrecorder 10
+git.shin.cydiainstall 10+
+git.shin.force3dappshortcuts 10

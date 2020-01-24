@@ -159,6 +159,28 @@ Author: Enea Gjoka
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.apphub
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.apppercent
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 2.0.2
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader, net.limneos.libbulletin
+Filename: ./debs/apppercent.deb
+Size: 23018
+MD5sum: dff84634fa1022c3fa312441d6b2d17d
+SHA1: 7f3145186d39896f6ca0d8378c20d24e5c03ba31
+SHA256: a8ad9203501b9da32f98a29c7f3f1fc03dffd0765dc7637c4ba13b025d9cb879
+Description: Apps Installation in Percent (%) and Notification
+Name: App Percent
+Sponsor: nguyenthanh
+Author: pxcex <pxcex@icloud.com>
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+dev: pxcex
+Icon: file:///Library/PreferenceBundles/AppPercent.bundle/AppPercent@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.apppercent
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.aquaboard8
 Section: Tweaks
 Architecture: iphoneos-arm
@@ -452,6 +474,27 @@ Icon: file:///Library/PreferenceBundles/CallBar.bundle/CallBar@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.callbar7
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.ccrecorder
+Priority: optional
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.2.2
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: ./debs/ccrecorder.deb
+Size: 131256
+MD5sum: af57f141e52b5776e3d97c81ccd6f16e
+SHA1: a882aaa0bdd89a6bac5dc0e8e341341d55a533e7
+SHA256: 0385fceecb39bc7ee62e59e5f4b90e25a929b88758daeb2d5c612fba366e394b
+Description: Record Your Screen From The Control Center...
+Name: CCRecorder (iOS 10)
+Sponsor: nguyenthanh
+Author: @ijapija00 <support@ijapija00.com>
+Tag: purpose::extension, compatible::ios10
+dev: ijapija00
+Icon: file:///Library/PreferenceBundles/CCRecorder.bundle/Icon@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ccrecorder
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.cercube
 Priority: optional
 Section: Tweaks
@@ -625,6 +668,23 @@ Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, 
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.customloadingtext
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.cydiainstall
+Section: Utilities
+Maintainer: D4ni <mail@d4ni.nl>
+Architecture: iphoneos-arm
+Version: 2.1
+Depends: firmware (>= 10.0)
+Filename: ./debs/cydiainstall.deb
+Size: 1811988
+MD5sum: 99191657968e730eb3a4c1f1ac511e80
+SHA1: 328dcb70e90e5f363558c192cad76f90c5a2d481
+SHA256: 630038462ed776cf9f2b0ab86aa4e10f4ce5a8d04f47a2cad02a1860ac51380c
+Description: Re-Install Cydia if Cydia Error.
+Name: Cydia Failsafe
+Author: D4ni <mail@d4ni.nl>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cydiainstall
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.cylinder
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -763,6 +823,26 @@ dev: acapulco1988
 Tag: purpose::extension, compatible::ios9, compatible::ios10
 Icon: file:///Applications/Flex.app/AppIcon29x29@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.johncoates.Flex3
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.force3dappshortcuts
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.0.4-1
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Filename: ./debs/force3d.deb
+Size: 31220
+MD5sum: 50f1337b74f272f39de21b7656be253c
+SHA1: f8928668783704b7275de326b593eb19f629655d
+SHA256: e9b866a229e6db82da80939d6c6ee5676566d2389736f0c8af2547326b580129
+Description: Enable 3D touch shortcuts on homescreen for older devices.
+Name: Force3DAppShortcuts
+Author: DGh0st <deeppwnage@yahoo.com>
+dev: dgh0st
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Icon: file:///Library/PreferenceBundles/Force3DAppShortcuts.bundle/icon@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.force3dappshortcuts
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.gamegem10.3
