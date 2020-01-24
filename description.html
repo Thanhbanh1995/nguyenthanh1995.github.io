@@ -92,13 +92,13 @@
 					<ul class="bg-white">
 	<li class=has-icon_>
 		<a href="https://github.com/nguyenthanh1995" target="_blank">
-			<img src="/icons/github.png" class="icon_"/>
+			<img src="icons/github.png" class="icon_"/>
 			<label>GitHub</label>
 		</a>
 	</li>
 	<li class=has-icon_>
 		<a href="https://twitter.com/NguyenThanhDev" target="_blank">
-			<img src="/icons/twitter.png" class="icon_"/>
+			<img src="icons/twitter.png" class="icon_"/>
 			<label>Follow NguyenThanhDev</label>
 		</a>
 	</li>
@@ -387,7 +387,7 @@ function loadRecentUpdates () {
 		<li class=has-icon_>\
 			<p>\
 				<a href='" + urlOpen + "' target=_blank>\
-					<img class=icon_ src=/icons/" + tmp + ".png />\
+					<img class=icon_ src=icons/" + tmp + ".png />\
 					<label>" + json[count].Name + " ~ v" + json[count].Version + "</label>\
 				</a>\
 			</p>\
@@ -396,6 +396,7 @@ function loadRecentUpdates () {
 	my("#last_update")
 	.html(htmlnews)
 }
+
 loadListType()
 
 function loadListType ($html) {
@@ -499,7 +500,7 @@ function loadInfoPkg (e) {
 	})
 	my("#browser-pkg").html($html)
 }
- 
+
 	</script>
 	</body>
 </html>
