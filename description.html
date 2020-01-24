@@ -50,6 +50,12 @@
 					</div>
 				</div>
 			</div>
+			<div id=__warning hidden class="row mt-3">
+				<div class=col>
+					<div class="my-1 alert alert-danger" role=alert id=warning>
+					</div>
+				</div>
+			</div> 
 			<div class="row mt-3" id=package-info>
 				<div class=col>
 					<h6 class="text-uppercase text-secondary">Package info</h6>
@@ -366,7 +372,6 @@ else {
 function init () {
 my('#iOS-ver').text(iOSVer())
 
-
 my('#complity').html("Support for iOS " + os)
 
 if (os === "unknown")
@@ -374,6 +379,12 @@ if (os === "unknown")
 else if (os === "all" || checkVers(os))
 	my('#complity').bg('#00ff24')
 else my('#complity').bg('#ff0024')
+
+if (typeof infoSimple !== "object" || my.isEmptyObj(infoSimple)) {
+	my("#__warning").unAttr("hidden").find("#warning").text("Can't find info tweak " + id)
+	my('#descript').text("Description not exists in the this request!")
+        return;
+} 
 
 my('#tweak-name').text(infoSimple.Name)
 my('#pkg_name').text(infoSimple.Name)
