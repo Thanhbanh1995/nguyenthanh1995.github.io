@@ -36,7 +36,7 @@
 			<div class=row>
 				<div class=col>
 					<h6 class="text-uppercase text-secondary" id=tweak-name></h6>
-					<div style="height: 2rem; line-height: 2rem; background: #00ff24"
+					<div style="height: 2rem; line-height: 2rem; background: #ff0024"
 " class="w-100 text-center align-middle font-italic" id=complity></div>
 					<p class="small text-secondary text-center mt-1">
 						Current iOS <span id=iOS-ver></span>
@@ -303,7 +303,9 @@ function iOSToArray (str) {
     		.split(',')
 }
 function checkVers (f) {
-    var e = iOSVer().split('.')[0]
+    var e = iOSVer()
+    if (e === false) return;
+    e = e.split('.')[0]
 	return iOSToArray(f)
 	.some(function(g) {
 	    if (g.indexOf('+') > -1)
@@ -317,7 +319,7 @@ var json = JSON.parse(my.getText("./all.pkgs")).sort(function (a, b) {
 }) 
 var href = location.href
 var isRQ = href.indexOf("?")
-var id, os = "all"
+var id, os = "unknown"
 var infoSimple
 if (isRQ > -1) {
 	href = href.slice(isRQ + 1)
@@ -367,7 +369,9 @@ my('#iOS-ver').text(iOSVer())
 
 my('#complity').html("Support for iOS " + os)
 
-if (os === "all" || checkVers(os))
+if (os === "unknown")
+	my('#complity').bg('#ffff24')
+else if (os === "all" || checkVers(os))
 	my('#complity').bg('#00ff24')
 else my('#complity').bg('#ff0024')
 
