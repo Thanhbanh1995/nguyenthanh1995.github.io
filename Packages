@@ -1604,6 +1604,28 @@ Author: Rishanan
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.springplus
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: com.noeliel.statuspeek2
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 2.0b
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.noeliel.statuspeek
+Filename: ./debs/statuspeek2.deb
+Size: 46406
+MD5sum: b6aef90914a26fd68887991d6cc4e363
+SHA1: f839d432ead04624f91a12962960338bd05febb8
+SHA256: 41bcc2cc12b599c401b37d91d4a8b111f68744c1b7dcd8dbaf48577ff8264687
+Description: NC grabber as it was meant to be, round 2.
+Author: Noeliel <noelieldev@gmail.com>
+Name: StatusPeek 2 (iOS 10)
+Sponsor: nguyenthanh
+dev: noeliel
+Tag: cydia::commercial, purpose::extension, compatible::ios10
+Icon: file:///Library/PreferenceBundles/StatusPeek2Prefs.bundle/StatusPeek2Prefs@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.noeliel.statuspeek2
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.statusvolx
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -1677,6 +1699,24 @@ Name: Tage
 Author: Ma Jun
 Icon: file:////Library/PreferenceBundles/TageSettings.bundle/Icon-small@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.tage
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.tinybar
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.2.0
+Depends: firmware (>= 7.0.2), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/tinybar.deb
+Size: 92930
+MD5sum: 417bd689b21b9174bcc41551c977aaa8
+SHA1: b825d14df942d9ca3281406bc7f202d996c140c9
+SHA256: 36969e3aaabe0c7b7495614b4b79b9a5b1219e0af0c31bd8e1de29a7e6efdca9
+Description: Thins notification banners down to size!
+Name: TinyBar (iOS)
+Author: Michele Primavera
+Sponsor: nguyenthanh
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.tinybar
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.transparentcamerabar
