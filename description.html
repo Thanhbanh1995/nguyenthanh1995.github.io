@@ -421,6 +421,8 @@ function loadRecentUpdates ($s) {
 	.html(function (e) {
 	    return e + htmlnews
 	})
+   if (count >= leng)
+       my("#more-tweak-update").css("opacity", 0.5);
 }
 
 loadListType()
@@ -471,12 +473,11 @@ function loadListType ($html) {
 	}
    
    my("#browser-pkg").html($html)
-   
+   my("#more-browser-pkg")
+   		.css("opacity", 1)
    if (i >= length)
    		my("#more-browser-pkg")
    		.css("opacity", .5)
-   		.off("click")
-   		
 }
 
 my("#more-browser-pkg")
