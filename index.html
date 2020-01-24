@@ -37,8 +37,20 @@
 					<ul class="bg-white infopkg mb-0" id="last_update">
 
 					</ul>
-					<button id=more-tweak-update style="margin-bottom: 35px" class="mt-2 btn btn-sm float-right">
-						<img src="./icons/add.png" class="icon_"/>
+					<button id=more-tweak-update class="float-right no-app border-0 mt-2 mb-3">
+						<img src="./icons/add.png" class="icon__"/>
+						<label>More</label>
+					</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class=col>
+					<h6 class="text-uppercase text-secondary">Browser packages</h6>
+					<ul class="bg-white infopkg mb-0" id="browser-pkg">
+
+					</ul>
+					<button id=more-browser-pkg class="float-right no-app border-0 mt-2 mb-3">
+						<img src="icons/add.png" class="icon__"/>
 						<label>More</label>
 					</button>
 				</div>
@@ -111,6 +123,11 @@ body{font:14px -apple-system-font,".Helvetica NeueUI","Helvetica Neue",sans-seri
 	height: 2em;
 	border-radius: 20%;
 }
+.icon__ {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 20%;
+}
 
 .infopkg > li > p {
 	overflow: auto;
@@ -175,6 +192,116 @@ function loadRecentUpdates ($s) {
 	.html(function (e) {
 	    return e + htmlnews
 	})
+   if (count >= leng)
+       my("#more-tweak-update").css("opacity", 0.5);
+}
+
+loadListType()
+
+function loadListType ($html) {
+   my("#more-browser-pkg").unAttr("hidden")
+   my("#browser-pkg").addClass("mb-0")
+   var ls = []
+	json.forEach(function (e) {
+       	if (my.isEmptyObj(e))
+       		return;
+       	if (!ls.some(function (f) {
+       	    if (f.type === e.Section)
+				return f.pkg.push(e), true
+			
+       	})) ls.push({
+       	    type: e.Section,
+       	    pkg: [e]
+       	})
+   })
+   
+   ls = ls.sort(function (a, b) {
+       return (a.type || '').charCodeAt(0) - (b.type || '').charCodeAt(0)
+   })
+
+   var $s = (my("#browser-pkg").data("count") || 0) - 0
+   var i = $s, length = ls.length
+   var tmp;
+
+   if ($html === undefined)
+   		$html = "";
+   for (;i < length && i < $s + 5; i++) {
+		tmp = encodeURI(
+			ls[i].type ?
+			ls[i].type : 
+			"unknown"
+		)
+		
+		$html +=  "\
+		<li class=has-icon_>\
+			<p>\
+				<button class=\"no-app border-0\" onclick=loadInfoPkg(this) data-name=" + tmp + " data-pkg=\"" + encodeURIComponent(JSON.stringify(ls[i].pkg)) + "\">\
+					<img class=icon_ src=icons/" + tmp + ".png />\
+					<label>" + decodeURIComponent(tmp) + " (" + ls[i].pkg.length + ")" + "</label>\
+				</button>\
+			</p>\
+		</li>"
+	}
+   
+   my("#browser-pkg").html($html)
+   my("#more-browser-pkg")
+   		.css("opacity", 1)
+   if (i >= length)
+   		my("#more-browser-pkg")
+   		.css("opacity", .5)
+}
+
+my("#more-browser-pkg")
+.click(function () {
+    my("#browser-pkg")
+    .data("count", function (e) {
+        return (e || 0) - 0 + 5
+    })
+
+    loadListType(
+    	my("#browser-pkg").html()
+    )
+})
+
+function loadInfoPkg (e) {
+    my("#browser-pkg")
+    .removeClass("mb-0")
+    .data("count", 0)
+    my("#more-browser-pkg").attr("hidden", true)
+    var json = JSON.parse(
+		decodeURIComponent(
+			my(e).data("pkg")
+		)
+	), $html = "\
+		<li class=has-icon_>\
+			<p>\
+				<button class=\"no-app border-0\" onclick=loadListType()>\
+					<img class=icon_ src=icons/back.png />\
+					<label>Back</label>\
+				</button>\
+			</p>\
+		</li>";
+	
+	json.forEach(function (e) {
+	    var urlOpen = "cydia://package/" + e.Package
+		if (navigator.userAgent.search(/Cydia/) === -1)
+			urlOpen = location.protocol + "//" + location.hostname + "/description.html?goto=" + e.Package;
+		tmp = encodeURI(
+			e.Section ?
+			e.Section : 
+			"unknown"
+		)
+	    $html += "\
+		<li class=has-icon_>\
+			<p>\
+				<a href=" + urlOpen + " target=_blank>\
+					<img class=icon_ src=icons/" + tmp + ".png />\
+					<label>" + e.Name + " - " + e.Version + "</label>\
+				</a>\
+			</p>\
+		</li>"
+	})
+	my("#browser-pkg").html($html)
 }
 
 	</script>
