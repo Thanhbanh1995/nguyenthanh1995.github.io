@@ -69,9 +69,13 @@
 			<div class="row">
 				<div class=col>
 					<h6 class="text-uppercase text-secondary">Package updates</h6>
-					<ul class="bg-white infopkg" id="last_update">
+					<ul class="bg-white infopkg mb-0" id="last_update">
 
 					</ul>
+					<button id=more-tweak-update style="margin-bottom: 35px" class="mt-2 btn btn-sm float-right">
+						<img src="./icons/add.png" class="icon_"/>
+						<label>More</label>
+					</button>
 				</div>
 			</div>
 			<div class="row">
@@ -178,6 +182,13 @@ ul > li > p > a > label {
     transform: translate(-100%, -50%);
 	color: rgba(0, 0, 0, .5);
 	font-weight: bold;
+.no-app {
+    appearance: translate(-100%, -50%);
+    -webkit-appearance: translate(-100%, -50%);
+    -moz-appearance: translate(-100%, -50%);
+    -ms-appearance: translate(-100%, -50%);
+    -o-appearance: translate(-100%, -50%);
+    border: 0 !important;
 }
 	</style>
 	<script>
@@ -368,12 +379,20 @@ my('#descript').text(infoSimple.Descript)
 
 }
 
-loadRecentUpdates()
+var $start = 0;
 
-function loadRecentUpdates () {
+my("#more-tweak-update")
+.click(function () {
+    $start += 5
+    loadRecentUpdates($start)
+})
+
+loadRecentUpdates($start)
+function loadRecentUpdates ($s) {
 	var htmlnews = "";
-	var count = 0, leng = json.length, tmp
-	for (; count < 5 && count < leng; count++) {
+	var count = $s, leng = json.length, tmp
+	for (; count < $s + 5 && count < leng; count++) {
+		if (my.isEmptyObject(json[count])) continue;
 		var urlOpen = "cydia://package/" + json[count].Package
 		if (navigator.userAgent.search(/Cydia/) === -1)
 			urlOpen = location.protocol + "//" + location.hostname + "/description.html?goto=" + json[count].Package;
@@ -387,20 +406,23 @@ function loadRecentUpdates () {
 		<li class=has-icon_>\
 			<p>\
 				<a href='" + urlOpen + "' target=_blank>\
-					<img class=icon_ src=icons/" + tmp + ".png />\
+					<img class=icon_ src=./icons/" + tmp + ".png />\
 					<label>" + json[count].Name + " ~ v" + json[count].Version + "</label>\
 				</a>\
 			</p>\
 		</li>"
 	}
 	my("#last_update")
-	.html(htmlnews)
+	.html(function (e) {
+	    return e + htmlnews
+	})
 }
 
 loadListType()
 
 function loadListType ($html) {
    my("#more-browser-pkg").unAttr("hidden")
+   my("#browser-pkg").addClass("mb-0")
    var ls = []
 	json.forEach(function (e) {
        	if (my.isEmptyObj(e))
@@ -435,10 +457,10 @@ function loadListType ($html) {
 		$html +=  "\
 		<li class=has-icon_>\
 			<p>\
-				<a href=# onclick=void(loadInfoPkg(this)) target=_blank data-name=" + tmp + " data-pkg=\"" + encodeURIComponent(JSON.stringify(ls[i].pkg)) + "\">\
+				<button class=\"no-app border-0\" onclick=loadInfoPkg(this) data-name=" + tmp + " data-pkg=\"" + encodeURIComponent(JSON.stringify(ls[i].pkg)) + "\">\
 					<img class=icon_ src=icons/" + tmp + ".png />\
 					<label>" + decodeURIComponent(tmp) + " (" + ls[i].pkg.length + ")" + "</label>\
-				</a>\
+				</button>\
 			</p>\
 		</li>"
 	}
@@ -458,12 +480,16 @@ my("#more-browser-pkg")
     .data("count", function (e) {
         return (e || 0) - 0 + 5
     })
+
     loadListType(
     	my("#browser-pkg").html()
     )
 })
 
 function loadInfoPkg (e) {
+    my("#browser-pkg")
+    .removeClass("mb-0")
+    .data("count", 0)
     my("#more-browser-pkg").attr("hidden", true)
     var json = JSON.parse(
 		decodeURIComponent(
@@ -472,10 +498,10 @@ function loadInfoPkg (e) {
 	), $html = "\
 		<li class=has-icon_>\
 			<p>\
-				<a href=# onclick=void(loadListType()) target=_blank>\
+				<button class=\"no-app border-0\" onclick=loadListType()>\
 					<img class=icon_ src=icons/back.png />\
 					<label>Back</label>\
-				</a>\
+				</button>\
 			</p>\
 		</li>";
 	
