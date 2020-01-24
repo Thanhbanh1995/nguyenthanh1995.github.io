@@ -274,6 +274,23 @@ Tag: purpose::x
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.aupm
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.autolowpowermode
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.0.1-2+debug
+Depends: mobilesubstrate
+Filename: ./debs/autolowpowermode.deb
+Size: 5380
+MD5sum: 377da76e4450f05771d4e5bbeb49069c
+SHA1: b55e5eaba84af4a7ab531225f114aa9f2b44350b
+SHA256: dc87d5bb843e4a2a4d9dbe2fd835c0281151972e1f9cac60a3d1bdf760e0550f
+Description: Automatically turn on Low Power Mode when device's battery is low.
+Name: AutoLowPowerMode
+Author: fidele007 <kforcefidele@yahoo.com>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.autolowpowermode
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.autotouch8
 Priority: optional
 Section: Tweaks
@@ -1454,6 +1471,23 @@ Author: shin-dev
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.slidetounlock10
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.smallerccbuttons
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.0.2
+Depends: mobilesubstrate, com.rpetrich.flipcontrolcenter
+Filename: ./debs/smallerccbuttons.deb
+Size: 4554
+MD5sum: 8d004f082bdeee913a981592b0ff86ce
+SHA1: f3eef8cce74b902eebed4be84a61e0c6ec3fab98
+SHA256: aa55cb50e9bd9ad7db5714f9999c53232c6deac75df71ccc4ac4c2ed9a6f0055
+Description: Make bottom CC buttons smaller (like stock iOS) for FlipControlCenter.
+Name: SmallerCCButtons
+Author: fidele007 <kforcefidele@yahoo.com>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smallerccbuttons
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.smarttap
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -1570,6 +1604,24 @@ Author: Rishanan
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.springplus
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.statusvolx
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.5-1+debug
+Depends: mobilesubstrate
+Conflicts: com.chewmieser.statusvol,com.chewmieser.statusvollite
+Filename: ./debs/statusvolx.deb
+Size: 57498
+MD5sum: 2331419a1819642f8c783052ea1ddb23
+SHA1: bbf010e8357eb89b198021de0786814389d7c5c6
+SHA256: 1700a30dcfda0c866bb6d95c0ffde385dc2d7fc05ebe92bbc4de5229de6cdea2
+Description: Volume HUD in your status bar
+Name: StatusVol X
+Author: Steven Rolfe
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.statusvolx
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.successionrestore
 Priority: optional
 Section: Restore
@@ -1590,6 +1642,23 @@ Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, comp
 dev: stgardner4
 Icon: file:///Applications/SuccessionRestore.app/AppIcon20x20@3x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.successionrestore
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.swipedownforactivator
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.2.1
+Depends: mobilesubstrate, libactivator, firmware (>= 9.0)
+Filename: ./debs/swipedownforactivator.deb
+Size: 37190
+MD5sum: e081921bd27729370be07b3f1484395f
+SHA1: a04790bcf30c3a7bd04d8845b341ebf8de0deb94
+SHA256: 5e9cfee8296344d703884ca6e24d4cd7c2765d163850d1efe5cbea618825acad
+Description: Trigger Activator actions by swiping down on SpringBoard (native spotlight invoker), swiping down and swiping up on default lock screen view.
+Name: Swipe for Activator
+Author: fidele007 <kforcefidele@yahoo.com>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.swipedownforactivator
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.tage

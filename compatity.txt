@@ -96,3 +96,7 @@ git.shin.apppercent 8, 9, 10
 git.shin.ccrecorder 10
 git.shin.cydiainstall 10+
 git.shin.force3dappshortcuts 10
+git.shin.autolowpowermode all
+git.shin.smallerccbuttons all
+git.shin.statusvolx 8, 9, 10
+git.shin.swipedownforactivator 8, 9, 10, 11
