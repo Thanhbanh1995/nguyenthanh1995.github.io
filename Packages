@@ -1283,6 +1283,26 @@ Icon: file:///Library/PreferenceBundles/Mypomonella.bundle/Mypomonella@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.cydiageek.mypomonella
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.otrlocation
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 5.9.2
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.rpetrich.rocketbootstrap (>= 1.0.6)
+Filename: https://dl.dropbox.com/s/jszppi5e4uluihz/otrlocation.deb?raw=1
+Size: 197424028
+MD5sum: c90dde3931c7e464b56aa3d93507d708
+SHA1: 4d06641c454f322ed1b8979b4c05b4ee43aafb59
+SHA256: 59b4ccfce3014390c3d2615a3be0be9f9952c81f55423b77ab7d5edb909221db
+Description: 完全免费的地址和设备型号修改神器!
+Author: onTheRoadStudio <ontheroadstudio@live.cn>
+Name: Anywhere!--虚拟定位
+dev: ontheroadstudio
+Icon: file:///Applications/OTRLocation.app/icon.png
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.otrlocation
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.pagebar
 Section: Tweaks
 Installed-Size: 1900
