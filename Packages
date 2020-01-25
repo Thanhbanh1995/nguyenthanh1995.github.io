@@ -1283,24 +1283,24 @@ Icon: file:///Library/PreferenceBundles/Mypomonella.bundle/Mypomonella@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.cydiageek.mypomonella
 Homepage: https://nguyenthanh1995.github.io/
 
-Package: git.shin.otrlocation
+Package: git.shin.otrlocationservirce
 Section: Tweaks
 Maintainer: nguyenthanh
 Architecture: iphoneos-arm
 Version: 5.9.2
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.rpetrich.rocketbootstrap (>= 1.0.6)
-Filename: https://dl.dropbox.com/s/jszppi5e4uluihz/otrlocation.deb?raw=1
-Size: 197424028
-MD5sum: c90dde3931c7e464b56aa3d93507d708
-SHA1: 4d06641c454f322ed1b8979b4c05b4ee43aafb59
-SHA256: 59b4ccfce3014390c3d2615a3be0be9f9952c81f55423b77ab7d5edb909221db
-Description: 完全免费的地址和设备型号修改神器!
+Filename: ./debs/otrlocationservirce-servirce.deb
+Size: 39430
+MD5sum: 70886bbe6788457ec09560d882811ca1
+SHA1: fa5972c69a2b5417b0f28605b3fc11841fce88cc
+SHA256: 601607131fa3e9b8e77d950fb346611662970ac7ab9d1e3d378ed8b5a3da36d5
+Description: Servirce support for Anywhere.ipa
 Author: onTheRoadStudio <ontheroadstudio@live.cn>
-Name: Anywhere!--虚拟定位
+Name: Anywhere Servirce
 dev: ontheroadstudio
 Icon: file:///Applications/OTRLocation.app/icon.png
 Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.otrlocation
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.otrlocationservirce
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.pagebar
