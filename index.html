@@ -256,7 +256,7 @@ function loadInfoPkg (e) {
 	my("#browser-pkg").html($html)
 }
 
-if (device.cookie.get("theme") === "dark")
+if (localStorage.get("theme") === "dark")
 	my("<link rel=stylesheet href=m-dark.css id=theme-dark></link>").appendTo("head");
 
 function themeToggle () {
@@ -265,10 +265,9 @@ function themeToggle () {
 		my("#theme-dark").remove(), theme = "light"
 	else my("<link rel=stylesheet href=m-dark.css id=theme-dark></link>").appendTo("head"), theme = "dark"
 
-	device.cookie.set("theme", theme, '+360day')
+	localStorage("theme", theme)
 	
 }
-
 	</script>
 	</body>
 </html>
