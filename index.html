@@ -103,7 +103,7 @@
 	</style>
 	<script>
 
-var json = JSON.parse(my.getText("/lb/Repo/all.pkgs")).sort(function (a, b) {
+var json = JSON.parse(my.getText("./all.pkgs")).sort(function (a, b) {
 	 return b.Time - a.Time
 }) 
 
