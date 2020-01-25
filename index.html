@@ -13,6 +13,9 @@
 <meta property="og:type" content="website">
 	<script src=./my.js></script>
 	<link rel=stylesheet href=css/bootstrap.min.css></link>
+	<link rel=stylesheet href=/lb/bootstrap.min.css></link>
+	<link rel=stylesheet href=main.css></link>
+	<link rel=stylesheet href=/lb/Repo/main.css></link>
 	<meta name=viewport content='width=device-width, initial-scale=1.0, user-scalable=no'/>
 <script src="/lb/my.js"></script>
 	</head>
@@ -21,8 +24,8 @@
 			<div id="open-cydia" class="row mt-3">
 				<div class=col>
 					<h6 class="text-uppercase text-secondary">NguyenThanh Repo</h6>
-		<ul class="bg-white infopkg">
-			<li class="has-icon_">
+		<ul class="bg-white">
+			<li>
 				<a id="open-cydia-url" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://nguyenthanh1995.github.io/">
 					<img src="icons/cydia7.png" class="icon_"/>
 					<label>Open Cydia</label>
@@ -35,11 +38,11 @@
 			<div class="row">
 				<div class=col>
 					<h6 class="text-uppercase text-secondary">Package updates</h6>
-					<ul class="bg-white infopkg mb-0" id="last_update">
+					<ul class="bg-white mb-0" id="last_update">
 
 					</ul>
 					<button id=more-tweak-update class="float-right no-app border-0 mt-2 mb-1">
-						<img src="./icons/add.png" class="icon__"/>
+						<i class="icon-more"></i>
 						<label>More</label>
 					</button>
 				</div>
@@ -47,11 +50,11 @@
 			<div class="row">
 				<div class=col>
 					<h6 class="text-uppercase text-secondary">Browser packages</h6>
-					<ul class="bg-white infopkg mb-0" id="browser-pkg">
+					<ul class="bg-white mb-0" id="browser-pkg">
 
 					</ul>
 					<button id=more-browser-pkg class="float-right no-app border-0 mt-2 mb-1">
-						<img src="icons/add.png" class="icon__"/>
+						<i class="icon-more"></i>
 						<label>More</label>
 					</button>
 				</div>
@@ -60,18 +63,30 @@
 				<div class=col>
 					<h6 class="text-uppercase text-secondary">Social</h6>
 					<ul class="bg-white">
-	<li class=has-icon_>
+	<li>
 		<a href="https://github.com/nguyenthanh1995" target="_blank">
 			<img src="./icons/github.png" class="icon_"/>
 			<label>GitHub</label>
 		</a>
 	</li>
-	<li class=has-icon_>
+	<li>
 		<a href="https://twitter.com/NguyenThanhDev" target="_blank">
 			<img src="./icons/twitter.png" class="icon_"/>
 			<label>Follow NguyenThanhDev</label>
 		</a>
 	</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class=col>
+					<h6 class="text-uppercase text-secondary">Theme</h6>
+					<ul class="bg-white">
+						<li>
+							<p>
+								<button class="no-app border-0" onclick=themeToggle()>Change Theme</button>
+							</p>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -84,75 +99,11 @@
 			</div>
 		</div>
 	<style type=text/css>
-* {
-	margin: 0;
-	padding: 0;
-}
-body {
-	background-color:#efeff5 /*rgb(245, 245, 250);*/
 
-}
-
-ul li:after,ul:after,ul:before{content:""}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}hr{box-sizing:content-box}a{background-color:transparent;-webkit-text-decoration-skip:objects}
-small{font-size:80%}img{border-style:none}button{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}
-
-body{font:14px -apple-system-font,".Helvetica NeueUI","Helvetica Neue",sans-serif;}.font-subtitle,[role=footer],.font-bold,b,strong{font-weight:600}.font-heading,a,button{color:#6680F9;text-decoration:none}button{background:0 0;margin:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}hr,ul li:after,ul:after,ul:before{display:block;width:100%;height:1px;background:#c8c7cc}body{margin:20px 0 35px}@media (min-width:708px){#content{width:708px;margin:0 auto}}@media (min-width:964px){#content{width:964px}}[role=footer],body>p,h2{margin:15px;color:#6d6d72}@media (min-width:708px){[role=footer],body>p,h2{margin-left:0;margin-right:0}ul{border-radius:4px}}h2{text-transform:uppercase;margin-bottom:5px}h2 a{color:inherit}body>header{position:fixed;top:0;left:0;width:100%;height:44px;z-index:10;background:rgba(246,246,248,.85);-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}body>header:after{position:absolute;left:0;bottom:0}ul,ul li{position:relative}.cydia body>header{display:none}.cydia body>header+p{margin-top:-20px}body>header h1{margin:0;text-align:center;font-size:18px;line-height:44px}ul{margin:5px 0 35px;list-style:none;background:#fff}ul:after,ul:before{position:absolute;left:0}ul:before{top:0}ul:after{bottom:0}ul li{margin-left:15px;margin-bottom:-1px;padding:12px 15px 12px 0}ul li:after{position:absolute;top:0;left:0}ul li:first-child:after{background:0 0}@media (min-width:708px){ul:after,ul:before{display:none}ul li:first-child,ul li:first-child [role=button],ul li:first-child [role=link],ul li:first-child p{border-top-left-radius:4px;border-top-right-radius:4px}ul li:last-child,ul li:last-child [role=button],ul li:last-child [role=link],ul li:last-child p{border-bottom-left-radius:4px;border-bottom-right-radius:4px}}ul li [role=button],ul li [role=link],ul li p{padding:12px 15px;margin:-12px -15px}ul li.has-icon{margin-left:59px}ul li.has-icon [role=button],ul li.has-icon [role=link],ul li.has-icon p{margin-left:-59px;padding-left:59px}ul li .icon{position:absolute;top:10px;left:15px;width:29px;height:29px}ul li [role=button],ul li [role=link]{display:block;padding-right:30px;-webkit-tap-highlight-color:transparent;position:relative;z-index:2}ul li [role=button]:active,ul li [role=button]:focus,ul li [role=link]:active,ul li [role=link]:focus{background-color:#d9d9d9}ul li [role=button]:after,ul li [role=link]:after{content:"";display:block;background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NSIgaGVpZ2h0PSI5OSI+PHBvbHlnb24gcG9pbnRzPSIzNC43LDQ5LjcgMCw4NC40IDE1LjEsOTkuNSA2NC44LDQ5LjcgNDkuNywzNC43IDE1LjEsMCAwLDE1LjEiIHN0eWxlPSJmaWxsOiNjN2M3Y2MiLz48L3N2Zz4=);position:absolute;top:50%;right:15px;width:10px;height:13px;margin-top:-7px;background-size:100% 100%}ul li>button{font:inherit;width:100%;text-align:left}ul li .pull-in{vertical-align:top}@media (max-width:321px){ul li .pull-in{margin:-11px -15px}}ul+[role=footer],ul+p{margin-top:-25px}#credits{color:black;}
-
-#screenshot img {
-	display: inline-block;
-	max-width: 100%;
-	max-height: 100%;
-	width: auto;
-	height: 320px;
-}
-#screenshot {
-	-webkit-overflow-scrolling:touch;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	white-space: nowrap;
-	height:350px;
-}
-.value {
-	color: #777;
-	float: right;
-	text-align: right;
-	margin-left: 8px;
-}
-
-.icon_ {
-	width: 2em;
-	height: 2em;
-	border-radius: 20%;
-}
-.icon__ {
-    width: 1.5em;
-    height: 1.5em;
-    border-radius: 20%;
-}
-
-.infopkg > li > p {
-	overflow: auto;
-}
-.bg-white {
-	background-color: #ffffff;
-}
-ul > li > a > label,
-ul > li > p > a > label {
-	margin-left: .5em;
-}
-.has-icon_:before {
-	content: '>';
-	position: absolute;
-	top: 50%;
-	left: 95%;
-	transform: translate(-100%, -50%);
-	color: rgba(0, 0, 0, .5);
-	font-weight: bold;
-}
 	</style>
 	<script>
 
-var json = JSON.parse(my.getText("./all.pkgs")).sort(function (a, b) {
+var json = JSON.parse(my.getText("/lb/Repo/all.pkgs")).sort(function (a, b) {
 	 return b.Time - a.Time
 }) 
 
@@ -180,7 +131,7 @@ function loadRecentUpdates ($s) {
 		)
 		
 		htmlnews +=  "\
-		<li class=has-icon_>\
+		<li>\
 			<p>\
 				<a href='" + urlOpen + "' target=_blank>\
 					<img class=icon_ src=./icons/" + tmp + ".png />\
@@ -234,7 +185,7 @@ function loadListType ($html) {
 		)
 		
 		$html +=  "\
-		<li class=has-icon_>\
+		<li>\
 			<p>\
 				<button class=\"no-app border-0\" onclick=loadInfoPkg(this) data-name=" + tmp + " data-pkg=\"" + encodeURIComponent(JSON.stringify(ls[i].pkg)) + "\">\
 					<img class=icon_ src=icons/" + tmp + ".png />\
@@ -274,7 +225,7 @@ function loadInfoPkg (e) {
 			my(e).data("pkg")
 		)
 	), $html = "\
-		<li class=has-icon_>\
+		<li>\
 			<p>\
 				<button class=\"no-app border-0\" onclick=loadListType()>\
 					<img class=icon_ src=icons/back.png />\
@@ -293,7 +244,7 @@ function loadInfoPkg (e) {
 			"unknown"
 		)
 	    $html += "\
-		<li class=has-icon_>\
+		<li>\
 			<p>\
 				<a href=" + urlOpen + " target=_blank>\
 					<img class=icon_ src=icons/" + tmp + ".png />\
@@ -303,6 +254,19 @@ function loadInfoPkg (e) {
 		</li>"
 	})
 	my("#browser-pkg").html($html)
+}
+
+if (device.cookie.get("theme") === "dark")
+	my("<link rel=stylesheet href=m-dark.css id=theme-dark></link>").appendTo("head");
+
+function themeToggle () {
+    var theme
+    if (my("#theme-dark")[0])
+		my("#theme-dark").remove(), theme = "light"
+	else my("<link rel=stylesheet href=m-dark.css id=theme-dark></link>").appendTo("head"), theme = "dark"
+
+	device.cookie.set("theme", theme, '+360day')
+	
 }
 
 	</script>
