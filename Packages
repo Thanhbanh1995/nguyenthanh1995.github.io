@@ -765,6 +765,42 @@ Icon: file:///Library/PreferenceBundles/Dim.bundle/Dim@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.dim
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.dleasy
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 2.8.5-2
+Replaces: sileoturkiyee.dleasy
+Depends: ru.rejail.dleasy, mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
+Filename: ./debs/dleasy.deb
+Size: 3155612
+MD5sum: f9dbf2e4d36c7dac041213c07be23d0e
+SHA1: c72314ac690bcd268173722422681ab2afb8c29e
+SHA256: 7c9ddacfeeb51afa4f629b8e8f1d2d84ca3c852f0cec0217963c9a029ce75809
+Description: Download images & videos from social apps easily!
+Name: DLEasy Cracked
+Author: AhmedBafkir
+Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.dleasy
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.dleasyvi
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.1
+Depends: git.shin.dleasy
+Filename: ./debs/dleasyvi.deb
+Size: 2906
+MD5sum: 29f1cb4d44941fe0acd23a25d50f87a5
+SHA1: 29b4ed37d455ac4747c08f97a0f5269efc852ebf
+SHA256: 55986205d3d119880f8a87d90306ba5b00f56e7aa820af8e0d53a84ac65209c2
+Description: Lang vietnamese for dleasy
+Name: DLEasy (vi)
+Author: AhmedBafkir
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.dleasyvi
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.evanesco
 Section: Tweaks
 Maintainer: nguyenthanh
