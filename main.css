@@ -66,6 +66,10 @@ ul > li > p > button > label {
     margin-left: .5em;
 }
 
+ul > li > p {
+	overflow: auto;
+}
+
 .icon-more {
     width: 1.5em;
     height: 1.5em;
