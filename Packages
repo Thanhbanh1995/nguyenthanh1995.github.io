@@ -1632,10 +1632,10 @@ Version: 2.0b
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.noeliel.statuspeek
 Filename: ./debs/statuspeek2.deb
-Size: 46416
-MD5sum: 75e6b33853038b1cd11bfb9d948ab2c0
-SHA1: ba6e7357d73abcde5e18a8d9ca8ee1380d4f82b3
-SHA256: cb50014f5ab399b0d0b59af41ed211dd403ef5a12eb472275ca7ccf11cd611a1
+Size: 46414
+MD5sum: d10081fa1eb059b15a4946427af04485
+SHA1: 2020986c2f18e6f9901662c8469f4a5425e6c059
+SHA256: 1ec02129c94dcf59c8e666fa92460a241dadd5e4c3d8ea5240afe6ace0578c5f
 Description: NC grabber as it was meant to be, round 2.
 Author: Noeliel <noelieldev@gmail.com>
 Name: StatusPeek 2 (iOS 10)
@@ -1643,7 +1643,7 @@ Sponsor: nguyenthanh
 dev: noeliel
 Tag: cydia::commercial, purpose::extension, compatible::ios10
 Icon: file:///Library/PreferenceBundles/StatusPeek2Prefs.bundle/StatusPeek2Prefs@2x.png
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.noeliel.statuspeek2
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.statuspeek2
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.statusvolx
