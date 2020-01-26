@@ -70,6 +70,10 @@ ul > li > p {
 	overflow: auto;
 }
 
+a:focus, a:active {
+	text-decoration: none;
+}
+
 .icon-more {
     width: 1.5em;
     height: 1.5em;
