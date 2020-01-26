@@ -106,3 +106,6 @@ git.shin.otrlocation 7, 8, 9, 10, 11, 12
 git.shin.otrlocationservirce 8, 9, 10, 11, 12
 git.shin.dleasy 10+
 git.shin.dleasyvi 10+
+git.shin.appcake4 9, 10
+git.shin.appcake5 10.3.x
+git.shin.appcake6 
