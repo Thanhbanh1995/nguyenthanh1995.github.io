@@ -443,6 +443,40 @@ Icon: file:///Applications/BatteryLife.app/AppIcon57x57.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.batterylifeplugin
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.bettersettings
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.0.9
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.muirey03.libimagepicker, com.creaturesurvive.libcscolorpicker, com.creaturecoding.libcspreferences, org.thebigboss.libcolorpicker
+Filename: ./debs/bettersettings.deb
+Size: 1952038
+MD5sum: baa9a7b6f3eacc31de7d1cd2f1856de5
+SHA1: 8b549e2febaad85f98a16cb6cb95ce425203696d
+SHA256: a8e4d6a3ee20467f35c8e614ef42d6d85c4621ce5c2c74a1a86abd249150e006
+Description: Settings your way
+Name: BetterSettings
+Author: midnightchips
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.bettersettings
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.bettersettings10
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.0.1
+Depends: mobilesubstrate, com.creaturesurvive.libcscolorpicker, com.creaturecoding.libcspreferences, org.thebigboss.libcolorpicker, firmware(<<11)
+Filename: ./debs/bettersettings10.deb
+Size: 118256
+MD5sum: 0ca23811316cde3818cfb525e747a247
+SHA1: 8f1f2583057055570e0ebe07d429b2643b52fd6f
+SHA256: c8b4fd7ca2e7b73774fbe0b299b32007f668597fbc1b53ec4f34d4d5632844ad
+Description: Settings your way
+Name: BetterSettings10
+Author: midnightchips
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.bettersettings10
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.blackie
 Section: Themes
 Architecture: iphoneos-arm
@@ -568,6 +602,45 @@ Icon: file:///Library/PreferenceBundles/CCRecorder.bundle/Icon@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ccrecorder
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: com.ikilledappl3.ccwallcustomizer
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.2.2-1
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common
+Filename: ./debs/ccwall.deb
+Size: 1605784
+MD5sum: fa8828fed8bcd5a81713a00c49c80d4e
+SHA1: b3c469eb3b1af60685eeacf250ec17b11aec9123
+SHA256: 1309f1fd5bbe67aff4d9129f0bdb15bf6bc53395dce9e854010cd183d0e8a9ef
+Description: change the background of the control center on iOS 10+
+Name: CCWallCustomizer
+Sponsor: nguyenthanh
+Author: iKilledAppl3 <ipodnewbee234@icloud.com>
+Tag: purpose::extension, compatible::ios10
+dev: ikilledappl3
+Icon: file:///Library/PreferenceBundles/ccwallcustomizer.bundle/CCWallCustomizer@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.ikilledappl3.ccwallcustomizer
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.ccwallcustomizer2
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 2.0-1
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/ccwall2.deb
+Size: 1844356
+MD5sum: ed6bb288ce632a77552efda6f7ffd175
+SHA1: cc3443a4bd3c7d0510586016438cc3f2269a660d
+SHA256: cd0a8782400f276ddf853d9110490bd6e5ade21d6f31e6e39919f7b945249da3
+Description: Set a background for the Control Center on iOS  11Configure the tweak in settings.
+Name: CCWallCustomizer 2
+Author: iKilledAppl3
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ccwallcustomizer2
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.cercube
 Priority: optional
 Section: Tweaks
@@ -586,6 +659,23 @@ Name: Cercube for YouTube
 Author: Majd Alfhaily
 Icon: https://api-v5.cercube.com/resources/depiction/images/icon.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cercube
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.chargemode
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.0~beta4
+Depends: mobilesubstrate
+Filename: ./debs/chargemode.deb
+Size: 33366
+MD5sum: 551202a05cbcf961493ab925d4193af0
+SHA1: f686439c91665e6b1727efbe1ee96a565b55184a
+SHA256: f8f72473e51044fa54b0b164c1fe4ade397bc4544ade020ae2b35271222f1fa5
+Description: Lite Charging View with Batt Dots and Hour.
+Name: ChargeMode
+Author: julioverne
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.chargemode
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.chronos
@@ -954,6 +1044,27 @@ Icon: file:///Library/PreferenceBundles/Force3DAppShortcuts.bundle/icon@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.force3dappshortcuts
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.forceinpicture
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 0.0.1-2
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/forceinpicture.deb
+Size: 3872
+MD5sum: a2672d7ad03cd43d04d222d551e801a6
+SHA1: 9d2b44e6efa92d74dbac1fbb87dee2661ed249b4
+SHA256: 7076e07db38e4df4e84ffeaf612a0cdabbef39f565106718a9ec9b32a462abdf
+Description: "Programmatically" enable picture in picture feature.
+Name: ForceInPicture
+Sponsor: nguyenthanh
+Author: cole cabral @ca13ra1 <cabralcole@gmail.com>
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+dev: ca13ra1
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.forceinpicture
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.gamegem10.3
 Section: Applications
 Maintainer: Nguyen Thanh
@@ -1049,6 +1160,27 @@ Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.goodwifi
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: com.shade.hortus
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.4.5
+Depends: firmware (>= 8.4), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
+Filename: ./debs/hortus.deb
+Size: 57296
+MD5sum: a5cc481548b6ced198d38be0e58ff5ab
+SHA1: 5a0f914bb2fec5e3aeb3cbaeacb570f3c5a2ba33
+SHA256: b1a32c8b935527e34182d5d1bc19485c4001d39574102f0cd1373efc5862c443
+Description: Hook's Law for iOS 9
+Author: Shade Zepheri <ziroalpha@gmail.com>
+Name: Hortus
+Sponsor: nguyenthanh
+dev: shade
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Icon: file:///Library/PreferenceBundles/Hortus.bundle/icon@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.shade.hortus
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.hpbdisabller
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -1064,6 +1196,24 @@ Description: Disable official headphone buttons
 Name: Headphone Button Disabller
 Author: ichitaso
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.hpbdisabller
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.hsmapfix
+Section: Tweaks
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Architecture: iphoneos-arm
+Version: 0.0.1-1+debug
+Depends: mobilesubstrate
+Filename: ./debs/hsmapfix.deb
+Size: 5152
+MD5sum: e3baec774a67edcbd19255561fc38d85
+SHA1: a8ab1761d8526234310e3c96bf907a1d81b27721
+SHA256: 3ce2f61774c62bb5a8942b76f90e75b571eb5c887a6489dfabffd5db7171c91e
+Description: Temp Fix For Some Tweaks
+ Apple removed homescreenMap from SBIconViewMap. Temp Fix.
+Name: HSMapFix
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.hsmapfix
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.icleanerpro
@@ -1138,6 +1288,54 @@ Author: shin-chan <ifile@iphone.heinelt.eu>
 dev: carsten
 Tag: purpose::uikit, cydia::commercial
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ifile
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: com.chpwn.infinidock
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 2.1.2-1
+Replaces: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock, com.imario.supremepreferencesthree, com.thecyberduck.springboardenhancer
+Provides: com.saurik.iphone.fid, com.macciti.6icondock
+Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport
+Conflicts: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock, com.imario.supremepreferencesthree, com.thecyberduck.springboardenhancer
+Filename: ./debs/infinitidock.deb
+Size: 62878
+MD5sum: a0d1f591eeb032ba6d397b458b188832
+SHA1: 527a42dcb487e0c2eda27dcc25f51f99a68fc562
+SHA256: dc5220657ef9186c4cb18b4c2009a30c50a2c07cfc94723c3e2a95c53e24e8df
+Description: Scroll your dock with infinite icons!
+Author: chpwn <support@chpwn.com>
+Name: Infinidock
+Icon: file:///Library/PreferenceLoader/Preferences/Infinidock.png
+Sponsor: nguyenthanh
+Tag: cydia::commercial, purpose::extension
+dev: chpwn
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.chpwn.infinidock
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: com.chpwn.infinidock
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 2.1.2-1
+Replaces: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock, com.imario.supremepreferencesthree, com.thecyberduck.springboardenhancer
+Provides: com.saurik.iphone.fid, com.macciti.6icondock
+Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport, git.shin.hsmapfix
+Conflicts: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock, com.imario.supremepreferencesthree, com.thecyberduck.springboardenhancer
+Filename: ./debs/infinitidock10.deb
+Size: 62910
+MD5sum: 52d91310ea98e01aea3ed19e9ea62e0e
+SHA1: cfd321f1c7c26285e38ca7362d560820b6bde1a2
+SHA256: a591c5267d3948063613552b8a5f0a74988a9757ae21bc5b7cc1780f8eca2de1
+Description: Scroll your dock with infinite icons!
+Author: chpwn <support@chpwn.com>
+Name: Ìninidock for iOS10
+Icon: file:///Library/PreferenceLoader/Preferences/Infinidock.png
+Sponsor: nguyenthanh
+Tag: cydia::commercial, purpose::extension
+dev: chpwn
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.chpwn.infinidock
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.iwidgets
@@ -1373,6 +1571,67 @@ Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, 
 dev: lucaluca86
 Icon: file:///Library/PreferenceBundles/Mypomonella.bundle/Mypomonella@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.cydiageek.mypomonella
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: com.ikilledappl3.ncwallcustomizer
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.1-3
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common
+Filename: ./debs/ncwall.deb
+Size: 717682
+MD5sum: 387a738421f9598856e1bdfc54323f3f
+SHA1: 20b164f5f8ffd3dbcc87c6932b6ada169fd2ecac
+SHA256: b585d8c35837894834cc578ab151e1bc4a7cbfd3ab269588abf792ef6b95a63e
+Description: Change background of Notification Center on iOS 10+
+Name: NCWallCustomizer
+Sponsor: nguyenthanh
+Author: iKilledAppl3 <ipodnewbee234@icloud.com>
+Tag: purpose::extension, compatible::ios10
+dev: ikilledappl3
+Icon: file:///Library/PreferenceBundles/NCWallCustomizer.bundle/NCWallCustomizer@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.ikilledappl3.ncwallcustomizer
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: org.thebigboss.nudekeys
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 4.3
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/nudekeys.deb
+Size: 1596248
+MD5sum: 9fbd467f1ac641869ccc7ad8bf95cb86
+SHA1: 0aae126bc90dfe0d3b9d88c62a91ec41bd831004
+SHA256: 4b82bc3646be7d681be85601450646f37b62b4577b68cb38ed5fd7806f6631fb
+Description: Strip those sexy keys!
+Author: Orangebananaspy <support@orangebananaspy.com>
+Name: NudeKeys
+Sponsor: nguyenthanh
+dev: orangebananaspy
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Icon: file:///Library/PreferenceBundles/NudeKeys.bundle/NudeKeys@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=org.thebigboss.nudekeys
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.nudekeys12
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.0.0~b8
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.nudekeys
+Filename: ./debs/nudekeys12.deb
+Size: 1971558
+MD5sum: 2f99ca61cd39bced39601d79e1fadaf2
+SHA1: a505f637708e433bc45229c9485896e039e351aa
+SHA256: a6fa4eb2f6b6f782ff298179b253241d50c946894b411c063ba0f32a61636636
+Description: Tweak awesome for keyboard
+Name: NudeKeys (A12)
+Author: Orangebananaspy
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.nudekeys12
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.otrlocationservirce
