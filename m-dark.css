@@ -32,7 +32,7 @@ ul li:after, ul:after, ul:before {
     background: #161616
 }
 
-ul li:active, ul li:focus {
+ul li *:active, ul li *:focus {
     background-color: #000000
 }
 .icon-more {
