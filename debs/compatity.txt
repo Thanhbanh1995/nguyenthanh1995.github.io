@@ -1,0 +1,111 @@
+git.shin.acehighsierra 8, 9, 10, 11, 12
+git.shin.acehsxi 11
+git.shin.activatorvi all
+git.shin.afaker 9, 10
+git.shim.alkaline 9, 10, 11, 12
+git.shin.anemone 6, 7, 8, 9, 10, 11.2
+git.shin.animatoonpro 6, 7, 8, 9, 10, 11, 12
+git.shin.ants 9, 10, 11, 12.4
+git.shin.apphub all
+git.shin.aquaboard8 8, 9, 10
+git.shin.aqueous 8, 9, 10, 11, 12
+git.shin.audiorecorder2 8, 9, 10, 11, 12
+git.shin.audiorecorderxs 12, 13
+git.shin.aupm 9, 10
+git.shin.autotouch8 8, 9, 10, 11, 12
+git.shin.ballast 10
+git.shin.barsxi 10
+git.shin.batterylifeplugin 9, 10, 11.3 9, 10, 11.3  9, 10, 11.3
+git.shin.blackie all
+git.shin.blackie2 all
+git.shin.bytafont3 10
+git.shin.bytafonttmnc 9, 10, 11, 12
+git.shin.cachewipe 10, 11
+git.shin.callbar7 7, 8, 9, 10
+git.shin.cercube 8, 9, 10, 11
+git.shin.chronos 10, 11, 12.4
+git.shin.cleansys 8+
+git.shin.compatimark 8, 9, 10, 11
+git.shin.cracktool2 10
+git.shin.cukey 10, 11, 12.1
+git.shin.customdia 9+
+git.shin.customloadingtext 8, 9, 10, 11, 12
+git.shin.cylinder 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
+git.shin.detailedpowerusage 9, 10, 11
+git.shin.dim 7, 8, 9, 10
+git.shin.evanesco 8, 9, 10
+git.shin.filzatm 12, 13.3
+git.shin.fiona all
+com.johncoates.Flex3 10
+git.shin.gamegem10.3 10.3.x
+git.shin.gameplayer 6, 7, 8, 9, 10
+git.shin.goodges 8, 9, 102 11, 122 11, 12
+git.shin.goodges2 11, 12
+git.shin.goodwifi 10, 11, 12
+git.shin.hpbdisabller 10, 11, 12
+git.shin.icleanerpro 4+
+git.shin.icon all
+git.shin.ifile 10
+libactivator 8, 9, 10
+git.shin.liberty all
+git.shin.libspring all
+git.shin.localiapstoreios9 7, 8, 9, 10, 11, 12, 13
+git.shin.lowpowermode 9+
+git.shin.maize10 10.3.3 (32-bit)
+git.shin.modernc all
+git.shin.mterminal all
+git.shin.myinst all
+git.shin.mypomonella 8, 9, 10, 11, 12
+git.shin.pagebar 9, 10, 11, 12.4
+git.shin.powerselector 4, 5, 6, 7, 8, 9, 10
+git.shin.qoobee all
+git.shin.randomiconsflip 4, 5, 6, 7, 8, 9, 10
+git.shin.recydia 10+
+git.shin.reformx 10
+git.shin.releaserepo all
+git.shin.reprovision 9+
+git.shin.simplelsios10 10
+git.shin.slidetounlock10 10
+git.shin.smarttap 7, 8, 9, 10
+git.shin.smarttapx 11
+git.shin.smoothbattery 9, 10, 11, 12, 13
+git.shin.speedtestpp 10, 11, 12, 13
+git.shin.springplus 10
+git.shin.successionrestore 10+
+git.shin.tage 7, 8, 9, 10
+git.shin.transparentcamerabar 5, 6, 7, 8, 9, 10
+git.shin.transparentdock 7+
+git.shin.transparentfolders 9+
+git.shin.turkey 10, 11, 12.2
+git.shin.tweakcount2 8, 9, 10
+com.unlimapps.uasharedtools.stash 7, 8, 9, 10, 11
+git.shin.unsize 10, 11, 12, 13
+git.shin.vibrato 9+
+git.shin.weatherstatusbar10 10
+git.shin.xgpspro 5+
+git.shin.youtubepatcher 10, 11.4
+git.shin.ytpp all
+git.shin.zebrasevirce 9, 10, 11, 12, 13
+git.shin.zeppelin 10, 11, 12
+git.shin.cracktool4 12, 13
+git.shin.smarttapxs 11, 12, 13
+git.shin.iwidgets 8, 9, 10
+git.shin.lockhtml4 7, 8, 9, 10
+git.shin.wethr all
+git.shin.apppercent 8, 9, 10
+git.shin.ccrecorder 10
+git.shin.cydiainstall 10+
+git.shin.force3dappshortcuts 10
+git.shin.autolowpowermode all
+git.shin.smallerccbuttons all
+git.shin.statusvolx 8, 9, 10
+git.shin.swipedownforactivator 8, 9, 10, 11
+git.shin.statuspeek2 10
+git.shin.tinybar 8, 9, 10
+git.shin.otrlocation 7, 8, 9, 10, 11, 12
+git.shin.otrlocationservirce 8, 9, 10, 11, 12
+git.shin.dleasy 10+
+git.shin.dleasyvi 10+
+git.shin.appcake4 9, 10
+git.shin.appcake5 10.3.x
+git.shin.appcake6 11+
