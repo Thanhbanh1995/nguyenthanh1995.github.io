@@ -1810,10 +1810,10 @@ Architecture: iphoneos-arm
 Version: 2.0.20
 Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
 Filename: ./debs/shadow.deb
-Size: 251986
-MD5sum: 1835e3126c334df3c7728c52b5ada098
-SHA1: dc8b1ee5fb7c9bf0a638ad8ef43166e47d77f2da
-SHA256: 27b414d2b1099a1ac3279852b17a69a02b7f5e6f786b20d7b2a4f785f7e4a808
+Size: 252200
+MD5sum: 2e38d432461c8556addb0ed9c123c162
+SHA1: 0e3ed26162ea516631a957560358fd000f5b6a97
+SHA256: 02962213bcccbb5217d25843e44f27bbaad4a2f9f8a9a3eed38694046fe33de3
 Description: Block Jailbreak in apps.
 Name: Shadow
 Author: jjolano <jjolano@me.com>
