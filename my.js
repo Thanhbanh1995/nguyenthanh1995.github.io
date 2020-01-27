@@ -1139,13 +1139,11 @@ opt.url = ((opt.url || location.href) + '')
 		.replace( rprotocol, location.protocol + "//" )
 opt.processData === undefined && (opt.processData = true)
 
-type !== "GET" && opt.contentType !== false && xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8")
+isObj(headers) && (headers = {})
 
-'contentType' in opt && typeof opt.contentType !== 'boolean' && xhr.setRequestHeader("Content-Type", n.contentType)
+type !== "GET" && opt.contentType !== false && (headers["Content-Type"] = "application/x-www-form-urlencoded; charset=UTF-8")
 
-rnoContent.test( type ) || my.each(headers, function (key, val) {
-	xhr.setRequestHeader(key, val)
-})
+'contentType' in opt && typeof opt.contentType !== 'boolean' && (headers["Content-Type"] = n.contentType)
 
 if (opt.data && opt.processData && typeof opt.data !== "string")
 	opt.data = my.param(opt.data);
@@ -1165,10 +1163,14 @@ if (rnoContent.test( type )) {
 	}
 
 	opt.url = cache + uncached
-} else if (opt.data && opt.processData && (opt.contentType || "" ).indexOf("application/x-www-form-urlencoded") === 0)
+} else if (opt.data && opt.processData && typeof opt.contentType === "string" && opt.contentType.indexOf("application/x-www-form-urlencoded") === 0)
 	opt.data = opt.data.replace( r20, "+" );
 
 xhr.open(type, opt.url, deflt(opt.async, true), opt.username, opt.password)
+
+rnoContent.test( type ) || my.each(headers, function (key, val) {
+	xhr.setRequestHeader(key, val)
+})
 
 Number.isNaN(opt.timeout - 0) || (xhr.timeout = opt.timeout - 0)
 
