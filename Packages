@@ -602,7 +602,7 @@ Icon: file:///Library/PreferenceBundles/CCRecorder.bundle/Icon@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ccrecorder
 Homepage: https://nguyenthanh1995.github.io/
 
-Package: com.ikilledappl3.ccwallcustomizer
+Package: git.shin.ccwallcustomizer
 Priority: optional
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -611,9 +611,9 @@ Version: 1.2.2-1
 Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common
 Filename: ./debs/ccwall.deb
 Size: 1605784
-MD5sum: fa8828fed8bcd5a81713a00c49c80d4e
-SHA1: b3c469eb3b1af60685eeacf250ec17b11aec9123
-SHA256: 1309f1fd5bbe67aff4d9129f0bdb15bf6bc53395dce9e854010cd183d0e8a9ef
+MD5sum: 2b27a555a1803774d1134baf6f2092e6
+SHA1: 7884d5a97d45d1ef49b45c84141e285c9bd205e3
+SHA256: b056fb6328480104875e014d912cca93f68432b837aacda8ebf73191c6dde6ae
 Description: change the background of the control center on iOS 10+
 Name: CCWallCustomizer
 Sponsor: nguyenthanh
@@ -621,7 +621,7 @@ Author: iKilledAppl3 <ipodnewbee234@icloud.com>
 Tag: purpose::extension, compatible::ios10
 dev: ikilledappl3
 Icon: file:///Library/PreferenceBundles/ccwallcustomizer.bundle/CCWallCustomizer@2x.png
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.ikilledappl3.ccwallcustomizer
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ccwallcustomizer
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.ccwallcustomizer2
@@ -1160,7 +1160,7 @@ Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.goodwifi
 Homepage: https://nguyenthanh1995.github.io/
 
-Package: com.shade.hortus
+Package: git.shin.hortus
 Section: Tweaks
 Maintainer: nguyenthanh
 Architecture: iphoneos-arm
@@ -1168,9 +1168,9 @@ Version: 1.4.5
 Depends: firmware (>= 8.4), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
 Filename: ./debs/hortus.deb
 Size: 57296
-MD5sum: a5cc481548b6ced198d38be0e58ff5ab
-SHA1: 5a0f914bb2fec5e3aeb3cbaeacb570f3c5a2ba33
-SHA256: b1a32c8b935527e34182d5d1bc19485c4001d39574102f0cd1373efc5862c443
+MD5sum: fe8c730c65d79c5e597b090bd1668af1
+SHA1: 19a83fb1428cb5215e227b2c34e9d17c1fa77048
+SHA256: 46bc7bdc10c12380548eda4f79ad81d22d4a8a1f071b489db27750336118f550
 Description: Hook's Law for iOS 9
 Author: Shade Zepheri <ziroalpha@gmail.com>
 Name: Hortus
@@ -1178,7 +1178,7 @@ Sponsor: nguyenthanh
 dev: shade
 Tag: purpose::extension, compatible::ios9, compatible::ios10
 Icon: file:///Library/PreferenceBundles/Hortus.bundle/icon@2x.png
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.shade.hortus
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.hortus
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.hpbdisabller
@@ -1290,7 +1290,7 @@ Tag: purpose::uikit, cydia::commercial
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ifile
 Homepage: https://nguyenthanh1995.github.io/
 
-Package: com.chpwn.infinidock
+Package: git.shin.infinidock
 Section: Tweaks
 Maintainer: nguyenthanh
 Architecture: iphoneos-arm
@@ -1299,11 +1299,11 @@ Replaces: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondo
 Provides: com.saurik.iphone.fid, com.macciti.6icondock
 Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport
 Conflicts: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock, com.imario.supremepreferencesthree, com.thecyberduck.springboardenhancer
-Filename: ./debs/infinitidock.deb
-Size: 62878
-MD5sum: a0d1f591eeb032ba6d397b458b188832
-SHA1: 527a42dcb487e0c2eda27dcc25f51f99a68fc562
-SHA256: dc5220657ef9186c4cb18b4c2009a30c50a2c07cfc94723c3e2a95c53e24e8df
+Filename: ./debs/infinidock.deb
+Size: 62886
+MD5sum: f621c61150560d831d192c3809d04b24
+SHA1: e6cb866577e3a2844e21a1ae3e5ec5df25d2e75f
+SHA256: 637972f119822d7254e78ddba1ed273feb8f5d6a545f0d132e5bb2ed2567404b
 Description: Scroll your dock with infinite icons!
 Author: chpwn <support@chpwn.com>
 Name: Infinidock
@@ -1311,10 +1311,10 @@ Icon: file:///Library/PreferenceLoader/Preferences/Infinidock.png
 Sponsor: nguyenthanh
 Tag: cydia::commercial, purpose::extension
 dev: chpwn
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.chpwn.infinidock
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.infinidock
 Homepage: https://nguyenthanh1995.github.io/
 
-Package: com.chpwn.infinidock
+Package: git.shin.infinidock10
 Section: Tweaks
 Maintainer: nguyenthanh
 Architecture: iphoneos-arm
@@ -1323,19 +1323,19 @@ Replaces: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondo
 Provides: com.saurik.iphone.fid, com.macciti.6icondock
 Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport, git.shin.hsmapfix
 Conflicts: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock, com.imario.supremepreferencesthree, com.thecyberduck.springboardenhancer
-Filename: ./debs/infinitidock10.deb
-Size: 62910
-MD5sum: 52d91310ea98e01aea3ed19e9ea62e0e
-SHA1: cfd321f1c7c26285e38ca7362d560820b6bde1a2
-SHA256: a591c5267d3948063613552b8a5f0a74988a9757ae21bc5b7cc1780f8eca2de1
+Filename: ./debs/infinidock10.deb
+Size: 62906
+MD5sum: a08a59c4ce68c4ab18e22c8ff649787b
+SHA1: e8eb3399618615d84a8d2308818eb6f0f882ac1b
+SHA256: 479ce011a09cd98e25918effee86ee313ba63ed9c1d861dbc37c1434ad5fc404
 Description: Scroll your dock with infinite icons!
 Author: chpwn <support@chpwn.com>
-Name: Ìninidock for iOS10
+Name: Infinidock for iOS10
 Icon: file:///Library/PreferenceLoader/Preferences/Infinidock.png
 Sponsor: nguyenthanh
 Tag: cydia::commercial, purpose::extension
 dev: chpwn
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.chpwn.infinidock
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.infinidock
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.iwidgets
@@ -1573,7 +1573,7 @@ Icon: file:///Library/PreferenceBundles/Mypomonella.bundle/Mypomonella@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.cydiageek.mypomonella
 Homepage: https://nguyenthanh1995.github.io/
 
-Package: com.ikilledappl3.ncwallcustomizer
+Package: git.shin.ncwallcustomizer
 Priority: optional
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -1581,10 +1581,10 @@ Architecture: iphoneos-arm
 Version: 1.1-3
 Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader, ws.hbang.common
 Filename: ./debs/ncwall.deb
-Size: 717682
-MD5sum: 387a738421f9598856e1bdfc54323f3f
-SHA1: 20b164f5f8ffd3dbcc87c6932b6ada169fd2ecac
-SHA256: b585d8c35837894834cc578ab151e1bc4a7cbfd3ab269588abf792ef6b95a63e
+Size: 717684
+MD5sum: 8ed4300a8031d428dfb66f03a5ce4aef
+SHA1: 4e905ff03dce8137d2b6609f5b96c331387e0f7c
+SHA256: 8bdcd81fdbe0dc5e26249851c46baedf6af7d4dee994e0318c22a70139909768
 Description: Change background of Notification Center on iOS 10+
 Name: NCWallCustomizer
 Sponsor: nguyenthanh
@@ -1592,20 +1592,20 @@ Author: iKilledAppl3 <ipodnewbee234@icloud.com>
 Tag: purpose::extension, compatible::ios10
 dev: ikilledappl3
 Icon: file:///Library/PreferenceBundles/NCWallCustomizer.bundle/NCWallCustomizer@2x.png
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.ikilledappl3.ncwallcustomizer
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ncwallcustomizer
 Homepage: https://nguyenthanh1995.github.io/
 
-Package: org.thebigboss.nudekeys
+Package: git.shin.nudekeys
 Section: Tweaks
 Maintainer: nguyenthanh
 Architecture: iphoneos-arm
 Version: 4.3
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Filename: ./debs/nudekeys.deb
-Size: 1596248
-MD5sum: 9fbd467f1ac641869ccc7ad8bf95cb86
-SHA1: 0aae126bc90dfe0d3b9d88c62a91ec41bd831004
-SHA256: 4b82bc3646be7d681be85601450646f37b62b4577b68cb38ed5fd7806f6631fb
+Size: 1596244
+MD5sum: 75bce62cf15ed07beedddd96c402a50c
+SHA1: ff36ba10931f817869701516449911680169a2a9
+SHA256: 0cc8fff862fed9505fc3abef1d135d9c597e03ac6a014509428538dc9f62ac87
 Description: Strip those sexy keys!
 Author: Orangebananaspy <support@orangebananaspy.com>
 Name: NudeKeys
@@ -1613,7 +1613,7 @@ Sponsor: nguyenthanh
 dev: orangebananaspy
 Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
 Icon: file:///Library/PreferenceBundles/NudeKeys.bundle/NudeKeys@2x.png
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=org.thebigboss.nudekeys
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.nudekeys
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.nudekeys12
@@ -1801,6 +1801,42 @@ Author: Matt Clarke <matt@incendo.ws>
 dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.reprovision
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.shadow
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 2.0.20
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
+Filename: ./debs/shadow.deb
+Size: 251986
+MD5sum: 1835e3126c334df3c7728c52b5ada098
+SHA1: dc8b1ee5fb7c9bf0a638ad8ef43166e47d77f2da
+SHA256: 27b414d2b1099a1ac3279852b17a69a02b7f5e6f786b20d7b2a4f785f7e4a808
+Description: Block Jailbreak in apps.
+Name: Shadow
+Author: jjolano <jjolano@me.com>
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.shadow
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.shadowapp
+Section: Utilities
+Installed-Size: 516
+Maintainer: mass1ve_err0r
+Architecture: iphoneos-arm
+Version: 1.0-2+debug
+Depends: git.shin.shadow
+Filename: ./debs/shadowapp.deb
+Size: 36676
+MD5sum: 70bbf0bc34b6c444bb67fdde5b425ccb
+SHA1: 952a0967d83c9dc137746f87dad48071ce4f5b37
+SHA256: a8bc17ce61d6e97d140666371aed35a9b32d72835fd370ebb197fbc7926e97e4
+Description: Application for Shadow
+Name: Shadow Application
+Author: mass1ve_err0r
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.shadowapp
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.simplelsios10
@@ -2212,6 +2248,23 @@ Tag: purpose::library, role::developer
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.unlimapps.uasharedtools.stash
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.unalkuru
+Section: Theme
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 9.9.6
+Filename: ./debs/unalkuru.deb
+Size: 21566094
+MD5sum: 42d983ba9a4610623da0177037f8967b
+SHA1: d58fbc950277c423b0146bff52c4a27c0e207992
+SHA256: 40128fb69782346e15b21f12d5022d64e8ba8f30c97cf1bd851989263a43c829
+Name: Shadow
+Author: unalkuru <unalkuru@outlook.com>
+Sponsor: nguyenthanh
+Icon: file:///Library/Themes/Shadow.theme/icon@3x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.unalkuru
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.unsize
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -2284,6 +2337,22 @@ Name: Wethr
 Author: Ryan Bushe
 Sponsor: nguyenthanh
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.wethr
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.whitedream
+Section: Theme
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 1.0
+Filename: ./debs/whitedream.deb
+Size: 81748696
+MD5sum: 504268fd287ab5495d67bc571bd435fb
+SHA1: 5471b6cec2a1f22c7c39409b1990cf8403dede05
+SHA256: 1211c40fa4f9f28bc2d72fdd3538c7987a7d4ebe8c55a970e3523ceb226bd256
+Name: White Dream
+Author: Le0n <ahmetmtl68@gmail.com>
+Sponsor: nguyenthanh
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.whitedream
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.xgpspro

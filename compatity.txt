@@ -122,3 +122,9 @@ git.shin.infinidock10 10
 git.shin.nudekeys 10
 git.shin.nudekeys 8, 9, 10, 11
 git.shin.nudekeys12 12
+git.shin.hortus 9, 10
+git.shin.ncwallcustomizer 10
+git.shin.shadow 8, 9, 10, 11, 12.4
+git.shin.shadowapp 8, 9, 10, 11, 12.4
+git.shin.unalkuru 9, 10
+git.shin.whitedream 9, 10
