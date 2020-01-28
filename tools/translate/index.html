@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<title>Page Title</title>
-	<script src=https://nguyenthanh1995.github.io/my.js></script>
-	<script src=https://nguyenthanh1995.github.io/lib/XML.js></script>
-	<script src=https://nguyenthanh1995.github.io/lib/vue.min.js></script>
+	<script src=http://nguyenthanh1995.github.io/my.js></script>
+	<script src=http://nguyenthanh1995.github.io/lib/XML.js></script>
+	<script src=http://nguyenthanh1995.github.io/lib/vue.min.js></script>
 	<link rel=stylesheet href=https://nguyenthanh1995.github.io/css/bootstrap.min.css></link>
-	<meta name=viewport content='width=device-width, initial-scale=1.0'/>
+	<meta name=viewport content='width=device-width, initial-scale=1.0' charset=utf-8 />
 	</head>
 	<body>
 		<div class=container>
@@ -15,6 +15,18 @@
 					<h3 class="text-center">
 						Simple Tool Translate Plist XML
 					</h3>
+				</div>
+			</div>
+			<div class=row>
+				<div class=col>
+					<h6 class="text-left text-secondary text-uppercase">
+						Mode
+					</h6>
+					<div class="btn-group btn-group-sm">
+						<button class="btn btn-outline-dark" :class="{active: mode === 'XML'}" @click="mode = 'XML'">Plist | XML</button>
+						<button class="btn btn-outline-dark" :class="{active: mode === 'Localizable'}" @click="mode = 'Localizable'">Localizable</button>
+					</div>
+					<div class="small text-secondary mt-2">Nếu ứng dụng bị treo 0% hãy thử đổi chế độ và thử lại.</div>
 				</div>
 			</div>
 			<div class=row>
@@ -81,12 +93,12 @@ body {
 
 </style>
 <script>
-onerror = d => alert(d + "") 
+
 var success = {}, globalXML, plistHeader = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">'
 var keyAPI = "trnsl.1.1.20190805T120232Z.0523a6991fcd184f.75d91c8953614377173228e9fc61b57678c66d4e";
 var language = JSON.parse(my.getText("https://dl.dropboxusercontent.com/s/ze5hyst321ei1se/lang.json?raw=1"))[0]
 
-//console.error = console.warn = e => console.log(e + '')
+console.error = console.warn = e => console.log(e + '')
 
 var container = new Vue({
 	el: ".container",
@@ -98,19 +110,23 @@ var container = new Vue({
 		translating: true,
 		progress: 0,
 		translated: false,
-		result: ""
+		result: "",
+		mode: "XML"
 	},
 	watch: {
 		translated: function (n) {
 			if (n === true)
-				this.result = plistHeader + "\n" + XML.stringify(globalXML)
+				if (this.mode === "XML")
+					this.result = plistHeader + "\n" + XML.stringify(globalXML)
+				else this.result = globalXML.join("\n") + '\n'
 		}
 	},
 	methods: {
 		translate: function () {
 			this.translating = false
-			 var xml = this.textContent
-			 globalXML = XML.parse(xml)
+			if (this.mode === "XML")
+			 	globalXML = XML.parse(this.textContent)
+			else globalXML = my.trim(this.textContent).split("\n")
 			 void translateXML()
 		},
 		loadFile: function (file) {
@@ -125,11 +141,17 @@ var container = new Vue({
 })
 
 function translateXML () {
-	my(globalXML).find("dict")
-	.find("string")
-	.each(function (key){
-		translate(this, key)
-		success[key] = false
+	if (container.mode === "XML")
+		my(globalXML).find("dict")
+		.find("string")
+		.each(function (key){
+			translate(this, key)
+			success[key] = false
+		})
+	else my(globalXML)
+	.each(function (i, v) {
+ 		translate(v, i)
+		success[i] = false
 	})
 	
 }
@@ -151,12 +173,17 @@ function translateXML () {
   })*/
   
   function translate (el, i) {
+	  var text;
+	  if (container.mode === "XML")
+	  	text = el.innerHTML
+	  else text = el.split("=").slice(1).join("=");
+
 	  my.ajax({
 			url: "https://translate.yandex.net/api/v1.5/tr.json/translate",
 			type: 'post',
 			data: {
 				key: keyAPI,
-				text: el.innerHTML,
+				text: text,
 				lang: [container.from, container.to].join("-")
 			},
 			dataType: "json",
@@ -164,7 +191,9 @@ function translateXML () {
 			contentType: true,
 			successFull: function(e) {
 				e = e.text[0]
-				el.innerHTML = e
+				if (container.mode === "XML")
+					el.innerHTML = e
+				else globalXML[i] = el.split("=")[0] + "=" + e;
 				success[i] = true
 				var r = checkDone()
 				if (r === true) {
@@ -196,7 +225,14 @@ function translateXML () {
 	  return done || status / length
   }
   //translate()*/
-
 </script>
-	</body>
+	<script>window.onerror = function () {  var message = [arguments[0]] + ' at Line: ' + [arguments[2]]; window.webkit.messageHandlers.errorHandler.postMessage(message)};
+window.console.log = function() { for(var i = 0; i < arguments.length; i++) window.webkit.messageHandlers.logHandler.postMessage(arguments[i])  }; var sytaxErrorBrnoxProperty = 1;
+</script><style> * {
+	margin: 0;
+	padding: 0;
+}
+body {
+	
+} </style> </body>
 </html>
