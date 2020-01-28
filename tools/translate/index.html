@@ -81,6 +81,7 @@ body {
 
 </style>
 <script>
+onerror = d => alert(d + "") 
 var success = {}, globalXML, plistHeader = '<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">'
 var keyAPI = "trnsl.1.1.20190805T120232Z.0523a6991fcd184f.75d91c8953614377173228e9fc61b57678c66d4e";
 var language = JSON.parse(my.getText("https://dl.dropboxusercontent.com/s/ze5hyst321ei1se/lang.json?raw=1"))[0]
