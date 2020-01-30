@@ -1595,6 +1595,24 @@ Icon: file:///Library/PreferenceBundles/NCWallCustomizer.bundle/NCWallCustomizer
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ncwallcustomizer
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.nicebarx
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 2.0.5.4
+Depends: com.rpetrich.rocketbootstrap,mobilesubstrate
+Filename: ./debs/nicebarx.deb
+Size: 3271012
+MD5sum: 59848f610ae4d9143cb0685da98b82e3
+SHA1: e7e57a1ec80de47524c6061e2780523257cff23b
+SHA256: afde89e7570ea5811865ecb4da4f9117dab7664980e30f4b3c80516d45f66c39
+Description: StatusBar Tweak....
+Name: NiceBarX Cracked
+Author: niceios
+Sponsor: nguyenthanh
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.nicebarx
+Homepage: https://nguyenthanh1995.github.io/
+
 Package: git.shin.nudekeys
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -1689,6 +1707,44 @@ Description: The power supply relation of a device is operated.
 Name: PowerSelector (Flipswitch)
 Author: ichitaso
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.powerselector
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.pullover
+Section: Tweaks
+Maintainer: nguyenthanh
+Architecture: iphoneos-arm
+Version: 2.0.5.1-1
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), preferenceloader, libactivator, applist
+Conflicts: com.reddoorendeavors.pullover10
+Filename: ./debs/pullover10.deb
+Size: 2863996
+MD5sum: dcad986af15b35a4e0d74d517e1d225d
+SHA1: 454ecc6bd93e678d2ca966e1b193c8a8b1f55dad
+SHA256: 9bd8c7991d4fc2c7479c171bd281ac50215e3e288b2271d4c967b752a75d0ca2
+Description: A better way to multitask!
+Name: PullOver10 Cracked
+Author: Will Smillie <williamfsmillie@gmail.com>
+Icon: file:///Library/PreferenceBundles/PullOverPreferences.bundle/icon-small@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.pullover
+Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.PullOverPro
+Priority: optional
+Section: Tweaks
+Maintainer: ngugenthanh
+Architecture: iphoneos-arm
+Version: 1.4
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
+Filename: ./debs/pulloverpro.deb
+Size: 5744718
+MD5sum: 3801ea476c198017af03eebc7aab3fa7
+SHA1: 6f81761a0dedb3bcc4c1256da9f3cb4ffecd5ab6
+SHA256: 41b59ddaf6795abb66d4c300fb6a98ee472d760181ddcc405cc66345675951bf
+Description: Disclaimer: this does not support rotation. PullOverPro introduces a small tab on the side of the screen which allows you to pin an app and pull it over the current app. There is also the QuickSwitch menu: by holding the grabber for half a second, a menu will popup. You can drag your finger up and down to select what app you'd like to pin. These apps can either be preselected by selecting "favorites" in PullOverPro's settings, or your most recent apps, pulled from the app switcher.
+Name: PullOver Pro Cracked
+Author: c1d3r
+Sponsor: nguyenthanh
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.PullOverPro
 Homepage: https://nguyenthanh1995.github.io/
 
 Package: git.shin.qoobee

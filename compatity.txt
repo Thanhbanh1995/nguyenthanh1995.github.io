@@ -128,3 +128,6 @@ git.shin.shadow 8, 9, 10, 11, 12.4
 git.shin.shadowapp 8, 9, 10, 11, 12.4
 git.shin.unalkuru 9, 10
 git.shin.whitedream 9, 10
+git.shin.pullover 11, 12.4
+git.shin.PullOverPro 9, 10
+git.shin.nicebarx 11, 12.4
