@@ -1,20 +1,29 @@
 #!/bin/sh
 
   rm -f all.pkgs
+  rm -rf ./debs/tmp
+
+if [[ -e changelog.log ]]; then
+   rm changelog.txt
+fi
+
   echo "[" > all.pkgs
-if [ -e compatity.txt ]; then
+if [[ -e compatity.txt ]]; then
     compatity=$(cat compatity.txt)
 fi
 
 for i in ./debs/*.deb
 do
-   rm -rf ./debs/tmp
    debInfo=`dpkg -f $i`
    dep=`echo "$debInfo" | grep "Depiction: " | cut -c 12- | tr -d "\n\r"`
    home=`echo "$debInfo" | grep "Homepage: " | cut -c 11- | tr -d "\n\r"`
    pkg=`echo "$debInfo" | grep "Package: " | cut -c 10- | tr -d "\n\r"`
-   
-   if [[ -z $dep || -z $home ]];then
+   maintainer=`echo "$debInfo" | grep "Maintainer: " | cut -c 13- | tr -d "\n\r"`
+   sponsor=`echo "$debInfo" | grep "Sponsor: " | cut -c 10- | tr -d "\n\r"`
+   #Maintainer: nguyenthanh
+   #Author: nguyenthanh
+   #Sponsor: nguyenthanh
+   if [[ -z $dep || -z $home || -z $maintainer || -z $sponsor ]];then
        dpkg-deb -R $i ./debs/tmp
    fi
        buildDEBIAN=0
@@ -26,11 +35,20 @@ do
         echo "Homepage: https://nguyenthanh1995.github.io/" >> ./debs/tmp/DEBIAN/control
        buildDEBIAN=1
    fi
+   if [[ -z $maintainer ]]; then
+        echo "Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>" >> ./debs/tmp/DEBIAN/control
+       buildDEBIAN=1
+   fi
+   if [[ -z $sponsor ]]; then
+        echo "Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>" >> ./debs/tmp/DEBIAN/control
+       buildDEBIAN=1
+   fi
    #binary 0 or 1
-   if [ $buildDEBIAN == 1 ]; then
+   if [[ $buildDEBIAN == 1 ]]; then
        bsname=$(basename "$i")
        dpkg -bR ./debs/tmp "./debs/$bsname"
        debInfo=`dpkg -f $i`
+       echo "$i" >> changelog.log
    fi
 #no sign =====================
 #add Depiction done ==========
@@ -70,6 +88,7 @@ do
      read tmp
      echo "$pkg $tmp" >> compatity.txt;
   fi
+  rm -rf ./debs/tmp
 done
 
 echo "{}]" >> all.pkgs
@@ -85,5 +104,4 @@ printf "Origin: Nguyen Thanh (shin-dev)\nLabel: shin-chan (N.Thanh)\nSuite: stab
 
 echo "------------------"
 echo "Done!"
-
 exit 0;
