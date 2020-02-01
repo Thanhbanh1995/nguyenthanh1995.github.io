@@ -131,3 +131,4 @@ git.shin.whitedream 9, 10
 git.shin.pullover 9, 10
 git.shin.PullOverPro 11, 12.4
 git.shin.nicebarx 11, 12.4
+git.shin.Flex3 10
