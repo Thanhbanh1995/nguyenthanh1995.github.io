@@ -1048,6 +1048,26 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.fion
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.flex3-32b
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 3~EarlyAccess3
+Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap (>= 1.0)
+Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, flex3, flex3beta
+Filename: ./debs/flex3-32bit.deb
+Size: 17388384
+MD5sum: 345235e9190e888d7e04dd6b2aa821a9
+SHA1: 09dcf3b3738e1098e94b2f528e7d156fe1cd89cf
+SHA256: fac90e5d4863b1e4904660d265715123e9c24c044e7f54caa2593fa77c74dc2a
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Name: Flex 3 for 32bit
+Author: John Coates <john@johncoates.me>
+Icon: file:///Applications/Flex.app/AppIcon29x29@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.flex3-32b
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.Flex3
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -1056,14 +1076,14 @@ Version: 3~EarlyAccess4
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
 Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
-Filename: ./debs/flex3.deb
-Size: 20615290
-MD5sum: 693ef21a5b4f256310f071b3f8cbfdc8
-SHA1: 55ae83f7c2dff8d0781628d86ba8a93a61c0e6a9
-SHA256: d5b3930d4c3c2e79014b3a3be5c9b8cce2c7dd4ba7627fe8cc5823071348ddd3
-Description: Develop your own tweaks and share them on the Flex Community Cloud. Flex3 for 32bit!
+Filename: ./debs/flex3-64bit.deb
+Size: 20615268
+MD5sum: 4204f51816a0ba2f9baf9cbde4cb13ed
+SHA1: a5354e1db3f6ca869959247b972e7cc9edac95b1
+SHA256: e18f79a1252f5886ae8a7be3a582e99da45a0c496808c97a5f64381303b520f2
+Description: Develop your own tweaks and share them on the Flex Community Cloud
 Author: John Coates <john@johncoates.me>
-Name: Flex 3 for 32bit
+Name: Flex 3
 Recommended: com.modmyi.libswift4 (>= 4.0.3)
 dev: acapulco1988
 Tag: purpose::extension, compatible::ios9, compatible::ios10
