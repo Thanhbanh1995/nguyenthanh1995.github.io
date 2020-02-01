@@ -1077,13 +1077,13 @@ Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex
 Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
 Filename: ./debs/flex3-64bit.deb
-Size: 20615268
-MD5sum: 4204f51816a0ba2f9baf9cbde4cb13ed
-SHA1: a5354e1db3f6ca869959247b972e7cc9edac95b1
-SHA256: e18f79a1252f5886ae8a7be3a582e99da45a0c496808c97a5f64381303b520f2
+Size: 20615274
+MD5sum: 40604e249d8b2d93deea6a567f1e22c8
+SHA1: 7133ab2550c78ff2060b7ec7a4e48305dd0a7129
+SHA256: 371c52d5fbf93e9046fb07cf605fcb4c5ea043addf273523229c93d8a741a49c
 Description: Develop your own tweaks and share them on the Flex Community Cloud
 Author: John Coates <john@johncoates.me>
-Name: Flex 3
+Name: Flex 3 for 64bit
 Recommended: com.modmyi.libswift4 (>= 4.0.3)
 dev: acapulco1988
 Tag: purpose::extension, compatible::ios9, compatible::ios10
