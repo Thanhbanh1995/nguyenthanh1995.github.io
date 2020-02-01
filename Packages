@@ -1,3 +1,21 @@
+Package: git.shin.a-font
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.7
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
+Filename: ./debs/a-font.deb
+Size: 825746
+MD5sum: 42f76efadd528f8de8ff25374e120891
+SHA1: 8c1ce79132c7159f7348bafdd34f056c409f3137
+SHA256: f9e280b48613c0c6ecddff9d925533d41afcc6a616f0e4737f919e80e667e57e
+Description: Install Font Family for your iPhone.
+Name: A-Font
+Author: Baw Appie <pp121324@gmail.com>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.a-font
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.acehighsierra
 Section: Themes
 Maintainer: iAnas
@@ -48,6 +66,43 @@ Name: Activator (vi)
 Author: shin-dev
 Icon: file:///Library/IconRepo/tienichbosung.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.activatorvi
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.chanqcytb
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.7
+Depends: firmware (>= 8.0)
+Filename: ./debs/adblock-for-yt.deb
+Size: 46612
+MD5sum: 499a12243d7a757e37d0e783eb7de751
+SHA1: 4a405ab90d9b412b71dc47c47aff5d34dec80f61
+SHA256: ed778cbad7f9926afaf8d10f29b4a0d1a820d3372f1e1b5b19c1cc4ce917bb96
+Description: Block ads for Youtube.
+Name: Adblock for YouTube
+Author: Majd Alfhaily
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.chanqcytb
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.adblockplus
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.4
+Filename: ./debs/adblockplus.deb
+Size: 12756
+MD5sum: 5302361bb228eb8f5dffab4172e28329
+SHA1: 87bde383dc36f2b1e017a5a4775b632a62b8e9be
+SHA256: 0e4b33a468087b7bf58567a17c8c312611e81ded6c5d49ec10ad291fadc7efe2
+Description: Block ads for app++.
+Name: AdBlock++
+Author: ReJail
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.adblockplus
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
@@ -2557,6 +2612,25 @@ Description: No inline Ads/Background Play back
 Name: YouTubePatcher
 Author: ichitaso
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.youtubepatcher
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.youtubetools
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 4.0
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.justinpetkovic.youtubetools
+Filename: ./debs/youtubetool.deb
+Size: 33062
+MD5sum: 98ee652e4f5934e4b867c8725c201e29
+SHA1: 21af34efe05698b8e72648a9f6cb831ebf441567
+SHA256: c12cc7258acbdb4fbaa548416c07bfbd865451fe4f9df4e9c134414b8a6a8a20
+Description: Tools for Youtube
+Name: YouTube Tools (iOS 8 - 13)
+Author: Justin Petkovic
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.youtubetools
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 

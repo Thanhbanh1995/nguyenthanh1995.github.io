@@ -133,3 +133,7 @@ git.shin.PullOverPro 11, 12.4
 git.shin.nicebarx 11, 12.4
 git.shin.Flex3 8, 9, 10, 11
 git.shin.flex3-32b 10
+git.shin.youtubetools 8, 9, 10, 11, 12, 13
+git.shin.a-font 11+
+git.shin.chanqcytb 8, 9, 10, 11, 12.4
+git.shin.adblockplus 8+
