@@ -591,6 +591,64 @@ Sponsor: nguyenthanh
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.blackie2
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.boxy2
+Priority: extra
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.1.1
+Depends: mobilesubstrate, preferenceloader, com.chpwn.iconsupport
+Filename: ./debs/boxy2.deb
+Size: 2670176
+MD5sum: b8e1dbbbd1b8e9926939b92468003687
+SHA1: 9877384ffea4b715f1226f5b97940b0bfe773dd9
+SHA256: e156cb08033163803983646ec37d7ae3e0c821167c425c31f59ba9ef61697e2b
+Description: Fully customize your icon layout!
+Name: Boxy 2
+Author: william_vab <william_vab@live.com>
+tag: cydia::commercial
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.boxy2
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.boxy3
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 3.6.2
+Depends: mobilesubstrate, preferenceloader, com.chpwn.iconsupport
+Conflicts: info.rpdev.betterfiveicondock, info.rpdev.betterfivecolumnhomescreen, net.r-ch.iconoclasm, ca.ndoizo.bolders
+Filename: ./debs/boxy3.deb
+Size: 2798976
+MD5sum: d2fc539a894c3e2bdd437a2099345639
+SHA1: 6076ea1f9340a2b4e50e9afc49b4d156e1b52748
+SHA256: 0491d5afd32f3fac30fe792518a26fa9a0bdb5a788420af14b0a54989598b82c
+Description: Modify your icons
+Name: Boxy 3 (iOS 11 - 12) Cracked
+Author: William Vabrinskas <wvabrinskas@gmail.com>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.boxy3
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.boxy4
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 4.0.4
+Depends: mobilesubstrate, preferenceloader
+Conflicts: info.rpdev.betterfiveicondock, info.rpdev.betterfivecolumnhomescreen, net.r-ch.iconoclasm, ca.ndoizo.bolders, com.irepo.boxy3
+Filename: ./debs/boxy4.deb
+Size: 2820452
+MD5sum: 684a78f76637f53ea911d6b7e71eeb80
+SHA1: 9d77801ddeab3a44317580d7ab5eea3c166d4146
+SHA256: b8af267435c43483b7bf37589b752b4c2bf5c709d747e1f7288ba5c91b07dac4
+Description: Fully customize your icon layout! Have you ever run into an issue with space in your SpringBoard or are you just bored with the default layout of icons? Well, Boxy can fix both of those issues. Your icon layout is fully customizable with the variety of options configurable in the settings pane. You can adjust how far each icon is from each edge of the screen and how far each icon is from one another. These combinations can provide some pretty cool layouts. If you aren't the creative type or don't want to be bothered with testing each setting, there are presets available for you to choose from. You can align you icons in the the top half of the screen or the bottom half or even the top corners of the screen. Anything is really possible.Boxy also allows for more space for Dashboard X widgets. You no longer have to compromise with which apps you want on the home page of your SpringBoard, you can now have all of them on the screen plus your favorite widgets! Use it however you like, if you find a use for it that I didn't mention please don't hesitate to contact me and let me know, I love hearing feedback about my tweaks. Boxy is fully compatible with all current devices!
+Name: Boxy 4 (iOS 13)
+Author: William Vabrinskas <wvabrinskas@gmail.com>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.boxy4
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.bytafont3
 Section: System
 Maintainer: nguyenthanh <thanhnguyennguyen1995@gmail.com>
@@ -1008,6 +1066,25 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.dim
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.display-touch
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.0.2
+Depends: mobilesubstrate
+Filename: ./debs/display-touch.deb
+Size: 58140
+MD5sum: 8c86b498f9cc3206a9cd3ef564f3210b
+SHA1: 272bd277c8c307f41d0096481c0999603588a817
+SHA256: 897a5f8f73bf2654c11963e4746047f1c667c947c3c9fcf9c29680dfae719300
+Description: Show touch in screen!
+Name: Display Touch
+Author: pxcex
+Icon: file:///Library/PreferenceBundles/displaytouch.bundle/Icon@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.display-touch
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.dleasy
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -1226,6 +1303,24 @@ Name: GamePlayer
 Author: shin-chan
 Icon: file:///Applications/GamePlayer.app/icon-57.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.gameplayer
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.complications
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.1.1
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), applist, com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
+Filename: ./debs/git.shin.complications_2.1.1_iphoneos-arm.deb
+Size: 544808
+MD5sum: 34be396c13f7af5b9b46ed52cfa06195
+SHA1: 1fe943536d467c8eedccf2dab7cbe02305dd48df
+SHA256: cffa88e4a6605c446d9231fd65efc812b9c0d0dc19e84e3f9091e9ea3da5d584
+Description: watchOS widgets on your lock screen
+Name: Complications
+Author: Ben Giannis
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.complications
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
@@ -1591,6 +1686,44 @@ Sponsor: ngugenthanh
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.lockhtml4
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.lockpluspro
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.7.6
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Conflicts: com.repo.xarold.com.chargemode, com.julioverne.chargemode, com.brunonfl.s8edge, sadasf
+Filename: ./debs/lockpluspro.deb
+Size: 19233384
+MD5sum: 5549719056fe8f1b037dff9e57919f84
+SHA1: 58b395fed16afbf4bd7cbf924639f83812c9d7d3
+SHA256: c081c47588989a96a29c10af07f3614c7dd305fbe0b7a7f428bc0e4a12bd2917
+Description: The ultimate lock screen tweak!
+Name: LockPlus Pro Cracked
+Author: JunesiPhone
+Icon: file:///Library/PreferenceBundles/LockPlus.bundle/Icon@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.lockpluspro
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.lockplusprovi
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.1
+Depends: git.shin.lockpluspro, mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Filename: ./debs/lockplusprovi.deb
+Size: 3768
+MD5sum: e7e259129fe7c9a160d67b5a537c163e
+SHA1: ca7db461de962d613953edfae3e1d75d5a0e3659
+SHA256: 733d82413abbeb093a417408463613c4c288fdbce575a3bae95ee2e9912e5270
+Description: Add Vietnamese for LockPlus Pro.
+Name: LockPlus Pro vi
+Author: shin-chan
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.lockplusprovi
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.lowpowermode
 Priority: optional
 Section: Tweaks
@@ -1854,6 +1987,25 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.powe
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.prysm
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.5
+Depends: mobilesubstrate
+Filename: ./debs/prysm.deb
+Size: 262940
+MD5sum: 5c95fbffc003c756d8041cca536ff0c4
+SHA1: 9e6ebfc19ffae8cc6da48b1fdfdc356bbdc360eb
+SHA256: 12323bab55a7f0b075c3ba8ab8fc0c1fd926a7fe9215eee5abf65dda54fcfc61
+Description: Your control center, reimagined.
+Name: Prysm Beta 5 Cracked
+Author: LaughingQuoll
+Icon: file:///Library/PreferenceBundles/PrysmPrefs.bundle/Icon@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.prysm
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.pullover
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -2107,6 +2259,24 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smal
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.smartnetwork
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.1
+Depends: mobilesubstrate, net.limneos.libbulletin, com.spark.libsparkapplist
+Filename: ./debs/smartnetwork.deb
+Size: 250104
+MD5sum: 7892d1acc4c3127513f1816dde3660f9
+SHA1: 4e9c103cd8f3bfd73f6dee4ae3140675b4c84a40
+SHA256: 0f934ec7c17b9dae24e3a9a10dff92e85c5775d2c97beb5da5239cd343ae17d2
+Description: An awesome MobileSubstrate tweak!
+Name: SmartNetwork
+Author: elias
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smartnetwork
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.smarttap
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -2224,6 +2394,28 @@ Description: All round modification for your iDevice.
 Name: SpringPlus
 Author: Rishanan
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.springplus
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.stalky
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 4.0.4
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), com.f0u4d.watusitools (>= 2.0.13), com.rpetrich.rocketbootstrap
+Conflicts: com.f0u4d.stalkybeta
+Filename: ./debs/stalky.deb
+Size: 5314080
+MD5sum: 557cbe8250c6a084fc9a5c24ee23df47
+SHA1: 466b926ea8bb68c06868224c8ad9a1823412fc2e
+SHA256: f70f0e8f3efe67b608f607a90451080e4aeb9f696488221241773a36f27a9352
+Description: Track & download your contacts latest profile & statuses updates on WhatsApp
+Name: Stalky
+Author: Fouad Raheb <fouad.raheb@gmail.com>
+dev: f0u4d
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Icon: file:///Library/Application%20Support/Stalky/FRAssets.bundle/Preferences@3x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.stalky
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 

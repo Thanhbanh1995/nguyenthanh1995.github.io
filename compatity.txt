@@ -137,3 +137,13 @@ git.shin.youtubetools 8, 9, 10, 11, 12, 13
 git.shin.a-font 11+
 git.shin.chanqcytb 8, 9, 10, 11, 12.4
 git.shin.adblockplus 8+
+git.shin.boxy2 7, 8, 9
+git.shin.boxy3 11, 12
+git.shin.boxy4 13
+git.shin.display-touch 9+
+git.shin.complications 12+
+git.shin.lockpluspro 8+
+git.shin.lockplusprovi all
+git.shin.prysm 11, 12, 13.3
+git.shin.smartnetwork 10, 11, 12, 13.3
+git.shin.stalky 7, 8, 9, 10, 11, 12
