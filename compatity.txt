@@ -151,3 +151,5 @@ git.shin.passby 9, 10, 11, 12
 git.shin.PullOverProb 11, 12, 13
 git.shin.tiktokconfirms 10, 11, 12, 13
 git.shin.selecttextcolors 8, 9, 10, 11, 12, 13
+git.shin.libatocr 8, 9, 10, 11, 12, 13
+git.shin.liblua all

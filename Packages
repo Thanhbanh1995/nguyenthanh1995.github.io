@@ -1326,6 +1326,26 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.Pull
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.autotouch8
+Section: Utilities
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 5.2.6
+Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2), git.shin.libatocr, git.shin.liblua
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/git.shin.autotouch8_5.2.6_iphoneos-arm.deb
+Size: 17201586
+MD5sum: 6784762a56834724266ae20d76a51acc
+SHA1: ca207fc2ac48fb132f3091820e37e00db7cc6c6a
+SHA256: ac098b001cc20fbec3b331dfc5faffc4364eed411377d408e576323c310f7772
+Description: Automation touches iOS
+Name: AutoTouch Cracked
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.autotouch8
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.complications
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -1341,6 +1361,42 @@ Description: watchOS widgets on your lock screen
 Name: Complications
 Author: Ben Giannis
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.complications
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.libatocr
+Section: Development
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 5.2.6
+Depends: firmware (>= 8.0)
+Filename: ./debs/git.shin.libatocr_5.2.6_iphoneos-arm.deb
+Size: 11565970
+MD5sum: 02bc228e9d4150961526a7551b07b1d2
+SHA1: cfe2835d038005e141ce9f50779cf23b88993041
+SHA256: f759fe9f2bc6d314ed75ab3cff38f537531262ea1e6b9c1c727b8881eca12be0
+Description: libatocr for AutoTouch.
+Name: libatocr
+Author: Kent Krantz <kentkrantz@gmail.com>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.libatocr
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.liblua
+Section: Development
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 5.2.6
+Depends: firmware (>= 8.0)
+Filename: ./debs/git.shin.liblua_5.2.6_iphoneos-arm.deb
+Size: 18138608
+MD5sum: 6d9909c57e1a0d5530a3b1d81bd764ef
+SHA1: 49cb04559b3efd33fe2754e01925d7eabaca45c6
+SHA256: 9ebc66fc94731099da134d756f1fb2eb7f57002f69168f6ed5b07794a57228fb
+Description: liblua for AutoTouch.
+Name: liblua
+Author: Kent Krantz <kentkrantz@gmail.com>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.liblua
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
