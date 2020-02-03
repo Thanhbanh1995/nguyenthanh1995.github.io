@@ -147,3 +147,7 @@ git.shin.lockplusprovi all
 git.shin.prysm 11, 12, 13.3
 git.shin.smartnetwork 10, 11, 12, 13.3
 git.shin.stalky 7, 8, 9, 10, 11, 12
+git.shin.passby 9, 10, 11, 12
+git.shin.PullOverProb 11, 12, 13
+git.shin.tiktokconfirms 10, 11, 12, 13
+git.shin.selecttextcolors 8, 9, 10, 11, 12, 13

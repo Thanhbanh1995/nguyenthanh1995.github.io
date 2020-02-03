@@ -1306,6 +1306,26 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.game
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.PullOverProb
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.0~b4
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist, git.shin.cracktool4
+Filename: ./debs/git.shin.PullOverProb_2.0~b4_iphoneos-arm.deb
+Size: 1857262
+MD5sum: 8c1b20f268a0c8c9ec28bb227ae42824
+SHA1: a1f5f6ee15f512253ff84d7c70c1559faac7a254
+SHA256: 1f6c04f6bb787e729368bd4d3fbb50e4c3bf1af06e7a109e0c118f47fe9355bf
+Description: A better way to multitask!
+Name: PullOver Pro Crack
+Author: c1d3r
+dev: c1d3r
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.PullOverProb
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.complications
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -1321,6 +1341,28 @@ Description: watchOS widgets on your lock screen
 Name: Complications
 Author: Ben Giannis
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.complications
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.tiktokconfirms
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.0
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Filename: ./debs/git.shin.tiktokconfirms_1.0.0_iphoneos-arm.deb
+Size: 121462
+MD5sum: f818199e214a35dbecb1834414da6ac6
+SHA1: 4043c4540e1ca08028d21ec4cad3ace04c6d10e6
+SHA256: bf2c2f62f6ba2b3b80e50423c61922d0bdb94da704fb1c165281ae06b95525b6
+Description: Confirms Alerts for TikTok!
+Name: TikTokConfirms
+Author: CydiaGeek <lucaluca86@aol.com>
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/TikTokConfirms.bundle/tiktok@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.tiktokconfirms
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
@@ -1967,6 +2009,27 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.page
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.passby
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.8.3
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/passby.deb
+Size: 83460
+MD5sum: e7db46bc689aa278638668a7891884fa
+SHA1: 9172a3e9daf5a9454f40cd936765691179a85d0a
+SHA256: da9a994b046445bef396029a6a71d10b198e44becea002e4f4eaed8559f2ff4c
+Description: Bypass passcode in many ways
+Author: Giorgio Iavicoli <giorgio.iavicoli@icloud.com>
+Name: PassBy
+dev: giorgioiavicoli
+Tag: compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/PassByPrefs.bundle/icon@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.passby
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.powerselector
 Section: Addons (Flipswitch)
 Maintainer: ichitaso
@@ -2160,6 +2223,24 @@ Author: Matt Clarke <matt@incendo.ws>
 dev: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.reprovision
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.selecttextcolors
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.0.1
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, org.thebigboss.libcolorpicker
+Filename: ./debs/selecttextcolor.deb
+Size: 27578
+MD5sum: 891df0daa7e9bafff9c8668abacef477
+SHA1: 5c92ffc3f5181c77749f1ec73b35be94d39545bb
+SHA256: fe721aaa75e89de681bb087fb11047e7c9643c49f68c61f1190e11dcee38058b
+Description: Custom Highlight Color.
+Name: SelectTextColors
+Author: pxcex
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.selecttextcolors
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
