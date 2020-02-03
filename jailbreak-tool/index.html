@@ -220,6 +220,10 @@ body {
 }
 		</style>
 		<script>
+Array.prototype.fill !== "function" && (Array.prototype.fill = function (e) {
+   var i = 0, leng = this.length
+   while (i < leng) this[i++] = e;
+})
 onerror = console.warn = console.error = function (e) {alert(e + "")} 
 var toolJailbreak = {
 	"Chimera Jailbreak": {
