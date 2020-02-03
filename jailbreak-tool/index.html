@@ -452,7 +452,7 @@ function hide () {
 function iOSVersion () {
 	var os = navigator.userAgent.match(/OS ([\d\._]*)/)
 	
-	if (!os) return false
+	if (!os) return "unknown"
 	
 	return os[1].replace(/_/g, ".")
 }
