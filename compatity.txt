@@ -12,7 +12,7 @@ git.shin.aqueous 8, 9, 10, 11, 12
 git.shin.audiorecorder2 8, 9, 10, 11, 12
 git.shin.audiorecorderxs 12, 13
 git.shin.aupm 9, 10
-git.shin.autotouch8 8, 9, 10, 11, 12
+git.shin.autotouch8 8, 9, 10, 11, 12, 13
 git.shin.ballast 10
 git.shin.barsxi 10
 git.shin.batterylifeplugin 9, 10, 11.3 9, 10, 11.3  9, 10, 11.3
