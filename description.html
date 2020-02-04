@@ -16,8 +16,9 @@
 	<link rel=stylesheet href=css/bootstrap.min.css></link>
 	<link rel=stylesheet href=/lb/bootstrap.min.css></link>
 	<link rel=stylesheet href=main.css></link>
+	<link rel=stylesheet href=hidden-googl.css></link>
 	<meta name=viewport content='width=device-width, initial-scale=1.0, user-scalable=no'/>
-<script src="/lb/my.js"></script>
+	<script src="https://translate.google.com/translate_a/element.js?cb=googleInit"></script>
 	</head>
 	<body>
 		<div class=container>
@@ -33,6 +34,12 @@
 			</li>
 		</ul>
 			<p class="small text-center text-secondary">Repo: https://nguyenthanh1995.github.io/</p>
+				</div>
+			</div>
+			<div class=row>
+				<div class=col>
+					<div id="google-translate" class="text-center">
+					</div>
 				</div>
 			</div>
 			<div class=row>
@@ -498,6 +505,13 @@ function themeToggle () {
 
 	localStorage.setItem("theme", theme)
 	
+}
+
+function googleInit() {
+	new google.translate.TranslateElement({
+		multilanguagePage: true,
+		gaTrack: true
+	}, 'google-translate')
 }
 
 	</script>
