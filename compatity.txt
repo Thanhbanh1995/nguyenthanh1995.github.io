@@ -12,7 +12,7 @@ git.shin.aqueous 8, 9, 10, 11, 12
 git.shin.audiorecorder2 8, 9, 10, 11, 12
 git.shin.audiorecorderxs 12, 13
 git.shin.aupm 9, 10
-git.shin.autotouch8 8, 9, 10, 11, 12, 13
+git.shin.autotouch8 8, 9, 10, 11, 12
 git.shin.ballast 10
 git.shin.barsxi 10
 git.shin.batterylifeplugin 9, 10, 11.3 9, 10, 11.3  9, 10, 11.3
@@ -153,3 +153,9 @@ git.shin.tiktokconfirms 10, 11, 12, 13
 git.shin.selecttextcolors 8, 9, 10, 11, 12, 13
 git.shin.libatocr 8, 9, 10, 11, 12, 13
 git.shin.liblua all
+git.shin.batchomatic 11+
+git.shin.calllogpro 8, 9, 10, 11, 12, 13
+cydiacoolstar 11+
+git.shin.fbadblock 8+
+git.shin.kalm 12, 13.3
+git.shin.autoanswerx 11+

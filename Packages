@@ -480,6 +480,26 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.bars
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.batchomatic
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 4.2
+Depends: firmware (>= 11.0), mobilesubstrate, coreutils
+Filename: ./debs/batchomatic.deb
+Size: 100546
+MD5sum: b21455d2d025daeab9b4556ecdea0cdb
+SHA1: b7f00123a9544db88c97f2d657e1fb723c71c860
+SHA256: d29046fac13c38a2d559eaaa3beb42c04592a46128fdd35f0c5be7350030eebb
+Description: Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Author: Capt Inc <teamcaptinc@gmail.com>
+Name: Batchomatic
+dev: captinc
+Tag: compatible::ios11, compatible::ios12, compatible::ios13
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.batchomatic
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.batterylifeplugin
 Section: Tweak
 Maintainer: Nguyen Thanh <thanhnguyennguyen1995@gmail.com>
@@ -722,6 +742,25 @@ Name: CallBar (iOS 10/9/8/7)
 Author: Elias Limneos & Josh Tucker 
 Icon: file:///Library/PreferenceBundles/CallBar.bundle/CallBar@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.callbar7
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.calllogpro
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 11.0.1-beta-9
+Depends: firmware(>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap, com.pulandres.libiarrays
+Filename: ./debs/calllogpro.deb
+Size: 5593512
+MD5sum: f2668d194fbf4e64da2d17dde8b00a89
+SHA1: 41727fa2519076eb7588720c8b36b4baf5189de3
+SHA256: b9285ae9a4c9fec67acc7cac43100bc4c599cccf05a78ac59fb52785efaa0ced
+Description: Manage history and delete call records.
+Name: CallLogPro (iOS 13/12/11/10/9/8) Cracked
+Author: IArrays <contact@iarrays.com>
+Icon: file:///Applications/CallLogPro.app/AppIcon29x29@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.calllogpro
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
@@ -984,6 +1023,29 @@ Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, 
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.customloadingtext
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: cydiacoolstar
+Priority: optional
+Section: Utilities
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.9.2
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools, lzma, cydia
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=11.0)
+Conflicts: bigboss, com.sosiphone.addcydia, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd, cydia-uni
+Filename: ./debs/cydiacoolstar.deb
+Size: 2501186
+MD5sum: 217ae9d59951bb841b2e0bf3c30cb158
+SHA1: 022ea16cf7a67fd37b866e8a940ed95d4bddda4f
+SHA256: c6c26799c2d94771e41c396e4a05ecd71f9d22f2ce911b3bbca963ea1422cecd
+Name: Cydia for Chimera/Electra
+Author: Diatrus <me@diatr.us>
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Tag: purpose::uikit, role::enduser
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=cydiacoolstar
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.cydiainstall
 Section: Utilities
 Maintainer: D4ni <mail@d4ni.nl>
@@ -1140,6 +1202,24 @@ Name: Evanesco
 Author: CP Digital Darkroom
 Icon: file:///Library/PreferenceLoader/Preferences/Evanesco@3x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.evanesco
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.fbadblock
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.0
+Depends: mobilesubstrate
+Filename: ./debs/fbadblock.deb
+Size: 7464
+MD5sum: c07b4678319e2d38707943a63251e101
+SHA1: 72a6bb4c67fa1f2cdd3f19ba54466c9e86f1c4e0
+SHA256: cdd177a76aced4c434e80b2508d609ec5eff3a840718d7adf7b4c4794212d5ca
+Description: Adblock for Facebook.
+Name: FacebookAdBlocker Cracked
+Author: Rishanan
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.fbadblock
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
@@ -1687,6 +1767,25 @@ Sponsor: nguyenthanh
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.iwidgets
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.kalm
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.1
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ioscreatix.twig, xyz.royalapps.jellyfish, com.bengiannis.manta, com.xcxiao.simplels2, com.lacertosusrepo.speculum
+Filename: ./debs/kalm.deb
+Size: 143896
+MD5sum: 15b09d4a1074814ff551d68163800c0f
+SHA1: fbd4bbb09d457ce9a2174f3d4ae60f9056cbeaf7
+SHA256: 4c4e3bf0c8ca499960b5236c4ca45ade6c2f606a35e0f3507f8ecae30b83fc11
+Description: A beautiful first sight.
+Name: Kalm
+Author: ubik <cydia@ubikstyl.es>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.kalm
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: libactivator
 Priority: optional
 Section: System
@@ -1744,6 +1843,24 @@ Description: Essential lib for SpringPlus
 Name: libSpringPlus
 Author: Rishanan
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.libspring
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.autoanswerx
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 9.2-7
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: ./debs/limneos.deb
+Size: 43666
+MD5sum: 11c988fcc3c3a498a5b6649fcfdcd713
+SHA1: 4b85cee8bacd927b39b43a9e3a959a458e6165c8
+SHA256: c5b3b6b6677fcafcbd767951c594ace583aac0f9a3dfb0b362fc1fe0fc9cb872
+Description: Fake License Limneos.
+Name: Limneosos
+Author: Pulandres
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.autoanswerx
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
