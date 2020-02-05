@@ -1671,14 +1671,14 @@ Depends: mobilesubstrate, ws.hbang.common (>= 1.11), com.spark.libsparkapplist, 
 Conflicts: org.cydia.kiimo.cracktool4, com.julioverne.cracktool4
 Filename: ./debs/iconator2.deb
 Size: 1017650
-MD5sum: 4684ef5d954556ea59c6c5bbc8e1e1c9
-SHA1: 2724ff55283e78336642cac257804544f1ae4d0c
-SHA256: b9cf8fd0dd932bd1f1568e315395c99ad0047421fa67e7790b7fc8615aa8f956
+MD5sum: c28a5b27adab2f1b9354e3c54011907f
+SHA1: ddc58c6c0a2047eb9017b52289c82ef75082d3f0
+SHA256: 925dfe68a057cb8f9b7780bda5d881431b36dd7391ae8c2768d35ef3673461ca
 Description: Control homescreen whatever you want
 Name: Iconator2
 Author: Soh Satoh
 Icon: file:///Library/PreferenceBundles/iconator2.bundle/Icon@3x.png
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.iconator2
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=jp.soh.iconator2
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
@@ -1707,14 +1707,14 @@ Version: 2.7.2
 Depends: mobilesubstrate, com.chpwn.iconsupport, ws.hbang.common (>= 1.11)
 Filename: ./debs/iconresizerforios11.deb
 Size: 119392
-MD5sum: 8bf14859e4a26416ce73b04e550c5db9
-SHA1: 38043eacdd9bdb79662f46dc02c4c1f406ade91d
-SHA256: 7bc30ae3a4481075c54e8c98b7b2d7329b96148c242ed2c54725c69ddbb70a14
+MD5sum: 0a0ec47083497cb4d28eef38cd8f4a32
+SHA1: 484605c2b58a3298967d41db15a8ed6971e53d4c
+SHA256: c2ee56b1a1d2559ef740dbf0151bd8c90066c3d001e7499d9d8b020dd3fb23c6
 Description: Control icons on Homescreen whatever you want to do. Confirmed works on iOS11&12.
-Name: Iconator (iOS11 & 12)
+Name: Iconator (iOS11&12)
 Author: Soh Satoh
 Tag: compatible_min::ios10, compatible_max::ios12.4
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.iconresizerforios11
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=jp.soh.iconresizerforios11
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
