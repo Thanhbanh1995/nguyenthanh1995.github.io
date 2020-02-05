@@ -1706,12 +1706,12 @@ Architecture: iphoneos-arm
 Version: 2.7.2
 Depends: mobilesubstrate, com.chpwn.iconsupport, ws.hbang.common (>= 1.11)
 Filename: ./debs/iconresizerforios11.deb
-Size: 119394
-MD5sum: b0f86786a3bbc3b39d27273d9fb5e582
-SHA1: eb63afa136665523bd35e9c4eb02117b86743351
-SHA256: 05c03e0c4ce63c3eee9bb1d1e2cad8add3660a1b1fb8e7ebd8f058f0a82b405d
+Size: 119392
+MD5sum: 8bf14859e4a26416ce73b04e550c5db9
+SHA1: 38043eacdd9bdb79662f46dc02c4c1f406ade91d
+SHA256: 7bc30ae3a4481075c54e8c98b7b2d7329b96148c242ed2c54725c69ddbb70a14
 Description: Control icons on Homescreen whatever you want to do. Confirmed works on iOS11&12.
-Name: Iconator (iOS11 Name: Iconator (iOS11&12) 12)
+Name: Iconator (iOS11 & 12)
 Author: Soh Satoh
 Tag: compatible_min::ios10, compatible_max::ios12.4
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.iconresizerforios11
