@@ -220,10 +220,6 @@ body {
 }
 		</style>
 		<script>
-Array.prototype.fill !== "function" && (Array.prototype.fill = function (e) {
-   var i = 0, leng = this.length
-   while (i < leng) this[i++] = e;
-})
 onerror = console.warn = console.error = function (e) {alert(e + "")} 
 var toolJailbreak = {
 	"Chimera Jailbreak": {
@@ -291,7 +287,7 @@ var toolJailbreak = {
 			"https://ipa.kenhtao.net/plists/etasonJB.plist"
 		],
 		version: "1.0 RC5",
-		support: "8 (jack 3.5)"
+		support: "8.x.x"
 	},
 	"g0blin Jailbreak": {
 		icon: "g0blin.png",
@@ -473,7 +469,9 @@ function iOSVersion () {
 	return os[1].replace(/_/g, ".")
 }
 function fixed (arr, $n) {
-	return arr.length < $n ? arr.concat(new Array(3 - arr.length).fill(0)) : arr
+	var tmp = [], i = 3 - arr.length
+	while (i --)  tmp.push(0)
+	return arr.length < $n ? arr.concat(tmp) : arr
 }
 function checkInVer (os, tmp) {
 	os = fixed(os.split("."), 3)
