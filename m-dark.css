@@ -40,8 +40,5 @@ ul li *:active, ul li *:focus {
 }
 
 .goog-te-combo {
-	height: 30px;
-	border: 1px solid #c8c7cc;
-	color: #ffffff;
-	background: #161616;
+	border: none !important;
 }
