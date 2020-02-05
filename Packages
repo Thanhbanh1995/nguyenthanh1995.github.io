@@ -1662,6 +1662,26 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.icle
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.iconator2
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 3.0
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), com.spark.libsparkapplist, preferenceloader
+Conflicts: org.cydia.kiimo.cracktool4, com.julioverne.cracktool4
+Filename: ./debs/iconator2.deb
+Size: 1017650
+MD5sum: 4684ef5d954556ea59c6c5bbc8e1e1c9
+SHA1: 2724ff55283e78336642cac257804544f1ae4d0c
+SHA256: b9cf8fd0dd932bd1f1568e315395c99ad0047421fa67e7790b7fc8615aa8f956
+Description: Control homescreen whatever you want
+Name: Iconator2
+Author: Soh Satoh
+Icon: file:///Library/PreferenceBundles/iconator2.bundle/Icon@3x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.iconator2
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.icon
 Essential: yes
 Section: System
@@ -1678,6 +1698,25 @@ Author: shin-chan
 Sponsor: nguyenthanh
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.icon
 Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.iconresizerforios11
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.7.2
+Depends: mobilesubstrate, com.chpwn.iconsupport, ws.hbang.common (>= 1.11)
+Filename: ./debs/iconresizerforios11.deb
+Size: 119394
+MD5sum: b0f86786a3bbc3b39d27273d9fb5e582
+SHA1: eb63afa136665523bd35e9c4eb02117b86743351
+SHA256: 05c03e0c4ce63c3eee9bb1d1e2cad8add3660a1b1fb8e7ebd8f058f0a82b405d
+Description: Control icons on Homescreen whatever you want to do. Confirmed works on iOS11&12.
+Name: Iconator (iOS11 Name: Iconator (iOS11&12) 12)
+Author: Soh Satoh
+Tag: compatible_min::ios10, compatible_max::ios12.4
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.iconresizerforios11
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
 Package: git.shin.ifile
 Section: System
