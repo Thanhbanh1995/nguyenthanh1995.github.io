@@ -159,5 +159,5 @@ cydiacoolstar 11+
 git.shin.fbadblock 8+
 git.shin.kalm 12, 13.3
 git.shin.autoanswerx 11+
-git.shin.iconator2 11, 12
-git.shin.iconresizerforios11 10, 11, 12, 13
+git.shin.iconator2 10, 11, 12, 13
+git.shin.iconresizerforios11 11, 12
