@@ -162,3 +162,5 @@ git.shin.autoanswerx 11+
 git.shin.iconator2 11, 12
 git.shin.iconresizerforios11 10, 11, 12, 13
 git.shin.ithemer 10+
+git.shin.magmaevo 12, 13
+git.shin.magmaevovi 12, 13

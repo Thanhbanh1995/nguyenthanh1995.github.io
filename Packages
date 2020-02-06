@@ -1426,6 +1426,26 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.auto
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.cercube
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 5.1.9
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap, wget
+Conflicts: com.pulandres.cercube5pp, me.alfhaily.cercube
+Filename: ./debs/git.shin.cercube_5.1.9_iphoneos-arm.deb
+Size: 11622554
+MD5sum: ace46c491373a2dee76199e635aebc87
+SHA1: 9c841624f8f2826c9542eb4aab0ff13a84d9c230
+SHA256: 5eec6803d4005077fecc79345aff2e495cf325ade41722bbf8a1f2b4c99b8b48
+Description: Add premium Features in Cercube 5.
+Name: Cercube for YouTube
+Author: Majd Alfhaily
+Icon: https://api-v5.cercube.com/resources/depiction/images/icon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cercube
+
 Package: git.shin.complications
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -2018,6 +2038,43 @@ Author: cole cabral @ca13ra1 <cabralcole@gmail.com>
 dev: ca13ra1
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.lowpowermode
 Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.magmaevo
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1.0
+Depends: mobilesubstrate, firmware (>= 12.0), preferenceloader (>= 2.2.4~beta1), com.opa334.ccsupport, org.thebigboss.libcolorpicker
+Filename: ./debs/magmaevo.deb
+Size: 142918
+MD5sum: c3ca9b69d7dc0b258ec5dd8a7b9500a5
+SHA1: 7074373d7d35f8bd7542b503740bf2dbf0406878
+SHA256: 4f3189e9dfa247db154debca85d62f571448bf9b00537db4c56dc85670675296
+Description: Custom Control Center your think!
+Name: Magma Evo
+Author: NoisyFlake
+Icon: file:///Library/PreferenceBundles/MagmaEvo.bundle/icons/Magma@2x.png
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.magmaevo
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.magmaevovi
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.1
+Depends: mobilesubstrate, git.shin.magmaevo
+Filename: ./debs/magmaevovi.deb
+Size: 2634
+MD5sum: c684dd8aa06f5bcf6708957976851d3d
+SHA1: d35d1bf482d18c1211f740657778c11d68036907
+SHA256: 6a9f5b8f5efcb59499bc05518fd90ed85bbad4ba185211b84d2cab24b524b51c
+Description: Add Vietnamese
+Name: Magma Evo vi
+Author: shin-chan
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.magmaevovi
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
 Package: git.shin.maize10
 Section: Tweaks
