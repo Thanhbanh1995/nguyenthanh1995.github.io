@@ -1670,15 +1670,15 @@ Version: 3.0
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), com.spark.libsparkapplist, preferenceloader
 Conflicts: org.cydia.kiimo.cracktool4, com.julioverne.cracktool4
 Filename: ./debs/iconator2.deb
-Size: 1017650
-MD5sum: c28a5b27adab2f1b9354e3c54011907f
-SHA1: ddc58c6c0a2047eb9017b52289c82ef75082d3f0
-SHA256: 925dfe68a057cb8f9b7780bda5d881431b36dd7391ae8c2768d35ef3673461ca
+Size: 1017656
+MD5sum: fd4ac08af9f959be5a14a9c0149b394a
+SHA1: da348a36109c2031b8ae605cec4c9b45e96dcb70
+SHA256: 8ddc8c10eca1654db946467e46cc9886cfcc1706f02272ee802dae7d25631e95
 Description: Control homescreen whatever you want
 Name: Iconator2
 Author: Soh Satoh
 Icon: file:///Library/PreferenceBundles/iconator2.bundle/Icon@3x.png
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=jp.soh.iconator2
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.iconator2
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
@@ -1706,15 +1706,15 @@ Architecture: iphoneos-arm
 Version: 2.7.2
 Depends: mobilesubstrate, com.chpwn.iconsupport, ws.hbang.common (>= 1.11)
 Filename: ./debs/iconresizerforios11.deb
-Size: 119392
-MD5sum: 0a0ec47083497cb4d28eef38cd8f4a32
-SHA1: 484605c2b58a3298967d41db15a8ed6971e53d4c
-SHA256: c2ee56b1a1d2559ef740dbf0151bd8c90066c3d001e7499d9d8b020dd3fb23c6
+Size: 119398
+MD5sum: 36cb4536ca2dca5a0421317d58dd1f2b
+SHA1: 7473fa993b559b977b8bd6522ed92c66bf35a04a
+SHA256: 3a675ee5901161db55f7c6764b0e2886bac3df824c0f9349bca9486c33b069e4
 Description: Control icons on Homescreen whatever you want to do. Confirmed works on iOS11&12.
 Name: Iconator (iOS11&12)
 Author: Soh Satoh
 Tag: compatible_min::ios10, compatible_max::ios12.4
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=jp.soh.iconresizerforios11
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.iconresizerforios11
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
@@ -1796,14 +1796,14 @@ Provides: anemoneteam.anemone, com.anemonetheming.anemone, com.anemonetheming.an
 Depends: mobilesubstrate, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, com.anemonetheming.anemone3, winterboard, com.spark.snowboard
 Filename: ./debs/ithemer.deb
-Size: 241048
-MD5sum: ee364daf065efc855d3f463f2c034ce2
-SHA1: 562935659de3e39f2acf304a3d98a22f37f55ed2
-SHA256: ffd42aee9fe9c639059193b2d8d940eee6eb658f3d68535e727704e9c9e33731
+Size: 241046
+MD5sum: ddc1e00f16392604cda2f7f8ee15e896
+SHA1: ea89aee3cec0aa2eb37032c59c5578a8fc807422
+SHA256: 2e6dd5307db7def891716a472c65f1754d09bd392608fb6a36ce78b1bb4a3654
 Description: An awesome MobileSubstrate tweak!
 Name: iThemer
 Author: DODGraphics <dodgraphics.1010@gmail.com>
-Depiction: https://nguyenthanh1995.github.io/description.html?goto=net.dodtweaks.ithemer
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ithemer
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
@@ -2584,6 +2584,24 @@ Size: 250104
 MD5sum: 7892d1acc4c3127513f1816dde3660f9
 SHA1: 4e9c103cd8f3bfd73f6dee4ae3140675b4c84a40
 SHA256: 0f934ec7c17b9dae24e3a9a10dff92e85c5775d2c97beb5da5239cd343ae17d2
+Description: An awesome MobileSubstrate tweak!
+Name: SmartNetwork
+Author: elias
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smartnetwork
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.smartnetwork
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.4
+Depends: mobilesubstrate, net.limneos.libbulletin, com.spark.libsparkapplist
+Filename: ./debs/smartnetwork104.deb
+Size: 252396
+MD5sum: 2b3b8efe99e5c032003cfb8cafce4ef7
+SHA1: 6ec8c8cb0aef3678565ec8124154574a63fdd1ac
+SHA256: 3042c8ef5396c7cf0e5e819c05ce8e53f36480a643a4541959f8664941b425c9
 Description: An awesome MobileSubstrate tweak!
 Name: SmartNetwork
 Author: elias
