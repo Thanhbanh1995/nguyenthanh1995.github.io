@@ -764,6 +764,26 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.call
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.carbonite
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.4
+Depends: mobilesubstrate
+Filename: ./debs/carbonite.deb
+Size: 58620
+MD5sum: 7acf72c7873f7e421bc8217febc09e16
+SHA1: 9cff295f2754accebbae22c0579d6ade09c01823
+SHA256: 3a9bf68d0befe3dd697a5ac277fafc91717552297246ef2ae1de5dfe8afc1d33
+Description: Functionality added to the currently pointless Reachability window.
+Name: Carbonite
+Author: Antique <official.antique@gmail.com>
+Icon: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB0VBMVEX/LVX/OmD/UHL/Wnr/Y4H/YX//UHH/PmP/L1f/PWL/dZD/pbb/09z/8/X//////v7/7vH/wc3/jKL/Vnb/Mln/eZL/xtH//f3/8vT/qbr/S27/iaD/6u7/u8j/3+X/rLz/N13/MFj/mq3/4eb/WXj/NVz/ws7//Pz/fpb/Nlz/zdb/dI7/vsr/aYb/+Pr/TW///f7/yNL/Llb/3OP/+fr/usf/co3/UnP/O2D/SWz/aob/pLb/7fD/d5H/f5f/tML/PWL/jaP/7PD/OF7/MVj/6Oz/VXX/5er/epP/cYz/8PP/xdD/x9L/n7H/bIj/QGT/6u7/wMz/g5r/Y4D/prf/9/j/L1b/5uv/w8
+Tag: purpose::extension, compatible_min::ios12.2, compatible_max::ios13.3
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.carbonite
+
 Package: git.shin.ccrecorder
 Priority: optional
 Section: Tweaks
@@ -901,6 +921,26 @@ Author: shin-chan
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cleansys
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.colorizechat
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.1
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker, ws.hbang.common (>= 1.11)
+Filename: ./debs/colorizechat.deb
+Size: 1470726
+MD5sum: 5aebf9686558e8e2c1217f80ec7780d0
+SHA1: 9cc2da1a2b6bd786acdb06be337e013f9760ba37
+SHA256: 864a9ff7f8b172ab64412a0a57d303248682ee922bbf1b1233776ef91814777f
+Description: Coloring your chat...
+Name: ColorizeChat
+Author: Dylan West <iosthemem0d@gmail.com>
+Icon: https://twickd.com/cdn/screenshots/fd05ae74910832c98f19a8ad4e4b895e/default
+Tag: purpose::extension, compatible_min::ios12.2, compatible_max::ios13.3
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.colorizechat
 
 Package: git.shin.compatimark
 Section: Cydia Custom
