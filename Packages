@@ -1786,6 +1786,27 @@ dev: chpwn
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.infinidock
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.ithemer
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.0.0-1
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, com.anemonetheming.anemone3, winterboard, com.spark.snowboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, com.anemonetheming.anemone3, winterboard, com.spark.snowboard
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, com.anemonetheming.anemone3, winterboard, com.spark.snowboard
+Filename: ./debs/ithemer.deb
+Size: 241048
+MD5sum: ee364daf065efc855d3f463f2c034ce2
+SHA1: 562935659de3e39f2acf304a3d98a22f37f55ed2
+SHA256: ffd42aee9fe9c639059193b2d8d940eee6eb658f3d68535e727704e9c9e33731
+Description: An awesome MobileSubstrate tweak!
+Name: iThemer
+Author: DODGraphics <dodgraphics.1010@gmail.com>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=net.dodtweaks.ithemer
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.iwidgets
 Priority: extra
 Section: Tweaks
