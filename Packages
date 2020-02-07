@@ -3716,10 +3716,10 @@ Provides: org.coolstar.ventana
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), ldid, ga.jakeashacks.substitutedummy, ga.jakeashacks.sharedfix
 Conflicts: org.coolstar.ventana, com.hackyouriphone.ventana, jaja.kiiimo
 Filename: ./debs/ventana.deb
-Size: 1346502
-MD5sum: 236693569a54f39fbabea30a8efd4a7c
-SHA1: 53910d32ff182ee6551aacc86a1db2b3c9058bcb
-SHA256: b5716921d51e0f12adbe9c392988f8420c7251ef061d07c61ad2212bc5516aab
+Size: 1323822
+MD5sum: d46e97c74999b8c3cbdf8f6acba36090
+SHA1: c8e2c5b02beefcb1072ce777b0661f0df28202d0
+SHA256: 723260fcfb34f02e0fff54f7e68b1e803013bc992ae5965feb8a7dbb0577cd4f
 Description: modern lock screen inspired by Windows 10
 Name: Ventana Cracked
 Author: CoolStar & Jeremy Goulet <repo@hackyouriphone.org>
