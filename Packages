@@ -1,3 +1,41 @@
+Package: git.shin.3dtools
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.5
+Depends: mobilesubstrate
+Conflicts: me.pulandres.appaze
+Filename: ./debs/3dtools.deb
+Size: 1205152
+MD5sum: e72c84044e5b5bcce89f4bd746eca66d
+SHA1: 6b4d02b6d36b03113b4823a7c5c522a3e42a95a5
+SHA256: 5382c410631cc81272eb3a6962e123124e20e64ff7b763fa27fa6ccb11e560e1
+Description: Add helpful tools to your 3D touch menu!
+Name: 3DTools Cracked
+Author: smokin1337 <smokin1337@gmail.com>
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.3dtools
+
+Package: git.shin.lpm
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1.3
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader, applist, ws.hbang.common
+Filename: ./debs/RealLPM.deb
+Size: 1877410
+MD5sum: aef56a7f5fd7afc97281b09e2173de78
+SHA1: eadb63a2e8267032e2cd309f9bd82c7501c49fee
+SHA256: f8c7fc89c3be371f65fc9bdf16d951855e848cd28bba68129f29b817b023518f
+Description: Save Your battery life
+Name: RealLPM Cracked
+Author: DylanDuff
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.lpm
+
 Package: git.shin.a-font
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -784,6 +822,24 @@ Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.carbonite
 
+Package: git.shin.ccmodulespro
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1.1
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, com.opa334.ccsupport (>= 1.2.1), ws.hbang.common
+Filename: ./debs/ccmodulespro.deb
+Size: 327716
+MD5sum: 6c2b7dfc9f464828865fe7d3c10986b2
+SHA1: f665f45e70005cc11c1e02e7fafa04f36e313e51
+SHA256: 96afd83a45718df1088d699630fee07ca99000ff04220643350788fd2ef6c8f4
+Description: Increase the usability of your control center.
+Name: CCModules Pro Cracked
+Author: jailbreak365 <jailbreak365@mail.com>
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ccmodulespro
+
 Package: git.shin.ccrecorder
 Priority: optional
 Section: Tweaks
@@ -866,6 +922,26 @@ Icon: https://api-v5.cercube.com/resources/depiction/images/icon.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cercube
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.cercube
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 5.1.9-1
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap, wget
+Conflicts: com.pulandres.cercube5pp, me.alfhaily.cercube, com.pulandres.adblockplus
+Filename: ./debs/cercube519-1.deb
+Size: 11622822
+MD5sum: 04ee676189add4b56e8240f600c33e9f
+SHA1: 57964f8ffcb9cad786170efb9228fdfd5d51cd71
+SHA256: c6f62df3181c5ca9415413405498227585b65172eecc3f5a94fd188b193f77fa
+Description: Add premium Features in Cercube 5.
+Name: Cercube for YouTube
+Author: Alfhaily
+Icon: https://api-v5.cercube.com/resources/depiction/images/icon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cercube
 
 Package: git.shin.chargemode
 Section: Tweaks
@@ -2219,6 +2295,24 @@ Icon: file:///Library/PreferenceBundles/Mypomonella.bundle/Mypomonella@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.cydiageek.mypomonella
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.ncontrol
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.2-19
+Filename: ./debs/ncontrol.deb
+Size: 392782
+MD5sum: adac74ba30baa9a3806aa2895c39dd18
+SHA1: 1f1f42a7e8e11de4835cef03eb2f53d6c8ec6512
+SHA256: 81e969520f7b7b199b938531447a9d9ad0058a8177cc081f3006ce71cca2f39a
+Description: Real control Emulator.
+Name: nControl Cracked
+Author: Kevin Bradley & Luca Todesco <kevin@nito.tv>
+Tag: compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ncontrol
+
 Package: git.shin.ncwallcustomizer
 Priority: optional
 Section: Tweaks
@@ -2241,6 +2335,44 @@ Icon: file:///Library/PreferenceBundles/NCWallCustomizer.bundle/NCWallCustomizer
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ncwallcustomizer
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.networkmanager
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.2
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/networkmanager.deb
+Size: 46986
+MD5sum: 045c1294d6855125218108793ea61f73
+SHA1: 2c0d105d203d0a26bf74a0cfefd9725bc47d11e7
+SHA256: 2ce66a252a8b7c0eac8c32c8e79264c917b88ca65edd1135e7a04c87fbba9e28
+Description: Force 2G/3G/LTE connection
+Name: NetworkManager Cracked
+Author: NoisyFlake
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.networkmanager
+
+Package: git.shin.nfcwriterx
+Section: Utilities
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 3.2-16
+Depends: mobilesubstrate, net.limneos.libbulletin
+Conflicts: net.limneos.nfcwriter, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.pulandres.bioprotectxs, com.pulandres.limneosos, ru.rejail.limneosos
+Filename: ./debs/nfcwriterx.deb
+Size: 964434
+MD5sum: 1b6c069365d9122d776d7ecf461215cb
+SHA1: 85d9db1d60b7d64a530c138c4a126bab43d35bcc
+SHA256: 25d64412d312a059d852e85504cb0d571b9e3bf7c6c5cdb680ee67d8bd56f329
+Description: NFCWriter XS for iOS 11/12/13, (ISSUE CRACK CONFLICT with CallbarXS, AudiorecorderXS, BioprotectXS).
+Name: NFCWriter XS Cracked
+Author: Elias Limneos <limneoselias@gmail.com>
+Icon: file:///Applcations/NFCWriter.app/icon@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.nfcwriterx
+
 Package: git.shin.nicebarx
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -2258,6 +2390,148 @@ Author: niceios
 Sponsor: nguyenthanh
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.nicebarx
 Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.nicebarx
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.0.5.2-1
+Depends: com.rpetrich.rocketbootstrap,mobilesubstrate
+Filename: ./debs/nicebarx205-2-1.deb
+Size: 1676378
+MD5sum: ce80ebe736789ec8fb1274dbd1974340
+SHA1: 677309f345dbf319b1d96bd4a7bdda95ff75c8b7
+SHA256: 1ccf60683a4ed819928af5281c720dade0a6ea856562a1b7da2dd752e9f4ae7a
+Description: statusbar tweak..
+Name: NiceBarX Cracked
+Author: niceios
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=nicebarx205-2-1
+
+Package: git.shin.noctis12
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.8.9.5
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist, com.opa334.ccsupport, com.rpetrich.rocketbootstrap
+Conflicts: com.laughingquoll.noctisxi
+Filename: ./debs/noctis12.deb
+Size: 258770
+MD5sum: 9c27e9abb7e7f3887e5c81e11ef22e7d
+SHA1: c54bc2a7857ffe99d7e3b1d408a327f1d848a753
+SHA256: 16a6f2d47bfff209e0d7bf15e4a9b43c9a22f3f4652c26db714e4ae4ca1f6f76
+Description: Dark Mode for iOS 12
+Name: Noctis12
+Author: LaughingQuoll
+Icon: https://repo.packix.com/api/Packages/5c707a343c6ae6001a9e025b/icon/download?size=medium&hash=2
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.noctis12
+
+Package: git.shin.noctisx
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1.1
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist, com.rpetrich.rocketbootstrap
+Conflicts: com.laughingquoll.noctis12, com.laughingquoll.noctisxi
+Filename: ./debs/noctisx.deb
+Size: 468278
+MD5sum: 4eda1f90df9b3490122b247a59fe0a36
+SHA1: 1f8e603db3b29f4e36200c8bfea1d12f40555803
+SHA256: 097a56856883f7ec49ff47556ea5c01144df13a9319b54f35c7dd2e5e6340ab9
+Description: Dark mode for iOS 10
+Name: NoctisX (iOS10) Cracked
+Author: LaughingQuoll
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.noctisx
+
+Package: git.shin.noctisxl
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.7.6
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist, com.opa334.ccsupport, com.rpetrich.rocketbootstrap
+Conflicts: com.laughingquoll.noctis12
+Filename: ./debs/noctisxl.deb
+Size: 205952
+MD5sum: 7b9cf5cb2c7c41e5dba54987451c854c
+SHA1: 1ca85adfc59f80c6f2bcd6512b25d652d5ba7004
+SHA256: 013bc77ef3b32bed77472a0085c1d1d537b4ccb9875d91f87cc45c13936a6083
+Description: Darkmode for iOS11
+Name: NoctisXI (iOS11) Cracked
+Author: LaughingQuoll
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.noctisxl
+
+Package: git.shin.notifywifi10
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.2
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, com.a3tweaks.flipswitch (>= 1.0.16~beta2)
+Conflicts: com.ichitaso.notifywifi, com.ichitaso.notifywifi7
+Filename: ./debs/notifywifi10.deb
+Size: 218174
+MD5sum: 0140ded8424c9e314bad675a7fd6e9ef
+SHA1: c35bebb0892b19f23bef8681dbd4f479a5251437
+SHA256: 71c1783c564d7f6bcd0009ffa220c2073ed1361ce390ebf5cee153dea9c4f774
+Description: Wi-Fi Change Notification Manager
+Author: ichitaso <willfeeltips+notify@gmail.com>
+Name: NotifyWiFi10
+dev: ichitaso
+Tag: purpose::extension, compatible::ios10
+Icon: file:///Library/PreferenceBundles/NotifyWiFiSettings.bundle/NotifyWiFi10@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.notifywifi10
+
+Package: git.shin.notifywifi7
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1-7
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader, com.a3tweaks.flipswitch
+Filename: ./debs/notifywifi7.deb
+Size: 215524
+MD5sum: 46d25c3b9925ee46ec639affa9c72e6c
+SHA1: df13af82bbb28389268bcb0a51b024b2bdbff3f3
+SHA256: a06b8e753dff9d0e49af4fa9a70dbd28fc6271e8adf9972e42bd08a4b9c34f9b
+Description: Wi-Fi Change Notification on Banner
+Author: ichitaso <willfeeltips.notify7@gmail.com>
+Name: NotifyWifi7 (iOS7/8/9)
+dev: ichitaso
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9
+Icon: file:///Library/PreferenceBundles/NotifyWiFiSettings.bundle/NotifyWiFi7@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.notifywifi7
+
+Package: git.shin.notifywifix
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1.2
+Replaces: com.ichitaso.notifywifix
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Conflicts: com.ichitaso.notifywifi, com.ichitaso.notifywifi7, com.ichitaso.notifywifi10, com.giorgioiavicoli.passby, com.julioverne.goodwifi
+Filename: ./debs/notifywifix.deb
+Size: 476676
+MD5sum: 6c47084d66f3c0ed3936dccb8e199af0
+SHA1: d42eed6aedd9e54f4a17733b2ade2ab73ade48c4
+SHA256: 23d907b49538b598c728ccca75c31ef296aa5125578a04e4dcd087c8dfa40ec4
+Description: WiFi Network Manager
+Name: NotifyWiFi X Cracked
+Author: ichitaso <willfeeltips+notify@gmail.com>
+Icon: file:///Library/PreferenceBundles/NotifyWiFiSettings.bundle/icon@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.notifywifix
 
 Package: git.shin.nudekeys
 Section: Tweaks
@@ -2299,6 +2573,26 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.nude
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.onlinenotify
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 3.1.3
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist, com.rpetrich.rocketbootstrap, com.pulandres.watools  (>= 2.1.9), sedfix  (>= 7.0)
+Conflicts: com.f0u4d.onlinenotifybeta, com.f0u4d.onlinenotify2, com.imokhles.waquickreply.bb, com.pulandres.whatshack, ru.rejail.whatshack, com.hackyouriphone.whatshack
+Filename: ./debs/onlinenotify.deb
+Size: 671406
+MD5sum: cd957dcf439e2123219e1266db4ada78
+SHA1: 1cfb07850f460b2f60d86ddb69ec5eb979b0f4c6
+SHA256: 50c82bec845bb7432fdcbd2297589770d7025bb12f13e639255ea3f77859f94f
+Description: Track you friends on WhatsApp Messenger!
+Name: OnlineNotify Cracked
+Author: Fouad Raheb <fouad.raheb@gmail.com>
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.onlinenotify
+
 Package: git.shin.otrlocationservirce
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -2339,6 +2633,27 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.page
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.pasithea2
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.2.1
+Replaces: com.ichitaso.pasithea2
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), applist (>= 1.5.9), net.angelxwind.karenlocalizer, firmware (>= 11.0) | com.ichitaso.pasithea2flipswitch
+Conflicts: com.ichitaso.pasteboardswitch, com.ichitaso.pasithea
+Filename: ./debs/pasithea2.deb
+Size: 782140
+MD5sum: a9bff2cf5c08a81b237d7ed276c3a1fa
+SHA1: cbe0dda0d8231a90d941d05960c27c1a62265a76
+SHA256: 3cee9c7a96ce0f57ce1d68f23ca37687f25d21cea306048d15ee90b69f4b4dc0
+Description: Awesome ClipBoard
+Name: Pasithea 2 (iOS 10 - 13) Cracked
+Author: Cannathea <csupport@cannathea.com>
+Icon: file:///Library/PreferenceBundles/PasitheaSettings.bundle/Pasithea@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.pasithea2
+
 Package: git.shin.passby
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -2359,6 +2674,43 @@ Icon: file:///Library/PreferenceBundles/PassByPrefs.bundle/icon@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.passby
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.phonecaller2
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.9.0.2
+Depends: firmware (>= 7.0), com.rpetrich.rocketbootstrap
+Filename: ./debs/phonecaller2.deb
+Size: 435236
+MD5sum: c23e8dea307aca23d1943df6f2324ccf
+SHA1: 433716acb48d7ff8932d6031554f90d16329dcbb
+SHA256: 21bbcf9f5b70f526648901524f2723a3885bfd6f73f043823a1a03ff10989950
+Description: Find out who's calling before answering
+Name: PhoneCaller Cracked
+Author: Osama
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.phonecaller2
+
+Package: git.shin.photomanager12
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1.2-3
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+Filename: ./debs/photomanager12.deb
+Size: 471080
+MD5sum: 0e83076abcb0799b3e9f537ffd01c2e5
+SHA1: c89e7b6afde42b7fd1d3515ed8775c4daa8a1060
+SHA256: d015f5677b9b0509dc68f7fc122e2d25af15415038d9abf7d607d3d9342ecba3
+Description: Add many features to the photos app.
+Name: PhotoManager (iOS 12 & 13)
+Author: Frozen Penguin
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.photomanager12
 
 Package: git.shin.powerselector
 Section: Addons (Flipswitch)
@@ -2556,6 +2908,24 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.repr
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.screensafe
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.3
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debs/screensafe.deb
+Size: 7958468
+MD5sum: 330a58c29c465bada525f9c378167a12
+SHA1: a487d785bf5877e8784d703dba154af08cf4281c
+SHA256: 3ba92c554324834c5b6ddf186eaa2d9751d4430df1647a6bc835203a94a2d27b
+Description: An OLED friendly IOS screensaver with custom video support and alot of cusomisablility.
+Name: ScreenSafe Cracked
+Author: Kushy
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.screensafe
+
 Package: git.shin.selecttextcolors
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -2573,6 +2943,24 @@ Author: pxcex
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.selecttextcolors
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.settingsip
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.0.1.9
+Depends: mobilesubstrate
+Filename: ./debs/settingsip.deb
+Size: 28014
+MD5sum: c67dfb4acb501214fbf9b5f36a5c34df
+SHA1: d81c6e0d57eff52b33c58c05a33c0e5f1be1f3a5
+SHA256: db79127e0fc9b1df00fbb08460000cc382c2878e08a56f458dcfe0887eb625e3
+Description: The easiest way to get your WiFi IP address!
+Name: SettingsIP Cracked
+Author: MTAC
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.settingsip
 
 Package: git.shin.shadow
 Section: Tweaks
@@ -2634,6 +3022,28 @@ Icon: file:///Library/PreferenceBundles/SIMPLELSPB.bundle/icon@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.simplelsios10
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.sleipnizer4
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 9.1.1
+Replaces: jp.r-plus.sleipnizer4
+Depends: mobilesubstrate (>= 0.9.6100), preferenceloader (>= 2.2.3), firmware (>= 9.0), sedfix
+Conflicts: jp.r-plus.sleipnizerlite, jp.r-plus.sleipnizerforsafari, jp.r-plus.sleipnizer, jp.r-plus.sleipnizer3
+Filename: ./debs/sleipnizer4.deb
+Size: 428274
+MD5sum: 125d136c09590a6c569e310679ad5798
+SHA1: 4cdfb181f828f42f01acdc56dd0d08713957e128
+SHA256: 88bc6f1ec1f0608da03cf149010f4129ad3696d5eb08841ca054b13ab0be5250
+Description: convenient faster browsing with gestures
+Name: Sleipnizer for Safari (iOS 9-12) Cracked
+Author: r_plus <anasthasia.r+sleipnizer@gmail.com>
+Icon: file:///Library/PreferenceBundles/SleipnizerSettings.bundle/Sleipnizer@2x.png
+Tag: purpose::extension
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.sleipnizer4
+
 Package: git.shin.slidetounlock10
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -2669,6 +3079,25 @@ Author: fidele007 <kforcefidele@yahoo.com>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smallerccbuttons
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.smartbattery
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.3.5
+Depends: mobilesubstrate, ws.hbang.common, net.limneos.libbulletin, sedfix
+Filename: ./debs/smartbattery.deb
+Size: 238408
+MD5sum: 68c53f956b2e1907322b64bb739c44b8
+SHA1: 40668c07c6eea28c168b73abc83113f7d6c00f20
+SHA256: 9162c12d7bd207ece248451551eca3a73834dca2d8a68f902a43887d13a5e9e2
+Description: Save your battery, improve LPM.
+Name: SmartBattery Cracked
+Author: elias
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smartbattery
 
 Package: git.shin.smartnetwork
 Section: Tweaks
@@ -2929,6 +3358,25 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.swip
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.switches
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.3
+Depends: firmware (>= 5.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/switches.deb
+Size: 2973468
+MD5sum: 58d1a4f45b0d7ef45e93932758c857e1
+SHA1: 30b4660dc38600b2edc9f7f46b714350f998b60e
+SHA256: e2b613e4f874ef20c0216f7cab28b50ee1dbe08c8044db7e66420ec829bd5377
+Description: Change your switch style
+Name: Switches Cracked
+Author: c1d3r
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.switches
+
 Package: git.shin.tage
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -2947,6 +3395,82 @@ Icon: file:////Library/PreferenceBundles/TageSettings.bundle/Icon-small@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.tage
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.taptickeys
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 3.0.7
+Depends: mobilesubstrate
+Filename: ./debs/taptickeys.deb
+Size: 260586
+MD5sum: 0f87bf5640628b22b1a515fe526cb90c
+SHA1: 9d58b9e008cd7173511d76e91b7b62835ff5aaac
+SHA256: f08fa66f666c260e8e935d17ed6b1a06ba6ebf6fe2ba3a22ef4a5d4002cbb237
+Description: Haptic Everywhere!
+Name: TapticKeys Cracked
+Author: Spark
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.taptickeys
+
+Package: git.shin.tetherme8
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.3
+Replaces: net.tetherme.tetherme
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | network-cmds
+Conflicts: net.tetherme.tetherme
+Filename: ./debs/tetherme8.deb
+Size: 206256
+MD5sum: 38b48a26aab53eb34db84f6641701aaa
+SHA1: 40cc6b66e7b58da0c95004b640ea670374894d5a
+SHA256: d507bb890f964e7fe96b85b741595dc496b9407faef22fe8b4f52eddb25d8c16
+Description: More advanced modem settings
+Name: TetherMe for iOS 8+
+Author: Sam Bingner <support@tetherme.net>
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.tetherme8
+
+Package: git.shin.textyle
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.4.1
+Depends: mobilesubstrate, com.spark.libsparkapplist
+Filename: ./debs/textyle.deb
+Size: 209024
+MD5sum: 1e031451f94b5c12fdc8693d691e8552
+SHA1: 5ffc9e82b3ce566f176455153bc8b8b86b9cee93
+SHA256: d908039389fc080e60d3a50a4a0ef55dd81ddec944783dffcea545a1eec99c69
+Description: Style in your text
+Name: Textyle Cracked
+Author: Deniz Basegmez
+Icon: file:///Library/PreferenceBundles/Textyle.bundle/cydia.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.textyle
+
+Package: git.shin.tilayer2
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.3-1
+Depends: mobilesubstrate, ws.hbang.common, org.thebigboss.libcolorpicker, sedfix
+Conflicts: com.ziph0n.tinyplayerlite, com.ziph0n.tinyplayer
+Filename: ./debs/tilayer2.deb
+Size: 405534
+MD5sum: 98e2c079db36e0e36c7df00bd95b3983
+SHA1: 63742ea144335dde80c2471ea95f89902e5482a0
+SHA256: 3fdff0aaf0611e91c54c302462d0fb26a66627ddf28074ac624b5f14a2a08d0f
+Description: A new music experience for your device!.
+Name: TinyPlayer 2 Cracked
+Author: Ziph0n
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.tilayer2
 
 Package: git.shin.tinybar
 Section: Tweaks
@@ -3090,6 +3614,25 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=com.unlimapps
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.ultrasound
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.10
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud
+Filename: ./debs/ultrasound.deb
+Size: 328166
+MD5sum: 02dd87cda64a6f2e1fb29e3a866b79f8
+SHA1: 41e14187ce69edf67500d62960df77a0bf7129da
+SHA256: a011f0c6b85044ad241dd6df047e1cd715f1d0ecf8b4ba7098453d1e9508e0ff
+Description: Customize your volume HUD.
+Name: Ultrasound
+Author: Ayden Panhuyzen
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ultrasound
+
 Package: git.shin.unalkuru
 Section: Theme
 Maintainer: nguyenthanh
@@ -3125,6 +3668,64 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.unsi
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.vartaman
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.2
+Depends: mobilesubstrate, sedfix, wget
+Filename: ./debs/vartaman.deb
+Size: 83890
+MD5sum: e392a37e55a0b9fcbdf7bdcf69a60ee5
+SHA1: 991d7763cd31b5d7ee957eafea418ab3e279694c
+SHA256: fc1376485c818b51c87275fa05df55e474f0dd7854c40d4cbb7e39d1a1b68b54
+Description: Update your Wallpaper periodically!
+Name: Vartaman
+Author: P2KDev <p2kdev@gmail.com>
+Icon: file:///Library/Application Support/Vartaman/Tweakicon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.vartaman
+
+Package: git.shin.ventana
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.4
+Replaces: org.coolstar.ventana
+Provides: org.coolstar.ventana
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), ldid, ga.jakeashacks.substitutedummy, ga.jakeashacks.sharedfix
+Conflicts: org.coolstar.ventana, com.hackyouriphone.ventana, jaja.kiiimo
+Filename: ./debs/ventana.deb
+Size: 1346502
+MD5sum: 236693569a54f39fbabea30a8efd4a7c
+SHA1: 53910d32ff182ee6551aacc86a1db2b3c9058bcb
+SHA256: b5716921d51e0f12adbe9c392988f8420c7251ef061d07c61ad2212bc5516aab
+Description: modern lock screen inspired by Windows 10
+Name: Ventana Cracked
+Author: CoolStar & Jeremy Goulet <repo@hackyouriphone.org>
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.ventana
+
+Package: git.shin.vibrancy
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.1
+Depends: mobilesubstrate, ws.hbang.common
+Filename: ./debs/vibrancy.deb
+Size: 1833134
+MD5sum: 9960f3cbdaa665f5b43874d2c0169e28
+SHA1: 496a0e4d2f833953d580d0cc3d8757e60d8dffe0
+SHA256: 431d687eea011d1056247dbd15f833af769b3048326a44632bd4026d49b80bc9
+Description: Blurs your entire system
+Name: Vibrancy Cracked
+Author: DylanDuff
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.vibrancy
+
 Package: git.shin.vibrato
 Section: Tweaks
 Maintainer: nguyenthanh
@@ -3142,6 +3743,45 @@ Author: SynnyG <synnyg.devjb@gmail.com>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.vibrato
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.vinculum
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.1
+Depends: mobilesubstrate, applist
+Filename: ./debs/vinculum.deb
+Size: 173998
+MD5sum: 729e669ec95e7dc7a05c496b27ae1cba
+SHA1: 75cf563066d37bb0d4a33db6e5bb86cacf1519fc
+SHA256: ece375063657f234f4173baa5042c6d4825421e2728e85cb809ddb300085643d
+Description: Adds an Android-style menu to your dock
+Name: Vinculum Cracked
+Author: Wiliam Vabrinskas
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.vinculum
+
+Package: git.shin.watools
+Section: System
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.1.14-1
+Replaces: com.f0u4d.watusitools
+Depends: firmware (>= 8.0), darwintools, wget
+Conflicts: com.fouadraheb.watusi (<< 1.1.5), repo.biteyourapple.net.watusi, repo.biteyourapple.net.onlinenotify, com.hackyouriphone.onlinenotify, com.yourepo.kiiimo.onlinenotify, net.cydia00.onlinenotify22, com.f0u4d.watusitools, com.pulandres.whatshack, ru.rejail.whatshack, com.hackyouriphone.whatshack, updatejeje
+Filename: ./debs/watools.deb
+Size: 13571824
+MD5sum: 852df85b0c295c6a4c32ec0a4644abb1
+SHA1: 53c05353256783fd218152647691030b61e7322c
+SHA256: ad130e6169d9229ad4d820bf8b2a266585b920260397ecfa1d957406a0ffa3ab
+Description: Library for Watusi and WhatsApp tweaks
+Name: WatusiTools Cracked
+Author: Fouad Raheb <fouad.raheb@gmail.com>
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.watools
 
 Package: git.shin.weatherstatusbar10
 Section: Tweaks
@@ -3198,6 +3838,25 @@ Author: Le0n <ahmetmtl68@gmail.com>
 Sponsor: nguyenthanh
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.whitedream
 Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.whoozit
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.0.8-beta-6
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.rpetrich.rocketbootstrap, com.pulandres.libiarrays
+Filename: ./debs/whoozit.deb
+Size: 1961956
+MD5sum: 898eac7b01b3a9faeca425afc67824b6
+SHA1: 18046d5420399a468b2d89698635dd05147ea9a1
+SHA256: a378e39f8b1df3468e9c6409d5d74ef92b31dc116e3d1b5bb2700f3d88acd89d
+Description: Who is calling?, now you knows!
+Name: WhoozIt Pro Cracked
+Author: IArrays <support@iarrays.com>
+Icon: file:////System/Library/PreferenceBundles/WhoIsCallingSettings.bundle/WIC@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.whoozit
 
 Package: git.shin.xgpspro
 Maintainer: nguyenthanh

@@ -166,3 +166,35 @@ git.shin.magmaevo 12, 13
 git.shin.magmaevovi 12, 13
 git.shin.carbonite 12, 13
 git.shin.colorizechat 12, 13
+git.shin.3dtools 12, 13.4
+git.shin.lpm 10, 11, 12.2
+git.shin.ccmodulespro 11, 12, 13.4
+git.shin.ncontrol 7, 8, 9, 10, 11, 12.4
+git.shin.networkmanager 11, 12.2
+git.shin.nfcwriterx 10, 11, 12, 13.4
+git.shin.noctis12 12, 12.4
+git.shin.noctisx 10.x.x
+git.shin.noctisxl 11, 11.4.1
+git.shin.notifywifi10 10, 11
+git.shin.notifywifi7 7, 8, 9
+git.shin.notifywifix 10, 11, 12, 13.4
+git.shin.onlinenotify 9, 10, 11, 12, 13.3
+git.shin.pasithea2 10, 11, 12, 13.4
+git.shin.phonecaller2 7, 8, 9, 10, 11, 12.4
+git.shin.photomanager12 11, 12, 13.4
+git.shin.screensafe 11, 12.4
+git.shin.settingsip 11, 12.2
+git.shin.sleipnizer4 9, 10, 11, 12.4
+git.shin.smartbattery 11, 12, 13.4
+git.shin.switches 6, 7, 8, 9, 10, 11, 12.4
+git.shin.taptickeys 10, 11, 12.2
+git.shin.tetherme8 8, 9, 10, 11, 12.1
+git.shin.textyle 11, 12.2
+git.shin.tilayer2 12, 12.4
+git.shin.ultrasound 11, 12, 13.4
+git.shin.vartaman 10, 11, 12, 13.4
+git.shin.ventana 9, 10, 11, 12.2
+git.shin.vibrancy 11, 12.2
+git.shin.vinculum 10, 11, 12.4
+git.shin.watools 9, 10, 11, 12, 13.4
+git.shin.whoozit 8, 9, 10, 11, 12.4
