@@ -6,14 +6,14 @@ Version: 1.0.5
 Depends: mobilesubstrate
 Conflicts: me.pulandres.appaze
 Filename: ./debs/3dtools.deb
-Size: 1205152
-MD5sum: e72c84044e5b5bcce89f4bd746eca66d
-SHA1: 6b4d02b6d36b03113b4823a7c5c522a3e42a95a5
-SHA256: 5382c410631cc81272eb3a6962e123124e20e64ff7b763fa27fa6ccb11e560e1
+Size: 1205188
+MD5sum: c0eddaaf6fba2f8b68dd235fb96fe59e
+SHA1: ac92105d2db3950d23ee970ec5ab5ef47d2f6bf8
+SHA256: 061bca3f7b590298925d2dbfb7ea82922db40d2def19daf1c98ed007e6d9f27d
 Description: Add helpful tools to your 3D touch menu!
 Name: 3DTools Cracked
 Author: smokin1337 <smokin1337@gmail.com>
-Icon: https://repo.pulandres.me/CydiaIcon.png
+Icon: file:///Library/PreferenceBundles/3DTools.bundle/icon@2x.png
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.3dtools
@@ -2437,14 +2437,14 @@ Version: 1.1.1
 Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist, com.rpetrich.rocketbootstrap
 Conflicts: com.laughingquoll.noctis12, com.laughingquoll.noctisxi
 Filename: ./debs/noctisx.deb
-Size: 468278
-MD5sum: 4eda1f90df9b3490122b247a59fe0a36
-SHA1: 1f8e603db3b29f4e36200c8bfea1d12f40555803
-SHA256: 097a56856883f7ec49ff47556ea5c01144df13a9319b54f35c7dd2e5e6340ab9
+Size: 468312
+MD5sum: 622331d1d961eeec4182bb4263432c1c
+SHA1: b7cec3fafdc534bff973f5f95c9d07c4d2171457
+SHA256: f45a762e0bcbf50454eed0e18c52026a23a3507695e907595d04863929223805
 Description: Dark mode for iOS 10
 Name: NoctisX (iOS10) Cracked
 Author: LaughingQuoll
-Icon: https://repo.pulandres.me/CydiaIcon.png
+Icon: file:///Library/PreferenceBundles/NoctisXPrefs.bundle/icon@2x.png
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.noctisx
@@ -2457,14 +2457,14 @@ Version: 1.7.6
 Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.laughingquoll.prefixui, com.spark.libsparkapplist, com.opa334.ccsupport, com.rpetrich.rocketbootstrap
 Conflicts: com.laughingquoll.noctis12
 Filename: ./debs/noctisxl.deb
-Size: 205952
-MD5sum: 7b9cf5cb2c7c41e5dba54987451c854c
-SHA1: 1ca85adfc59f80c6f2bcd6512b25d652d5ba7004
-SHA256: 013bc77ef3b32bed77472a0085c1d1d537b4ccb9875d91f87cc45c13936a6083
+Size: 205978
+MD5sum: 7a3a94605ec1a3e14a4dc71cc010457c
+SHA1: 5a86e2d502d436ae29eadbe709a485b234e77386
+SHA256: db106653aa964ba0aeb9f81b7b4c441e8e15425f7c11cc00e47dfe0b95acf028
 Description: Darkmode for iOS11
 Name: NoctisXI (iOS11) Cracked
 Author: LaughingQuoll
-Icon: https://repo.pulandres.me/CydiaIcon.png
+Icon: file:///Library/PreferenceBundles/NoctisXIPrefs.bundle/icon@2x.png
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.noctisxl
@@ -2581,14 +2581,14 @@ Version: 3.1.3
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist, com.rpetrich.rocketbootstrap, com.pulandres.watools  (>= 2.1.9), sedfix  (>= 7.0)
 Conflicts: com.f0u4d.onlinenotifybeta, com.f0u4d.onlinenotify2, com.imokhles.waquickreply.bb, com.pulandres.whatshack, ru.rejail.whatshack, com.hackyouriphone.whatshack
 Filename: ./debs/onlinenotify.deb
-Size: 671406
-MD5sum: cd957dcf439e2123219e1266db4ada78
-SHA1: 1cfb07850f460b2f60d86ddb69ec5eb979b0f4c6
-SHA256: 50c82bec845bb7432fdcbd2297589770d7025bb12f13e639255ea3f77859f94f
+Size: 671438
+MD5sum: 6abc1ca503c7d52c76b873184414b291
+SHA1: 436321a44b1e9e6d526b569f4634497beeaed486
+SHA256: 48e30572fee180b6467f8a00ead94fb02a840f00cd068acac9418726e3eae584
 Description: Track you friends on WhatsApp Messenger!
 Name: OnlineNotify Cracked
 Author: Fouad Raheb <fouad.raheb@gmail.com>
-Icon: https://repo.pulandres.me/CydiaIcon.png
+Icon: file:///Library/PreferenceBundles/OnlineNotifyPrefs.bundle/OnlineNotifyPrefsIcon@2x.png
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.onlinenotify
@@ -2700,14 +2700,14 @@ Architecture: iphoneos-arm
 Version: 1.1.2-3
 Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
 Filename: ./debs/photomanager12.deb
-Size: 471080
-MD5sum: 0e83076abcb0799b3e9f537ffd01c2e5
-SHA1: c89e7b6afde42b7fd1d3515ed8775c4daa8a1060
-SHA256: d015f5677b9b0509dc68f7fc122e2d25af15415038d9abf7d607d3d9342ecba3
+Size: 471112
+MD5sum: 4a091ce632e0ab07f817626107a15c4c
+SHA1: e2debfb3792ac15f68e60f74fd4da7c980e93ad7
+SHA256: 7b241953f82acae22438cfbfbd327b116bebf3b67ec0cd2b8e9226085cc6e7db
 Description: Add many features to the photos app.
 Name: PhotoManager (iOS 12 & 13)
 Author: Frozen Penguin
-Icon: https://repo.pulandres.me/CydiaIcon.png
+Icon: file:///Library/PreferenceBundles/photomanager12prefs.bundle/fp@2x.png
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.photomanager12
@@ -3087,14 +3087,14 @@ Architecture: iphoneos-arm
 Version: 1.3.5
 Depends: mobilesubstrate, ws.hbang.common, net.limneos.libbulletin, sedfix
 Filename: ./debs/smartbattery.deb
-Size: 238408
-MD5sum: 68c53f956b2e1907322b64bb739c44b8
-SHA1: 40668c07c6eea28c168b73abc83113f7d6c00f20
-SHA256: 9162c12d7bd207ece248451551eca3a73834dca2d8a68f902a43887d13a5e9e2
+Size: 238440
+MD5sum: 5bd2c8032e61e8f650c14cd5e1cada63
+SHA1: 2538a86e6725bcf1f60a63a8356e83d72e4d08fa
+SHA256: 6c934444ecef238a8d8358a7e88215017fe887c896b9e1da7a128abb8149c949
 Description: Save your battery, improve LPM.
 Name: SmartBattery Cracked
 Author: elias
-Icon: https://repo.pulandres.me/CydiaIcon.png
+Icon: file:///Library/PreferenceBundles/SmartBattery.bundle/icon@2x.png
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smartbattery
@@ -3771,14 +3771,14 @@ Replaces: com.f0u4d.watusitools
 Depends: firmware (>= 8.0), darwintools, wget
 Conflicts: com.fouadraheb.watusi (<< 1.1.5), repo.biteyourapple.net.watusi, repo.biteyourapple.net.onlinenotify, com.hackyouriphone.onlinenotify, com.yourepo.kiiimo.onlinenotify, net.cydia00.onlinenotify22, com.f0u4d.watusitools, com.pulandres.whatshack, ru.rejail.whatshack, com.hackyouriphone.whatshack, updatejeje
 Filename: ./debs/watools.deb
-Size: 13571824
-MD5sum: 852df85b0c295c6a4c32ec0a4644abb1
-SHA1: 53c05353256783fd218152647691030b61e7322c
-SHA256: ad130e6169d9229ad4d820bf8b2a266585b920260397ecfa1d957406a0ffa3ab
+Size: 13571886
+MD5sum: e14b2bb248cf1e72886935703b224062
+SHA1: 4c0adcd400b773719a33abb11be31b49f2016610
+SHA256: c2015adbafef22e48cd2226f8c344624f8f9b997c9de18221974cca5998c4de7
 Description: Library for Watusi and WhatsApp tweaks
 Name: WatusiTools Cracked
 Author: Fouad Raheb <fouad.raheb@gmail.com>
-Icon: https://repo.pulandres.me/CydiaIcon.png
+Icon: file:///Library/Application Support/WatusiTools/FRToolsAssets.bundle/Watusi-White@2x.png
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.watools
