@@ -198,3 +198,4 @@ git.shin.vibrancy 11, 12.2
 git.shin.vinculum 10, 11, 12.4
 git.shin.watools 9, 10, 11, 12, 13.4
 git.shin.whoozit 8, 9, 10, 11, 12.4
+git.shin.twelveeclipse 7+
