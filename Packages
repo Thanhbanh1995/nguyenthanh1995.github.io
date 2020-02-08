@@ -1481,6 +1481,44 @@ dev: ca13ra1
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.forceinpicture
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.foxforthack
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.0.3
+Depends: mobilesubstrate
+Filename: ./debs/foxforthack.deb
+Size: 69850
+MD5sum: d1ae1a7b9ec7736511ede3c91ba4000c
+SHA1: 649e5f79493d8c3afd852161ecec091039f38e5d
+SHA256: c57137d0a6f38714c83932ec8a1c2e1976868d2e42aad23a5d115678d1e7a92f
+Description: Hack to Foxfort tweaks
+Name: FoxfortHack
+Author: ReJail <rejail@rejail.ru>
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.foxforthack
+
+Package: git.shin.foxforttools
+Section: System
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.12
+Depends: mobilesubstrate, com.foxfort.libfoxfortutils (>= 1.0.13), com.rpetrich.rocketbootstrap (>= 1.0.3)
+Conflicts: com.hackyouriphone.foxforthack, com.pulandres.foxforthack, org.cydia.kiimo.foxforthack, ru.rejail.foxforthack, me.pulandres.foxforttools, co.xrepo.appletweakjailbreak.foxforttools, net.kenhtao.foxforttools, sileoturkiye.foxforttools, com.yourepo.mohadu31.foxforttools, org.cydia.kiimo.foxforttools, com.hackyouriphone.foxforttools
+Filename: ./debs/foxforttools.deb
+Size: 2890694
+MD5sum: 648a5f191a68a6547cec8bb051bb65f5
+SHA1: 535998d1cb63ca1bbcd03fad92e85aaf264d1968
+SHA256: b2c5616e19d387d25824ffebdc24773385b795d041511024c46eae140af7e93e
+Description: Helper tools for Foxfort tweaks
+Name: FoxFort Tools
+Author: FoxfortMobile
+Tag: role::developer
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.foxforttools
+
 Package: git.shin.gamegem10.3
 Section: Applications
 Maintainer: Nguyen Thanh
@@ -2042,6 +2080,26 @@ Sponsor: nguyenthanh
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.liberty
 Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.libfoxfortutils
+Section: System
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.13
+Depends: firmware (>= 7.0), com.rpetrich.rocketbootstrap (>= 1.0.3)
+Conflicts: cydia.kiiimo.org.littlex, com.hackyouriphone.littlex, com.yourepo.mohadu31.littlex, com.arab-cydia.littlex, co.xrepo.appletweakjailbreak.libfoxfortutils, co.xrepo.appletweakjailbreak.libfoxfortutils64, org.cydia.kiiimo.libfoxfortutils64, org.cydia.kiiimo.libfoxfortutils64e, com.hackyouriphone.libfoxfortutils64, com.hackyouriphone.libfoxfortutils64e, com.yourepo.mohadu31.libfoxfortutils64, me.pulandres.libfoxfortutils64, me.pulandres.libfoxfortutils64e, net.kenhtao.libfoxfortutils64, sileoturkiye.libfoxfortutils64, sileoturkiye.libfoxfortutils64e
+Filename: ./debs/libfoxfortutils.deb
+Size: 1774994
+MD5sum: 3f4449c6f2716d72ab1a4cdc9ba81d61
+SHA1: 05f1316615080096bbbb64f0160ad506076ae1a4
+SHA256: 26929249a1854a02cf7da9139817e401013de5638db1bba6e8af8e47928b9948
+Description: Basic utilities for Foxfort tweaks
+Name: libfoxfortutils
+Author: FoxfortMobile
+Tag: role::developer
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.libfoxfortutils
 
 Package: git.shin.libspring
 Section: Development
@@ -3532,14 +3590,34 @@ Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
 Architecture: iphoneos-arm
 Version: 1.2.10.1
-Depends: mobilesubstrate, preferenceloader, me.pulandres.foxforttools, me.pulandres.libfoxfortutils64, com.rpetrich.rocketbootstrap (>= 1.0.3), firmware (<< 13.0)
+Depends: mobilesubstrate, preferenceloader, git.shin.foxforttools, git.shin.libfoxfortutils64, com.rpetrich.rocketbootstrap (>= 1.0.3), firmware (<< 13.0)
 Filename: ./debs/translomatic.deb
-Size: 531198
-MD5sum: 7129f4f88e23ae886fbc997c305152d3
-SHA1: 1ee135a61ac24fe66aecbaf1c360f83161d79c8f
-SHA256: e3193a21758414e7f8e276ab47a02fd0ba921e3bc9bfd97ec3b0b396b989a771
+Size: 531192
+MD5sum: 2af4b9e89457c9df7bb511074aebe076
+SHA1: be4207e485cae6c7832c3766186de3f97f901c0b
+SHA256: 65988fd7e971085d5c57ec8f966b15ae417e806c06037c2f1cc4c06e05cb3c8d
 Description: Quickly translate any text
 Name: Translomatic for 64-bit Cracked
+Author: FoxfortMobile
+Icon: file:///Library/PreferenceBundles/translomaticsettings.bundle/icon@3x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.translomatic
+
+Package: git.shin.translomatic
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.1.1
+Depends: mobilesubstrate, preferenceloader, git.shin.foxforttools (>= 1.0.12), git.shin.libfoxfortutils (>= 1.0.13), com.rpetrich.rocketbootstrap (>= 1.0.3), applist, git.shin.foxforthack
+Conflicts: me.pulandres.translomatic, me.pulandres.translomatice, co.xrepo.appletweakjailbreak.translomatic, net.kenhtao.translomatic, net.kenhtao.translomatic, sileoturkiye.translomatic, sileoturkiye.translomatic12, com.yourepo.mohadu31.translomatic, com.yourepo.mohadu31.translomatice, org.cydia.kiimo.translomatic, com.hackyouriphone.translomatic, com.hackyouriphone.translomatice
+Filename: ./debs/translomatic211.deb
+Size: 5908790
+MD5sum: bccf8075d1292411ab4368b28d03f727
+SHA1: 335dce6f8e6b3e8e19cbcc4c7b6a1abb369b7f37
+SHA256: 66d945d74bc57f12518264b54f5b3a82a7eb2cc489eef8794aba43e04b518009
+Description: Quickly translate any text
+Name: Translomatic Cracked
 Author: FoxfortMobile
 Icon: file:///Library/PreferenceBundles/translomaticsettings.bundle/icon@3x.png
 Homepage: https://nguyenthanh1995.github.io/
