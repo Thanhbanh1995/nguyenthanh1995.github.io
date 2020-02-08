@@ -649,6 +649,25 @@ Sponsor: nguyenthanh
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.blackie2
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.bottomtoolbar
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1.5
+Depends: mobilesubstrate
+Filename: ./debs/bottomtoolbar.deb
+Size: 411530
+MD5sum: 4a7c9406478c28e638036c0159a9d053
+SHA1: 7eca39a9c179aa3f889507d270bffd9f8730e0c5
+SHA256: c67f77670061944d2c96c926c8a2c7a292f7938dcff3e168d190f73a8695da56
+Description: Control your devices within easy reach.
+Name: BottomToolBar Cracked
+Author: XCXiao
+Icon: https://repo.packix.com/api/Packages/5d7da1d31bdd82001aaa3a63/icon/download?size=medium
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.bottomtoolbar
+
 Package: git.shin.boxy2
 Priority: extra
 Section: Tweaks
@@ -3134,6 +3153,24 @@ Author: elias
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smartnetwork
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.smartnetwork
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.5-1
+Depends: mobilesubstrate, net.limneos.libbulletin, com.spark.libsparkapplist
+Filename: ./debs/smartnetwork105-1.deb
+Size: 255000
+MD5sum: 32ad0d0c2b1ba978c717b0f601435507
+SHA1: 2f64217d217ba060c1fe0be64a31370d100cd814
+SHA256: f2dc8cdcadc19f77e217e91c2bf3380c346d55e06ca566a0db6db54c91cd976a
+Description: An awesome MobileSubstrate tweak!
+Name: SmartNetwork
+Author: elias
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smartnetwork
 
 Package: git.shin.smarttap
 Section: Tweaks
