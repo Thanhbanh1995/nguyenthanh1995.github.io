@@ -1,6 +1,6 @@
 http://nguyenthanh1995.github.io
-https://nguyenthanh1995.github.io/description.html
+http://nguyenthanh1995.github.io/description.html
 http://nguyenthanh1995.github.io/tools/translate/
-http://nguyenthanh1995.github.io/tools/mterminal-theme/
+http://nguyenthanh1995.github.io/tools/mterminal-theme/index.html
 http://nguyenthanh1995.github.io/tools/mterminal-theme/theme.html
-http://nguyenthanh1995.github.io/tools/jailbreak-tool/
+http://nguyenthanh1995.github.io/jailbreak-tool/index.html
