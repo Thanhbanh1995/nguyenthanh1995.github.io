@@ -3534,10 +3534,10 @@ Architecture: iphoneos-arm
 Version: 1.2.10.1
 Depends: mobilesubstrate, preferenceloader, me.pulandres.foxforttools, me.pulandres.libfoxfortutils64, com.rpetrich.rocketbootstrap (>= 1.0.3), firmware (<< 13.0)
 Filename: ./debs/translomatic.deb
-Size: 227774
-MD5sum: 449813e48f2ebeb5e9fcc1497b126864
-SHA1: 9e7f121402bcbe5020b6bbdde128809e043c2a07
-SHA256: c6f4211089ffa1147b87b6f2eb3374587670b0dc2e0223549a8e1adab89b52a3
+Size: 531198
+MD5sum: 7129f4f88e23ae886fbc997c305152d3
+SHA1: 1ee135a61ac24fe66aecbaf1c360f83161d79c8f
+SHA256: e3193a21758414e7f8e276ab47a02fd0ba921e3bc9bfd97ec3b0b396b989a771
 Description: Quickly translate any text
 Name: Translomatic for 64-bit Cracked
 Author: FoxfortMobile
