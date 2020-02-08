@@ -3490,6 +3490,25 @@ Sponsor: nguyenthanh
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.tinybar
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.translomatic
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.10.1
+Depends: mobilesubstrate, preferenceloader, me.pulandres.foxforttools, me.pulandres.libfoxfortutils64, com.rpetrich.rocketbootstrap (>= 1.0.3), firmware (<< 13.0)
+Filename: ./debs/translomatic.deb
+Size: 227774
+MD5sum: 449813e48f2ebeb5e9fcc1497b126864
+SHA1: 9e7f121402bcbe5020b6bbdde128809e043c2a07
+SHA256: c6f4211089ffa1147b87b6f2eb3374587670b0dc2e0223549a8e1adab89b52a3
+Description: Quickly translate any text
+Name: Translomatic for 64-bit Cracked
+Author: FoxfortMobile
+Icon: file:///Library/PreferenceBundles/translomaticsettings.bundle/icon@3x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.translomatic
+
 Package: git.shin.transparentcamerabar
 Section: Tweaks
 Maintainer: nguyenthanh
