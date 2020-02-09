@@ -1504,13 +1504,13 @@ Section: System
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
 Architecture: iphoneos-arm
 Version: 1.0.12
-Depends: mobilesubstrate, com.foxfort.libfoxfortutils (>= 1.0.13), com.rpetrich.rocketbootstrap (>= 1.0.3)
+Depends: mobilesubstrate, git.shin.libfoxfortutils (>= 1.0.13), com.rpetrich.rocketbootstrap (>= 1.0.3)
 Conflicts: com.hackyouriphone.foxforthack, com.pulandres.foxforthack, org.cydia.kiimo.foxforthack, ru.rejail.foxforthack, me.pulandres.foxforttools, co.xrepo.appletweakjailbreak.foxforttools, net.kenhtao.foxforttools, sileoturkiye.foxforttools, com.yourepo.mohadu31.foxforttools, org.cydia.kiimo.foxforttools, com.hackyouriphone.foxforttools
 Filename: ./debs/foxforttools.deb
-Size: 2890694
-MD5sum: 648a5f191a68a6547cec8bb051bb65f5
-SHA1: 535998d1cb63ca1bbcd03fad92e85aaf264d1968
-SHA256: b2c5616e19d387d25824ffebdc24773385b795d041511024c46eae140af7e93e
+Size: 2890698
+MD5sum: 2fc947a1035392caad04f23d44dc6b0a
+SHA1: d8b14a120c25d85f648df0a556d5f025d03a6c61
+SHA256: ac4986d97b560f09572335f3287d2d1ce4892893dca77e7d08b4b8b8e9f2e7a1
 Description: Helper tools for Foxfort tweaks
 Name: FoxFort Tools
 Author: FoxfortMobile
