@@ -265,7 +265,7 @@ FriendlyChat.prototype.saveImageMessage = function(event) {
 
 var _ = this
 var sto = friendlyChat.storage
-	.ref('messenger/' + Date.now()  + my.expando)
+	.ref('messenger/' + Date.now()  + (Math.random() + "").replace(/\./, ""))
 	.put(file, {
 		contentType: file.type
 	})
