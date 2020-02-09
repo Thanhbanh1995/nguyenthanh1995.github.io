@@ -282,15 +282,18 @@ var sto = friendlyChat.storage
 	sto.snapshot
 	.ref.getDownloadURL()
 	.then(function(downloadURL) {
+alert(downloadURI)
 		var currentUser = this.auth.currentUser;
+alert(currentUser)
+/*
 		_.messagesRef.push({
 	  name: currentUser.displayName,
 	  photoUrl: currentUser.photoURL || '/img/profile_placeholder.png',
 	  imageUrl: downloadURL
 		}).then(function() {
 FriendlyChat.resetMaterialTextfield(this.messageInput);
-	  this.toggleButton();
-	}.bind(_))
+	  this.toggleButton();*/
+	})
 	.catch(function(error) {
 	  console.error('Error writing new message to Firebase Database', error);
 	})
