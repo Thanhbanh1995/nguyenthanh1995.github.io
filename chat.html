@@ -35,18 +35,21 @@
   
   <!-- App Styling -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en">
-  <script src=/my.js></script>
+  <script src="/my.js"></script> <script src=/my.js></script>
   <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css></link>
   <link rel="stylesheet" href=/lib/bootstrap.min.css>
+ 
 </head>
 <body>
+
 <div id=header-page></div>
 <script>
 error = e => alert (e + "")
 my("#header-page").load("/header.template", function () {
     my("#header-page").find("#chat-online").addClass("active")
 })
-</script>
+</script> 
+
 <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
   <!-- Header section containing logo -->
@@ -139,7 +142,7 @@ my("#header-page").load("/header.template", function () {
 firebase.initializeApp(config);
 
 'use strict';
-onerror = console.log = e => alert(e + "")
+//onerror = console.log = e => alert(e + "")
 // Initializes FriendlyChat.
 function FriendlyChat() {
   this.checkSetup();
@@ -484,11 +487,8 @@ onload = function() {
 };
 </script>
 <style>
-html, body > *:not(#header-page) {
+html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
-}
-#header-page {
-  font-size: 1rem !important;
 }
 main, #messages-card {
   height: 100%;
