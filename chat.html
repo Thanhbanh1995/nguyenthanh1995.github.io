@@ -279,13 +279,14 @@ var sto = friendlyChat.storage
 	//error
  },
  function () {
+alert(1000)
+/*
 	sto.snapshot
 	.ref.getDownloadURL()
 	.then(function(downloadURL) {
 alert(downloadURI)
 		var currentUser = this.auth.currentUser;
 alert(currentUser)
-/*
 		_.messagesRef.push({
 	  name: currentUser.displayName,
 	  photoUrl: currentUser.photoURL || '/img/profile_placeholder.png',
@@ -296,8 +297,8 @@ FriendlyChat.resetMaterialTextfield(this.messageInput);
 	})
 	.catch(function(error) {
 	  console.error('Error writing new message to Firebase Database', error);
-	})*/
 	})
+	})*/
  })
   }
 };
