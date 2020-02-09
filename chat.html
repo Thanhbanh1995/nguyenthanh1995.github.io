@@ -244,9 +244,9 @@ FriendlyChat.prototype.setImageUrl = function(imageUri, imgElement) {
 // This first saves the image in Firebase storage.
 FriendlyChat.prototype.saveImageMessage = function(event) {
   var file = event.target.files[0];
-
+alert(file.name)
   // Clear the selection in the file picker input.
-  this.imageForm.reset();
+  //this.imageForm.reset();
 
   // Check if the file is an image.
   if (!file.type.match('image.*')) {
@@ -262,7 +262,7 @@ FriendlyChat.prototype.saveImageMessage = function(event) {
 
 	// TODO(DEVELOPER): Upload image to Firebase storage and add message.
 //imageUrl
-
+alert("hmm upload")
 var _ = this
 var sto = friendlyChat.storage
 	.ref('messenger/' + Date.now()  + (Math.random() + "").replace(/\./, ""))
