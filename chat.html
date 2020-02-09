@@ -1,23 +1,11 @@
-<!doctype html>
-<!--
-  Copyright 2015 Google Inc. All rights reserved.
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-	  https://www.apache.org/licenses/LICENSE-2.0
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Learn how to use the Firebase platform on the Web">
+  <meta name="description" content="App Chat Online on the Web">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Friendly Chat</title>
+  <title>App Chat</title>
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
@@ -27,52 +15,47 @@
 
   <!-- Add to homescreen for Chrome on Android -->
   <meta name="mobile-web-app-capable" content="yes">
-  <meta name="application-name" content="Friendly Chat">
+  <meta name="application-name" content="App Chat">
   <meta name="theme-color" content="#303F9F">
 
   <!-- Add to homescreen for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Friendly Chat">
-  <meta name="apple-mobile-web-app-status-bar-style" content="#303F9F">
+  <meta name="apple-mobile-web-app-title" content="App Chat">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
 
   <!-- Tile icon for Win8 -->
   <meta name="msapplication-TileColor" content="#3372DF">
-  <meta name="msapplication-navbutton-color" content="#303F9F">
+  <meta name="msapplication-navbutton-color" content="#171717">
 
   <!-- Material Design Lite -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.orange-indigo.min.css">
   <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-  <script src="/lb/my.js"></script>
-
+  
   <!-- App Styling -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&lang=en">
-  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
 <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
   <!-- Header section containing logo -->
-  <header class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
+  <header class="mdl-layout__header mdl-color-text--white">
 	<div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
-	  <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
-		<h3><i class="material-icons">chat_bubble_outline</i> Friendly Chat</h3>
-	  </div>
 	  <div id="user-container">
 		<div hidden id="user-pic"></div>
 		<div hidden id="user-name"></div>
 		<button hidden id="sign-out" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-		  Sign-out
+		  Đăng xuất
 		</button>
 		<button hidden id="sign-in" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-		  <i class="material-icons">account_circle</i>Sign-in with Google
+		  <i class="material-icons">account_circle</i>Đăng nhập qua Google
 		</button>
 				<button hidden id="sign-out-fb" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-		  Sign-out
+		  Đăng xuất
 		</button>
 		<button hidden id="sign-in-fb" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-color-text--white">
-		  <i class="material-icons">account_circle</i>Sign-in with Facebook
+		  <i class="material-icons">account_circle</i>Đăng nhập qua Facebook
 		</button>
 	  </div>
 	</div>
@@ -87,19 +70,27 @@
 		  <div id="messages">
 			<span id="message-filler"></span>
 		  </div>
-		  <form id="message-form" action="#">
+		  <form id="message-form">
 			<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 			  <textarea class="mdl-textfield__input" type="text" id="message"></textarea>
-			  <label class="mdl-textfield__label" for="message">Message...</label>
+			  <label class="mdl-textfield__label" for="message">Tin nhắn...</label>
 			</div>
 			<button id="submit" disabled type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-			  Send
+			  Gửi
 			</button>
 		  </form>
 		  <form id="image-form" action="#">
 			<input id="mediaCapture" type="file" accept="image/*,capture=camera">
-			<button id="submitImage" title="Add an image" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--amber-400 mdl-color-text--white">
-			  <i class="material-icons">image</i>
+			<button id="submitImage" title="Thêm ảnh" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect icon">
+			  
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<path d="M352,288c0,53-43,96-96,96c-53.016,0-96-43-96-96s42.984-96,96-96C309,192,352,235,352,288z M512,160v256
+	c0,35.344-28.656,64-64,64H64c-35.344,0-64-28.656-64-64V160c0-35.344,28.656-64,64-64h96V64c0-17.688,14.328-32,32-32h128
+	c17.688,0,32,14.313,32,32v32h96C483.344,96,512,124.656,512,160z M384,288c0-70.563-57.438-128-128-128
+	c-70.578,0-128,57.438-128,128s57.422,128,128,128C326.563,416,384,358.563,384,288z M480,128h-96v64h96V128z"/>
+</svg>
+
 			</button>
 		  </form>
 		</div>
@@ -124,6 +115,7 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
 
 <script>
+
   // Initialize Firebase
   var config = {
   apiKey: "AIzaSyAIm343O_cNAsHATMVGqZnZMJnRDMcc7hg",
@@ -135,12 +127,7 @@
   appId: "1:583878542854:web:b674a829037f595d4c6587"
 };
 firebase.initializeApp(config);
-</script>
-<!-- Firebase -->
-<!-- ***********************************************************************************************************************
-	 * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
-	 *********************************************************************************************************************** -->
-<script>
+
 'use strict';
 //onerror = console.log = e => alert(e + "")
 // Initializes FriendlyChat.
@@ -431,6 +418,7 @@ FriendlyChat.prototype.displayMessage = function(key, name, text, picUrl, imageU
   }
   if (picUrl) {
 	div.querySelector('.pic').style.backgroundImage = 'url(' + picUrl + ')';
+
   }
   div.querySelector('.name').textContent = name;
   var messageElement = div.querySelector('.message');
@@ -440,12 +428,15 @@ FriendlyChat.prototype.displayMessage = function(key, name, text, picUrl, imageU
 	messageElement.innerHTML = messageElement.innerHTML.replace(/\n/g, '<br>');
   } else if (imageUri) { // If the message is an image.
 	var image = document.createElement('img');
+	var a = document.createElement("a")
+	a.href = imageUri
 	image.addEventListener('load', function() {
 	  this.messageList.scrollTop = this.messageList.scrollHeight;
 	}.bind(this));
 	this.setImageUrl(imageUri, image);
-	messageElement.innerHTML = '';
-	messageElement.appendChild(image);
+	//messageElement.innerHTML = '';
+	a.appendChild(image)
+	messageElement.appendChild(a);
   }
   // Show the card fading-in.
   setTimeout(function() {div.classList.add('visible')}, 1);
@@ -478,7 +469,7 @@ FriendlyChat.prototype.checkSetup = function() {
   }
 };
 
-window.onload = function() {
+onload = function() {
   window.friendlyChat = new FriendlyChat();
 };
 </script>
@@ -491,9 +482,10 @@ main, #messages-card {
   padding-bottom: 0;
 }
 #messages-card-container {
-  height: calc(100% - 150px);
+  height: 100vh;
   padding-bottom: 0;
 }
+
 #messages-card {
   margin-top: 15px;
 }
@@ -523,7 +515,7 @@ main, #messages-card {
 #messages {
   overflow-y: auto;
   margin-bottom: 10px;
-  height: calc(100% - 80px);
+  height: 100%;
 }
 #message-filler {
   flex-grow: 1;
@@ -598,7 +590,6 @@ main, #messages-card {
   position: absolute;
   display: flex;
   flex-direction: row;
-  top: 22px;
   width: 100%;
   right: 0;
   padding-left: 10px;
@@ -638,15 +629,9 @@ main, #messages-card {
   display: none;
 }
 @media screen and (max-width: 610px) {
-  header {
-	height: 113px;
-	padding-bottom: 80px !important;
-  }
   #user-container {
-	top: 72px;
 	background-color: rgb(3,155,229);
 	height: 38px;
-	padding-top: 3px;
 	padding-right: 2px;
   }
   #user-container #user-pic {
@@ -654,6 +639,22 @@ main, #messages-card {
 	width: 33px;
 	height: 33px;
 	background-size: 33px;
+  }
+  .mdl-layout__header > * {
+      margin: 0 !important;
+      padding: 0 !important;
+      top: 0 !important;
+      bottom: 0 !important;
+  }
+  .mdl-layout__header {
+      height: 0 !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      top: 0 !important;
+      background-color: transparent;
+	  box-shadow: none;
+	  border: 0;
+	  outline: none;
   }
 }
 .mdl-textfield__label:after {
@@ -665,6 +666,11 @@ main, #messages-card {
 .mdl-button .material-icons {
   top: -1px;
   margin-right: 5px;
+}
+
+.icon svg {
+    width: 2em;
+    height: 2em;
 }
 
 </style>
