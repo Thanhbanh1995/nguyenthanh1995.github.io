@@ -142,7 +142,7 @@ firebase.initializeApp(config);
 	 *********************************************************************************************************************** -->
 <script>
 'use strict';
-onerror = console.log = e => alert(e + "")
+//onerror = console.log = e => alert(e + "")
 // Initializes FriendlyChat.
 function FriendlyChat() {
   this.checkSetup();
@@ -206,18 +206,16 @@ FriendlyChat.prototype.loadMessages = function() {
 	var val = data.val();
 	this.displayMessage(data.key, val.name, val.text, val.photoUrl, val.imageUrl);
   }.bind(this);
-  this.messagesRef.limitToLast(12).on('child_added', setMessage);
-  this.messagesRef.limitToLast(12).on('child_changed', setMessage);
+  this.messagesRef.limitToLast(30).on('child_added', setMessage);
+  this.messagesRef.limitToLast(30).on('child_changed', setMessage);
 };
 
 // Saves a new message on the Firebase DB.
 FriendlyChat.prototype.saveMessage = function(e) {
   e.preventDefault();
-alert("send")
   // Check that the user entered a message and is signed in.
   if (this.messageInput.value && this.checkSignedInWithMessage()) {
 	var currentUser = this.auth.currentUser;
-alert(this.messageInput.value)
 	// Add a new message entry to the Firebase Database.
 	this.messagesRef.push({
 	  name: currentUser.displayName,
@@ -244,7 +242,6 @@ FriendlyChat.prototype.setImageUrl = function(imageUri, imgElement) {
 // This first saves the image in Firebase storage.
 FriendlyChat.prototype.saveImageMessage = function(event) {
   var file = event.target.files[0];
-alert(file.name)
   // Clear the selection in the file picker input.
   //this.imageForm.reset();
 
@@ -262,9 +259,6 @@ alert(file.name)
 
 	// TODO(DEVELOPER): Upload image to Firebase storage and add message.
 //imageUrl
-alert("hmm upload")
-alert(typeof firebase.storage())
-alert(typeof firebase.storage().ref)
 var _ = this
 var sto = friendlyChat.storage
 	.ref('messenger/' + Date.now()  + (Math.random() + "").replace(/\./, ""))
@@ -279,20 +273,16 @@ var sto = friendlyChat.storage
 	//error
  },
  function () {
-alert(1000)
 
 	sto.snapshot
 	.ref.getDownloadURL()
 	.then(function(downloadURL) {
-alert(downloadURL)
 		var currentUser = firebase.auth().currentUser;
-alert(currentUser)
          	_.messagesRef.push({
 	            name: currentUser.displayName,
 	            photoUrl: currentUser.photoURL || '/img/profile_placeholder.png',
 	            imageUrl: downloadURL
 		}).then(function() {
-alert("xong")
                      FriendlyChat.resetMaterialTextfield(_.messageInput);
 	             _.toggleButton();
 	        })
@@ -381,7 +371,6 @@ FriendlyChat.prototype.onAuthStateChanged = function(user) {
 	this.signInButton.setAttribute('hidden', 'true');
 	this.signInButtonFB.setAttribute('hidden', 'true');
 	// We load currently existing chant messages.
-	this.loadMessages();
   } else { // User is signed out!
 	// Hide user's profile and sign-out button.
 	this.userName.setAttribute('hidden', 'true');
@@ -489,6 +478,7 @@ FriendlyChat.prototype.checkSetup = function() {
 
 window.onload = function() {
   window.friendlyChat = new FriendlyChat();
+  friendlyChat.loadMessages();
 };
 </script>
 <style>
