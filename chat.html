@@ -113,17 +113,28 @@
 	</div>
   </main>
 </div>
-<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
 <script>
   // Initialize Firebase
   var config = {
-	apiKey: "AIzaSyC9kEvlWN1LZ17Hc__mptEYnHIV7EBas1A",
-	authDomain: "chat-online-19994.firebaseapp.com",
-	databaseURL: "https://chat-online-19994.firebaseio.com",
-	storageBucket: "chat-online-19994.appspot.com",
-	messagingSenderId: "304035643733"
-  };
-  firebase.initializeApp(config);
+  apiKey: "AIzaSyAIm343O_cNAsHATMVGqZnZMJnRDMcc7hg",
+  authDomain: "quantum-chemist-237712.firebaseapp.com",
+  databaseURL: "https://quantum-chemist-237712.firebaseio.com",
+  projectId: "quantum-chemist-237712",
+  storageBucket: "quantum-chemist-237712.appspot.com",
+  messagingSenderId: "583878542854",
+  appId: "1:583878542854:web:b674a829037f595d4c6587"
+};
+firebase.initializeApp(config);
 </script>
 <!-- Firebase -->
 <!-- ***********************************************************************************************************************
