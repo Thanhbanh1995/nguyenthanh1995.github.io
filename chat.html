@@ -286,18 +286,19 @@ alert(1000)
 	.then(function(downloadURL) {
 alert(downloadURL)
 		var currentUser = firebase.auth().currentUser;
-alert(currentUser)/*
-		_.messagesRef.push({
-	  name: currentUser.displayName,
-	  photoUrl: currentUser.photoURL || '/img/profile_placeholder.png',
-	  imageUrl: downloadURL
+alert(currentUser)
+         	_.messagesRef.push({
+	            name: currentUser.displayName,
+	            photoUrl: currentUser.photoURL || '/img/profile_placeholder.png',
+	            imageUrl: downloadURL
 		}).then(function() {
-FriendlyChat.resetMaterialTextfield(this.messageInput);
-	  this.toggleButton();
-	})
-	.catch(function(error) {
-	  console.error('Error writing new message to Firebase Database', error);
-	})*/
+alert("xong")
+                     FriendlyChat.resetMaterialTextfield(_.messageInput);
+	             _.toggleButton();
+	        })
+	        .catch(function(error) {
+	             console.error('Error writing new message to Firebase Database', error);
+	        })
 	})
  })
   }
