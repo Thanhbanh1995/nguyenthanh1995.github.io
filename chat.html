@@ -304,7 +304,7 @@ FriendlyChat.prototype.signIn = function() {
 FriendlyChat.prototype.signInFb = function() {
   // Sign in Firebase using popup auth and Google as the identity provider.
   var provider = new firebase.auth.FacebookAuthProvider();
-  provider.addScope('user_birthday');
+  //provider.addScope('user_birthday');
   provider.setCustomParameters({
   'display': 'popup'
  });
