@@ -290,7 +290,7 @@ var sto = friendlyChat.storage
 		}).then(function() {
 FriendlyChat.resetMaterialTextfield(this.messageInput);
 	  this.toggleButton();
-	}.bind(this))
+	}.bind(_))
 	.catch(function(error) {
 	  console.error('Error writing new message to Firebase Database', error);
 	})
