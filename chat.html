@@ -139,7 +139,7 @@ my("#header-page").load("/header.template", function () {
 firebase.initializeApp(config);
 
 'use strict';
-//onerror = console.log = e => alert(e + "")
+onerror = console.log = e => alert(e + "")
 // Initializes FriendlyChat.
 function FriendlyChat() {
   this.checkSetup();
