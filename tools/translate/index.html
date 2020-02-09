@@ -11,7 +11,13 @@
 	<meta name=viewport content='width=device-width, user-scalable=no, initial-scale=1.0' charset=utf-8 />
 	</head>
 	<body>
-	
+	<div id=header-page></div>
+<script>
+my("#header-page").load("/header.template", function () {
+    my("#header-page").find("#tools").addClass("active")
+    my("#header-page").find("#translate-tool").addClass("active") 
+})
+</script><!--
 <nav id=menu-header class="navbar navbar-expand-lg navbar-light bg-light">
 	<a class="navbar-brand" href="https://nguyenthanh1995.github.io">
 		<img class="img-fluid mr-1" style="width: 2em; height: 2em" src=https://nguyenthanh1995.github.io/CydiaIcon.png />
@@ -20,43 +26,42 @@
 	<button class="navbar-toggler menu-btn">
 		<span class="navbar-toggler-icon"></span>
 	</button>
-
 	<div class="collapse navbar-collapse">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item">
 				<a class="nav-link" href="/index.html">
-	<i class="fas mr-1 fa-home"></i>
+	<i class="far mr-1 fa-home"></i>
 	Home (Repo)
-	<!--<span class="sr-only">(current)</span>-->
+	<!--<span class="sr-only">(current)</span>--><!--
 				</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="/jailbreak-tool">
-	<i class="fas mr-1 fa-tools"></i>
+	<i class="far mr-1 fa-tools"></i>
 	Jailbreak Tools
 				</a>
 			</li>
-			<li class="nav-item active dropdown">
+			<li class="nav-item dropdown active">
 				<a class="nav-link dropdown-toggle">
 	<i class="fas mr-1 fa-toolbox"></i>
 	Tools
 				</a>
 				<div class="dropdown-menu">
-					<a class="dropdown-item" href="/tools/translate">
-	<i class="fas mr-1 active fa-language"></i>
+					<a class="dropdown-item active" href="/tools/translate">
+	<i class="far mr-1 fa-language"></i>
 	Translate Tool
 					</a>
 		  			<a class="dropdown-item" href="/tools/mterminal-theme">
-	<i class="fas mr-1 fa-terminal"></i>
+	<i class="far mr-1 fa-terminal"></i>
 	MTerminal Theme Manager
 					</a>
 		  			<div class="dropdown-divider"></div>
 		  			<a class="dropdown-item" href="#">Something else here</a>
 				</div>
 			</li>
-			<li class="nav-item">
+			<li class="nav-item active">
 				<a class="nav-link" href="/about.html">
-	<i class="fas mr-1 fa-info-circle"></i>
+	<i class="far mr-1 fa-info-circle"></i>
 	About
 				</a>
 			</li>
@@ -64,18 +69,18 @@
 		<form class="form-inline my-2 my-lg-0">
 			<input class="form-control mr-sm-2" label="Search">
 			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		</form>-->
+		</form>--><!--
 		<hr class="my-1">
 		<div class="my-2 my-lg-0">
 			<a target=_blank href="https://www.facebook.com/profile.php?id=100024588752208" class="social"><i class="fab fa-facebook-square"></i></a>
 			<a target=_blank href="https://twitter.com/NguyenThanhDev" class="social"><i class="fab fa-twitter"></i></a>
 			<a target=_blank href="https://www.instagram.com/thanh6454nguyen/" class="social"><i class="fab fa-instagram"></i></a>
-			<!--<i class="fab fa-facebook-messenger social"></i>-->
+			<!--<i class="fab fa-facebook-messenger social"></i>--><!--
 			<a target=_blank href="https://github.com/nguyenthanh1995" class="social"><i class="fab fa-github"></i></a>
-			<a target=_blank href="mailto:thanhnguyennguyen1995@gmail.com" class="social"><i class="fas fa-envelope"></i></a>
+			<a target=_blank href="mailto:thanhnguyennguyen1995@gmail.com" class="social"><i class="far fa-envelope"></i></a>
 		</div>
 	</div>
-</nav>
+</nav> 
 <style type=text/css>
 .social {
 	font-size: 150%;
@@ -133,7 +138,7 @@ function toggleThemeMenu () {
 	my("#menu-header")
 	.toggleClass("navbar-light bg-light navbar-dark bg-dark")
 }*/
-</script>
+</script>-->
 
 		<div class=container>
 			<div class=row>
