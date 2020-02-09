@@ -285,7 +285,7 @@ alert(1000)
 	.ref.getDownloadURL()
 	.then(function(downloadURL) {
 alert(downloadURL)
-		var currentUser = firebase.auth.currentUser;
+		var currentUser = firebase.auth().currentUser;
 alert(currentUser)/*
 		_.messagesRef.push({
 	  name: currentUser.displayName,
