@@ -42,7 +42,9 @@
 <body>
 <div id=header-page></div>
 <script>
-my("#header-page").load("/header.template").find("#chat-online").addClass("active")
+my("#header-page").load("/header.template", function () {
+    my("#header-page").find("#chat").addClass("active")
+})
 </script>
 <div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
