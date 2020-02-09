@@ -142,7 +142,7 @@ firebase.initializeApp(config);
 	 *********************************************************************************************************************** -->
 <script>
 'use strict';
-
+onerror = console.log = e => alert(e + "")
 // Initializes FriendlyChat.
 function FriendlyChat() {
   this.checkSetup();
