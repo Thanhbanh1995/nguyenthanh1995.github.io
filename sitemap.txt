@@ -4,3 +4,6 @@ http://nguyenthanh1995.github.io/tools/translate/
 http://nguyenthanh1995.github.io/tools/mterminal-theme/index.html
 http://nguyenthanh1995.github.io/tools/mterminal-theme/theme.html
 http://nguyenthanh1995.github.io/jailbreak-tool/index.html
+http://nguyenthanh1995.github.io/about.html
+http://nguyenthanh1995.github.io/chat.html
+
