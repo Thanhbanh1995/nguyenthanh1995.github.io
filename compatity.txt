@@ -204,3 +204,15 @@ git.shin.bottomtoolbar 11, 12, 13.4
 git.shin.foxforthack 11+
 git.shin.foxforttools 11+
 git.shin.libfoxfortutils 11+
+git.shin.aerial 9, 10
+git.shin.aerial2 13, 13.3
+git.shin.autoscroll 12, 13.3
+git.shin.backupaz3cmd 10+
+git.shin.badgebar 12, 13
+git.shin.badgebarvi 12, 13
+git.shin.colorbadges-new 7, 8, 9, 10, 11, 12, 13
+git.shin.impactor 7, 8, 9, 10
+git.shin.impactor10 10.x.x
+git.shin.harpy 9, 10, 11, 12.4
+git.shin.locationhandlex 10, 11, 12, 13
+git.shin.semirestore11 11

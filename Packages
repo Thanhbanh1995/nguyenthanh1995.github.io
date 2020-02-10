@@ -144,6 +144,45 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.adbl
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.aerial
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.6110), preferenceloader
+Filename: ./debs/aerial.deb
+Size: 872450
+MD5sum: 763ceb6070efbf85277add2794b1709e
+SHA1: bf9d789bed99572f0b22e8c2edbd8cab6f333857
+SHA256: 5629b9979d318842e285bbb1151988fa7a6a031dcc1338d4899030a265f4cf4f
+Description: Colour your status bar icons!
+Name: Aerial
+Author: Surenix <surenix@surenix.me>
+dev: surenix
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Icon: file:///Library/PreferenceBundles/AerialSettings.bundle/AerialSettings@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.aerial
+
+Package: git.shin.aerial2
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.1
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/aerial2.deb
+Size: 903154
+MD5sum: 80df6f27c3c51390b8e91698173bf1ef
+SHA1: 9ca4f3e47f2a45e262b4c1c308434b462b8340d2
+SHA256: 6bfffacc3a4a5f0a5a9f6663c4369b9712db9ced2d3aee5183bf2e7e3ac1ce04
+Description: Colour Status Bar Icons
+Name: Aerial 2
+Author: PolyTweaks
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.aerial2
+
 Package: git.shin.afaker
 Section: Tools
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -458,6 +497,24 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.auto
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.autoscroll
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.0.3
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader
+Filename: ./debs/autoscroll.deb
+Size: 34334
+MD5sum: 5ad5d2da939c4edae1ca4d3dfdd11475
+SHA1: 8290c56ccc7e50abc06565e925ca428c95e9d830
+SHA256: d4737d5240ef1ddf4be26af4ec68e1dae515a1010edf3e5b926e9c307b2107fa
+Description: Smart Auto Scroll & Faster Scrolling on all app.
+Name: AutoScroll
+Author: pxcex
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.autoscroll
+
 Package: git.shin.autotouch8
 Priority: optional
 Section: Tweaks
@@ -480,6 +537,62 @@ dev: kentkrantz
 Icon: file:///Applications/AutoTouch.app/AppIcon29x29@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.autotouch8
 Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.backupaz3cmd
+Section: System
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0
+Depends: firmware (>= 10.0), coreutils-bin, dpkg, apt7, shell-cmds
+Filename: ./debs/backupaz3cmd.deb
+Size: 138386
+MD5sum: 16c938408580939b51bc0f1b8f736135
+SHA1: 054bba9d8bb8090e9e79aa1cf49df190ab9a90d3
+SHA256: 6a7382b3e7d14eefefd0883bbad4a679d83e0571c45964b6ec4b9e4787528431
+Description: A complete command line backup tool
+Name: BackupAZ 3 Commmand Line Version (iOS 10 - 13)
+Author: SynnyG <synnyg.devjb@gmail.com>
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.backupaz3cmd
+
+Package: git.shin.badgebar
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.7.3
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), org.thebigboss.libcolorpicker
+Filename: ./debs/badgebar.deb
+Size: 390668
+MD5sum: 0018232b41560bade9c9af9ddd7abca5
+SHA1: f149ea47084f00b27fc7b3e486ead2ea1a513084
+SHA256: fd45e6445976a4556c6909f7f7b762ed44bdfbad0058aa5a291930bcbfa9ccf8
+Description: Change your ugly badge notification!
+Name: BadgeBar
+Author: JannikCrack
+Icon: file:///Applications/Cydia.app/Sections/tinhchinh.png
+Tag: purpose::extension, compatible_min::ios12.2, compatible_max::ios13.3
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.badgebar
+
+Package: git.shin.badgebarvi
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.1
+Depends: mobilesubstrate, git.shin.badgebar
+Filename: ./debs/badgebarvi.deb
+Size: 1868
+MD5sum: 3881cefb6f19b3ca5156fe09b7ee421d
+SHA1: ad35e7920126a101fec252e9aa64862b7073b590
+SHA256: 26240841945105da1c06ca815ed5383be503d9c37f6f8382a3640df189a43f45
+Description: Add Vietnamese for BadgeBar Tweak
+Name: BadgeBar vi
+Author: shin-chan
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.badgebarvi
 
 Package: git.shin.ballast
 Section: Tweaks
@@ -1017,6 +1130,27 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.clea
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.colorbadges-new
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.4.4
+Replaces: org.thebigboss.colorbadges
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
+Conflicts: org.thebigboss.colorbadges
+Filename: ./debs/colorbadges-new.deb
+Size: 83386
+MD5sum: 95c86853105d849ff1a111a21d0bb8a3
+SHA1: bae459d2efbd11c08f30210614513522ff0a1e17
+SHA256: abd8a9c4e67ff3aed61817b48867be0a39e00266a23922dbf232b4ce2d8bb3a8
+Description: Colorize your badges
+Name: ColorBadges
+Author: David Goldman <help@golddavid.com>
+Icon: file:///Library/PreferenceBundles/cbprefs.bundle/CBCydiaIcon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.colorbadges-new
+
 Package: git.shin.colorizechat
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -1157,6 +1291,50 @@ Icon: file:///Library/PreferenceBundles/CustomLoadingText.bundle/CustomLoadingTe
 Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.customloadingtext
 Homepage: https://nguyenthanh1995.github.io/
+
+Package: git.shin.impactor
+Priority: optional
+Section: Utilities
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.9.43
+Depends: firmware (>= 7.1), firmware (<= 10.3.3)
+Breaks: com.saurik.patych (<< 1.0.1)
+Filename: ./debs/cydia-eraser.deb
+Size: 519286
+MD5sum: 88b5109a249a247f7b3ed81199c365c8
+SHA1: c089981eab700cd67f294740be00b16d79727b74
+SHA256: 48cf91a0cf5253c6d36fcf6f0d63883904a0e85f56fa880e50f1207320ccad9b
+Description: specific utility to unjailbreak most devices
+Name: Cydia Eraser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Icon: file:///Applications/Eraser.app/Icon-60.png
+Tag: purpose::uikit, role::enduser
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.impactor
+
+Package: git.shin.impactor10
+Priority: optional
+Section: Utilities
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.9.43
+Depends: firmware (>= 10.0), firmware (<= 10.3.4)
+Breaks: com.saurik.patych (<< 1.0.1)
+Filename: ./debs/cydia-eraser10.deb
+Size: 519990
+MD5sum: 163fcde433e887c3fc7a5576b6182b44
+SHA1: 6791806016f1eae1726eaa8fb5bc61425eece19f
+SHA256: a9a5170611207606717d432b913c2707e0e763c18049673fac7636b891d68934
+Description: specific utility to unjailbreak most devices
+Name: Cydia Eraser for iOS10.x
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Icon: file:///Applications/Eraser.app/Icon-60.png
+Tag: purpose::uikit, role::enduser
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.impactor10
 
 Package: cydiacoolstar
 Priority: optional
@@ -1579,6 +1757,26 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.Pull
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.PullOverProb
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.0~b5
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist, git.shin.cracktool4
+Filename: ./debs/git.shin.PullOverProb_2.0~b5_iphoneos-arm.deb
+Size: 1859510
+MD5sum: e33f1d1cdfe2b63e4f710a252158947f
+SHA1: 77a6c3e4644f5268dfc914a54a5780f6119edb87
+SHA256: 9f3e7a022d80591a58419d59d2043f5612737727c4a23b9f52dc1fb49ea8ecf1
+Description: A better way to multitask!
+Name: PullOver Pro Crack
+Author: c1d3r
+dev: c1d3r
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.PullOverProb
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.autotouch8
 Section: Utilities
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -1754,6 +1952,26 @@ Icon: file:///Library/PreferenceBundles/GoodWiFiSettings.bundle/icon@2x.png
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.goodwifi
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.harpy
+Section: System
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.0.1
+Depends: firmware (>= 9.0), network-cmds
+Filename: ./debs/harpy.deb
+Size: 6607824
+MD5sum: 4e6a177aba8a37fe44352f0969589b4c
+SHA1: 6bf5ab8a1af8a7db024252e2efa093bb5496e91f
+SHA256: 3462e710b7fa8c952a3abea6ef41fdf6a1377762f697b8e03bf701b023e2e5cf
+Description: Control your network with ease.
+Name: Harpy Cracked
+Author: midnightchips <midnightchips@gmail.com>
+Icon: file:///Applications/harpy.app/AppIcon29x29@2x.png
+Tag: compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.harpy
 
 Package: git.shin.hortus
 Section: Tweaks
@@ -2154,6 +2372,28 @@ Author: Pangu
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.localiapstoreios9
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.locationhandlex
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.0-1
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: org.thebigboss.locationchangerx,org.thebigboss.locationfaker8, org.thebigboss.locationhandle
+Filename: ./debs/locationhandlex.deb
+Size: 486904
+MD5sum: 1ea0b77f2c8c7c102a5a6d4149519b30
+SHA1: b140abb5a175f023234651d02668550d9a4d5561
+SHA256: 9c9f6b078300ecfb73e074cd76f431b6cc4f3c656ec8ed495cec7e2b04d22e13
+Description: change your real location in any App
+Name: LocationHandleX
+Author: Cunstuck <cunstuck@gmail.com>
+dev: cunstuck
+Tag: purpose::extension, role::enduser, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Icon: file:///Applications/LocationHandleX.app/AppIcon29x29@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.locationhandlex
 
 Package: git.shin.lockhtml4
 Section: Tweaks
@@ -3020,6 +3260,28 @@ Author: pxcex
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.selecttextcolors
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.semirestore11
+Section: System
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1.2-1
+Replaces: org.coolstar.semirestore11-lite
+Depends: cy+cpu.arm64, coreutils-bin, uikittools, firmware (>= 11.3), firmware (<< 11.4.1)
+Conflicts: org.coolstar.semirestore11-lite
+Filename: ./debs/semirestore11.deb
+Size: 54500
+MD5sum: 74ed617976bb5188db37a196e2e85430
+SHA1: 332e9d7a7086ed9d1d060355b8a3776eb743b1b0
+SHA256: 92a6bf587f936873781e6cc79c87634e1084f1ba45c6c699eac8d95496689cc7
+Description: A full system unjailbreaker that supports all devices running iOS 11.3 to 11.4 Beta 3.
+Name: SemiRestore11 / Rollectra
+Author: Pwn20wnd <pwn20wndstuff@gmail.com>
+Icon: file:///Applications/Rollectra.app/AppIcon29x29@2x.png
+Tag: compatible::ios11
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.semirestore11
 
 Package: git.shin.settingsip
 Section: Tweaks

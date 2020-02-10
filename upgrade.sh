@@ -4,7 +4,7 @@
   rm -rf ./debs/tmp
 
 if [[ -e changelog.log ]]; then
-   rm changelog.txt
+   rm changelog.log
 fi
 
   echo "[" > all.pkgs
