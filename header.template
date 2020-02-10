@@ -88,35 +88,6 @@
 
 </style>
 <script>
-my.fn.collapse = function () {
-
-my(this).click(function () {
-	var isShow = my(this).next()
-					.hasClass("show")
-	my(this).next()
-	.removeClass("collapse")
-	.addClass("collapsing")
-	.height(
-		isShow ? 0 : my(this).next()[0].scrollHeight
-	)
-	.one(my.fx.transitionEnd)
-	.then(function () {
-		my(this)
-		.removeClass("collapsing")
-		.addClass("collapse")
-		my(this)[(isShow ? "remove" : "add") + "Class"]("show")
-	})
-})
-
-}
-my(".menu-btn").collapse()
-
-my(".dropdown-toggle")
-.click(function () {
-	my(this).next()
-	.toggleClass("show")
-})
-
 /*
 if (localStorage.getItem("theme") === "dark")
 	my("#menu-header")
