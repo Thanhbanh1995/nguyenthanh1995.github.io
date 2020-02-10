@@ -1,10 +1,11 @@
+<script src=/lib/bootstrap3.0-no-jquery.js></script>
 <nav id=menu-header class="navbar navbar-expand-lg navbar-light bg-light">
 	<a class="navbar-brand" href="https://nguyenthanh1995.github.io">
 		<img class="img-fluid mr-1" style="width: 2em; height: 2em" src=https://nguyenthanh1995.github.io/CydiaIcon.png />
 		N.t Repo
 	</a>
-	<button class="navbar-toggler menu-btn">
-		<span class="navbar-toggler-icon"></span>
+	<button class="navbar-toggler menu-btn" data-toggle="collpase" data-target="#menu-open">
+		<span class="navbar-toggler-icon" id="menu-open"></span>
 	</button>
 
 	<div class="collapse navbar-collapse">
