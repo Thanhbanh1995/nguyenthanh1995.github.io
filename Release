@@ -7,5 +7,5 @@ Architecture: iphoneos-arm
 Components: main
 Description: Source Cydia Repo by Shin-chan (Nguyen Thanh)
 MD5Sum:
- 1c374a757cc0005724c8990c230a514c 181560 Packages
- 86733055d50db8eef08cc849314022a4 37727 Packages.bz2
+ c90dd2fcd7438a59459f0b4dcb0d6c5c 182211 Packages
+ 0d1aa9cddb6dcabec7bf88670f61fe09 37887 Packages.bz2

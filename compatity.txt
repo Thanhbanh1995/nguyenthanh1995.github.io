@@ -216,3 +216,6 @@ git.shin.impactor10 10.x.x
 git.shin.harpy 9, 10, 11, 12.4
 git.shin.locationhandlex 10, 11, 12, 13
 git.shin.semirestore11 11
+git.shin.locationhandlex 
+git.shin.semirestore11 
+git.shin.cydiatimeoutcmd all

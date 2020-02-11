@@ -1377,6 +1377,23 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cydi
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.cydiatimeoutcmd
+Section: Utilities
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.1
+Filename: ./debs/cydiatimeoutcmd.deb
+Size: 1124
+MD5sum: 1ff7867761d800539772e328961c3270
+SHA1: 2b0679e2f6161bcc044fb2c2b1eed6cdb9890091
+SHA256: 83128dec4a1615bec8462629ef57f3fb5b61d4b5601879bb93696f5738bb5f46
+Description: Shorten Cydia's refresh time.
+Name: Cydia Timeout Command
+Author: shin-dev
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.cydiatimeoutcmd
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
 Package: git.shin.cylinder
 Section: Tweaks
 Maintainer: nguyenthanh
