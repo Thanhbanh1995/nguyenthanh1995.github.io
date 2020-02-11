@@ -202,6 +202,23 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.afak
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.alizz
+Section: Designs (Statusbar)
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.2
+Filename: ./debs/alizz.deb
+Size: 540788
+MD5sum: 015637e0321df86c71e758002a0e9a29
+SHA1: 713a509822f1f05289fd9f1e8636d0ae5ea05f42
+SHA256: 80c79346958229f2524a5955ac66c5f227076880de7bfbc5d9abf5088e82b8c2
+Description: The ultimate custom StatusBar Theme Pack
+Name: Alizz Statusbar
+Author: JannikCrack
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.alizz
+
 Package: git.shim.alkaline
 Priority: extra
 Section: Tweaks
@@ -1151,6 +1168,67 @@ Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.colorbadges-new
 
+Package: git.shin.colorbanners
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.6-1
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
+Filename: ./debs/colorbanners.deb
+Size: 79900
+MD5sum: a74ddff6a5fcce9e4f8e8fdb4dc18b60
+SHA1: 6cbcab556b6fc93bf1c6c413b50657c50160eadb
+SHA256: 9da9f915b9e68fb5c3044ef8a1fe3d68d054792acbfdea91e4b66ede35b5768d
+Description: Color your notifications
+Author: David Goldman <goldman.david0@gmail.com>
+Name: ColorBanners
+dev: goldmandavid0
+Tag: purpose::extension, compatible::ios8, compatible::ios9
+Icon: file:///Library/PreferenceBundles/ColorBannersPrefs.bundle/CBRPrefsIcon@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.colorbanners
+
+Package: git.shin.colorbanners2-new
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.4
+Replaces: com.golddavid.colorbanners, com.golddavid.colorbanners-cb, com.golddavid.colorbanners2
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5.000), org.thebigboss.libcolorpicker (>= 1.1)
+Conflicts: com.golddavid.colorbanners, com.golddavid.colorbanners-cb, com.golddavid.colorbanners2
+Filename: ./debs/colorbanners2-new.deb
+Size: 728950
+MD5sum: 30e986ca7906937b4185dfe8f3857b21
+SHA1: 4190473a4332d5a4c3787d7a8e0c956d25b4ffc9
+SHA256: 2f05486f0d208a0c85125e0f214f7b702bae7dd1651682ac3c5bd5e51d87ce93
+Description: Color your notifications
+Name: ColorBanners 2 (Packix)
+Author: David Goldman <help@golddavid.com>
+Icon: file:///Library/PreferenceBundles/ColorBanners2Prefs.bundle/ColorBanners@3x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.colorbanners2-new
+
+Package: git.shin.colorbanners3
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.1
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5.000), org.thebigboss.libcolorpicker (>= 1.1)
+Filename: ./debs/colorbanners3.deb
+Size: 227230
+MD5sum: 0a1dc91782f9d43fe49212bbb469b28b
+SHA1: 293f3cee637a6b447478a08a0bb8016fa81c44f8
+SHA256: 2d70de0a9970f14ff8bfb94b2134e3206c6c6f49c30905d5a889490df4535dc0
+Description: Spruce up your notifications
+Name: ColorBanners 3
+Author: David Goldman <help@golddavid.com>
+Tag: 
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.colorbanners3
+
 Package: git.shin.colorizechat
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -1552,6 +1630,25 @@ Author: Rishanan
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.fbadblock
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.filza64
+Section: Utilities
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 3.6.2-1
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./debs/filza64bit.deb
+Size: 20142008
+MD5sum: 769fc716a4bef268d14258924c24a7c5
+SHA1: 56feeb4a4596d173b74bee26f508d68b968216cd
+SHA256: 9451b86b917a475220ce6dbd6695f30f3cbace4d37ed2a6b003ffe6bec656f92
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Name: Filza File Manager 64-bit Cracked
+Author: TIGI Software
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.filza64
 
 Package: git.shin.filzatm
 Section: Tweaks
@@ -1989,6 +2086,24 @@ Tag: compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.harpy
+
+Package: git.shin.hidestatusbaritemspro
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.0
+Depends: mobilesubstrate
+Filename: ./debs/hidestatusbaritemspro.deb
+Size: 41954
+MD5sum: 012fed98de15fa39beea29935a640e49
+SHA1: 3033a09b0e3482db5fe04adae78c77cab624c3d7
+SHA256: e62fbb059fe2e125fd98e2a55ac27f0ce77c8e30a42ca073904485a429300794
+Description: A simple tweak which allows you to hide specific elements in the status bar.
+Name: HideStatusBarItemsPro
+Author: Chashmeet Singh <chashmeetsingh@gmail.com>
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.hidestatusbaritemspro
 
 Package: git.shin.hortus
 Section: Tweaks
@@ -3046,6 +3161,24 @@ Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.photomanager12
 
+Package: git.shin.pokefullcharge
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.3
+Depends: mobilesubstrate
+Filename: ./debs/pokefullcharge.deb
+Size: 794538
+MD5sum: 771f5d99ec96c740d71922cab1b71204
+SHA1: a347700e04dffd496c2d473e9ec7a6f7637580b9
+SHA256: 62444b61b6ec2bf55a2ac1ab8fa2774f43007a4d45982afb192594a64faa9639
+Description: Play a Pokémon jingle when charged or uncharged!
+Name: PokeFullCharge
+Author: 6ilent <pkmnx7802@gmail.com>
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.pokefullcharge
+
 Package: git.shin.powerselector
 Section: Addons (Flipswitch)
 Maintainer: ichitaso
@@ -3242,6 +3375,45 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.repr
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.rockethack
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 3.6.10
+Replaces: me.alfhaily.rocket
+Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: me.alfhaily.rocketsadsad
+Filename: ./debs/rockethack.deb
+Size: 9097824
+MD5sum: 472a473c30a803b0268c45d3185124ff
+SHA1: 74ba4ade938503a07af11079b8e6cc21389a1fb0
+SHA256: d7941923f58d614b907dd967ebc272d3f2a5dad62486a721247a5d8a74664a06
+Description: Rocket4Insta Crack and Rocket for Instagram Combined!.
+Name: Rocket for Instagram Cracked
+Author: Majd Alfhaily
+Icon: https://apt.alfhaily.me/cdn/assets/rocket-icon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.rockethack
+
+Package: git.shin.runtimebrowser
+Section: Utilities
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.1
+Filename: ./debs/runtimebrowser.deb
+Size: 2273064
+MD5sum: a48eaad5b262fdece99e3d752529565c
+SHA1: d3daeea239d8fb8a38ca8004df0b53576d44648c
+SHA256: c1b28b7e491a1ecf6c6f251e518585a064d11b916959af10a50c6188ebe2d9ca
+Description: Class browser for Objective-C runtime
+Name: RuntimeBrowser
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://repo.chariz.com/package/ws.hbang.runtimebrowser/icon@3x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.runtimebrowser
+
 Package: git.shin.screensafe
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -3355,6 +3527,65 @@ Author: mass1ve_err0r
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.shadowapp
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.siliqua
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0-2
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/siliqua.deb
+Size: 26702
+MD5sum: 974292f8d133ce0804fffe505c9f133f
+SHA1: ef81e958c4276ec01974e590a70b5ba603f4ff68
+SHA256: 73597d74ba6d9fd5b9492a200e3dbf860a0758d1429a572a5c35a08a63f22372
+Description: AirPods Gestures and New Features
+Author: LaughingQuoll <laughingquoll@gmail.com>
+Name: Siliqua
+dev: laughingquoll
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Icon: file::///Library/PreferenceBundles/SilquaPrefs.bundle/icon@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.siliqua
+
+Package: git.shin.siliqua2
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.5.2
+Depends: mobilesubstrate, com.laughingquoll.prefixui
+Filename: ./debs/siliqua2.deb
+Size: 42858
+MD5sum: 74c278c9d0e59e202e485f9b452e77ae
+SHA1: bc1195f42b8f7f4341cfd85fa6a32af3ebdcd028
+SHA256: 4f7256027ce98bb0c7362eb781d5ec7b5480969573233f452f540cedc92e55b1
+Description: AirPods Gestures and New Features
+Name: Siliqua 2
+Author: LaughingQuoll
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.siliqua2
+
+Package: git.shin.siliquapro
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.2
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
+Filename: ./debs/siliquapro.deb
+Size: 129780
+MD5sum: da8f74842d4688e960ae0d2135bb48e5
+SHA1: 173cb38388bef75547506e81a10d54eb44e92e33
+SHA256: 58276f7aa91a3dcac1de25700c500f707d490fe6b9a7f121f53cfec2b22a94e3
+Description: Custom actions for AirPods Pro
+Name: Siliqua Pro
+Author: LaughingQuoll <me@laughingquoll.net>
+Tag: 
+Icon: https://chariz.com/cdn/icon/siliqua-pro/icon@3x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.siliquapro
 
 Package: git.shin.simplelsios10
 Priority: optional
@@ -4194,6 +4425,44 @@ Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.vinculum
 
+Package: git.shin.wale
+Section: Themes
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1
+Conflicts: ru.rejail.karatheme, ru.rejail.sadetheme, com.hackyouriphone.karatheme, com.hackyouriphone.sadetheme, com.hackyouriphone.bboardplus
+Filename: ./debs/wall.deb
+Size: 1545574
+MD5sum: e993ae0cba5104b467db9bc16b8f6826
+SHA1: cfa984b788afaef78fdbf8afb55c3e713ad131a0
+SHA256: 0a39e079e0d880c7f46e8184d61c57c06b95542f1d1847f4caed84c13665ef67
+Description: Simple and understandable theme.
+Name: Wale
+Author: kadir1009 <abdulkadirkeles@me.com>
+Icon: file:///Library/Themes/Wale&#160;-&#160;Icon.theme/Icon.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.wale
+
+Package: git.shin.watermelon
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.3.9
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.spark.libsparkapplist, preferenceloader
+Filename: ./debs/watermelon.deb
+Size: 552324
+MD5sum: 3a6588dc5f3f571354da22333da8a426
+SHA1: 75921f40e6ab58d11a818deebf58200883034f62
+SHA256: 2dc124e5810ccfc9c28f01b86c2281e081446a183b438a84f2f7b4e108dc9856
+Description: WatchOS style lockscreen widgets.
+Name: Watermelon
+Author: LaughingQuoll
+Icon: https://chariz.com/cdn/icon/watermelon/icon@3x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.watermelon
+
 Package: git.shin.watools
 Section: System
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -4289,6 +4558,42 @@ Icon: file:////System/Library/PreferenceBundles/WhoIsCallingSettings.bundle/WIC@
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.whoozit
+
+Package: git.shin.xenanalog
+Section: Widgets
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.0.6
+Depends: com.matchstic.xenhtml, com.junesiphone.xeninfo
+Filename: ./debs/xenanalog.deb
+Size: 406364
+MD5sum: 5bd367e835ec75e0f6874867312706b2
+SHA1: 703e4eba1f68fe478ee049290fd2927e47c9bbc5
+SHA256: f563017f23be962be5cacef9b8d74664165ef272bed0349e122b732bc90db272
+Description: Apple’s removed analog clock design
+Name: XenAnalog
+Author: umttpz <umttpz@outlook.com>
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.xenanalog
+
+Package: git.shin.xenanimate
+Section: Widgets
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.1.1
+Depends: com.matchstic.xenhtml, com.junesiphone.xeninfo
+Filename: ./debs/xenanimate.deb
+Size: 17837824
+MD5sum: bb332b26ab001593ab6e7c02aa0b15d5
+SHA1: 5d9ed768a677edf79d723638f1b08ce3f1d115ea
+SHA256: c0b4e31ea6a60abd4f7df5f6d7d1053b32d066b0660abf8a2346b58586fee5ae
+Description: Depends XenHTML and XenInfo.
+Name: XenAnimate Cracked
+Author: umttpz <umttpz@outlook.com>
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.xenanimate
 
 Package: git.shin.xgpspro
 Maintainer: nguyenthanh

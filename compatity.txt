@@ -219,3 +219,19 @@ git.shin.semirestore11 11
 git.shin.locationhandlex 
 git.shin.semirestore11 
 git.shin.cydiatimeoutcmd all
+git.shin.alizz all
+git.shin.colorbanners 8, 9
+git.shin.colorbanners2-new 10, 11, 12.4
+git.shin.colorbanners3 13
+git.shin.filza64 7+
+git.shin.hidestatusbaritemspro 11
+git.shin.pokefullcharge 9+
+git.shin.rockethack 9+
+git.shin.runtimebrowser all
+git.shin.siliqua 9, 10
+git.shin.siliqua2 11, 12
+git.shin.siliquapro 11+
+git.shin.wale 7+
+git.shin.watermelon 12, 13
+git.shin.xenanalog 10+
+git.shin.xenanimate 10+
