@@ -30,7 +30,7 @@ my("#header-page").load("/header.template", function () {
     my("#menu-header ul, #menu-header li").each(function () {
         var div = my("<div>")[0]
         div.innerHTML = this.innerHTML
-        div.className = this.className
+        my(div).attr("class", my(this).attr("class"))
         div.id = this.id
         div.dataset = this.dataset
         my(this).replace(div)
