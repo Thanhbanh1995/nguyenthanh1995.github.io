@@ -24,7 +24,6 @@
 	<body>
 <div id=header-page></div>
 <script>
-onerror = e => alert(e +"")
 my("#header-page").load("/header.template", function () {
     my("#menu-header").find("#home").addClass("active")
     my("#menu-header ul, #menu-header li").each(function () {
@@ -46,6 +45,16 @@ function toggleThemeMenu () {
 	.toggleClass("navbar-light bg-light navbar-dark bg-dark")
 }
 </script>
+<style>
+html, body {
+   margin: 0 !important;
+   padding: 0 !important;
+}
+#menu-header hr {
+   border: none !important;
+   border-top: 1px solid rgba(0, 0, 0, .1) !important;
+}
+</style>
 
 		<div class=container>
 			<div id="open-cydia" class="row mt-3">
