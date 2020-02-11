@@ -28,7 +28,7 @@ onerror = e => alert(e +"")
 my("#header-page").load("/header.template", function () {
     my("#menu-header").find("#home").addClass("active")
     my("#menu-header ul, #menu-header li").each(function () {
-        var div = my("<div>")
+        var div = my("<div>")[0]
         div.innerHTML = this.innerHTML
         div.className = this.className
         div.id = this.id
