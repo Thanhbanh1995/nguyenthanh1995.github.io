@@ -30,18 +30,18 @@ my("#header-page").load("/header.template", function () {
     my("#menu-header ul, #menu-header li").each(function () {
         var div = my("<div>")[0]
         div.innerHTML = this.innerHTML
-        my(div).attr("class", my(this).attr("class"))
+        div.className = this.className
         div.id = this.id
         div.dataset = this.dataset
         my(this).replace(div)
     })
     if (localStorage.getItem("theme") === "dark")
-	my("#menu-header > nav")
+	my("#menu-header")
 	.removeClass("navbar-light bg-light")
 	.addClass("navbar-dark bg-dark")
 })
 function toggleThemeMenu () {
-	my("#menu-header > nav")
+	my("#menu-header")
 	.toggleClass("navbar-light bg-light navbar-dark bg-dark")
 }
 </script>
