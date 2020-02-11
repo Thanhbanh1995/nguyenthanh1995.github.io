@@ -90,9 +90,10 @@
 <script type=text/javascript>
 !function () {
    var js = document.createElement("script")
-   js.src = "/lib/bootstrap3.0-no-jquery.js"
+   js.src = "/lib/bs4-njq.js"
    document.head.appendChild(js)
 }(void 0)
+//load script file lazy
 </script>
 <script>
 /*
