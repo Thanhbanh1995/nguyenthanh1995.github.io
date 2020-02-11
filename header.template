@@ -87,7 +87,13 @@
 }
 
 </style>
-<script src=https://nguyenthanh1995.github.io/lib/bootstrap3.0-no-jquery.js></script>
+<script type=text/javascript>
+!function () {
+   var js = document.createElement("script")
+   js.src = "/lib/bootstrap3.0-no-jquery.js"
+   document.head.appendChild(js)
+}(void 0)
+</script>
 <script>
 /*
 if (localStorage.getItem("theme") === "dark")
