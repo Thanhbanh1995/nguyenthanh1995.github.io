@@ -24,8 +24,9 @@
 	<body>
 <div id=header-page></div>
 <script>
+onerror = e => alert(e +"")
 my("#header-page").load("/header.template", function () {
-    my("#header-page").find("#home").addClass("active")
+    my("#menu-header").find("#home").addClass("active")
     my("#menu-header ul, #menu-header li").each(function () {
         var div = my("<div>")
         div.innerHTML = this.innerHTML
