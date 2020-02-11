@@ -33,6 +33,7 @@ my("#header-page").load("/header.template", function () {
         div.className = this.className
         div.id = this.id
         div.dataset = this.dataset
+        div.style.fontSize = "16px"
         my(this).replace(div)
     })
     if (localStorage.getItem("theme") === "dark")
