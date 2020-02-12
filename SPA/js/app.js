@@ -267,7 +267,7 @@ var tool = {
 }
 // # fixed vuejs sort object in ti
 
-
+alert(typeof tool)
     window.open("itms-services://?action=download-manifest&url=" + tool[name].plist[tool[name].plist.length - 1])
 
 }
