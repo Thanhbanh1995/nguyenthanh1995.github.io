@@ -31,7 +31,7 @@
 			</li>
 			<li class="nav-item" id=shin-box-installer>
 				<a class="nav-link" href="/install">
-	<i class="fas mr-1 fa-app-store"></i>
+	<i class="fab mr-1 fa-app-store"></i>
 	Shin Box Installer
 				</a>
 			</li> 
