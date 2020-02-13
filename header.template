@@ -29,6 +29,12 @@
 	Chat Online
 				</a>
 			</li>
+			<li class="nav-item" id=shin-box-installer>
+				<a class="nav-link" href="/install">
+	<i class="fas mr-1 fa-app-store"></i>
+	Shin Box Installer
+				</a>
+			</li> 
 			<li class="nav-item dropdown" id=tools>
 				<a href=javascript:void(0) class="nav-link dropdown-toggle" data-toggle="dropdown">
 	<i class="fas mr-1 fa-toolbox"></i>
