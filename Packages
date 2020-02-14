@@ -1536,6 +1536,28 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.dim
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.dimme
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.0.3
+Depends: mobilesubstrate, applist, preferenceloader (>= 2.2.3), firmware (>= 7.0)
+Conflicts: com.julioverne.dpkgcheck, com.sull.dpkgcheck
+Filename: ./debs/dimme.deb
+Size: 359876
+MD5sum: da7dedee3b6843b40f9add66a6e23890
+SHA1: 79803279161ea0c4ac0c4f5e604ec0c00fa559b2
+SHA256: d59d7c2eb52becf6334d9cff0dc32041928170038c1d49b191cb4922838bc893
+Description: Dim the Screen with options.
+Author: Rene Kahle <packetfahrer@web.de>
+Name: DimMe
+dev: packetfahrer
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Icon: file:///Library/PreferenceBundles/DimMeSettings.bundle/DimMeSettings@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.dimme
+
 Package: git.shin.display-touch
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -2604,6 +2626,47 @@ dev: ca13ra1
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.lowpowermode
 Homepage: https://nguyenthanh1995.github.io/
 
+Package: git.shin.lpm
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.3
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common
+Filename: ./debs/lpm.deb
+Size: 24540
+MD5sum: 2e68598197eeec359bf560679dbeb774
+SHA1: 7d7b7d85877c50cbdbefc42ce10239e4a49f1761
+SHA256: 8f931d0acff351927be7c559a2544ae5e1256472609c5e1619f614ec9da101cd
+Description: Set custom battery % for Low Power Mode.
+Author: iFlames <iflames.x@gmail.com>
+Name: Low Power Modder
+dev: iflames
+Tag: purpose::extension, compatible::ios10
+Icon: file:///Users/Optimo/iPhone/lowpowermodder_1.0/Library/PreferenceBundles/lpmprefs.bundle/icon@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.lpm
+
+Package: git.shin.lst
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0-1
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/lst.deb
+Size: 20696
+MD5sum: 923bcf51cd16829028ab44b0cb91d0f9
+SHA1: 459a7c55d60547e442cc885b6a3973d0f04925df
+SHA256: b443d4e2cb2cd60901dc81c772730abe4b45624eedee770194808c55008acf41
+Description: World clock/timezones on lock screen.
+Author: ridn <appleidname@yahoo.com>
+Name: Temporal
+Tag: purpose::extension, compatible::ios10
+dev: ridn
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.lst
+
 Package: git.shin.magmaevo
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -2940,6 +3003,24 @@ Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.noctisxl
 
+Package: git.shin.nolowpowerautolock
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 0.0.3
+Depends: mobilesubstrate
+Filename: ./debs/nolowpowerautolock.deb
+Size: 57752
+MD5sum: 7f99d8fdaa09c4f8573c13cd8cd518d0
+SHA1: faf7b157fd672bd5e74936d4b12400aed6bd6004
+SHA256: 348b4a907f298e0fa739514635073e4896a06df5836e7336d91e3053dd2fc24a
+Description: Prevent your device from Auto-Locking when in low power mode
+Name: NoLowPowerAutoLock [Public]
+Author: Spark
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.nolowpowerautolock
+
 Package: git.shin.notifywifi10
 Section: Tweaks
 Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
@@ -3003,6 +3084,24 @@ Icon: file:///Library/PreferenceBundles/NotifyWiFiSettings.bundle/icon@2x.png
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.notifywifix
+
+Package: git.shin.noyellowbattery
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.0
+Depends: mobilesubstrate
+Filename: ./debs/noyellowbattery.deb
+Size: 7966
+MD5sum: fe1032bb20bc90788467e61d2dc8b4c2
+SHA1: 2fa9db7355eb5ab11bc8b4a118a401520fc23428
+SHA256: 15960116cc17f76d242115a6765b2c532c34b3782dd34df33f9f199fbf234654
+Description: Hide Yellow Low Power Icon!
+Name: NoYellowBattery
+Author: CydiaGeek <lucaluca86@aol.com>
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.noyellowbattery
 
 Package: git.shin.nudekeys
 Section: Tweaks
@@ -3315,6 +3414,25 @@ Author: shin-chan
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.randomiconsflip
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+
+Package: git.shin.randomlabels
+Priority: extra
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 2.2
+Depends: mobilesubstrate
+Filename: ./debs/randomlabels.deb
+Size: 11048
+MD5sum: d7fea886fb1c54903e997374b786d514
+SHA1: 93b1780daf4491ed5406d397f3b2e7bb8d816fa5
+SHA256: 394ff9e0a0eb21cc8b703148a029143f9b2a96bdb00cce8fcda521109a4f398f
+Description: A new tweak that gives your icons some color! 
+Name: RandomLabels
+Author: Danieltaub <Danieltaub7@gmail.com>
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.randomlabels
 
 Package: git.shin.recydia
 Section: Cydia Custom
@@ -3707,6 +3825,46 @@ Icon: file:///Library/PreferenceBundles/SmartBattery.bundle/icon@2x.png
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smartbattery
+
+Package: git.shin.smartlowpower
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, com.a3tweaks.flipswitch
+Filename: ./debs/smartlowpower.deb
+Size: 72050
+MD5sum: e4f7bf6ab622bc1230beab346ee9f09b
+SHA1: d7637cc3ffd7ab709873640f0c68740748fb14f1
+SHA256: 23a550a00f110b34f1b6bf6f33a30b26a10f672bd29cbb7004f2f09a9b015b02
+Description: Automate Low Power mode activation to save battery
+Name: SmartLowPower
+Author: NoisyFlake <contact@noisyflake.com>
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+dev: noisyflake
+Icon: file:///Library/PreferenceBundles/SmartLowPowerPrefs.bundle/icon@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smartlowpower
+
+Package: git.shin.smartlpm
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.3.0-1
+Depends: mobilesubstrate
+Filename: ./debs/smartlpm.deb
+Size: 149234
+MD5sum: 3625a481c585d53ccf134afe932780c4
+SHA1: 8b7e143186c0d9406248c0a78335f63693d4a8d9
+SHA256: 28b5307dc6a5f5cd00910bef1b48df958a2bc38d2305d4b4fbdd25df85579b41
+Description: A smarter low power mode. Low power while device is locked. Turn low power mode on automatically at the battery level you specify. Enable low power while charging. And more....
+Name: SmartLPM
+Author: smokin1337
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.smartlpm
 
 Package: git.shin.smartnetwork
 Section: Tweaks

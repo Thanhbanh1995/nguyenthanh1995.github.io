@@ -236,3 +236,10 @@ git.shin.watermelon 12, 13
 git.shin.xenanalog 10+
 git.shin.xenanimate 10+
 git.shin.modern 10
+git.shin.dimme 8+
+git.shin.lst 10
+git.shin.nolowpowerautolock 10, 11
+git.shin.noyellowbattery all
+git.shin.randomlabels all
+git.shin.smartlowpower 9, 10
+git.shin.smartlpm 9, 10, 11, 12
