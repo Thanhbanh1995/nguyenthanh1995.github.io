@@ -2661,6 +2661,28 @@ Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.maiz
 Homepage: https://nguyenthanh1995.github.io/
 Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
 
+Package: git.shin.modern
+Priority: optional
+Section: Tweaks
+Maintainer: nguyenthanh1995 <thanhnguyennguyen1995@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1.2
+Depends: firmware (>= 10.0), mobilesubstrate, ws.hbang.common, preferenceloader
+Filename: ./debs/modern.deb
+Size: 98752
+MD5sum: 3af20b08eda041fbb30a922bce50467f
+SHA1: dfeea09d6a5edc337fa1c99184641f2abd54461b
+SHA256: 674be5936833267dac31a13759643f506a6f6f4de043edfb208c1ee3f513f62e
+Description: iOS 10 - Modernize Your Notifications
+Name: Modern
+Author: FromDerik <DerikMalcolm@gmail.com>
+Tag: purpose::extension, compatible::ios10
+dev: fromderik
+Icon: file:///Library/PreferenceBundles/ModernPrefs.bundle/icon@2x.png
+Homepage: https://nguyenthanh1995.github.io/
+Sponsor: nguyenthanh1995 <https://nguyenthanh1995.github.io>
+Depiction: https://nguyenthanh1995.github.io/description.html?goto=git.shin.modern
+
 Package: git.shin.modernc
 Section: Cydia Custom
 Maintainer: nguyenthanh

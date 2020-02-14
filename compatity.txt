@@ -235,3 +235,4 @@ git.shin.wale 7+
 git.shin.watermelon 12, 13
 git.shin.xenanalog 10+
 git.shin.xenanimate 10+
+git.shin.modern 10
